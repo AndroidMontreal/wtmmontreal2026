@@ -3,7 +3,7 @@
 import {useState} from 'react';
 import Image from 'next/image';
 import {useMessages} from 'next-intl';
-import {Link, usePathname} from '@/i18n/routing';
+import {Link} from '@/i18n/routing';
 import {Menu, X} from 'lucide-react';
 import {cn} from '@/lib/utils';
 import {NavigationMessages} from '@/types/navigation';
@@ -17,7 +17,6 @@ import Button from '@/components/ui/Button';
 
 export default function Navbar() {
     const messages = useMessages() as unknown as NavigationMessages;
-    const pathname = usePathname();
     const [isOpen, setIsOpen] = useState(false);
     const [hidden, setHidden] = useState(false);
     const [scrolled, setScrolled] = useState(false);
@@ -37,12 +36,13 @@ export default function Navbar() {
     const ticketLabel = messages?.Navigation?.buttons?.ticket || 'Get Tickets';
 
     return (
+        <>
         <motion.nav
             animate={{ y: hidden ? -100 : 0 }}
             transition={{ duration: 0.3, ease: "easeInOut" }}
             className={cn(
                 'sticky top-0 z-50 w-full transition-all duration-300',
-                scrolled
+                scrolled || isOpen
                     ? 'bg-white/95 backdrop-blur-md border-b border-slate-200 py-2 shadow-sm'
                     : 'bg-transparent py-2'
             )}
@@ -65,8 +65,8 @@ export default function Navbar() {
                 </Link>
 
                 {/* Right Side Group */}
-                <div className="hidden md:flex items-center gap-6">
-                    
+                <div className="hidden md:flex items-center gap-1">
+
                     {/* Desktop Menu Items */}
                     <NavLinks items={menuItems} scrolled={scrolled} />
 
@@ -83,23 +83,24 @@ export default function Navbar() {
                     </Button>
                 </div>
 
-                                {/* Mobile Toggle */}
-                                <button
-                                    className="rounded-full p-2.5 transition md:hidden bg-slate-100 text-slate-700 hover:bg-slate-200"
-                                    onClick={() => setIsOpen(!isOpen)}
-                                    aria-label="Open Menu"
-                                >
-                                    {isOpen ? <X className="h-5 w-5"/> : <Menu className="h-5 w-5"/>}
+                {/* Mobile Toggle */}
+                <button
+                    className="rounded-lg p-2 transition md:hidden bg-slate-100 text-slate-900 border border-slate-200 hover:bg-slate-200"
+                    onClick={() => setIsOpen(!isOpen)}
+                    aria-label={isOpen ? "Close Menu" : "Open Menu"}
+                >
+                    {isOpen ? <X className="h-5 w-5"/> : <Menu className="h-5 w-5"/>}
                 </button>
             </div>
+        </motion.nav>
 
+            {/* Mobile Menu - Outside motion.nav to avoid transform stacking context issues */}
             <MobileMenu
                 isOpen={isOpen}
                 onClose={() => setIsOpen(false)}
                 items={menuItems}
                 ticketLabel={ticketLabel}
-                hidden={hidden}
             />
-        </motion.nav>
+        </>
     );
 }

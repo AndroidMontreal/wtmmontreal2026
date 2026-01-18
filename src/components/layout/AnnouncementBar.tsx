@@ -9,7 +9,7 @@ export default function AnnouncementBar() {
   const text = t('text');
 
   return (
-    <div className="relative overflow-hidden bg-primary px-4 py-2 text-white shadow-sm">
+    <div className="relative z-50 overflow-hidden bg-primary px-4 py-2 text-white shadow-sm">
       <div className="flex items-center justify-center gap-3 text-sm font-normal">
         <Megaphone className="h-4 w-4 shrink-0 animate-pulse" />
 

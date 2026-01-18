@@ -2,7 +2,6 @@
 
 import { motion } from 'framer-motion';
 import Image from 'next/image';
-import { cn } from '@/lib/utils';
 
 interface GalleryItem {
   src: string;
@@ -27,9 +26,11 @@ export default function GalleryGrid({ items }: GalleryGridProps) {
           transition={{ duration: 0.4, delay: idx * 0.05 }}
           className="relative break-inside-avoid overflow-hidden rounded-2xl bg-slate-800 group"
         >
-          <img
+          <Image
             src={item.src}
             alt={item.alt}
+            width={800}
+            height={600}
             className="h-auto w-full object-cover transition-transform duration-700 group-hover:scale-110"
             loading="lazy"
           />

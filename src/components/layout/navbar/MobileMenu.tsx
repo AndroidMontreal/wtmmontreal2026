@@ -20,10 +20,9 @@ interface MobileMenuProps {
   onClose: () => void;
   items: Record<string, MenuItem>;
   ticketLabel: string;
-  hidden: boolean;
 }
 
-export default function MobileMenu({ isOpen, onClose, items, ticketLabel, hidden }: MobileMenuProps) {
+export default function MobileMenu({ isOpen, onClose, items, ticketLabel }: MobileMenuProps) {
   const pathname = usePathname();
 
   // Prevent scrolling when menu is open
@@ -39,13 +38,11 @@ export default function MobileMenu({ isOpen, onClose, items, ticketLabel, hidden
   if (!isOpen) return null;
 
   return (
-    <div 
-      className="fixed inset-0 z-40 flex flex-col bg-slate-900/98 backdrop-blur-xl animate-in fade-in duration-300 md:hidden pt-[72px]"
-    >
-      <div className="flex flex-1 flex-col gap-4 p-6 overflow-y-auto">
+    <div className="fixed inset-0 z-40 flex flex-col bg-slate-950/98 backdrop-blur-xl animate-in fade-in slide-in-from-top-5 duration-300 md:hidden pt-20">
+      <div className="flex flex-1 flex-col gap-6 p-8 mt-7 overflow-y-auto">
 
         {/* Navigation Links with Icons */}
-        <div className="flex flex-col gap-1">
+        <div className="flex flex-col gap-2">
           {Object.entries(items).map(([key, item]) => {
             const isActive = pathname === item.href;
             const Icon = iconMap[key.toLowerCase()] || Home;
@@ -56,32 +53,32 @@ export default function MobileMenu({ isOpen, onClose, items, ticketLabel, hidden
                 href={item.href}
                 onClick={onClose}
                 className={cn(
-                  "flex items-center gap-3 p-3 rounded-lg transition-all duration-200",
+                  "flex items-center gap-4 p-4 rounded-xl transition-all duration-200 border",
                   isActive
-                    ? 'bg-white/10 text-[#00A896] border border-white/10'
-                    : 'text-slate-300 hover:bg-white/5 hover:text-white'
+                    ? 'bg-white/10 border-white/10 text-[#00A896]'
+                    : 'border-transparent text-slate-400 hover:bg-white/5 hover:text-white'
                 )}
               >
-                <Icon className={cn("h-5 w-5", isActive ? "text-[#00A896]" : "text-slate-400")} />
-                <span className="text-sm font-bold tracking-wide uppercase">{item.label}</span>
+                <Icon className={cn("h-6 w-6", isActive ? "text-[#00A896]" : "text-slate-500 group-hover:text-white")} />
+                <span className="text-lg font-bold tracking-tight">{item.label}</span>
               </Link>
             );
           })}
         </div>
 
-        <div className="mt-auto flex flex-col gap-6 pb-8">
-          {/* CTA Button - Compact */}
+        <div className="mt-auto flex flex-col gap-6 pb-10">
+          {/* CTA Button - Large & Tap-Friendly */}
           <Link
             href="/tickets"
             onClick={onClose}
-            className="w-full rounded-lg bg-[#00A896] py-3 text-center text-sm font-bold text-white shadow-lg shadow-teal-500/20 flex items-center justify-center gap-2 hover:bg-[#008f80] transition-colors"
+            className="w-full rounded-2xl bg-[#00A896] py-4 text-center text-lg font-bold text-white shadow-xl shadow-teal-500/20 flex items-center justify-center gap-3 hover:bg-[#008f80] active:scale-95 transition-all"
           >
-            <Ticket className="h-4 w-4" />
+            <Ticket className="h-5 w-5" />
             <span>{ticketLabel}</span>
           </Link>
 
           {/* Language Switcher */}
-          <div className="w-full border-t border-white/10 pt-4">
+          <div className="w-full border-t border-white/10 pt-6">
             <LanguageSwitcher variant="full" onClose={onClose} />
           </div>
         </div>

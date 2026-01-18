@@ -38,7 +38,7 @@ export default function LanguageSwitcher({ variant = 'short', onClose }: Languag
 
   // Desktop: Compact Globe Toggle
   return (
-    <div className="flex items-center border-l border-l-slate-400/30 pl-6 pr-2 ml-2">
+    <div className="flex items-center border-l border-l-slate-400/30 pl-2 pr-2">
       <Link
         href={pathname}
         locale={targetLocale}

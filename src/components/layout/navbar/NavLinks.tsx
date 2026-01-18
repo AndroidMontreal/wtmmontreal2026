@@ -31,14 +31,14 @@ export default function NavLinks({ items, scrolled }: NavLinksProps) {
       {Object.entries(items).map(([key, item]) => {
         const isActive = pathname === item.href;
         const Icon = iconMap[key.toLowerCase()] || Home;
-        
+
         return (
           <Link
             key={key}
             href={item.href}
             className={cn(
               "relative group flex items-center gap-2 px-4 py-2 rounded-full transition-all duration-300",
-              "text-[13px] font-bold uppercase tracking-widest z-10",
+              "text-sm font-semibold uppercase tracking-wide z-10",
               // Same color scheme for both scrolled and non-scrolled
               isActive ? "text-[#00A896]" : "text-slate-600 hover:text-[#00A896]"
             )}
@@ -56,7 +56,7 @@ export default function NavLinks({ items, scrolled }: NavLinksProps) {
                 transition={{ type: "spring", stiffness: 380, damping: 30 }}
               />
             )}
-            
+
             {/* Hover Pill (Subtle) */}
             {hoveredPath === item.href && !isActive && (
                 <motion.div
