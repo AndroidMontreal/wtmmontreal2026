@@ -97,7 +97,7 @@ export default function CommunityPartners() {
           ))}
         </div>
 
-        {/* Bottom CTA - Matching Sponsors Style but Blue */}
+        {/* Bottom CTA - Matching Sponsors Style but Teal */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -106,7 +106,7 @@ export default function CommunityPartners() {
         >
           <Link
             href="/partners/join"
-            className="inline-flex items-center gap-2 rounded-full bg-[#4285F4] px-8 py-4 text-sm font-bold text-white shadow-lg shadow-blue-500/30 transition-all hover:bg-blue-600 hover:scale-105 hover:shadow-blue-500/50"
+            className="inline-flex items-center gap-2 rounded-full bg-[#00A896] px-8 py-4 text-sm font-bold text-white shadow-lg shadow-teal-500/30 transition-all hover:bg-[#008f80] hover:scale-105 hover:shadow-teal-500/50"
           >
             {t('cta')}
             <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />

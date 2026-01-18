@@ -2,7 +2,7 @@
 
 import { useState, useRef } from 'react';
 import { useTranslations, useMessages } from 'next-intl';
-import { motion, AnimatePresence, useScroll, useTransform } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowUpRight } from 'lucide-react';
 import GalleryGrid from './GalleryGrid';
 import GalleryControls from './GalleryControls';
@@ -33,14 +33,6 @@ export default function Gallery() {
   const messages = useMessages() as unknown as GalleryMessages;
   const containerRef = useRef(null);
 
-  // Scroll Animation Hooks
-  const { scrollYProgress } = useScroll({
-    target: containerRef,
-    offset: ["start end", "end start"]
-  });
-
-  const opacity = useTransform(scrollYProgress, [0, 0.2, 0.8, 1], [0, 1, 1, 0]);
-
   const [page, setPage] = useState(0);
 
   const allItems = messages?.Gallery?.items || [];
@@ -68,7 +60,10 @@ export default function Gallery() {
       </div>
 
       <motion.div
-        style={{ opacity }}
+        initial={{ opacity: 0, y: 40 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, amount: 0.1 }}
+        transition={{ duration: 0.8, ease: "easeOut" }}
         className="container mx-auto max-w-7xl relative z-10"
       >
 
@@ -78,7 +73,7 @@ export default function Gallery() {
             <motion.h2
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: false, amount: 0.5 }}
+              viewport={{ once: true, amount: 0.5 }}
               className="text-sm font-bold text-teal-400 uppercase tracking-widest mb-4"
             >
               #WTMMontreal
@@ -86,7 +81,7 @@ export default function Gallery() {
             <motion.h3
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: false, amount: 0.5 }}
+              viewport={{ once: true, amount: 0.5 }}
               transition={{ delay: 0.1 }}
               className="text-4xl md:text-5xl font-bold text-white mb-6"
             >
@@ -97,7 +92,7 @@ export default function Gallery() {
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: false, amount: 0.5 }}
+              viewport={{ once: true, amount: 0.5 }}
               transition={{ delay: 0.2 }}
               className="text-slate-400 text-lg"
             >
@@ -120,7 +115,7 @@ export default function Gallery() {
           className="min-h-[600px]"
           initial={{ opacity: 0, scale: 0.95 }}
           whileInView={{ opacity: 1, scale: 1 }}
-          viewport={{ once: false, amount: 0.2 }}
+          viewport={{ once: true, amount: 0.2 }}
           transition={{ duration: 0.8 }}
         >
           <AnimatePresence mode="wait">

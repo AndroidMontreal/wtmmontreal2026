@@ -2,6 +2,16 @@ import { setRequestLocale, getTranslations } from 'next-intl/server';
 import AnnouncementBar from '@/components/layout/AnnouncementBar';
 import Navbar from '@/components/layout/navbar';
 import Footer from '@/components/layout/Footer';
+import { Metadata } from 'next';
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'CodeOfConduct' });
+  return {
+    title: `${t('title')} | WTM Montreal 2026`,
+    description: t('dedicationIntro'),
+  };
+}
 
 export default async function CodeOfConductPage({
   params,

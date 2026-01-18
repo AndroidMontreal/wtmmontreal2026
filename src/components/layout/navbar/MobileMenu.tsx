@@ -66,7 +66,7 @@ export default function MobileMenu({ isOpen, onClose, items, ticketLabel }: Mobi
           })}
         </div>
 
-        <div className="mt-auto flex flex-col gap-6 pb-10">
+        <div className="mt-auto flex flex-col gap-4 pb-10">
           {/* CTA Button - Large & Tap-Friendly */}
           <Link
             href="/tickets"
@@ -78,7 +78,7 @@ export default function MobileMenu({ isOpen, onClose, items, ticketLabel }: Mobi
           </Link>
 
           {/* Language Switcher */}
-          <div className="w-full border-t border-white/10 pt-6">
+          <div className="w-full border-t border-white/10 pt-4">
             <LanguageSwitcher variant="full" onClose={onClose} />
           </div>
         </div>

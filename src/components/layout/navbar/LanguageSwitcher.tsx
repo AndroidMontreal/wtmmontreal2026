@@ -18,19 +18,19 @@ export default function LanguageSwitcher({ variant = 'short', onClose }: Languag
   const targetLocale = routing.locales.find(cur => cur !== currentLocale) as "en" | "fr" || 'en';
 
   const label = targetLocale.toUpperCase();
-  const fullLabel = t(targetLocale);
 
   if (variant === 'full') {
+    const targetLocale = routing.locales.find(cur => cur !== currentLocale) as "en" | "fr" || 'en';
+    
     return (
-      <div className="flex justify-center pt-4 border-t">
+      <div className="flex justify-center pt-4">
         <Link
           href={pathname}
           locale={targetLocale}
           onClick={onClose}
-          className="flex items-center gap-2 text-sm font-bold text-slate-500 hover:text-primary transition-colors"
+          className="text-sm font-bold text-slate-500 hover:text-white transition-colors"
         >
-          <Globe className="h-4 w-4" />
-          <span>{t('switch', { lang: fullLabel })}</span>
+          {t(targetLocale)}
         </Link>
       </div>
     );
