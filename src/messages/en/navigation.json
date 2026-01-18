@@ -1,0 +1,60 @@
+{
+  "Navigation": {
+    "announcement": {
+      "text": "See you on April 18th for our flagship event! Tickets opening soon.",
+      "cta": "Stay Tuned"
+    },
+    "menu": {
+      "home": { "label": "Home", "href": "/" },
+      "team": { "label": "Team", "href": "/team" },
+      "speakers": { "label": "Speakers", "href": "/speakers" },
+      "schedule": { "label": "Schedule", "href": "/schedule" }
+    },
+    "buttons": {
+      "ticket": "Get Tickets",
+      "speaker": "Be a speaker"
+    },
+    "languages": {
+      "en": "English",
+      "fr": "Français",
+      "switch": "Switch to {lang}"
+    },
+    "footer": {
+      "description": "Women Techmakers is a program created by Google to celebrate International Women's Day and to highlight the talent of women in technology.",
+      "columns": {
+        "past_events": "Explore Past WTM Events",
+        "quick_links": "Quick Links",
+        "stay_connected": "Stay Connected"
+      },
+      "newsletter": {
+        "text": "Get the latest insights and updates delivered straight to your inbox. No spam, only the latest news and updates!",
+        "cta": "Subscribe",
+        "href": "https://wtmmontreal.us12.list-manage.com/subscribe?u=d1707279f0dde7f68a6f98ab0&id=35def8d91c"
+      },
+      "links": {
+        "cfs": { "label": "Call for Speakers", "href": "https://www.papercall.io/wtmmontreal2025" },
+        "sponsorship": { "label": "Get Sponsorship Proposal", "href": "mailto:sponsors@wtmmontreal.com?subject=Information about sponsorship" },
+        "coc": { "label": "Code of Conduct", "href": "/code-of-conduct" }
+      },
+      "socials": [
+        { "name": "LinkedIn", "href": "https://www.linkedin.com/company/women-techmakers-montreal" },
+        { "name": "Instagram", "href": "https://www.instagram.com/wtmmontreal/" },
+        { "name": "Facebook", "href": "https://www.facebook.com/wtm.montreal" },
+        { "name": "Discord", "href": "https://discord.com/invite/rKMxWWDSTT" },
+        { "name": "YouTube", "href": "https://youtube.com/@wtmmontreal" },
+        { "name": "Spotify", "href": "https://open.spotify.com/show/30lv57o8Hgz5VOvaX4C1gW" }
+      ],
+      "past_events_list": [
+        { "label": "WTM Montreal 2024", "href": "https://wtm2024.gdgmontreal.com/" },
+        { "label": "WTM Montreal 2023", "href": "https://wtm2023.gdgmontreal.com/" },
+        { "label": "WTM Montreal 2022", "href": "https://wtmmontreal2022.firebaseapp.com/" },
+        { "label": "WTM Montreal 2021", "href": "https://wtmmontreal-2021.firebaseapp.com/" },
+        { "label": "WTM Montreal 2020", "href": "https://wtmmontreal-2020.firebaseapp.com/" },
+        { "label": "WTM Montreal 2019", "href": "https://wtmmontreal-2019.firebaseapp.com/" },
+        { "label": "WTM Montreal 2018", "href": "https://wtmmontreal-2018.firebaseapp.com/" },
+        { "label": "WTM Montreal 2017", "href": "https://ldev6.github.io/" }
+      ],
+      "copyright": "© 2026 WTM Montreal. All rights reserved."
+    }
+  }
+}

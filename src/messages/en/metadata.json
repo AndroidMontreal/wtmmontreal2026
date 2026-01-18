@@ -1,0 +1,17 @@
+{
+  "Metadata": {
+    "default": {
+      "title": "Women Techmakers 2026",
+      "description": "Join us for the largest celebration of women in technology. Workshops, talks, and networking.",
+      "template": "%s | WTM 2026"
+    },
+    "home": {
+      "title": "Home | WTM Montreal 2026 - International Women's Day Conference",
+      "description": "Join WTM Montreal's 2026 International Women's Day conference!  We are celebrating talented women in technology, fostering community, and empowering the next generation."
+    },
+    "speakers": {
+      "title": "Speakers",
+      "description": "Meet our amazing lineup of speakers."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "Metadata": {
+    "default": {
+      "title": "Women Techmakers 2026",
+      "description": "Rejoignez-nous pour la plus grande célébration des femmes dans la technologie.",
+      "template": "%s | WTM 2026"
+    },
+    "home": {
+      "title": "Accueil",
+      "description": "Bienvenue sur la page officielle de l'événement WTM 2026. Inscrivez-vous maintenant !"
+    },
+    "speakers": {
+      "title": "Intervenants",
+      "description": "Découvrez notre incroyable liste d'intervenants."
+    }
+  }
+}
