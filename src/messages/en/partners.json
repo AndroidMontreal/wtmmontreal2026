@@ -1,0 +1,18 @@
+{
+  "header": {
+    "tag": "Ecosystem",
+    "title": "Community Partners",
+    "subtitle": "Working together to build a better ecosystem.",
+    "cta": "Become a Partner"
+  },
+  "list": {
+    "wtm": { "name": "WTM Montreal", "logo": "/logo/logo.svg" },
+    "partner1": { "name": "Partner 1", "logo": "" },
+    "partner2": { "name": "Partner 2", "logo": "" },
+    "partner3": { "name": "Partner 3", "logo": "" },
+    "partner4": { "name": "Partner 4", "logo": "" },
+    "partner5": { "name": "Partner 5", "logo": "" },
+    "partner6": { "name": "Partner 6", "logo": "" },
+    "partner7": { "name": "Partner 7", "logo": "" }
+  }
+}

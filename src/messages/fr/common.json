@@ -1,8 +1,34 @@
 {
   "Common": {
+    "announcement": {
+      "text": "Rendez-vous le 18 avril pour notre événement phare ! Ouverture prochaine de la billetterie.",
+      "cta": "Restez à l'écoute"
+    },
+    "menu": {
+      "home": { "label": "Accueil", "href": "/" },
+      "team": { "label": "Équipe", "href": "/team" },
+      "speakers": { "label": "Intervenants", "href": "/speakers" },
+      "schedule": { "label": "Programme", "href": "/schedule" }
+    },
     "buttons": {
       "register": "S'inscrire",
-      "readMore": "En savoir plus"
+      "readMore": "En savoir plus",
+      "ticket": "Billetterie"
+    },
+    "sponsors": {
+      "tag": "Sponsoring",
+      "title": "Nos Sponsors",
+      "subtitle": "Faisons la différence ensemble ! Devenez notre sponsor communautaire.",
+      "cta": "Devenir Sponsor"
+    },
+    "partners": {
+      "tag": "Écosystème",
+      "title": "Partenaires Communautaires",
+      "subtitle": "Travailler ensemble pour construire un meilleur écosystème.",
+      "cta": "Devenir partenaire"
+    },
+    "footer": {
+      "copyright": "© 2026 Women Techmakers Montreal. Tous droits réservés."
     }
   }
 }

@@ -1,0 +1,18 @@
+{
+  "header": {
+    "tag": "Écosystème",
+    "title": "Partenaires Communautaires",
+    "subtitle": "Travailler ensemble pour construire un meilleur écosystème.",
+    "cta": "Devenir Partenaire"
+  },
+  "list": {
+    "wtm": { "name": "WTM Montréal", "logo": "/logo/logo.svg" },
+    "partner1": { "name": "Partenaire 1", "logo": "" },
+    "partner2": { "name": "Partenaire 2", "logo": "" },
+    "partner3": { "name": "Partenaire 3", "logo": "" },
+    "partner4": { "name": "Partenaire 4", "logo": "" },
+    "partner5": { "name": "Partenaire 5", "logo": "" },
+    "partner6": { "name": "Partenaire 6", "logo": "" },
+    "partner7": { "name": "Partenaire 7", "logo": "" }
+  }
+}

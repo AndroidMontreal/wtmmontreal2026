@@ -1,0 +1,18 @@
+{
+  "header": {
+    "tag": "Sponsoring",
+    "title": "Nos Sponsors",
+    "subtitle": "Faisons la différence ensemble ! Devenez notre sponsor communautaire.",
+    "cta": "Devenir Sponsor"
+  },
+  "list": {
+    "wtm": { "name": "WTM Montréal", "logo": "/logo/logo.svg" },
+    "sponsor1": { "name": "Sponsor 1", "logo": "" },
+    "sponsor2": { "name": "Sponsor 2", "logo": "" },
+    "sponsor3": { "name": "Sponsor 3", "logo": "" },
+    "sponsor4": { "name": "Sponsor 4", "logo": "" },
+    "sponsor5": { "name": "Sponsor 5", "logo": "" },
+    "sponsor6": { "name": "Sponsor 6", "logo": "" },
+    "sponsor7": { "name": "Sponsor 7", "logo": "" }
+  }
+}

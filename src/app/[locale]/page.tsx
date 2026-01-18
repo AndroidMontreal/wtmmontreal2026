@@ -4,8 +4,8 @@ import Navbar from '@/components/layout/navbar';
 import Footer from '@/components/layout/Footer';
 import Hero from '@/components/sections/hero';
 import Gallery from '@/components/sections/gallery';
-import SponsorsGrid from '@/components/sections/SponsorsGrid';
-import CommunityPartners from '@/components/sections/CommunityPartners';
+import Sponsors from '@/components/sections/sponsors';
+import CommunityPartners from '@/components/sections/partners';
 import FloatingContact from '@/components/ui/FloatingContact';
 
 export default async function HomePage({
@@ -30,7 +30,7 @@ export default async function HomePage({
       <main className="flex flex-col">
         <Hero />
         <Gallery />
-        <SponsorsGrid />
+        <Sponsors />
         <CommunityPartners />
       </main>
 

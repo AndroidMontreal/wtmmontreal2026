@@ -1,6 +1,6 @@
 'use client';
 
-import { motion } from 'framer-motion';
+import { motion, useReducedMotion } from 'framer-motion';
 import { useState } from 'react';
 
 interface FloatingOrbProps {
@@ -9,8 +9,9 @@ interface FloatingOrbProps {
 }
 
 export default function FloatingOrb({ color, size }: FloatingOrbProps) {
+  const shouldReduceMotion = useReducedMotion();
+
   // Use a lazy state initializer to generate random positions safely.
-  // This avoids calling Math.random directly during the render phase.
   const [randomMotion] = useState(() => ({
     top: [
       Math.random() * 80 + "%", 
@@ -32,7 +33,7 @@ export default function FloatingOrb({ color, size }: FloatingOrbProps) {
         height: size,
         background: `radial-gradient(circle, ${color} 0%, rgba(0,0,0,0) 70%)`,
       }}
-      animate={{
+      animate={shouldReduceMotion ? {} : {
         top: randomMotion.top,
         left: randomMotion.left,
         scale: [1, 1.2, 0.9, 1],

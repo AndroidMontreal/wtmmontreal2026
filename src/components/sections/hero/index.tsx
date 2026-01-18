@@ -26,14 +26,14 @@ export default function Hero() {
           priority
           unoptimized
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/75 to-black/70" />
+        <div className="absolute inset-0 bg-linear-to-b from-black/70 via-black/75 to-black/70" />
       </div>
 
       {/* Animated Background Effects */}
-      <div className="absolute inset-0 z-[1] pointer-events-none overflow-hidden">
-        <FloatingOrb color="rgba(0,217,192,0.25)" size="500px" />
-        <FloatingOrb color="rgba(66,133,244,0.3)" size="450px" />
-        <FloatingOrb color="rgba(0,217,192,0.2)" size="400px" />
+      <div className="absolute inset-0 z-1 pointer-events-none overflow-hidden">
+        <FloatingOrb color="rgba(0,217,192,0.35)" size="500px" />
+        <FloatingOrb color="rgba(66,133,244,0.35)" size="550px" />
+        <FloatingOrb color="rgba(0,217,192,0.35)" size="600px" />
       </div>
 
       {/* Main Content */}
@@ -45,11 +45,11 @@ export default function Hero() {
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="inline-flex items-center gap-3 px-5 py-2.5 mb-8 rounded-full bg-white/[0.08] backdrop-blur-md text-white text-xs font-semibold border border-white/20 uppercase tracking-widest shadow-lg"
+            className="inline-flex items-center gap-3 px-5 py-2.5 mb-8 rounded-full bg-white/8 backdrop-blur-md text-white text-xs font-semibold border border-white/20 uppercase tracking-widest shadow-lg"
           >
             <div className="relative flex items-center justify-center h-2 w-2">
-              <span className="absolute inline-flex h-full w-full rounded-full bg-[#00D9C0] opacity-75"></span>
-              <span className="absolute inline-flex h-full w-full rounded-full bg-[#00D9C0] animate-ping opacity-75"></span>
+              <span className="absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+              <span className="absolute inline-flex h-full w-full rounded-full bg-primary animate-ping opacity-75"></span>
             </div>
             <span>{t('Home.hero.date')}</span>
           </motion.div>
@@ -64,7 +64,7 @@ export default function Hero() {
             {t.rich('Home.hero.title', {
               gradient: (chunks) => (
                 <span className="relative inline-block ml-3">
-                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#00D9C0] to-[#00D9C0]">
+                  <span className="text-transparent bg-clip-text bg-linear-to-r from-[#00D9C0] to-[#00D9C0]">
                     {chunks}
                   </span>
                 </span>
@@ -100,9 +100,9 @@ export default function Hero() {
 
         </div>
             </div>
-            
+
             {/* Seamless Blend to Gallery Section */}
-            <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-gray-950 to-transparent z-[15] pointer-events-none" />
+            <div className="absolute bottom-0 left-0 w-full h-32 bg-linear-to-t from-gray-950 to-transparent z-15 pointer-events-none" />
 
             {/* Scroll Indicator */}
             <ScrollIndicator />

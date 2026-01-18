@@ -3,6 +3,7 @@
 import React from 'react';
 import { useTranslations, useMessages } from 'next-intl';
 import Image from 'next/image';
+import { motion, Variants } from 'framer-motion';
 import { Linkedin, Instagram, Facebook, Youtube, Send, Music, Twitter } from 'lucide-react';
 import { Link } from '@/i18n/routing';
 import { NavigationMessages } from '@/types/navigation';
@@ -40,21 +41,45 @@ export default function Footer() {
   const pastEvents = messages?.Navigation?.footer?.past_events_list || [];
   const links = messages?.Navigation?.footer?.links || {};
 
+  const containerVariants: Variants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.1,
+        delayChildren: 0.2,
+      },
+    },
+  };
+
+  const itemVariants: Variants = {
+    hidden: { opacity: 0, y: 20 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: "easeOut" } },
+  };
+
   return (
-    <footer className="bg-[#111111] text-slate-300 py-16 border-t border-white/10">
+    <motion.footer 
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true, amount: 0.2 }}
+      className="bg-[#111111] text-slate-300 py-16 border-t border-white/10 overflow-hidden"
+    >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+        <motion.div 
+          variants={containerVariants}
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16"
+        >
 
           {/* Column 1: Brand */}
-          <div className="space-y-6">
+          <motion.div variants={itemVariants} className="space-y-6">
             <div className="flex items-center gap-3">
-              <div className="relative h-24 w-48">
+              <div className="relative h-24 w-48 transition-all duration-500 hover:scale-105">
                 <Image
                   src="/logo/logo.svg"
                   alt="WTM Montreal"
                   fill
-                  className="object-contain object-left invert brightness-0"
+                  className="object-contain object-left invert brightness-0 hover:invert-0 hover:brightness-100 transition-all duration-500"
                 />
               </div>
             </div>
@@ -65,24 +90,25 @@ export default function Footer() {
               {socials.map((social) => {
                 const Icon = socialIconMap[social.name] || Send;
                 return (
-                  <a
+                  <motion.a
                     key={social.name}
                     href={social.href}
                     target="_blank"
                     rel="noopener noreferrer"
+                    whileHover={{ y: -3, scale: 1.1 }}
+                    whileTap={{ scale: 0.95 }}
                     className="text-slate-500 hover:text-[#00A896] transition-colors duration-300"
                     aria-label={social.name}
                   >
-                    {/* Reverted to Outline for clarity (except Discord which is custom solid) */}
                     <Icon className="h-5 w-5" />
-                  </a>
+                  </motion.a>
                 );
               })}
             </div>
-          </div>
+          </motion.div>
 
           {/* Column 2: Past Events */}
-          <div>
+          <motion.div variants={itemVariants}>
             <h3 className="text-white font-bold mb-6">{t('columns.past_events')}</h3>
             <ul className="space-y-3 text-sm">
               {pastEvents.map((event, idx) => (
@@ -91,31 +117,31 @@ export default function Footer() {
                     href={event.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="hover:text-[#00A896] transition-colors"
+                    className="hover:text-[#00A896] transition-colors inline-block hover:translate-x-1 duration-200"
                   >
                     {event.label}
                   </a>
                 </li>
               ))}
             </ul>
-          </div>
+          </motion.div>
 
           {/* Column 3: Quick Links */}
-          <div>
+          <motion.div variants={itemVariants}>
             <h3 className="text-white font-bold mb-6">{t('columns.quick_links')}</h3>
             <ul className="space-y-3 text-sm">
               {Object.entries(links).map(([key, item]) => (
                 <li key={key}>
-                  <Link href={item.href} className="hover:text-[#00A896] transition-colors">
+                  <Link href={item.href} className="hover:text-[#00A896] transition-colors inline-block hover:translate-x-1 duration-200">
                     {item.label}
                   </Link>
                 </li>
               ))}
             </ul>
-          </div>
+          </motion.div>
 
           {/* Column 4: Newsletter */}
-          <div>
+          <motion.div variants={itemVariants}>
             <h3 className="text-white font-bold mb-6">{t('columns.stay_connected')}</h3>
             <p className="text-sm text-slate-400 mb-6">
               {t('newsletter.text')}
@@ -125,20 +151,31 @@ export default function Footer() {
               external
               variant="primary"
               size="md"
-              className="w-full sm:w-auto"
+              className="w-full sm:w-auto transform hover:-translate-y-1 transition-transform"
             >
               {t('newsletter.cta')}
             </Button>
+          </motion.div>
+
+        </motion.div>
+
+        {/* Bottom Bar: Copyright & Code of Conduct */}
+        <motion.div 
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ delay: 0.5, duration: 0.5 }}
+          viewport={{ once: true }}
+          className="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4"
+        >
+          <div className="text-sm text-slate-500 font-medium">
+            {t('copyright')}
           </div>
-
-        </div>
-
-        {/* Copyright */}
-        <div className="pt-8 border-t border-white/5 text-center md:text-left text-xs text-slate-600">
-          {t('copyright')}
-        </div>
+          <Link href="/code-of-conduct" className="text-xs text-slate-400 hover:text-primary transition-colors">
+            Code of Conduct
+          </Link>
+        </motion.div>
 
       </div>
-    </footer>
+    </motion.footer>
   );
 }

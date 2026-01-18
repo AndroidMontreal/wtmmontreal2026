@@ -9,7 +9,6 @@ import { Home, Users, Mic, Calendar } from 'lucide-react';
 
 interface NavLinksProps {
   items: Record<string, MenuItem>;
-  scrolled: boolean;
 }
 
 // Icon Mapping
@@ -20,7 +19,7 @@ const iconMap: Record<string, React.ElementType> = {
   schedule: Calendar,
 };
 
-export default function NavLinks({ items, scrolled }: NavLinksProps) {
+export default function NavLinks({ items }: NavLinksProps) {
   const pathname = usePathname();
   const [hoveredPath, setHoveredPath] = useState<string | null>(null);
 
@@ -40,7 +39,7 @@ export default function NavLinks({ items, scrolled }: NavLinksProps) {
               "relative group flex items-center gap-2 px-4 py-2 rounded-full transition-all duration-300",
               "text-sm font-semibold uppercase tracking-wide z-10",
               // Same color scheme for both scrolled and non-scrolled
-              isActive ? "text-[#00A896]" : "text-slate-600 hover:text-[#00A896]"
+              isActive ? "text-primary" : "text-slate-600 hover:text-primary"
             )}
             onMouseEnter={() => setHoveredPath(item.href)}
             onMouseLeave={() => setHoveredPath(null)}
@@ -52,7 +51,7 @@ export default function NavLinks({ items, scrolled }: NavLinksProps) {
             {isActive && (
               <motion.div
                 layoutId="nav-active-pill"
-                className="absolute inset-0 rounded-full -z-10 bg-[#00A896]/15 backdrop-blur-sm"
+                className="absolute inset-0 rounded-full -z-10 bg-primary/15 backdrop-blur-sm"
                 transition={{ type: "spring", stiffness: 380, damping: 30 }}
               />
             )}
@@ -61,10 +60,7 @@ export default function NavLinks({ items, scrolled }: NavLinksProps) {
             {hoveredPath === item.href && !isActive && (
                 <motion.div
                     layoutId="nav-hover-pill"
-                    className={cn(
-                        "absolute inset-0 rounded-full -z-10",
-                        scrolled ? "bg-[#00A896]/5" : "bg-white/10"
-                    )}
+                    className="absolute inset-0 rounded-full -z-10 bg-[#00A896]/5"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     exit={{ opacity: 0 }}

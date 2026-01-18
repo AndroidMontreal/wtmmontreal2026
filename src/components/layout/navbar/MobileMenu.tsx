@@ -53,14 +53,14 @@ export default function MobileMenu({ isOpen, onClose, items, ticketLabel }: Mobi
                 href={item.href}
                 onClick={onClose}
                 className={cn(
-                  "flex items-center gap-4 p-4 rounded-xl transition-all duration-200 border",
+                  "flex items-center gap-3 p-3 rounded-lg transition-all duration-200 border",
                   isActive
-                    ? 'bg-white/10 border-white/10 text-[#00A896]'
+                    ? 'bg-white/10 border-white/10 text-primary'
                     : 'border-transparent text-slate-400 hover:bg-white/5 hover:text-white'
                 )}
               >
-                <Icon className={cn("h-6 w-6", isActive ? "text-[#00A896]" : "text-slate-500 group-hover:text-white")} />
-                <span className="text-lg font-bold tracking-tight">{item.label}</span>
+                <Icon className={cn("h-5 w-5", isActive ? "text-primary" : "text-slate-500 group-hover:text-white")} />
+                <span className="text-base font-semibold">{item.label}</span>
               </Link>
             );
           })}
@@ -71,7 +71,7 @@ export default function MobileMenu({ isOpen, onClose, items, ticketLabel }: Mobi
           <Link
             href="/tickets"
             onClick={onClose}
-            className="w-full rounded-2xl bg-[#00A896] py-4 text-center text-lg font-bold text-white shadow-xl shadow-teal-500/20 flex items-center justify-center gap-3 hover:bg-[#008f80] active:scale-95 transition-all"
+            className="w-full rounded-xl bg-primary py-3 text-center text-base font-semibold text-white shadow-lg shadow-teal-500/20 flex items-center justify-center gap-2 hover:bg-[#008f80] active:scale-[0.98] transition-all"
           >
             <Ticket className="h-5 w-5" />
             <span>{ticketLabel}</span>
