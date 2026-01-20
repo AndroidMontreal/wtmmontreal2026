@@ -10,15 +10,6 @@
       { "value": "20+", "label": "Workshops", "color": "text-[#4285F4]" },
       { "value": "50+", "label": "Companies", "color": "text-[#FBBC04]" },
       { "value": "∞", "label": "Inspiration", "color": "text-[#EA4335]" }
-    ],
-    "sponsors": {
-      "title": "Past & Present Sponsors",
-      "subtitle": "Empowering the community through their generous support."
-    },
-    "partners": {
-      "title": "Community Partners",
-      "subtitle": "Working together to build a better ecosystem.",
-      "cta": "Become a partner"
-    }
+    ]
   }
 }

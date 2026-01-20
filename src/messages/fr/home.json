@@ -10,15 +10,6 @@
       { "value": "20+", "label": "Ateliers", "color": "text-[#4285F4]" },
       { "value": "50+", "label": "Entreprises", "color": "text-[#FBBC04]" },
       { "value": "∞", "label": "Inspiration", "color": "text-[#EA4335]" }
-    ],
-    "sponsors": {
-      "title": "Sponsors Passés et Présents",
-      "subtitle": "Soutenir la communauté grâce à leur généreux soutien."
-    },
-    "partners": {
-      "title": "Partenaires Communautaires",
-      "subtitle": "Travailler ensemble pour construire un meilleur écosystème.",
-      "cta": "Devenir partenaire"
-    }
+    ]
   }
 }

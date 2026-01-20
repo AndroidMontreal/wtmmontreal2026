@@ -34,7 +34,7 @@ function StatItem({ label, value, color, idx }: StatItemProps) {
       ${isDesktopRight ? 'md:border-r' : 'md:border-r-0'}
       `}
     >
-      <div className={`text-3xl md:text-5xl font-bold ${color} mb-3 transition-all duration-300 group-hover:scale-110`}>
+      <div className={`text-5xl md:text-6xl font-bold ${color} mb-3 transition-all duration-300 group-hover:scale-110`}>
         <AnimatedCounter value={value} duration={2} />
       </div>
       <div className="text-[10px] font-semibold uppercase text-white tracking-wide transition-all duration-300 group-hover:scale-110">
@@ -52,7 +52,7 @@ export default function StatsGrid() {
   }, [messages]);
 
   return (
-    <div className="grid grid-cols-2 md:grid-cols-4 gap-0 mb-10 w-full max-w-2xl mx-auto overflow-hidden">
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-0 mb-10 w-full max-w-3xl mx-auto overflow-hidden">
       {stats.map((stat, idx) => (
         <StatItem key={stat.label} idx={idx} {...stat} />
       ))}

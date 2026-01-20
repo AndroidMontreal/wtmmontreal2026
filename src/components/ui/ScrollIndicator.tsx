@@ -16,7 +16,7 @@ export default function ScrollIndicator() {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ delay: 2, duration: 1 }}
-      className="absolute bottom-10 left-1/2 -translate-x-1/2 cursor-pointer z-30"
+      className="absolute bottom-4 left-1/2 -translate-x-1/2 cursor-pointer z-30"
       onClick={scrollToContent}
     >
       <motion.div
