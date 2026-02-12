@@ -5,6 +5,10 @@
       "title": "WTM Day <gradient>2026</gradient>",
       "subtitle": "Rejoignez <bold>400+ participants</bold> pour une journée inoubliable d’<bold>ateliers</bold>, une immense <bold>foire de l'emploi</bold>, et du réseautage avec les <bold>esprits les plus brillants</bold> de la tech."
     },
+    "statsSection": {
+      "title": "Notre <gradient>Impact</gradient>",
+      "subtitle": "Découvrez l'ampleur de notre communauté. Des participants passionnés aux ateliers inspirants, ces chiffres représentent le cœur de WTM Montréal."
+    },
     "stats": [
       { "value": "400+", "label": "Participants", "color": "text-[#00A896]" },
       { "value": "20+", "label": "Ateliers", "color": "text-[#4285F4]" },

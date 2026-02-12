@@ -6,9 +6,10 @@ import { animate, useMotionValue, useTransform, useInView } from 'framer-motion'
 interface AnimatedCounterProps {
   value: string;
   duration?: number;
+  delay?: number;
 }
 
-export default function AnimatedCounter({ value, duration = 2 }: AnimatedCounterProps) {
+export default function AnimatedCounter({ value, duration = 2, delay = 0 }: AnimatedCounterProps) {
   const ref = useRef<HTMLSpanElement>(null);
   const isInView = useInView(ref, { once: true, margin: "-50px" });
 
@@ -37,6 +38,7 @@ export default function AnimatedCounter({ value, duration = 2 }: AnimatedCounter
       const controls = animate(count, targetNumber, {
         duration,
         ease: 'easeOut',
+        delay,
       });
 
       const unsubscribe = rounded.on('change', (latest) => {
@@ -48,7 +50,7 @@ export default function AnimatedCounter({ value, duration = 2 }: AnimatedCounter
         unsubscribe();
       };
     }
-  }, [isInView, isAnimatable, targetNumber, duration, prefix, suffix, count, rounded]);
+  }, [isInView, isAnimatable, targetNumber, duration, delay, prefix, suffix, count, rounded]);
 
   return <span ref={ref}>{displayValue}</span>;
 }

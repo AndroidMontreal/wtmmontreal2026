@@ -6,7 +6,6 @@ import Image from 'next/image';
 
 // Imported Sub-components
 import FloatingOrb from '@/components/ui/FloatingOrb';
-import StatsGrid from './StatsGrid';
 import HeroButtons from './HeroButtons';
 import ScrollIndicator from '@/components/ui/ScrollIndicator';
 
@@ -84,15 +83,6 @@ export default function Hero() {
                 bold: (chunks) => <span className="font-bold text-white/90">{chunks}</span>
               })}
             </p>
-          </motion.div>
-
-          {/* Stats Grid Component */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.3, delay: 0.1 }}
-          >
-            <StatsGrid />
           </motion.div>
 
           {/* Buttons Component */}

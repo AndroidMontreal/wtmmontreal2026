@@ -7,6 +7,7 @@ export interface Partner {
   name: string;
   icon: string;
   logo?: string; // Optional if we transition from icons to logos
+  link?: string;
 }
 
 export interface SectionHeader {

@@ -2,10 +2,11 @@ import { setRequestLocale } from 'next-intl/server';
 import AnnouncementBar from '@/components/layout/AnnouncementBar';
 import Navbar from '@/components/layout/navbar';
 import Footer from '@/components/layout/Footer';
-import Hero from '@/components/sections/hero';
-import Gallery from '@/components/sections/gallery';
-import Sponsors from '@/components/sections/sponsors';
-import CommunityPartners from '@/components/sections/partners';
+import Hero from '@/components/sections/home/hero';
+import StatsSection from '@/components/sections/home/Stats';
+import Gallery from '@/components/sections/home/gallery';
+import Sponsors from '@/components/sections/home/sponsors';
+import CommunityPartners from '@/components/sections/home/partners';
 import FloatingContact from '@/components/ui/FloatingContact';
 
 export default async function HomePage({
@@ -29,6 +30,7 @@ export default async function HomePage({
       {/* Full Page Content */}
       <main className="flex flex-col">
         <Hero />
+        <StatsSection />
         <Gallery />
         <Sponsors />
         <CommunityPartners />

@@ -70,31 +70,46 @@ export default function CommunityPartners() {
 
         {/* Partners Grid - Matching Sponsors Layout */}
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mb-16">
-          {Object.entries(partnersList).map(([key, partner]: [string, Partner], index) => (
-            <motion.div
-              key={key}
-              initial={{ opacity: 0, scale: 0.95 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              viewport={{ once: true }}
-              transition={{ delay: index * 0.05 }}
-              className="group h-36 rounded-2xl bg-white border border-slate-100 flex items-center justify-center p-8 grayscale hover:grayscale-0 opacity-80 hover:opacity-100 transition-all duration-500 cursor-pointer shadow-sm hover:shadow-xl hover:-translate-y-2"
-            >
-              {partner.logo ? (
-                <div className="relative w-full h-full">
-                  <Image 
-                    src={partner.logo} 
-                    alt={partner.name} 
-                    fill 
-                    className="object-contain transition-transform duration-500 group-hover:scale-110"
-                  />
-                </div>
-              ) : (
-                <span className="text-sm font-bold text-slate-300 uppercase tracking-wider group-hover:text-[#00A896] transition-colors duration-300">
-                  {partner.name}
-                </span>
-              )}
-            </motion.div>
-          ))}
+          {Object.entries(partnersList).map(([key, partner]: [string, Partner], index) => {
+            const Content = (
+              <motion.div
+                initial={{ opacity: 0, scale: 0.95 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                viewport={{ once: true }}
+                transition={{ delay: index * 0.05 }}
+                className="group h-36 rounded-2xl bg-white border border-slate-100 flex items-center justify-center p-8 grayscale hover:grayscale-0 opacity-80 hover:opacity-100 transition-all duration-500 cursor-pointer shadow-sm hover:shadow-xl hover:-translate-y-2"
+              >
+                {partner.logo ? (
+                  <div className="relative w-full h-full">
+                    <Image 
+                      src={partner.logo} 
+                      alt={partner.name} 
+                      fill 
+                      className="object-contain transition-transform duration-500 group-hover:scale-110"
+                    />
+                  </div>
+                ) : (
+                  <span className="text-sm font-bold text-slate-300 uppercase tracking-wider group-hover:text-[#00A896] transition-colors duration-300">
+                    {partner.name}
+                  </span>
+                )}
+              </motion.div>
+            );
+
+            return partner.link ? (
+              <a 
+                key={key} 
+                href={partner.link} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="block"
+              >
+                {Content}
+              </a>
+            ) : (
+              <div key={key}>{Content}</div>
+            );
+          })}
         </div>
 
         {/* Bottom CTA - Matching Sponsors Style but Teal */}

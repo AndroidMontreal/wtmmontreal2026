@@ -6,13 +6,19 @@
     "cta": "Devenir Partenaire"
   },
   "list": {
-    "wtm": { "name": "WTM Montréal", "logo": "/logo/logo.svg" },
-    "partner1": { "name": "Partenaire 1", "logo": "" },
-    "partner2": { "name": "Partenaire 2", "logo": "" },
-    "partner3": { "name": "Partenaire 3", "logo": "" },
-    "partner4": { "name": "Partenaire 4", "logo": "" },
-    "partner5": { "name": "Partenaire 5", "logo": "" },
-    "partner6": { "name": "Partenaire 6", "logo": "" },
-    "partner7": { "name": "Partenaire 7", "logo": "" }
+    "technovation": { "name": "Technovation Montréal", "logo": "/images/partners/technovation.png", "link": "https://www.technovationmontreal.com/" },
+    "canada": { "name": "Gouvernement du Canada", "logo": "/images/partners/canada.png", "link": "https://www.canada.ca/" },
+    "somos_lit": { "name": "Somos LIT", "logo": "/images/partners/somos-lit.png", "link": "https://somoslatinxintech.com/" },
+    "women_in_tech": { "name": "Femmes en Tech", "logo": "/images/partners/women-in-tech.png", "link": "https://women-in-tech.org/" },
+    "le_wagon": { "name": "Le Wagon", "logo": "/images/partners/le-wagon.png", "link": "https://www.lewagon.com/montreal" },
+    "elan_tech": { "name": "ÉLAN Tech", "logo": "/images/partners/elan-tech.jpg", "link": "http://elantech.co/" },
+    "black_ladies_in_tech": { "name": "Black Ladies In Tech", "logo": "/images/partners/black-ladies-in-tech.png", "link": "http://www.blackladiesintech.org/" },
+    "ellecodde": { "name": "ElleCodde", "logo": "/images/partners/ellecodde.png", "link": "https://ellecode.org/" },
+    "scientifines": { "name": "Les Scientifines", "logo": "/images/partners/scientifines.png", "link": "https://scientifines.com/" },
+    "ludociels": { "name": "Ludociels", "logo": "/images/partners/ludociels.png", "link": "https://www.ludocielspourtous.org/" },
+    "mcgill_csus": { "name": "McGill CSUS", "logo": "/images/partners/mcgill-csus.png", "link": "https://www.mcgillcsus.com/" },
+    "se4ai": { "name": "SE4AI", "logo": "/images/partners/se4ai.jpg", "link": "http://www.se4ai.org/" },
+    "mamanest": { "name": "MamaNest", "logo": "/images/partners/mamanest.png", "link": "https://mamanest.ca/" },
+    "wia_montreal": { "name": "Women in Animation", "logo": "/images/partners/wia-montreal.png", "link": "http://wearewia.org/" }
   }
 }
