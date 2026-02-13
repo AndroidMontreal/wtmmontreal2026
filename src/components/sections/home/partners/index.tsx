@@ -4,9 +4,11 @@ import React from 'react';
 import { useTranslations, useMessages } from 'next-intl';
 import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
-import { Link } from '@/i18n/routing';
 import Image from 'next/image';
 import { PartnersMessages, Partner } from '@/types/sections';
+import SectionTitle from '@/components/ui/SectionTitle';
+import Button from '@/components/ui/Button';
+import InteractiveGridPattern from '@/components/ui/InteractiveGridPattern';
 
 export default function CommunityPartners() {
   const t = useTranslations('Partners.header');
@@ -14,82 +16,55 @@ export default function CommunityPartners() {
   const partnersList = messages?.Partners?.list || {};
 
   return (
-    <section className="relative py-24 border-t border-slate-100 overflow-hidden bg-white">
+    <section className="relative py-24 border-t border-slate-100 overflow-hidden bg-[#FAFAFA]">
       {/* 1. Base Gradient Layer */}
-      <div className="absolute inset-0 bg-linear-to-b from-white via-slate-50/50 to-white pointer-events-none" />
-      
-      {/* 2. Dot Grid Pattern Layer */}
-      <div 
-        className="absolute inset-0 opacity-60 pointer-events-none" 
-        style={{ 
-          backgroundImage: 'radial-gradient(#e5e7eb 1px, transparent 1px)', 
-          backgroundSize: '24px 24px',
-          maskImage: 'radial-gradient(ellipse 50% 50% at 50% 50%, #000 70%, transparent 100%)',
-          WebkitMaskImage: 'radial-gradient(ellipse 50% 50% at 50% 50%, #000 70%, transparent 100%)'
-        }} 
-      />
+      <div className="absolute inset-0 bg-linear-to-b from-white via-slate-50/30 to-white pointer-events-none" />
 
-      {/* 3. Subtle Texture Layer */}
-      <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-[0.03] pointer-events-none" />
+      {/* 2. Interactive Dot Pattern - Same as Sponsors */}
+      <InteractiveGridPattern
+        className="opacity-[0.3]"
+        dotColor="#cbd5e1"
+        spacing={32}
+      />
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
 
-        {/* Left-Aligned Header */}
-        <div className="text-left mb-16 max-w-3xl">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="inline-block mb-4"
-          >
-            <span className="px-4 py-1.5 rounded-full border border-primary/50 bg-primary/15 text-primary text-xs font-bold uppercase tracking-widest">
-              {t('tag')}
-            </span>
-          </motion.div>
+        {/* Reusable Section Title - Teal Theme */}
+        <SectionTitle
+          tag={t('tag')}
+          title={t('title')}
+          subtitle={t('subtitle')}
+          highlightColor="text-[#00A896]"
+          tagStyles={{
+            bg: 'bg-primary/10',
+            text: 'text-primary',
+            border: 'border-primary/20'
+          }}
+        />
 
-          <motion.h2
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.1 }}
-            className="text-4xl md:text-5xl font-black text-slate-900 mb-6 tracking-tight"
-          >
-            {t('title')} <span className="text-[#00A896]">.</span>
-          </motion.h2>
-
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.2 }}
-            className="text-lg text-slate-600 leading-relaxed"
-          >
-            {t('subtitle')}
-          </motion.p>
-        </div>
-
-        {/* Partners Grid - Matching Sponsors Layout */}
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mb-16">
+        {/* Partners Grid - Fixed 3 columns on desktop, 2 on mobile */}
+        <div className="grid grid-cols-2 lg:grid-cols-3 gap-12 md:gap-16 items-center justify-items-center md:justify-items-start mt-16">
           {Object.entries(partnersList).map(([key, partner]: [string, Partner], index) => {
             const Content = (
               <motion.div
-                initial={{ opacity: 0, scale: 0.95 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.05 }}
-                className="group h-36 rounded-2xl bg-white border border-slate-100 flex items-center justify-center p-8 grayscale hover:grayscale-0 opacity-80 hover:opacity-100 transition-all duration-500 cursor-pointer shadow-sm hover:shadow-xl hover:-translate-y-2"
+                initial={{ opacity: 0, y: 10 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-50px" }}
+                transition={{ delay: index * 0.05, duration: 0.5 }}
+                className="group relative flex items-center justify-center md:justify-start w-full"
               >
                 {partner.logo ? (
-                  <div className="relative w-full h-full">
-                    <Image 
-                      src={partner.logo} 
-                      alt={partner.name} 
-                      fill 
-                      className="object-contain transition-transform duration-500 group-hover:scale-110"
+                  <div className="relative w-full flex justify-center md:justify-start transition-all duration-500 hover:-translate-y-2 hover:scale-105 hover:drop-shadow-xl hover:brightness-110 hover:saturate-110">
+                    <Image
+                      src={partner.logo}
+                      alt={partner.name}
+                      width={400}
+                      height={250}
+                      className="object-contain w-auto h-auto max-w-full"
                     />
                   </div>
                 ) : (
-                  <span className="text-sm font-bold text-slate-300 uppercase tracking-wider group-hover:text-[#00A896] transition-colors duration-300">
+                  <span className="text-sm font-bold text-slate-300 uppercase tracking-wider group-hover:text-[#00A896] transition-colors duration-300 text-center">
                     {partner.name}
                   </span>
                 )}
@@ -97,35 +72,37 @@ export default function CommunityPartners() {
             );
 
             return partner.link ? (
-              <a 
-                key={key} 
-                href={partner.link} 
-                target="_blank" 
+              <a
+                key={key}
+                href={partner.link}
+                target="_blank"
                 rel="noopener noreferrer"
-                className="block"
+                className="w-full flex justify-center"
               >
                 {Content}
               </a>
             ) : (
-              <div key={key}>{Content}</div>
+              <div key={key} className="w-full flex justify-center">{Content}</div>
             );
           })}
         </div>
 
-        {/* Bottom CTA - Matching Sponsors Style but Teal */}
+        {/* Bottom CTA */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-center mt-16"
+          className="mt-24 flex justify-center"
         >
-          <Link
+          <Button
             href="/partners/join"
-            className="inline-flex items-center gap-2 rounded-full bg-[#00A896] px-8 py-4 text-sm font-bold text-white shadow-lg shadow-teal-500/30 transition-all hover:bg-[#008f80] hover:scale-105 hover:shadow-teal-500/50"
+            variant="primary"
+            size="lg"
+            shimmer
+            icon={<ArrowRight className="h-4 w-4" />}
           >
             {t('cta')}
-            <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
-          </Link>
+          </Button>
         </motion.div>
 
       </div>

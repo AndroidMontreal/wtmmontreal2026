@@ -3,11 +3,12 @@
 import { useState, useRef } from 'react';
 import { useTranslations, useMessages } from 'next-intl';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ArrowUpRight } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import GalleryGrid from './GalleryGrid';
 import GalleryControls from './GalleryControls';
 import FloatingOrb from '@/components/ui/FloatingOrb';
 import Button from '@/components/ui/Button';
+import SectionTitle from '@/components/ui/SectionTitle';
 
 interface GalleryMessages {
   Gallery: {
@@ -69,36 +70,20 @@ export default function Gallery() {
 
         {/* Header Row */}
         <div className="flex flex-col md:flex-row justify-between items-end mb-12 gap-8">
-          <div className="max-w-2xl">
-            <motion.h2
-              initial={{ opacity: 0, x: -20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true, amount: 0.5 }}
-              className="text-sm font-bold text-teal-400 uppercase tracking-widest mb-4"
-            >
-              #WTMMontreal
-            </motion.h2>
-            <motion.h3
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, amount: 0.5 }}
-              transition={{ delay: 0.1 }}
-              className="text-4xl md:text-5xl font-bold text-white mb-6"
-            >
-              {t.rich('title', {
-                gradient: (chunks) => <span className="text-transparent bg-clip-text bg-linear-to-r from-[#00D9C0] to-primary">{chunks}</span>
-              })} <span className="text-primary">.</span>
-            </motion.h3>
-            <motion.p
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, amount: 0.5 }}
-              transition={{ delay: 0.2 }}
-              className="text-slate-400 text-lg"
-            >
-              {t('subtitle')}
-            </motion.p>
-          </div>
+          <SectionTitle 
+            tag="#WTMMontreal"
+            title={t('title')}
+            subtitle={t('subtitle')}
+            highlightColor="text-[#00D9C0]"
+            titleColor="text-white"
+            subtitleColor="text-slate-400"
+            className="mb-0 max-w-2xl"
+            tagStyles={{
+              bg: 'bg-teal-900/30',
+              text: 'text-teal-400',
+              border: 'border-teal-500/30'
+            }}
+          />
 
           <div className="flex items-center gap-6">
             <GalleryControls
@@ -136,10 +121,10 @@ export default function Gallery() {
           <Button
             href={messages?.Gallery?.meta?.cta_link || '#'}
             external
-            variant="glass"
+            variant="primary"
             size="lg"
             shimmer
-            icon={<ArrowUpRight className="h-4 w-4 text-teal-400 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition-transform" />}
+            icon={<ArrowRight className="h-4 w-4" />}
           >
             {t('cta_text')}
           </Button>

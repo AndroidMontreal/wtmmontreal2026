@@ -30,6 +30,7 @@
   
   .bg-secondary { background-color: #4285F4 !important; }
   .text-secondary { color: #4285F4 !important; }
+  .border-secondary { border-color: #4285F4 !important; }
   
   .glass {
     background: rgba(255, 255, 255, 0.7);

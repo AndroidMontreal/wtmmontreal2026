@@ -29,7 +29,7 @@ const variants = {
 const sizes = {
   sm: "px-4 py-1.5 text-xs font-bold",
   md: "px-6 py-2.5 text-sm font-bold",
-  lg: "px-8 py-3 text-sm font-bold",
+  lg: "px-10 py-4 text-sm font-bold",
 };
 
 export default function Button({ 
@@ -46,9 +46,8 @@ export default function Button({
   
   const content = (
     <>
-      {/* Icon First (Left) */}
-      {icon && <span>{icon}</span>}
       <span className="relative z-10">{children}</span>
+      {icon && <span className="relative z-10 transition-transform group-hover:translate-x-1">{icon}</span>}
       {(variant === 'primary' || shimmer) && (
         <div className="absolute inset-0 -translate-x-full group-hover:animate-[shimmer_1.5s_infinite] bg-gradient-to-r from-transparent via-white/25 to-transparent z-0 pointer-events-none" />
       )}

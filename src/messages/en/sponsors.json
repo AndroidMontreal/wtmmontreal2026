@@ -5,14 +5,24 @@
     "subtitle": "Let's Make a Difference Together! Become Our Community Sponsor.",
     "cta": "Become a Sponsor"
   },
-  "list": {
-    "wtm": { "name": "WTM Montreal", "logo": "/logo/logo.svg" },
-    "sponsor1": { "name": "Sponsor 1", "logo": "" },
-    "sponsor2": { "name": "Sponsor 2", "logo": "" },
-    "sponsor3": { "name": "Sponsor 3", "logo": "" },
-    "sponsor4": { "name": "Sponsor 4", "logo": "" },
-    "sponsor5": { "name": "Sponsor 5", "logo": "" },
-    "sponsor6": { "name": "Sponsor 6", "logo": "" },
-    "sponsor7": { "name": "Sponsor 7", "logo": "" }
+  "tiers": {
+    "platinum": {
+      "title": "Platinum",
+      "subtitle": "Leading partners making a massive impact on the future of women in tech.",
+      "badge": "Elite",
+      "items": {
+        "distech": { "name": "Distech Control", "logo": "/images/sponsors/distech_control.svg" },
+        "haven": { "name": "Haven", "logo": "/images/sponsors/haven.svg" },
+        "gorockit": { "name": "GoRockit", "logo": "/images/sponsors/go_rock_it.svg" }
+      }
+    },
+    "bronze": {
+      "title": "Bronze",
+      "subtitle": "Essential organizations fueling our local growth and connection.",
+      "badge": "Community",
+      "items": {
+        "coveo": { "name": "Coveo", "logo": "/images/sponsors/coveo.svg" }
+      }
+    }
   }
 }

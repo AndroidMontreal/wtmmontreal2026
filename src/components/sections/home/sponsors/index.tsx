@@ -3,115 +3,150 @@
 import { useTranslations, useMessages } from 'next-intl';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
-import { Link } from '@/i18n/routing';
 import { ArrowRight } from 'lucide-react';
-import { SponsorsMessages } from '@/types/sections';
+import { SponsorsMessages, SponsorTier } from '@/types/sections';
+import SectionTitle from '@/components/ui/SectionTitle';
+import Button from '@/components/ui/Button';
+import InteractiveGridPattern from '@/components/ui/InteractiveGridPattern';
 
 export default function Sponsors() {
   const t = useTranslations('Sponsors.header');
   const messages = useMessages() as unknown as SponsorsMessages;
-  const sponsorsList = messages?.Sponsors?.list || {};
+  const tiers = messages?.Sponsors?.tiers || {};
+
+  const getTierStyles = (tierKey: string) => {
+    switch (tierKey.toLowerCase()) {
+      case 'platinum':
+        return {
+          label: 'text-blue-600',
+          badge: 'bg-blue-50 text-blue-600 border-blue-100',
+          line: 'group-hover:bg-blue-500',
+        };
+      case 'bronze':
+        return {
+          label: 'text-amber-600',
+          badge: 'bg-amber-50 text-amber-700 border-amber-100',
+          line: 'group-hover:bg-amber-500',
+        };
+      default:
+        return {
+          label: 'text-slate-500',
+          badge: 'bg-slate-100 text-slate-600 border-slate-200',
+          line: 'group-hover:bg-slate-400',
+        };
+    }
+  };
 
   return (
-    <section className="relative py-24 border-t border-slate-100 overflow-hidden bg-white">
-      {/* 1. Base Gradient Layer */}
-      <div className="absolute inset-0 bg-linear-to-b from-white via-slate-50/50 to-white pointer-events-none" />
-      
-      {/* 2. Dot Grid Pattern Layer */}
-      <div 
-        className="absolute inset-0 opacity-60 pointer-events-none" 
-        style={{ 
-          backgroundImage: 'radial-gradient(#e5e7eb 1px, transparent 1px)', 
-          backgroundSize: '24px 24px',
-          maskImage: 'radial-gradient(ellipse 50% 50% at 50% 50%, #000 70%, transparent 100%)',
-          WebkitMaskImage: 'radial-gradient(ellipse 50% 50% at 50% 50%, #000 70%, transparent 100%)'
-        }} 
-      />
+    <section className="relative py-24 border-t border-slate-100 overflow-hidden bg-[#FAFAFA]">
+      {/* 1. Base Gradient Layer - Subtle warmth */}
+      <div className="absolute inset-0 bg-linear-to-b from-white via-slate-50/30 to-white pointer-events-none" />
 
-      {/* 3. Subtle Texture Layer */}
-      <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-[0.03] pointer-events-none" />
+      {/* 2. Interactive Dot Pattern */}
+      <InteractiveGridPattern
+        className="opacity-[0.3]"
+        dotColor="#cbd5e1"
+        spacing={32}
+      />
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
 
-        {/* Left-Aligned Header */}
-        <div className="text-left mb-16 max-w-3xl">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="inline-block mb-4"
-          >
-            <span className="px-4 py-1.5 rounded-full border border-blue-100 bg-blue-50 text-blue-600 text-xs font-bold uppercase tracking-widest">
-              {t('tag')}
-            </span>
-          </motion.div>
+        {/* Section Header */}
+        <SectionTitle
+          tag={t('tag')}
+          title={t('title')}
+          subtitle={t('subtitle')}
+          highlightColor="text-secondary"
+          tagStyles={{
+            bg: 'bg-secondary/10',
+            text: 'text-secondary',
+            border: 'border-secondary/20'
+          }}
+        />
 
-          <motion.h2 
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.1 }}
-            className="text-4xl md:text-5xl font-black text-slate-900 mb-6 tracking-tight"
-          >
-            {t('title')} <span className="text-secondary">.</span>
-          </motion.h2>
+        {/* Tiers Container */}
+        <div className="flex flex-col gap-24 mt-16">
+          {Object.entries(tiers).map(([key, tier]: [string, SponsorTier]) => {
+            const styles = getTierStyles(key);
 
-          <motion.p 
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.2 }}
-            className="text-lg text-slate-600 leading-relaxed"
-          >
-            {t('subtitle')}
-          </motion.p>
-        </div>
+            return (
+              <div key={key} className="w-full group">
+                {/* Reference-Based Header Design */}
+                <motion.div
+                  initial={{ opacity: 0, y: 10 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5 }}
+                  className="mb-12"
+                >
+                  <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-6">
+                    <div className="flex items-center gap-3">
+                      <h3 className="text-3xl md:text-4xl font-bold text-slate-900 tracking-tight">
+                        {tier.title}
+                      </h3>
+                      <span className={`text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-wider border ${styles.badge}`}>
+                        {tier.badge}
+                      </span>
+                    </div>
+                    <p className="text-base text-slate-500 font-medium max-w-lg md:text-right leading-relaxed">
+                      {tier.subtitle}
+                    </p>
+                  </div>
+                  {/* Full width separator with hover interaction */}
+                  <div className={`w-full h-px bg-slate-200 transition-colors duration-500 ${styles.line}`} />
+                </motion.div>
 
-        {/* Sponsors Cards */}
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-          {Object.entries(sponsorsList).map(([key, sponsor], index) => (
-            <motion.div
-              key={key}
-              initial={{ opacity: 0, scale: 0.95 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              viewport={{ once: true }}
-              transition={{ delay: index * 0.05 }}
-              className="group h-36 rounded-2xl bg-white border border-slate-100 flex items-center justify-center p-8 grayscale hover:grayscale-0 opacity-80 hover:opacity-100 transition-all duration-500 cursor-pointer shadow-sm hover:shadow-xl hover:-translate-y-2"
-            >
-              {sponsor.logo ? (
-                <div className="relative w-full h-full">
-                  <Image 
-                    src={sponsor.logo} 
-                    alt={sponsor.name} 
-                    fill 
-                    className="object-contain transition-transform duration-500 group-hover:scale-110"
-                  />
+                {/* Logos Grid - Auto-fit to allow natural size (up to ~400px) */}
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[repeat(auto-fit,minmax(350px,1fr))] gap-12 items-center justify-items-center md:justify-items-start">
+                  {Object.entries(tier.items).map(([itemKey, sponsor], index) => (
+                    <motion.div
+                      key={itemKey}
+                      initial={{ opacity: 0, y: 20, scale: 0.95 }}
+                      whileInView={{ opacity: 1, y: 0, scale: 1 }}
+                      viewport={{ once: true, margin: "-50px" }}
+                      transition={{ delay: index * 0.1, duration: 0.5, type: "spring", stiffness: 50 }}
+                      className="group/logo relative flex items-center justify-center md:justify-start w-full"
+                    >
+                      {sponsor.logo ? (
+                        <div className="relative w-full flex justify-center md:justify-start transition-all duration-500 ease-out hover:-translate-y-2 hover:scale-105 hover:drop-shadow-2xl hover:brightness-110 hover:saturate-110">
+                          <Image
+                            src={sponsor.logo}
+                            alt={sponsor.name}
+                            width={400}
+                            height={250}
+                            className="object-contain w-auto h-auto max-w-full"
+                            priority={key.toLowerCase() === 'platinum'}
+                          />
+                        </div>
+                      ) : (
+                        <span className="text-sm font-bold text-slate-300 uppercase tracking-widest transition-colors duration-300 group-hover/logo:text-secondary">
+                          {sponsor.name}
+                        </span>
+                      )}
+                    </motion.div>
+                  ))}
                 </div>
-              ) : (
-                <span className="text-lg font-bold text-slate-300 transition-colors duration-300 group-hover:text-primary uppercase tracking-widest">
-                  {sponsor.name}
-                </span>
-              )}
-            </motion.div>
-          ))}
+              </div>
+            );
+          })}
         </div>
 
-        {/* Bottom CTA */}
-        <motion.div 
+        {/* Action Button */}
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-center mt-16"
+          className="mt-24 flex justify-center"
         >
-          <Link 
-            href="/sponsors/become" 
-            className="inline-flex items-center gap-2 rounded-full bg-[#4285F4] px-8 py-4 text-sm font-bold text-white shadow-lg shadow-blue-500/30 transition-all hover:bg-blue-600 hover:scale-105 hover:shadow-blue-500/50"
+          <Button
+            href="/sponsors/become"
+            variant="secondary"
+            size="lg"
+            icon={<ArrowRight className="h-4 w-4" />}
           >
             {t('cta')}
-            <ArrowRight className="h-4 w-4" />
-          </Link>
+          </Button>
         </motion.div>
-
       </div>
     </section>
   );

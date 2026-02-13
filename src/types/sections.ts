@@ -17,10 +17,21 @@ export interface SectionHeader {
   cta: string;
 }
 
+export interface SponsorTier {
+  title: string;
+  subtitle: string;
+  badge: string;
+  items: Record<string, Sponsor>;
+}
+
 export interface SponsorsMessages {
   Sponsors: {
     header: SectionHeader;
-    list: Record<string, Sponsor>;
+    tiers: {
+      gold: SponsorTier;
+      silver: SponsorTier;
+      bronze: SponsorTier;
+    };
   };
 }
 
