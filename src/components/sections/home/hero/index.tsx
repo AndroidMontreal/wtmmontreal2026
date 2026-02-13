@@ -7,6 +7,7 @@ import Image from 'next/image';
 // Imported Sub-components
 import FloatingOrb from '@/components/ui/FloatingOrb';
 import HeroButtons from './HeroButtons';
+import Countdown from './Countdown';
 import ScrollIndicator from '@/components/ui/ScrollIndicator';
 
 export default function Hero() {
@@ -30,9 +31,9 @@ export default function Hero() {
 
       {/* Animated Background Effects */}
       <div className="absolute inset-0 z-1 pointer-events-none overflow-hidden">
-        <FloatingOrb color="rgba(0,217,192,0.35)" size="500px" />
-        <FloatingOrb color="rgba(66,133,244,0.35)" size="550px" />
+        <FloatingOrb color="rgba(66,133,244,0.40)" size="650px" />
         <FloatingOrb color="rgba(0,217,192,0.35)" size="600px" />
+        <FloatingOrb color="rgba(66,133,244,0.40)" size="550px" />
       </div>
 
       {/* Main Content */}
@@ -83,6 +84,15 @@ export default function Hero() {
                 bold: (chunks) => <span className="font-bold text-white/90">{chunks}</span>
               })}
             </p>
+          </motion.div>
+
+          {/* Countdown Timer */}
+          <motion.div
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.5, delay: 0.4 }}
+          >
+            <Countdown />
           </motion.div>
 
           {/* Buttons Component */}

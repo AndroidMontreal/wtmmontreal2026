@@ -3,7 +3,13 @@
     "hero": {
       "date": "April 18th, 2026 • Montreal, QC",
       "title": "WTM Day <gradient>2026</gradient>",
-      "subtitle": "Join <bold>400+ participants</bold> for an unforgettable day of <bold>workshops</bold>, a massive <bold>career fair</bold>, and networking with the <bold>brightest minds</bold> in tech."
+      "subtitle": "Join <bold>400+ participants</bold> for an unforgettable day of <bold>workshops</bold>, a massive <bold>career fair</bold>, and networking with the <bold>brightest minds</bold> in tech.",
+      "countdown": {
+        "days": "Days",
+        "hours": "Hours",
+        "minutes": "Minutes",
+        "seconds": "Seconds"
+      }
     },
     "statsSection": {
       "title": "Our <gradient>Impact</gradient>",

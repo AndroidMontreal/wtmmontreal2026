@@ -3,6 +3,7 @@
 import { useTranslations } from 'next-intl';
 import { motion, Variants } from 'framer-motion';
 import AnimatedCounter from '@/components/ui/AnimatedCounter';
+import FloatingOrb from "@/components/ui/FloatingOrb";
 
 interface Stat {
   value: string;
@@ -39,6 +40,12 @@ export default function StatsSection() {
 
   return (
     <section className="relative w-full py-24 bg-gray-950 overflow-hidden">
+      {/* Animated Background Effects */}
+      <div className="absolute inset-0 z-1 pointer-events-none overflow-hidden">
+        <FloatingOrb color="rgba(0,217,192,0.35)" size="250px" />
+        <FloatingOrb color="rgba(0,217,192,0.35)" size="250px" />
+      </div>
+
       <div className="container mx-auto px-4 max-w-6xl">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 
