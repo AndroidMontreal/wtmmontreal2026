@@ -139,7 +139,8 @@ export default function Sponsors() {
           className="mt-24 flex justify-center"
         >
           <Button
-            href="/sponsors/become"
+            href={t('cta_link')}
+            external
             variant="secondary"
             size="lg"
             icon={<ArrowRight className="h-4 w-4" />}

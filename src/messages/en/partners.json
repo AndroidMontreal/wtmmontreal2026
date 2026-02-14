@@ -3,7 +3,8 @@
     "tag": "Ecosystem",
     "title": "Community Partners",
     "subtitle": "Working together to build a better ecosystem.",
-    "cta": "Become a Partner"
+    "cta": "Become a Partner",
+    "cta_link": "https://forms.gle/Mzsq8LbveqHgSKPn7"
   },
   "list": {
     "technovation": { "name": "Technovation Montreal", "logo": "/images/partners/technovation_montreal.svg", "link": "https://www.technovationmontreal.com/" },

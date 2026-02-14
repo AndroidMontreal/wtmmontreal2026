@@ -72,7 +72,8 @@ export default function Navbar() {
                     <LanguageSwitcher />
 
                     <Button
-                        href="/tickets"
+                        href="https://www.eventbrite.ca/e/women-techmakers-montreal-day-2026-tickets-1980339307177"
+                        external
                         variant="primary"
                         size="md"
                     >

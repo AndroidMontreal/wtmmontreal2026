@@ -95,7 +95,8 @@ export default function CommunityPartners() {
           className="mt-24 flex justify-center"
         >
           <Button
-            href="/partners/join"
+            href={t('cta_link')}
+            external
             variant="primary"
             size="lg"
             shimmer

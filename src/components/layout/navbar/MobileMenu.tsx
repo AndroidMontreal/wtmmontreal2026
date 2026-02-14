@@ -68,14 +68,16 @@ export default function MobileMenu({ isOpen, onClose, items, ticketLabel }: Mobi
 
         <div className="mt-auto flex flex-col gap-4 pb-10">
           {/* CTA Button - Large & Tap-Friendly */}
-          <Link
-            href="/tickets"
+          <a
+            href="https://www.eventbrite.ca/e/women-techmakers-montreal-day-2026-tickets-1980339307177"
+            target="_blank"
+            rel="noopener noreferrer"
             onClick={onClose}
             className="w-full rounded-xl bg-primary py-3 text-center text-base font-semibold text-white shadow-lg shadow-teal-500/20 flex items-center justify-center gap-2 hover:bg-[#008f80] active:scale-[0.98] transition-all"
           >
             <Ticket className="h-5 w-5" />
             <span>{ticketLabel}</span>
-          </Link>
+          </a>
 
           {/* Language Switcher */}
           <div className="w-full border-t border-white/10 pt-4">
