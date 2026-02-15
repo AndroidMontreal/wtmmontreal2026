@@ -55,9 +55,11 @@ export default function Gallery() {
         className="absolute inset-0 z-0 pointer-events-none overflow-hidden"
         style={{ maskImage: 'linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 30%, rgba(0,0,0,0) 80%)' }}
       >
-        <FloatingOrb color="rgba(0,217,192,0.3)" size="600px" />
-        <FloatingOrb color="rgba(66,133,244,0.3)" size="550px" />
-        <FloatingOrb color="rgba(0,217,192,0.25)" size="500px" />
+        <FloatingOrb color="rgba(0,217,192,0.45)" size="600px" />
+        <FloatingOrb color="rgba(0,217,192,0.55)" size="400px" />
+        <FloatingOrb color="rgba(66,133,244,0.45)" size="550px" />
+        <FloatingOrb color="rgba(66,133,244,0.35)" size="450px" />
+        <FloatingOrb color="rgba(0,217,192,0.50)" size="500px" />
       </div>
 
       <motion.div
@@ -70,7 +72,7 @@ export default function Gallery() {
 
         {/* Header Row */}
         <div className="flex flex-col md:flex-row justify-between items-end mb-12 gap-8">
-          <SectionTitle 
+          <SectionTitle
             tag="#WTMMontreal"
             title={t('title')}
             subtitle={t('subtitle')}

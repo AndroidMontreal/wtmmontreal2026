@@ -11,7 +11,7 @@ import Countdown from './Countdown';
 import ScrollIndicator from '@/components/ui/ScrollIndicator';
 
 export default function Hero() {
-  const t = useTranslations();
+  const t = useTranslations('Hero');
 
   return (
     <section className="relative flex min-h-[calc(100vh-120px)] w-full items-center justify-center overflow-hidden py-16 px-4 bg-slate-950">
@@ -51,7 +51,7 @@ export default function Hero() {
               <span className="absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
               <span className="absolute inline-flex h-full w-full rounded-full bg-primary animate-ping opacity-75"></span>
             </div>
-            <span>{t('Home.hero.date')}</span>
+            <span>{t('date')}</span>
           </motion.div>
 
           {/* Title */}
@@ -61,7 +61,7 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="text-5xl md:text-6xl lg:text-8xl font-bold tracking-tight text-white mb-6 md:mb-10"
           >
-            {t.rich('Home.hero.title', {
+            {t.rich('title', {
               gradient: (chunks) => (
                 <span className="relative inline-block ml-3">
                   <span className="text-transparent bg-clip-text bg-linear-to-r from-[#00D9C0] to-[#00D9C0]">
@@ -80,7 +80,7 @@ export default function Hero() {
             className="mb-10 max-w-3xl mx-auto"
           >
             <p className="text-base md:text-lg lg:text-xl leading-relaxed font-normal text-white px-4">
-              {t.rich('Home.hero.subtitle', {
+              {t.rich('subtitle', {
                 bold: (chunks) => <span className="font-bold text-white/90">{chunks}</span>
               })}
             </p>

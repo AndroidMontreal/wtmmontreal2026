@@ -1,0 +1,10 @@
+{
+  "title": "Notre <gradient>Impact</gradient>",
+  "subtitle": "Découvrez l'ampleur de notre communauté. Des participants passionnés aux ateliers inspirants, ces chiffres représentent le cœur de WTM Montréal.",
+  "items": [
+    { "value": "400+", "label": "Participants", "color": "text-[#00A896]" },
+    { "value": "20+", "label": "Ateliers", "color": "text-[#4285F4]" },
+    { "value": "50+", "label": "Entreprises", "color": "text-[#FBBC04]" },
+    { "value": "∞", "label": "Inspiration", "color": "text-[#EA4335]" }
+  ]
+}

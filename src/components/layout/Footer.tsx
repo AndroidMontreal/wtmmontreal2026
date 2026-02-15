@@ -4,9 +4,9 @@ import React from 'react';
 import { useTranslations, useMessages } from 'next-intl';
 import Image from 'next/image';
 import { motion, Variants } from 'framer-motion';
-import { Linkedin, Instagram, Facebook, Youtube, Send, Music, Twitter } from 'lucide-react';
+import { Linkedin, Instagram, Facebook, Youtube, Send, Music, Twitter, Mail } from 'lucide-react';
 import { Link } from '@/i18n/routing';
-import { NavigationMessages } from '@/types/navigation';
+import { FooterMessages } from '@/types/navigation';
 import Button from '@/components/ui/Button';
 
 // Icon Map
@@ -33,13 +33,13 @@ const socialIconMap: Record<string, React.ComponentType<{ className?: string; fi
 };
 
 export default function Footer() {
-  const t = useTranslations('Navigation.footer');
-  const messages = useMessages() as unknown as NavigationMessages;
+  const t = useTranslations('Footer');
+  const messages = useMessages() as unknown as FooterMessages;
 
   // Dynamic Data
-  const socials = messages?.Navigation?.footer?.socials || [];
-  const pastEvents = messages?.Navigation?.footer?.past_events_list || [];
-  const links = messages?.Navigation?.footer?.links || {};
+  const socials = messages?.Footer?.socials || [];
+  const pastEvents = messages?.Footer?.past_events_list || [];
+  const links = messages?.Footer?.links || {};
 
   const containerVariants: Variants = {
     hidden: { opacity: 0 },
@@ -86,6 +86,15 @@ export default function Footer() {
             <p className="text-sm leading-relaxed text-slate-400">
               {t('description')}
             </p>
+            
+            <a 
+              href="mailto:socials@wtmmontreal.com" 
+              className="inline-flex items-center gap-2 text-slate-400 hover:text-[#00A896] transition-colors duration-300"
+            >
+              <Mail className="h-4 w-4" />
+              <span className="text-sm font-medium">socials@wtmmontreal.com</span>
+            </a>
+
             <div className="flex gap-4">
               {socials.map((social) => {
                 const Icon = socialIconMap[social.name] || Send;
@@ -130,13 +139,27 @@ export default function Footer() {
           <motion.div variants={itemVariants}>
             <h3 className="text-white font-bold mb-6">{t('columns.quick_links')}</h3>
             <ul className="space-y-3 text-sm">
-              {Object.entries(links).map(([key, item]) => (
-                <li key={key}>
-                  <Link href={item.href} className="hover:text-[#00A896] transition-colors inline-block hover:translate-x-1 duration-200">
-                    {item.label}
-                  </Link>
-                </li>
-              ))}
+              {Object.entries(links).map(([key, item]) => {
+                const isExternal = item.href.startsWith('http');
+                return (
+                  <li key={key}>
+                    {isExternal ? (
+                      <a
+                        href={item.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:text-[#00A896] transition-colors inline-block hover:translate-x-1 duration-200"
+                      >
+                        {item.label}
+                      </a>
+                    ) : (
+                      <Link href={item.href} className="hover:text-[#00A896] transition-colors inline-block hover:translate-x-1 duration-200">
+                        {item.label}
+                      </Link>
+                    )}
+                  </li>
+                );
+              })}
             </ul>
           </motion.div>
 

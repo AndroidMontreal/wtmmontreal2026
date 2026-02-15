@@ -6,7 +6,7 @@ import {useMessages} from 'next-intl';
 import {Link} from '@/i18n/routing';
 import {Menu, X} from 'lucide-react';
 import {cn} from '@/lib/utils';
-import {NavigationMessages} from '@/types/navigation';
+import {HeaderMessages} from '@/types/navigation';
 import {motion, useScroll, useMotionValueEvent} from 'framer-motion';
 
 // Sub-components
@@ -16,7 +16,7 @@ import LanguageSwitcher from './LanguageSwitcher';
 import Button from '@/components/ui/Button';
 
 export default function Navbar() {
-    const messages = useMessages() as unknown as NavigationMessages;
+    const messages = useMessages() as unknown as HeaderMessages;
     const [isOpen, setIsOpen] = useState(false);
     const [hidden, setHidden] = useState(false);
     const [scrolled, setScrolled] = useState(false);
@@ -32,8 +32,8 @@ export default function Navbar() {
         setScrolled(latest > 20);
     });
 
-    const menuItems = messages?.Navigation?.menu || {};
-    const ticketLabel = messages?.Navigation?.buttons?.ticket || 'Get Tickets';
+    const menuItems = messages?.Header?.menu || {};
+    const ticketLabel = messages?.Header?.cta?.ticket || 'Get Tickets';
 
     return (
         <>

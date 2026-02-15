@@ -9,7 +9,7 @@
   "tiers": {
     "platinum": {
       "title": "Platine",
-      "subtitle": "Des partenaires majeurs qui façonnent l'avenir des femmes en tech.",
+      "subtitle": "Partenaires majeurs façonnant l'avenir des femmes en tech.",
       "badge": "Élite",
       "items": {
         "distech": { "name": "Distech Control", "logo": "/images/sponsors/distech_control.svg" },

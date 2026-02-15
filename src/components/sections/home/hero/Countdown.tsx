@@ -37,7 +37,7 @@ const TimeBox = ({ value, label }: { value: number; label: string }) => {
 };
 
 export default function Countdown() {
-  const t = useTranslations('Home.hero.countdown');
+  const t = useTranslations('Hero.countdown');
   const timeLeft = useCountdown(EVENT_DATE);
 
   // If the event has passed (all zeros), we could show a message or nothing.

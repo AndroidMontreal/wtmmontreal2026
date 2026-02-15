@@ -3,16 +3,31 @@ export type MenuItem = {
   href: string;
 };
 
-export type NavigationMessages = {
-  Navigation: {
+export type HeaderMessages = {
+  Header: {
     menu: Record<string, MenuItem>;
-    buttons: {
+    cta: {
       ticket: string;
     };
-    footer: {
-      links: Record<string, MenuItem>;
-      socials: Array<{ name: string; href: string }>;
-      past_events_list: Array<{ label: string; href: string }>;
-    }
+  };
+};
+
+export type FooterMessages = {
+  Footer: {
+    description: string;
+    columns: {
+      past_events: string;
+      quick_links: string;
+      stay_connected: string;
+    };
+    newsletter: {
+      text: string;
+      cta: string;
+      href: string;
+    };
+    links: Record<string, MenuItem>;
+    socials: Array<{ name: string; href: string }>;
+    past_events_list: Array<{ label: string; href: string }>;
+    copyright: string;
   };
 };

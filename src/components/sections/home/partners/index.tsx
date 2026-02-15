@@ -20,7 +20,7 @@ export default function CommunityPartners() {
       {/* 1. Base Gradient Layer */}
       <div className="absolute inset-0 bg-linear-to-b from-white via-slate-50/30 to-white pointer-events-none" />
 
-      {/* 2. Interactive Dot Pattern - Same as Sponsors */}
+      {/* 2. Interactive Dot Pattern  */}
       <InteractiveGridPattern
         className="opacity-[0.3]"
         dotColor="#cbd5e1"
@@ -53,18 +53,17 @@ export default function CommunityPartners() {
                 transition={{ delay: index * 0.05, duration: 0.5 }}
                 className="group relative flex items-center justify-center md:justify-start w-full"
               >
-                {partner.logo ? (
-                  <div className="relative w-full flex justify-center md:justify-start transition-all duration-500 hover:-translate-y-2 hover:scale-105 hover:drop-shadow-xl hover:brightness-110 hover:saturate-110">
-                    <Image
-                      src={partner.logo}
-                      alt={partner.name}
-                      width={400}
-                      height={250}
-                      className="object-contain w-auto h-auto max-w-full"
-                    />
-                  </div>
-                ) : (
-                  <span className="text-sm font-bold text-slate-300 uppercase tracking-wider group-hover:text-[#00A896] transition-colors duration-300 text-center">
+                                {partner.logo ? (
+                                  <div className="relative inline-flex transition-all duration-500 hover:-translate-y-2 hover:scale-105 hover:drop-shadow-xl hover:brightness-110 hover:saturate-110">
+                                    <Image 
+                                      src={partner.logo} 
+                                      alt={partner.name} 
+                                      width={400} 
+                                      height={250}
+                                      className="object-contain w-auto h-auto max-w-full"
+                                    />
+                                  </div>
+                                ) : (                  <span className="text-sm font-bold text-slate-300 uppercase tracking-wider group-hover:text-[#00A896] transition-colors duration-300 text-center">
                     {partner.name}
                   </span>
                 )}

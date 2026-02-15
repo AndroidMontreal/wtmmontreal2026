@@ -1,0 +1,37 @@
+{
+  "description": "Women Techmakers Montreal est un organisme à but non lucratif visant à soutenir les jeunes professionnels et minorités dans le domaine de la technologie depuis 2015",
+  "columns": {
+    "past_events": "Explorer les événements passés",
+    "quick_links": "Liens rapides",
+    "stay_connected": "Restez connecté"
+  },
+  "newsletter": {
+    "text": "Recevez les dernières nouvelles et mises à jour directement dans votre boîte de réception. Pas de spam, juste l'essentiel !",
+    "cta": "S'abonner",
+    "href": "https://wtmmontreal.us12.list-manage.com/subscribe?u=d1707279f0dde7f68a6f98ab0&id=35def8d91c"
+  },
+  "links": {
+    "sponsor": { "label": "Devenir Sponsor", "href": "https://forms.gle/xDCZe4ZuP98YoCAJ9" },
+    "partner": { "label": "Devenir Partenaire", "href": "https://forms.gle/Mzsq8LbveqHgSKPn7" },
+    "coc": { "label": "Code de conduite", "href": "/code-of-conduct" }
+  },
+  "socials": [
+    { "name": "LinkedIn", "href": "https://www.linkedin.com/company/women-techmakers-montreal" },
+    { "name": "Instagram", "href": "https://www.instagram.com/wtmmontreal/" },
+    { "name": "Facebook", "href": "https://www.facebook.com/wtm.montreal" },
+    { "name": "Discord", "href": "https://discord.com/invite/rKMxWWDSTT" },
+    { "name": "YouTube", "href": "https://youtube.com/@wtmmontreal" },
+    { "name": "Spotify", "href": "https://open.spotify.com/show/30lv57o8Hgz5VOvaX4C1gW" }
+  ],
+  "past_events_list": [
+    { "label": "WTM Montréal 2024", "href": "https://wtm2024.gdgmontreal.com/" },
+    { "label": "WTM Montréal 2023", "href": "https://wtm2023.gdgmontreal.com/" },
+    { "label": "WTM Montréal 2022", "href": "https://wtmmontreal2022.firebaseapp.com/" },
+    { "label": "WTM Montréal 2021", "href": "https://wtmmontreal-2021.firebaseapp.com/" },
+    { "label": "WTM Montréal 2020", "href": "https://wtmmontreal-2020.firebaseapp.com/" },
+    { "label": "WTM Montréal 2019", "href": "https://wtmmontreal-2019.firebaseapp.com/" },
+    { "label": "WTM Montréal 2018", "href": "https://wtmmontreal-2018.firebaseapp.com/" },
+    { "label": "WTM Montréal 2017", "href": "https://ldev6.github.io/" }
+  ],
+  "copyright": "© 2026 WTM Montréal. Tous droits réservés."
+}

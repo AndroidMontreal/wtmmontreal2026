@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 export default function FloatingContact() {
   return (
     <motion.a
-      href="mailto:info@wtmmontreal.com"
+      href="mailto:socials@wtmmontreal.com"
       initial={{ opacity: 0, x: 20 }}
       animate={{ opacity: 1, x: 0 }}
       transition={{ delay: 1 }}

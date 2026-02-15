@@ -5,7 +5,7 @@ import { Megaphone } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 export default function AnnouncementBar() {
-  const t = useTranslations('Navigation.announcement');
+  const t = useTranslations('Common.announcement');
   const text = t('text');
 
   return (

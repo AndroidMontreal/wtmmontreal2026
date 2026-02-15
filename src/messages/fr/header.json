@@ -1,0 +1,16 @@
+{
+  "menu": {
+    "home": { "label": "Accueil", "href": "/" },
+    "team": { "label": "Équipe", "href": "/team" },
+    "speakers": { "label": "Intervenants", "href": "/speakers" },
+    "schedule": { "label": "Programme", "href": "/schedule" }
+  },
+  "cta": {
+    "ticket": "Billetterie"
+  },
+  "languages": {
+    "en": "English",
+    "fr": "Français",
+    "switch": "Passer en {lang}"
+  }
+}

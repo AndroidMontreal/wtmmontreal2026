@@ -53,13 +53,16 @@ export default function InteractiveGridPattern({
 
     const handleMouseMove = (e: MouseEvent) => {
       const rect = canvas.getBoundingClientRect();
-      // Smoothly interpolate mouse position if we wanted trailing, 
-      // but strictly following cursor is snappier for a lens effect.
       mouseRef.current = {
         x: e.clientX - rect.left,
         y: e.clientY - rect.top,
       };
     };
+
+    const resizeObserver = new ResizeObserver(() => {
+      initPoints();
+    });
+    resizeObserver.observe(canvas);
 
     const draw = () => {
       ctx.clearRect(0, 0, width, height);
@@ -83,14 +86,14 @@ export default function InteractiveGridPattern({
           // Calculate falloff (0 to 1, 1 at center)
           // Using a cosine curve for ultra-smooth transition
           const normDist = dist / hoverRadius;
-          const falloff = Math.pow(Math.cos(normDist * Math.PI / 2), 2); 
+          const falloff = Math.pow(Math.cos(normDist * Math.PI / 2), 2);
 
           // 1. Magnification (Scale) - Softer
-          r = size + (size * 0.6 * falloff); 
+          r = size + (size * 0.6 * falloff);
 
           // 2. Distortion (Move slightly towards/away to simulate refraction)
           // Subtle shift
-          const shift = 4 * falloff; 
+          const shift = 4 * falloff;
           const angle = Math.atan2(dy, dx);
           x -= Math.cos(angle) * shift;
           y -= Math.sin(angle) * shift;
@@ -104,14 +107,13 @@ export default function InteractiveGridPattern({
       animationFrameId = requestAnimationFrame(draw);
     };
 
-    window.addEventListener('resize', initPoints);
     window.addEventListener('mousemove', handleMouseMove);
 
     initPoints();
     draw();
 
     return () => {
-      window.removeEventListener('resize', initPoints);
+      resizeObserver.disconnect();
       window.removeEventListener('mousemove', handleMouseMove);
       cancelAnimationFrame(animationFrameId);
     };

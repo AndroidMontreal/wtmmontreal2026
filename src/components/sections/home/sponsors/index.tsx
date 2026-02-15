@@ -108,7 +108,7 @@ export default function Sponsors() {
                       className="group/logo relative flex items-center justify-center md:justify-start w-full"
                     >
                       {sponsor.logo ? (
-                        <div className="relative w-full flex justify-center md:justify-start transition-all duration-500 ease-out hover:-translate-y-2 hover:scale-105 hover:drop-shadow-2xl hover:brightness-110 hover:saturate-110">
+                        <div className="relative inline-flex transition-all duration-500 ease-out hover:-translate-y-2 hover:scale-105 hover:drop-shadow-2xl hover:brightness-110 hover:saturate-110">
                           <Image
                             src={sponsor.logo}
                             alt={sponsor.name}

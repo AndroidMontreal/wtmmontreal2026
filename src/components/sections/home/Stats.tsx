@@ -12,8 +12,8 @@ interface Stat {
 }
 
 export default function StatsSection() {
-  const t = useTranslations('Home');
-  const stats = t.raw('stats') as Stat[];
+  const t = useTranslations('Stats');
+  const stats = t.raw('items') as Stat[];
 
   const containerVariants: Variants = {
     hidden: { opacity: 0, y: 30 },
@@ -58,7 +58,7 @@ export default function StatsSection() {
             className="flex flex-col gap-6"
           >
             <h2 className="text-4xl md:text-7xl font-bold text-white tracking-tight leading-tight">
-              {t.rich('statsSection.title', {
+              {t.rich('title', {
                 gradient: (chunks) => (
                   <span className="text-transparent bg-clip-text bg-linear-to-r from-[#00D9C0] to-[#00A896]">
                     {chunks}
@@ -68,7 +68,7 @@ export default function StatsSection() {
             </h2>
 
             <p className="text-base md:text-lg text-slate-400 font-normal leading-relaxed max-w-md">
-              {t('statsSection.subtitle')}
+              {t('subtitle')}
             </p>
 
             {/* Decorative Line */}

@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 import { Mic, Ticket } from 'lucide-react';
 
 export default function HeroButtons() {
-  const t = useTranslations('Navigation.buttons');
+  const t = useTranslations('Hero.cta');
 
   return (
     <motion.div
@@ -27,7 +27,7 @@ export default function HeroButtons() {
           className="group relative flex items-center justify-center gap-2.5 rounded-full border border-white/20 bg-white/10 px-6 py-3 text-sm font-medium text-white transition-all duration-300 hover:bg-white hover:text-slate-900 hover:border-white backdrop-blur-md sm:w-auto"
         >
           <Mic className="h-4 w-4 transition-colors group-hover:text-slate-900" />
-          <span>{t('speaker')}</span>
+          <span>{t('speakers')}</span>
         </Link>
       </motion.div>
 
@@ -46,7 +46,7 @@ export default function HeroButtons() {
           className="group relative flex items-center justify-center gap-2.5 rounded-full border border-[#00A896] bg-[#00A896] px-8 py-3 text-sm font-bold text-white shadow-2xl shadow-teal-900/20 overflow-hidden sm:w-auto"
         >
           <Ticket className="h-4 w-4 relative z-10" />
-          <span className="relative z-10">{t('ticket')}</span>
+          <span className="relative z-10">{t('tickets')}</span>
           <div className="absolute inset-0 -translate-x-full group-hover:animate-[shimmer_1.5s_infinite] bg-gradient-to-r from-transparent via-white/25 to-transparent z-0" />
         </a>
       </motion.div>

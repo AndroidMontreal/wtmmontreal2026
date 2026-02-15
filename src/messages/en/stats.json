@@ -1,0 +1,10 @@
+{
+  "title": "Our <gradient>Impact</gradient>",
+  "subtitle": "See the scale of our community. From passionate attendees to inspiring workshops, these numbers represent the heartbeat of WTM Montreal.",
+  "items": [
+    { "value": "400+", "label": "Attendees", "color": "text-[#00A896]" },
+    { "value": "20+", "label": "Workshops", "color": "text-[#4285F4]" },
+    { "value": "50+", "label": "Companies", "color": "text-[#FBBC04]" },
+    { "value": "∞", "label": "Inspiration", "color": "text-[#EA4335]" }
+  ]
+}
