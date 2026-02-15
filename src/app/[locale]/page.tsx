@@ -39,23 +39,12 @@ export default async function HomePage({
   setRequestLocale(locale);
 
   return (
-    <div className="relative min-h-screen bg-background selection:bg-primary/30 text-slate-800">
-      <FloatingContact />
-
-      {/* Shell */}
-      <AnnouncementBar />
-      <Navbar />
-
-      {/* Full Page Content */}
-      <main className="flex flex-col">
-        <Hero />
-        <StatsSection />
-        <Gallery />
-        <Sponsors />
-        <CommunityPartners />
-      </main>
-
-      <Footer />
-    </div>
+    <>
+      <Hero />
+      <StatsSection />
+      <Gallery />
+      <Sponsors />
+      <CommunityPartners />
+    </>
   );
 }

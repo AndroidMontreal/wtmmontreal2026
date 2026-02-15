@@ -1,7 +1,4 @@
 import { setRequestLocale, getTranslations } from 'next-intl/server';
-import AnnouncementBar from '@/components/layout/AnnouncementBar';
-import Navbar from '@/components/layout/navbar';
-import Footer from '@/components/layout/Footer';
 import { Metadata } from 'next';
 import { constructMetadata } from '@/lib/metadata';
 
@@ -29,12 +26,8 @@ export default async function CodeOfConductPage({
   const t = await getTranslations('CodeOfConduct');
 
   return (
-    <div className="min-h-screen bg-slate-50 text-slate-800">
-      <AnnouncementBar />
-      <Navbar />
-
-      <main className="container mx-auto px-4 py-20 max-w-3xl">
-        <h1 className="text-4xl font-black text-slate-900 mb-10">{t('title')}</h1>
+    <main className="container mx-auto px-4 py-20 max-w-3xl">
+      <h1 className="text-4xl font-black text-slate-900 mb-10">{t('title')}</h1>
 
         <div className="space-y-8 text-lg leading-relaxed">
           {/* Why Policy */}
@@ -89,8 +82,5 @@ export default async function CodeOfConductPage({
           </section>
         </div>
       </main>
-
-      <Footer />
-    </div>
   );
 }

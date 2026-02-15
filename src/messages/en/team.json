@@ -1,0 +1,75 @@
+{
+  "Team": {
+    "header": {
+      "tag": "Our Team",
+      "title": "Meet the 2026 Team",
+      "subtitle": "The visionaries and creators driving technical innovation and community at Women Techmakers Montreal."
+    },
+    "members": [
+      {
+        "name": "Stefania Pecore",
+        "role": "Executive Director",
+        "company": "Women Techmakers Montreal",
+        "image": "/images/team/stefania-pecore.png",
+        "social": "https://www.linkedin.com/in/stefaniapecore/",
+        "year": "2023"
+      },
+      {
+        "name": "Mimoh Solanki",
+        "role": "Full Stack Developer",
+        "company": "",
+        "image": "/images/team/mimoh-solanki.jpg",
+        "social": "https://www.linkedin.com/in/mimohsolanki/",
+        "year": "2025"
+      },
+      {
+        "name": "Jihoo Park",
+        "role": "Senior Data Analyst",
+        "company": "Warner Bros Games Montreal",
+        "image": "/images/team/jihoo-park.jpg",
+        "social": "https://www.linkedin.com/in/jihoo-park-927569168?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        "year": "2024"
+      },
+      {
+        "name": "Denny Perez",
+        "role": "Software QA Analyst",
+        "company": "",
+        "image": "/images/team/denny-perez.jpg",
+        "social": "https://www.linkedin.com/in/dennyperez18/",
+        "year": "2025"
+      },
+      {
+        "name": "Ghada Tlili",
+        "role": "Software Developer",
+        "company": "Société Générale",
+        "image": "/images/team/ghada-tlili.jpg",
+        "social": "https://www.linkedin.com/in/ghada-tlili/",
+        "year": "2026"
+      },
+      {
+        "name": "Saleem Yadav",
+        "role": "Financial Analyst",
+        "company": "Tootsi Impex Inc.",
+        "image": "/images/team/saleem-yadav.jpg",
+        "social": "https://www.linkedin.com/feed/",
+        "year": "2024"
+      },
+      {
+        "name": "Yelena Dudchenko",
+        "role": "Full-stack Developer",
+        "company": "",
+        "image": "/images/team/yelena-dudchenko.png",
+        "social": "https://www.linkedin.com/in/alonad",
+        "year": "2026"
+      },
+      {
+        "name": "Camila Henrique",
+        "role": "Operations Data Analyst",
+        "company": "MDA Space",
+        "image": "/images/team/camila-henrique.jpg",
+        "social": "https://camilahenrique.com/",
+        "year": "2024"
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "Speakers": {
+    "header": {
+      "tag": "Our Speakers",
+      "title": "Meet the Speakers",
+      "subtitle": "Industry leaders, innovators, and creators sharing their knowledge at Women Techmakers Montreal."
+    },
+    "list": [
+      {
+        "name": "Jane Doe",
+        "role": "AI Researcher",
+        "company": "Tech Corp",
+        "image": "/images/speakers/jane-doe.jpg",
+        "social": "https://linkedin.com",
+        "bio": "Expert in AI and Machine Learning."
+      },
+      {
+        "name": "John Smith",
+        "role": "Cloud Architect",
+        "company": "Cloud Inc",
+        "image": "/images/speakers/john-smith.jpg",
+        "social": "https://twitter.com",
+        "bio": "Building scalable cloud solutions."
+      }
+    ]
+  }
+}

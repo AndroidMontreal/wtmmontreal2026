@@ -31,6 +31,10 @@
     "code-of-conduct": {
         "title": "Code de conduite",
         "description": "Notre engagement à offrir une expérience de conférence sans harcèlement pour tout le monde."
+    },
+    "team": {
+        "title": "Équipe",
+        "description": "Rencontrez les organisateurs et bénévoles derrière WTM Montréal 2026."
     }
   }
 }

@@ -5,6 +5,10 @@ import { routing } from '@/i18n/routing';
 import type { Metadata } from 'next';
 import { Plus_Jakarta_Sans } from 'next/font/google';
 import { constructMetadata } from '@/lib/metadata';
+import AnnouncementBar from '@/components/layout/AnnouncementBar';
+import Navbar from '@/components/layout/navbar';
+import Footer from '@/components/layout/Footer';
+import FloatingContact from '@/components/ui/FloatingContact';
 import '../globals.css';
 
 const plusJakartaSans = Plus_Jakarta_Sans({
@@ -53,7 +57,15 @@ export default async function LocaleLayout({
         className={`${plusJakartaSans.variable} font-sans antialiased`}
       >
         <NextIntlClientProvider messages={messages}>
-          {children}
+          <div className="relative min-h-screen bg-background selection:bg-primary/30 text-slate-800">
+            <FloatingContact />
+            <AnnouncementBar />
+            <Navbar />
+            <main className="flex flex-col">
+              {children}
+            </main>
+            <Footer />
+          </div>
         </NextIntlClientProvider>
       </body>
     </html>

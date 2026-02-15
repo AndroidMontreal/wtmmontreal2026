@@ -19,6 +19,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
   const gallery = (await import(`../messages/${locale}/gallery.json`)).default;
   const sponsors = (await import(`../messages/${locale}/sponsors.json`)).default;
   const partners = (await import(`../messages/${locale}/partners.json`)).default;
+  const team = (await import(`../messages/${locale}/team.json`)).default;
   const codeOfConduct = (await import(`../messages/${locale}/code-of-conduct.json`)).default;
   const metadata = (await import(`../messages/${locale}/metadata.json`)).default;
 
@@ -33,6 +34,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
       ...gallery,
       Sponsors: sponsors,
       Partners: partners,
+      Team: team.Team, // Flatten it since the JSON has "Team" key at root
       CodeOfConduct: codeOfConduct,
       Metadata: metadata.Metadata
     }

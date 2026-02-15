@@ -4,21 +4,18 @@ import { useEffect, useRef } from 'react';
 
 interface InteractiveGridPatternProps {
   className?: string;
-  dotColor?: string;
-  spacing?: number;
-  size?: number;
-  hoverRadius?: number;
+  dotColor?: string; // e.g. '#cbd5e1'
+  spacing?: number;  // e.g. 30
+  baseSize?: number; // e.g. 0.8
 }
 
 export default function InteractiveGridPattern({
   className = "",
-  dotColor = "#cbd5e1",
-  spacing = 32,
-  size = 1.5,
-  hoverRadius = 220, // Increased radius for softer falloff
+  dotColor = "#334155", // Slate-700
+  spacing = 26,
+  baseSize = 1.8, // dot size
 }: InteractiveGridPatternProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
-  const mouseRef = useRef({ x: -1000, y: -1000 });
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -27,102 +24,133 @@ export default function InteractiveGridPattern({
     const ctx = canvas.getContext('2d');
     if (!ctx) return;
 
-    let animationFrameId: number;
     let width = 0;
     let height = 0;
+    let animationFrameId: number;
 
-    // Dot grid state (only need origin for this effect)
-    let points: { x: number; y: number }[] = [];
+    // Particle definition
+    interface Particle {
+      x: number;
+      y: number;
+      baseX: number;
+      baseY: number;
+      vx: number;
+      vy: number;
+      baseSize: number;
+    }
+    let particles: Particle[] = [];
 
-    const initPoints = () => {
-      width = canvas.offsetWidth;
-      height = canvas.offsetHeight;
-      canvas.width = width;
-      canvas.height = height;
+    // Mouse state
+    const mouse = { x: -1000, y: -1000 };
 
-      points = [];
-      const cols = Math.ceil(width / spacing);
-      const rows = Math.ceil(height / spacing);
+    const initParticles = () => {
+      // 1. Set canvas size to match its display size (parent container)
+      const rect = canvas.getBoundingClientRect();
+      width = canvas.width = rect.width;
+      height = canvas.height = rect.height;
 
-      for (let i = 0; i < cols; i++) {
-        for (let j = 0; j < rows; j++) {
-          points.push({ x: i * spacing, y: j * spacing });
+      // 2. Create grid
+      particles = [];
+      for (let x = spacing / 2; x < width; x += spacing) {
+        for (let y = spacing / 2; y < height; y += spacing) {
+          particles.push({
+            x,
+            y,
+            baseX: x,
+            baseY: y,
+            vx: 0,
+            vy: 0,
+            baseSize: baseSize,
+          });
         }
       }
     };
 
-    const handleMouseMove = (e: MouseEvent) => {
-      const rect = canvas.getBoundingClientRect();
-      mouseRef.current = {
-        x: e.clientX - rect.left,
-        y: e.clientY - rect.top,
-      };
-    };
-
-    const resizeObserver = new ResizeObserver(() => {
-      initPoints();
-    });
-    resizeObserver.observe(canvas);
-
-    const draw = () => {
+    const animate = () => {
       ctx.clearRect(0, 0, width, height);
       ctx.fillStyle = dotColor;
+      ctx.globalAlpha = 1.0;
 
-      const mx = mouseRef.current.x;
-      const my = mouseRef.current.y;
+      particles.forEach((p) => {
+        const dx = mouse.x - p.x;
+        const dy = mouse.y - p.y;
+        const dist = Math.sqrt(dx * dx + dy * dy);
+        const maxDist = 180; // Slightly larger influence area
 
-      points.forEach(point => {
-        const dx = mx - point.x;
-        const dy = my - point.y;
-        const distSq = dx * dx + dy * dy;
-        const dist = Math.sqrt(distSq);
+        let force = 0;
+        let size = p.baseSize;
 
-        let r = size;
-        let x = point.x;
-        let y = point.y;
-
-        // Lens Effect Logic
-        if (dist < hoverRadius) {
-          // Calculate falloff (0 to 1, 1 at center)
-          // Using a cosine curve for ultra-smooth transition
-          const normDist = dist / hoverRadius;
-          const falloff = Math.pow(Math.cos(normDist * Math.PI / 2), 2);
-
-          // 1. Magnification (Scale) - Softer
-          r = size + (size * 0.6 * falloff);
-
-          // 2. Distortion (Move slightly towards/away to simulate refraction)
-          // Subtle shift
-          const shift = 4 * falloff;
+        if (dist < maxDist) {
+          force = (maxDist - dist) / maxDist;
           const angle = Math.atan2(dy, dx);
-          x -= Math.cos(angle) * shift;
-          y -= Math.sin(angle) * shift;
+
+          const push = 0.8; // Stronger push
+          p.vx -= Math.cos(angle) * force * push;
+          p.vy -= Math.sin(angle) * force * push;
+
+          size = p.baseSize + (force * 3.0); // More dramatic scaling
         }
 
+        const spring = 0.05;
+        p.vx += (p.baseX - p.x) * spring;
+        p.vy += (p.baseY - p.y) * spring;
+
+        const friction = 0.88;
+        p.vx *= friction;
+        p.vy *= friction;
+
+        p.x += p.vx;
+        p.y += p.vy;
+
         ctx.beginPath();
-        ctx.arc(x, y, r, 0, Math.PI * 2);
+        ctx.arc(p.x, p.y, size, 0, Math.PI * 2);
         ctx.fill();
       });
 
-      animationFrameId = requestAnimationFrame(draw);
+      animationFrameId = requestAnimationFrame(animate);
     };
 
-    window.addEventListener('mousemove', handleMouseMove);
+    // Event Listeners
+    const handleResize = () => {
+      initParticles();
+    };
 
-    initPoints();
-    draw();
+    const handleMouseMove = (e: MouseEvent) => {
+      const rect = canvas.getBoundingClientRect();
+      mouse.x = e.clientX - rect.left;
+      mouse.y = e.clientY - rect.top;
+    };
+
+    // Use ResizeObserver to detect when the parent container changes size
+    const resizeObserver = new ResizeObserver(() => {
+        initParticles();
+    });
+    resizeObserver.observe(canvas);
+
+    window.addEventListener('mousemove', handleMouseMove); // Keep global mouse tracking?
+    // Actually, strictly speaking, we want mouse relative to canvas.
+    // If we listen on window, we need to recalc rect every time which is expensive.
+    // Let's listen on the CANVAS itself or window but use the cached rect?
+    // For now, listening on window and doing getBoundingClientRect is safer for accuracy but slower.
+    // Optimization: Listen on window, but only update if interacting?
+    // Let's stick to the previous 'handleMouseMove' which does rect.left. It works.
+
+    initParticles();
+    animate();
 
     return () => {
       resizeObserver.disconnect();
       window.removeEventListener('mousemove', handleMouseMove);
       cancelAnimationFrame(animationFrameId);
     };
-  }, [dotColor, spacing, size, hoverRadius]);
+  }, [dotColor, spacing, baseSize]);
 
   return (
     <canvas
       ref={canvasRef}
-      className={`absolute inset-0 w-full h-full pointer-events-none ${className}`}
+      className={`absolute inset-0 pointer-events-none ${className}`}
+      // We don't set width/height here because we handle it in JS to match window/parent
+      style={{ width: '100%', height: '100%' }}
     />
   );
 }

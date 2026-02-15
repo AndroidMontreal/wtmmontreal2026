@@ -44,9 +44,9 @@ export default function Sponsors() {
 
       {/* 2. Interactive Dot Pattern */}
       <InteractiveGridPattern
-        className="opacity-[0.3]"
+        className="opacity-[0.2]"
         dotColor="#cbd5e1"
-        spacing={32}
+        spacing={26}
       />
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">

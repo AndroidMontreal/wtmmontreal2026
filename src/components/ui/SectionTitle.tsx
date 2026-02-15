@@ -10,6 +10,7 @@ interface SectionTitleProps {
   titleColor?: string;
   subtitleColor?: string;
   className?: string;
+  as?: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6';
   tagStyles?: {
     bg: string;
     text: string;
@@ -25,6 +26,7 @@ export default function SectionTitle({
   titleColor = "text-slate-900",
   subtitleColor = "text-slate-600",
   className = "mb-16",
+  as = "h2",
   tagStyles = {
     bg: 'bg-slate-100',
     text: 'text-slate-600',
@@ -36,6 +38,8 @@ export default function SectionTitle({
   const words = title.trim().split(' ');
   const lastWord = words.pop(); // Removes and returns the last word
   const firstPart = words.join(' ');
+
+  const MotionHeading = motion[as];
 
   return (
     <div className={`text-left max-w-3xl ${className}`}>
@@ -52,7 +56,7 @@ export default function SectionTitle({
       </motion.div>
 
       {/* Title */}
-      <motion.h2 
+      <MotionHeading 
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
@@ -60,7 +64,7 @@ export default function SectionTitle({
         className={`text-4xl md:text-5xl font-black mb-6 tracking-tight ${titleColor}`}
       >
         {firstPart} <span className={highlightColor}>{lastWord}.</span>
-      </motion.h2>
+      </MotionHeading>
 
       {/* Subtitle */}
       <motion.p 
