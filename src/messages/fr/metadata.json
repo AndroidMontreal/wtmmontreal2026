@@ -1,17 +1,36 @@
 {
   "Metadata": {
     "default": {
-      "title": "Women Techmakers 2026",
-      "description": "Rejoignez-nous pour la plus grande célébration des femmes dans la technologie.",
-      "template": "%s | WTM 2026"
+      "title": "WTM Montréal 2026",
+      "template": "%s | WTM Montréal 2026",
+      "description": "Rejoignez-nous pour la plus grande célébration des femmes dans la technologie. Ateliers, conférences, réseautage et autonomisation.",
+      "keywords": "Women Techmakers, WTM, Montréal, Conférence Tech, Femmes en Tech, GDG, Google Developer Groups, IWD, Journée internationale des femmes",
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@WTMMontreal",
+        "creator": "@WTMMontreal"
+      },
+      "openGraph": {
+        "type": "website",
+        "siteName": "WTM Montréal 2026",
+        "locale": "fr_CA"
+      }
     },
     "home": {
       "title": "Accueil",
-      "description": "Bienvenue sur la page officielle de l'événement WTM 2026. Inscrivez-vous maintenant !"
+      "description": "Bienvenue sur le site officiel de WTM Montréal 2026. Rejoignez-nous le 18 avril pour célébrer les femmes dans la technologie !"
     },
     "speakers": {
       "title": "Intervenants",
-      "description": "Découvrez notre incroyable liste d'intervenants."
+      "description": "Découvrez notre incroyable liste de leaders de l'industrie et d'innovateurs prenant la parole au WTM Montréal 2026."
+    },
+    "schedule": {
+        "title": "Horaire",
+        "description": "Explorez l'horaire complet des ateliers, conférences et panels au WTM Montréal 2026."
+    },
+    "code-of-conduct": {
+        "title": "Code de conduite",
+        "description": "Notre engagement à offrir une expérience de conférence sans harcèlement pour tout le monde."
     }
   }
 }

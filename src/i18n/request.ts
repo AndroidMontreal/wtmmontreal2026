@@ -20,9 +20,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
   const sponsors = (await import(`../messages/${locale}/sponsors.json`)).default;
   const partners = (await import(`../messages/${locale}/partners.json`)).default;
   const codeOfConduct = (await import(`../messages/${locale}/code-of-conduct.json`)).default;
-  
-  // Optional: Metadata (if it exists, otherwise skip or handle error)
-  // const metadata = (await import(`../messages/${locale}/metadata.json`)).default;
+  const metadata = (await import(`../messages/${locale}/metadata.json`)).default;
 
   return {
     locale,
@@ -35,7 +33,8 @@ export default getRequestConfig(async ({ requestLocale }) => {
       ...gallery,
       Sponsors: sponsors,
       Partners: partners,
-      CodeOfConduct: codeOfConduct
+      CodeOfConduct: codeOfConduct,
+      Metadata: metadata.Metadata
     }
   };
 });

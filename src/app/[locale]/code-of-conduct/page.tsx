@@ -3,14 +3,20 @@ import AnnouncementBar from '@/components/layout/AnnouncementBar';
 import Navbar from '@/components/layout/navbar';
 import Footer from '@/components/layout/Footer';
 import { Metadata } from 'next';
+import { constructMetadata } from '@/lib/metadata';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: 'CodeOfConduct' });
-  return {
-    title: `${t('title')} | WTM Montreal 2026`,
-    description: t('dedicationIntro'),
-  };
+  const t = await getTranslations({ locale, namespace: 'Metadata.code-of-conduct' });
+  const tDefault = await getTranslations({ locale, namespace: 'Metadata.default' });
+
+  return constructMetadata({
+    t: tDefault,
+    locale,
+    title: t('title'),
+    description: t('description'),
+    path: '/code-of-conduct',
+  });
 }
 
 export default async function CodeOfConductPage({

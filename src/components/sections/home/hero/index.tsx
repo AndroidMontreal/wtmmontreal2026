@@ -64,7 +64,7 @@ export default function Hero() {
             {t.rich('title', {
               gradient: (chunks) => (
                 <span className="relative inline-block ml-3">
-                  <span className="text-transparent bg-clip-text bg-linear-to-r from-[#00D9C0] to-[#00D9C0]">
+                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#00D9C0] via-[#4285F4] to-[#00D9C0] animate-gradient bg-[length:200%_auto]">
                     {chunks}
                   </span>
                 </span>

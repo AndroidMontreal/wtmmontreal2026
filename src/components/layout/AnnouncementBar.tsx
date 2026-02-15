@@ -13,10 +13,14 @@ export default function AnnouncementBar() {
       <div className="flex items-center justify-center gap-3 text-sm font-normal">
         <Megaphone className="h-4 w-4 shrink-0 animate-pulse" />
 
-        {/* Desktop: Static Text */}
-        <p className="hidden md:block truncate">
+        {/* Desktop: Animated Attention Text */}
+        <motion.p 
+          className="hidden md:block truncate font-semibold tracking-wide"
+          animate={{ opacity: [1, 0.6, 1] }}
+          transition={{ duration: 2.5, repeat: Infinity, ease: "easeInOut" }}
+        >
           {text}
-        </p>
+        </motion.p>
 
         {/* Mobile: Infinite Marquee */}
         <div className="md:hidden relative w-full overflow-hidden h-5">

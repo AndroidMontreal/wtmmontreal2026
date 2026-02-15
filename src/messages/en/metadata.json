@@ -1,17 +1,36 @@
 {
   "Metadata": {
     "default": {
-      "title": "Women Techmakers 2026",
-      "description": "Join us for the largest celebration of women in technology. Workshops, talks, and networking.",
-      "template": "%s | WTM 2026"
+      "title": "WTM Montreal 2026",
+      "template": "%s | WTM Montreal 2026",
+      "description": "Join us for Montreal's largest celebration of women in technology. Workshops, talks, networking, and empowerment.",
+      "keywords": "Women Techmakers, WTM, Montreal, Tech Conference, Women in Tech, GDG, Google Developer Groups, IWD, International Women's Day",
+      "twitter": {
+        "card": "summary_large_image",
+        "site": "@WTMMontreal",
+        "creator": "@WTMMontreal"
+      },
+      "openGraph": {
+        "type": "website",
+        "siteName": "WTM Montreal 2026",
+        "locale": "en_US"
+      }
     },
     "home": {
-      "title": "Home | WTM Montreal 2026 - International Women's Day Conference",
-      "description": "Join WTM Montreal's 2026 International Women's Day conference!  We are celebrating talented women in technology, fostering community, and empowering the next generation."
+      "title": "Home",
+      "description": "Welcome to the official WTM Montreal 2026 conference site. Join us on April 18th to celebrate women in tech!"
     },
     "speakers": {
       "title": "Speakers",
-      "description": "Meet our amazing lineup of speakers."
+      "description": "Meet our amazing lineup of industry leaders and innovators speaking at WTM Montreal 2026."
+    },
+    "schedule": {
+        "title": "Schedule",
+        "description": "Explore the full schedule of workshops, talks, and panels at WTM Montreal 2026."
+    },
+    "code-of-conduct": {
+        "title": "Code of Conduct",
+        "description": "Our commitment to providing a harassment-free conference experience for everyone."
     }
   }
 }

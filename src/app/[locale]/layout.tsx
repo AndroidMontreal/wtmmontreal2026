@@ -1,9 +1,10 @@
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages, setRequestLocale } from 'next-intl/server';
+import { getMessages, setRequestLocale, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import type { Metadata } from 'next';
 import { Plus_Jakarta_Sans } from 'next/font/google';
+import { constructMetadata } from '@/lib/metadata';
 import '../globals.css';
 
 const plusJakartaSans = Plus_Jakarta_Sans({
@@ -12,10 +13,19 @@ const plusJakartaSans = Plus_Jakarta_Sans({
   weight: ['400', '500', '600', '700', '800'],
 });
 
-export const metadata: Metadata = {
-  title: 'WTM Montreal 2026',
-  description: 'Women Techmakers Montreal Day 2026',
-};
+export async function generateMetadata({
+  params
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'Metadata.default' });
+
+  return constructMetadata({
+    t,
+    locale,
+  });
+}
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
