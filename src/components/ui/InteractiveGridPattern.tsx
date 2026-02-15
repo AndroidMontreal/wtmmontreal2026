@@ -111,10 +111,6 @@ export default function InteractiveGridPattern({
     };
 
     // Event Listeners
-    const handleResize = () => {
-      initParticles();
-    };
-
     const handleMouseMove = (e: MouseEvent) => {
       const rect = canvas.getBoundingClientRect();
       mouse.x = e.clientX - rect.left;
