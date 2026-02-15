@@ -10,7 +10,7 @@ interface LanguageSwitcherProps {
 }
 
 export default function LanguageSwitcher({ variant = 'short', onClose }: LanguageSwitcherProps) {
-  const t = useTranslations('Navigation.languages');
+  const t = useTranslations('Header.languages');
   const currentLocale = useLocale();
   const pathname = usePathname();
 

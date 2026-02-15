@@ -13,5 +13,5 @@ export interface TeamMessages {
     title: string;
     subtitle: string;
   };
-  members: TeamMember[];
+  organizers: TeamMember[];
 }
