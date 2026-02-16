@@ -11,12 +11,13 @@ import FloatingOrb from '@/components/ui/FloatingOrb';
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'Metadata.default' });
+  const tPage = await getTranslations({ locale, namespace: 'Metadata.speakers' });
   
   return constructMetadata({
     t,
     locale,
-    title: "Speakers",
-    description: "Meet the voices of innovation.",
+    title: tPage('title'),
+    description: tPage('description'),
     path: '/speakers',
   });
 }

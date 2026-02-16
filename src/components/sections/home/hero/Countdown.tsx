@@ -4,8 +4,8 @@ import { useTranslations } from 'next-intl';
 import { useCountdown } from '@/hooks/useCountdown';
 import { motion, AnimatePresence } from 'framer-motion';
 
-// Event Date: April 18th, 2026 at 9:00 AM EST (Montreal)
-const EVENT_DATE = new Date('2026-04-18T09:00:00');
+// Event Date: April 18th, 2026 at 9:00 AM EDT (Montreal is UTC-4 in April)
+const EVENT_DATE = new Date('2026-04-18T09:00:00-04:00');
 
 const TimeBox = ({ value, label }: { value: number; label: string }) => {
   return (

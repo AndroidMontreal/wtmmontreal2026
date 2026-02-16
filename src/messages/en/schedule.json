@@ -1,0 +1,12 @@
+{
+  "header": {
+    "tag": "Event Schedule",
+    "title": "Plan Your Experience",
+    "subtitle": "A full day of inspiration, learning, and connection."
+  },
+  "comingSoon": {
+    "title": "Agenda Coming Soon",
+    "description": "We are currently finalizing the lineup of workshops and talks. Check back shortly for the full schedule!",
+    "cta": "Notify Me"
+  }
+}

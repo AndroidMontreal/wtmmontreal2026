@@ -1,0 +1,12 @@
+{
+  "header": {
+    "tag": "Programme de l'événement",
+    "title": "Planifiez votre expérience",
+    "subtitle": "Une journée entière d'inspiration, d'apprentissage et de connexion."
+  },
+  "comingSoon": {
+    "title": "Programme à venir",
+    "description": "Nous finalisons actuellement la liste des ateliers et des conférences. Revenez bientôt pour voir l'horaire complet !",
+    "cta": "M'avertir"
+  }
+}

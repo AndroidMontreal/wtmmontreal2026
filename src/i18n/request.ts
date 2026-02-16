@@ -22,6 +22,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
   const team = (await import(`../messages/${locale}/team.json`)).default;
   const speakers = (await import(`../messages/${locale}/speakers.json`)).default;
   const sessions = (await import(`../messages/${locale}/sessions.json`)).default;
+  const schedule = (await import(`../messages/${locale}/schedule.json`)).default;
   const codeOfConduct = (await import(`../messages/${locale}/code-of-conduct.json`)).default;
   const metadata = (await import(`../messages/${locale}/metadata.json`)).default;
 
@@ -39,6 +40,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
       Team: team.Team, // Flatten it since the JSON has "Team" key at root
       Speakers: speakers.Speakers, // Flatten it since the JSON has "Speakers" key at root
       Sessions: sessions,
+      Schedule: schedule,
       CodeOfConduct: codeOfConduct,
       Metadata: metadata.Metadata
     }
