@@ -15,19 +15,22 @@ export type HeaderMessages = {
 export type FooterMessages = {
   Footer: {
     description: string;
-    columns: {
-      past_events: string;
-      quick_links: string;
-      stay_connected: string;
+    past_events: {
+      title: string;
+      items: Array<{ label: string; href: string }>;
     };
+    quick_links: {
+      title: string;
+      items: Array<{ label: string; href: string }>;
+    };
+    socials: Array<{ name: string; href: string }>;
     newsletter: {
+      title: string;
       text: string;
       cta: string;
       href: string;
     };
-    links: Record<string, MenuItem>;
-    socials: Array<{ name: string; href: string }>;
-    past_events_list: Array<{ label: string; href: string }>;
     copyright: string;
+    code_of_conduct: string;
   };
 };

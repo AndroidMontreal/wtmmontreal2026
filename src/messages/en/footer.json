@@ -1,79 +1,42 @@
 {
   "Footer": {
-    "description": "WTM Montreal 2026: Empowering, connecting, and celebrating women in technology.",
-    "columns": {
-      "past_events": "Past Events",
-      "quick_links": "Quick Links",
-      "stay_connected": "Stay Connected"
+    "description": "Women Techmakers Montreal is a non-profit organization aiming at supporting young professionals and minorities in the tech field since 2015.",
+    "past_events": {
+      "title": "Past Events",
+      "items": [
+        { "label": "WTM Montreal 2024", "href": "https://wtm2024.gdgmontreal.com/" },
+        { "label": "WTM Montreal 2023", "href": "https://wtm2023.gdgmontreal.com/" },
+        { "label": "WTM Montreal 2022", "href": "https://wtmmontreal2022.firebaseapp.com/" },
+        { "label": "WTM Montreal 2021", "href": "https://wtmmontreal-2021.firebaseapp.com/" },
+        { "label": "WTM Montreal 2020", "href": "https://wtmmontreal-2020.firebaseapp.com/" },
+        { "label": "WTM Montreal 2019", "href": "https://wtmmontreal-2019.firebaseapp.com/" },
+        { "label": "WTM Montreal 2018", "href": "https://wtmmontreal-2018.firebaseapp.com/" },
+        { "label": "WTM Montreal 2017", "href": "https://ldev6.github.io/" }
+      ]
     },
-    "newsletter": {
-      "text": "Subscribe to our newsletter for the latest updates and announcements.",
-      "cta": "Subscribe",
-      "href": "https://wtmmontreal.com/newsletter"
+    "quick_links": {
+      "title": "Quick Links",
+      "items": [
+        { "label": "Become a Sponsor", "href": "https://forms.gle/xDCZe4ZuP98YoCAJ9" },
+        { "label": "Become a Partner", "href": "https://forms.gle/Mzsq8LbveqHgSKPn7" },
+        { "label": "Code of Conduct", "href": "/code-of-conduct" }
+      ]
     },
-    "copyright": "© 2026 WTM Montreal. All rights reserved.",
-    "code_of_conduct": "Code of Conduct",
     "socials": [
-      {
-        "name": "LinkedIn",
-        "href": "https://www.linkedin.com/company/wtm-montreal"
-      },
-      {
-        "name": "Twitter",
-        "href": "https://twitter.com/WTMMontreal"
-      },
-      {
-        "name": "Facebook",
-        "href": "https://www.facebook.com/WTMMontreal"
-      },
-      {
-        "name": "Instagram",
-        "href": "https://www.instagram.com/wtmmontreal"
-      }
+      { "name": "LinkedIn", "href": "https://www.linkedin.com/company/women-techmakers-montreal" },
+      { "name": "Instagram", "href": "https://www.instagram.com/wtmmontreal/" },
+      { "name": "Facebook", "href": "https://www.facebook.com/wtm.montreal" },
+      { "name": "Discord", "href": "https://discord.com/invite/rKMxWWDSTT" },
+      { "name": "YouTube", "href": "https://youtube.com/@wtmmontreal" },
+      { "name": "Spotify", "href": "https://open.spotify.com/show/30lv57o8Hgz5VOvaX4C1gW" }
     ],
-    "past_events_list": [
-      {
-        "label": "WTM Montreal 2025",
-        "href": "https://wtmmontreal.com/2025"
-      },
-      {
-        "label": "WTM Montreal 2024",
-        "href": "https://wtmmontreal.com/2024"
-      },
-      {
-        "label": "WTM Montreal 2023",
-        "href": "https://wtmmontreal.com/2023"
-      }
-    ],
-    "links": {
-      "home": {
-        "label": "Home",
-        "href": "/"
-      },
-      "speakers": {
-        "label": "Speakers",
-        "href": "/speakers"
-      },
-      "schedule": {
-        "label": "Schedule",
-        "href": "/schedule"
-      },
-      "sponsors": {
-        "label": "Sponsors",
-        "href": "/sponsors"
-      },
-      "team": {
-        "label": "Team",
-        "href": "/team"
-      },
-      "faq": {
-        "label": "FAQ",
-        "href": "/faq"
-      },
-      "contact": {
-        "label": "Contact",
-        "href": "/contact"
-      }
-    }
+    "newsletter": {
+      "title": "Stay Connected",
+      "text": "Get the latest insights and updates delivered straight to your inbox. No spam, only the latest news and updates!",
+      "cta": "Subscribe",
+      "href": "https://wtmmontreal.us12.list-manage.com/subscribe?u=d1707279f0dde7f68a6f98ab0&id=35def8d91c"
+    },
+    "copyright": "© 2026 Women Techmakers Montreal. All rights reserved.",
+    "code_of_conduct": "Code of Conduct"
   }
 }
