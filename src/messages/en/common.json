@@ -1,5 +1,10 @@
 {
   "announcement": {
     "text": "Join us on April 18th! Tickets are available now."
+  },
+  "NotFound": {
+    "title": "Page Not Found",
+    "description": "Sorry, we couldn't find the page you're looking for. It might have been moved or deleted.",
+    "backHome": "Back to Home"
   }
 }

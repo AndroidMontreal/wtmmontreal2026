@@ -40,7 +40,7 @@ export default async function TeamPage({ params }: { params: Promise<{ locale: s
   });
 
   return (
-    <section className="relative py-24 bg-slate-50 overflow-hidden min-h-screen">
+    <section className="relative py-24 bg-[#f1f5f9] overflow-hidden min-h-screen">
 
       {/* --- Background Layer --- */}
 
@@ -52,9 +52,9 @@ export default async function TeamPage({ params }: { params: Promise<{ locale: s
 
       {/* 2. Animated Floating Orbs (Dynamic Movement) */}
       <div className="absolute inset-0 z-0 pointer-events-none overflow-hidden opacity-30">
-        <FloatingOrb color="rgba(66,133,244,0.25)" size="500px" />
-        <FloatingOrb color="rgba(66,133,244,0.35)" size="600px" />
-        <FloatingOrb color="rgba(0,168,150,0.30)" size="400px" />
+        <FloatingOrb color="rgba(66,133,244,0.50)" size="500px" />
+        <FloatingOrb color="rgba(66,133,244,0.40)" size="600px" />
+        <FloatingOrb color="rgba(0,168,150,0.45)" size="400px" />
       </div>
 
       {/* 3. Global Interactive Grid Pattern */}

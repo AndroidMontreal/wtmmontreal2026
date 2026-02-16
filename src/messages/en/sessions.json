@@ -1,0 +1,121 @@
+{
+  "list": [
+    {
+      "id": "session-stacy",
+      "title": "POPPING THE HOOD: The Grime Behind the Genius",
+      "description": "Everyone is obsessed with the \"shiny red car\"—the AI Model. We chase parameters and context windows, fighting to get into the driver's seat. But nobody is asking the most dangerous question: \"Is the track safe?\" When you put a $15 million machine on a broken track, it doesn’t just stop—it crashes.\n\nAI isn't magic; it's a high-maintenance machine. In this session, we pop the hood to reveal the grime behind the genius. We will leave the \"driver obsession\" behind and look at the infrastructure required to actually finish the race.\n\nKey Takeaways:\n\n- **The Infrastructure Gap:** Why building 2025 AI on 2015 infrastructure is a guaranteed failure.\n- **The Need for Speed:** Why CPUs are just \"city streets,\" GPUs are \"highways,\" and why we need the frictionless \"hyperloop\" of TPUs to handle modern complexity.\n- **The New Threat Vector:** How attacks have shifted from data theft to prompt injection, and why you need \"Model Armor\" to protect the reasoning mind of your AI.\n\nStop just driving. Come learn how to build the track.",
+      "duration": "40 min",
+      "type": "talk",
+      "tags": ["AI", "Infrastructure", "Cloud"],
+      "speakerIds": ["stacy-veronneau"]
+    },
+    {
+      "id": "session-angie",
+      "title": "Build Your First AI Agent with Google ADK",
+      "description": "Learn to build intelligent AI agents using Google's Agent Development Kit (ADK). In this hands-on workshop, you'll create a custom agent using free-tier resources. We'll walk through crafting agent instructions, understanding function-calling capabilities, and exploring how agents reason and make decisions.",
+      "duration": "60 min",
+      "type": "workshop",
+      "tags": ["AI Agents", "Google ADK", "Hands-on"],
+      "speakerIds": ["angie"]
+    },
+    {
+      "id": "session-nathalie",
+      "title": "An incursion into the intriguing world of AI infrastructure",
+      "description": "Environmental and social aspects of AI infrastructure. Exploring the often-overlooked impacts of the physical systems that power modern intelligence.",
+      "duration": "30 min",
+      "type": "talk",
+      "tags": ["AI Ethics", "Sustainability", "Society"],
+      "speakerIds": ["nathlie-sanon"]
+    },
+    {
+      "id": "session-mathias",
+      "title": "How to start building a game and overcome daily challenges",
+      "description": "Curious about making your first game? This session walks you through getting started with a game engine, learning through tutorials and game jams, and using AI to speed up your workflow. Discover how to shape your game loop and design for your audience.",
+      "duration": "45 min",
+      "type": "talk",
+      "tags": ["GameDev", "Product Management", "AI"],
+      "speakerIds": ["mathias-ahrens"]
+    },
+    {
+      "id": "session-nogol",
+      "title": "The Human Edge: Soft Skills in the Age of AI",
+      "description": "Why Soft Skills Will Define the Future of Work in the Age of AI. While AI excels at data processing, it cannot replicate uniquely human abilities like nuanced judgment, empathy, and ethical decision-making. Learn how to cultivate the capabilities machines can't replace.",
+      "duration": "45 min",
+      "type": "talk",
+      "tags": ["Future of Work", "Leadership", "Soft Skills"],
+      "speakerIds": ["nogol"]
+    },
+    {
+      "id": "session-michell",
+      "title": "What Models Can See: Inside Modern Computer Vision",
+      "description": "Discover how modern vision models can detect objects without ever being trained on them. Explore the evolution from traditional object detection to zero-shot models like Grounding DINO. Hands-on exploration of text-to-object identification.",
+      "duration": "60 min",
+      "type": "workshop",
+      "tags": ["Computer Vision", "Mila", "Research"],
+      "speakerIds": ["michell-payano"]
+    },
+    {
+      "id": "session-mahsa",
+      "title": "The Tech Talent Barrier Lab",
+      "description": "An interactive data-driven session sharing documented barriers to tech employment. Industry leaders respond with concrete actionable solutions. A collaborative experiment in making hiring systems accountable.",
+      "duration": "60 min",
+      "type": "talk",
+      "tags": ["Career", "Diversity", "Inclusion"],
+      "speakerIds": ["mahsa-rezaei"]
+    },
+    {
+      "id": "session-nadia",
+      "title": "Punk strategies to find your voice!",
+      "description": "Using punk culture tactics to develop a critical voice and stay relevant in tech. Exploration of detournement, hacktivism, and culture jamming as strategies for action.",
+      "duration": "30 min",
+      "type": "talk",
+      "tags": ["Digital Identity", "Communication", "Punk"],
+      "speakerIds": ["nadia-seraiocco"]
+    },
+    {
+      "id": "session-claude",
+      "title": "Project Management Tools",
+      "description": "Defining requirements goes beyond SMART goals. This talk demonstrates simple tools to define, organize, and prioritize requirements effectively (Eisenhower matrix, SWOT, MoSCoW, INVEST/AQUSA).",
+      "duration": "75 min",
+      "type": "talk",
+      "tags": ["Project Management", "Tools", "Agile"],
+      "speakerIds": ["claude-cardinal"]
+    },
+    {
+      "id": "session-ludociels",
+      "title": "Beyond the Pixel",
+      "description": "Let's create a dialogue between digital and physical communication media. Group exploration of imaginary digital tool designs meeting social needs. Brainstorming, interface design, interaction principles.",
+      "duration": "90 min",
+      "type": "workshop",
+      "tags": ["UX Design", "Social Impact", "Design Thinking"],
+      "speakerIds": ["ludociels"]
+    },
+    {
+      "id": "session-alexandra",
+      "title": "Gamification in the service of science",
+      "description": "Gamification and serious games are powerful levers to make science more accessible. This talk offers a critical perspective on gamification in scientific and educational contexts, discussing success conditions and ethical issues.",
+      "duration": "60 min",
+      "type": "talk",
+      "tags": ["Gamification", "Science", "UX"],
+      "speakerIds": ["alexandra-nemery"]
+    },
+    {
+      "id": "session-mahzad",
+      "title": "From Theory to Practice: Reinforcement Learning in Video Games",
+      "description": "A pragmatic, production-oriented approach to applying reinforcement learning (RL) to video games. Covers RL principles, integration into Unreal Engine, and automated testing.",
+      "duration": "45 min",
+      "type": "talk",
+      "tags": ["Reinforcement Learning", "GameDev", "Unreal Engine"],
+      "speakerIds": ["mahzad-kalantari"]
+    },
+    {
+      "id": "session-viv",
+      "title": "Break It Before They Do - Threat Modeling at Startup Speed",
+      "description": "The internet is adversarial. This talk presents security trends and real-world breaches, followed by a live threat modeling exercise to turn threats into concrete controls.",
+      "duration": "45 min",
+      "type": "talk",
+      "tags": ["Cybersecurity", "Threat Modeling", "Startup"],
+      "speakerIds": ["viv"]
+    }
+  ]
+}

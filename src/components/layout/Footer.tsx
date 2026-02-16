@@ -194,7 +194,7 @@ export default function Footer() {
             {t('copyright')}
           </div>
           <Link href="/code-of-conduct" className="text-xs text-slate-400 hover:text-primary transition-colors">
-            Code of Conduct
+            {t('code_of_conduct')}
           </Link>
         </motion.div>
 

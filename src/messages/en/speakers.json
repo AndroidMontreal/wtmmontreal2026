@@ -1,26 +1,164 @@
 {
   "Speakers": {
     "header": {
-      "tag": "Our Speakers",
-      "title": "Meet the Speakers",
-      "subtitle": "Industry leaders, innovators, and creators sharing their knowledge at Women Techmakers Montreal."
+      "tag": "Event Speakers",
+      "title": "Voices of Innovation",
+      "subtitle": "Browse the community builders, technologists, and storytellers sharing their experience on stage at WTM Montreal 2026."
+    },
+    "filters": {
+      "all": "All tracks",
+      "talks": "Talks",
+      "workshops": "Workshops"
+    },
+    "viewDetails": "View details",
+    "details": {
+      "spotlight": "Session Spotlight",
+      "addToCalendar": "Add to Calendar",
+      "room": "Room:",
+      "duration": "Duration:",
+      "tbd": "TBD",
+      "breadcrumb": "Speakers"
+    },
+    "roles": {
+      "keynote": "Keynote",
+      "speaker": "Speaker"
+    },
+    "sessionTypes": {
+      "talk": "Talk",
+      "workshop": "Workshop"
+    },
+    "bioHeader": {
+      "about": "About",
+      "theSpeaker": "the speaker"
     },
     "list": [
       {
-        "name": "Jane Doe",
-        "role": "AI Researcher",
-        "company": "Tech Corp",
-        "image": "/images/speakers/jane-doe.jpg",
-        "social": "https://linkedin.com",
-        "bio": "Expert in AI and Machine Learning."
+        "id": "alexandra-nemery",
+        "name": "Alexandra Nemery",
+        "role": "Professor / Researcher",
+        "company": "ÉTS Montreal",
+        "image": "/images/speakers/alexandra_nemery.jpg",
+        "bio": "Alexandra Nemery is a professor/researcher in UX design at ÉTS Montreal. PhD in ergonomics, she specializes in persuasive design, gamification, and user experience evaluation in complex contexts like serious games and VR. She leads research at the interface of science, technology, and design."
       },
       {
-        "name": "John Smith",
-        "role": "Cloud Architect",
-        "company": "Cloud Inc",
-        "image": "/images/speakers/john-smith.jpg",
-        "social": "https://twitter.com",
-        "bio": "Building scalable cloud solutions."
+        "id": "angie",
+        "name": "Angie Ariza",
+        "role": "AI Lead Developer",
+        "company": "Plus Company",
+        "image": "/images/speakers/angie.jpg",
+        "bio": "Angie Ariza is the AI Lead Developer at Plus Company, where she leads the Smart Persona project. Her expertise spans RAG, AI agents, and generative models. She is also a Women Techmakers Ambassador."
+      },
+      {
+        "id": "chloe-freslon",
+        "name": "Chloé Freslon",
+        "role": "Founder",
+        "company": "URelles",
+        "image": "/images/speakers/chloe_fresion.jpg",
+        "bio": "Chloé Freslon is the founder of URelles, a company offering innovative solutions to support organizations aspiring to a more inclusive and equitable culture."
+      },
+      {
+        "id": "claude-cardinal",
+        "name": "Claude Cardinal",
+        "role": "Guest Professor",
+        "company": "UQAT/Montreal",
+        "image": "/images/speakers/claude_cardinal.jpg",
+        "bio": "Claude Cardinal is a Guest Professor at UQAT/Montreal. A PhD candidate in computer science, he has over 30 years of experience in IT, education, and public administration. He previously directed CeFTI at the University of Sherbrooke."
+      },
+      {
+        "id": "jl-marechaux",
+        "name": "JL Marechaux",
+        "role": "Principal AI Consultant",
+        "company": "ServiceNow",
+        "image": "/images/speakers/jl_marechaux.jpg",
+        "bio": "JL Marechaux is a Principal AI Consultant at ServiceNow. He brings extensive experience in applied artificial intelligence and digital transformation. JL actively contributes to the Montreal technology community as a mentor and co-organizer of AI Tinkerers Montréal."
+      },
+      {
+        "id": "ludociels",
+        "name": "Ludociels (Thomas & Stéphanie)",
+        "role": "Social Economy Organization",
+        "company": "Ludociels pour tous",
+        "image": "/images/speakers/ludociels.jpg",
+        "bio": "Thomas Gaudy is a UX Designer and researcher. Stéphanie Akré is a social entrepreneur. Together they founded Ludociels pour tous, a social economy organization working for inclusion and accessibility in digital interfaces."
+      },
+      {
+        "id": "mahsa-rezaei",
+        "name": "Mahsa Rezaei",
+        "role": "Future of Work Architect",
+        "company": "MamaNest",
+        "image": "/images/speakers/mahsa_rezaei.jpg",
+        "bio": "Mahsa is a Future of Work Architect and Social Entrepreneur with over 15 years of experience. As founder of 'MamaNest', she has pioneered ecosystems for career-growth for women."
+      },
+      {
+        "id": "mahzad-kalantari",
+        "name": "Mahzad Kalantari",
+        "role": "ML & Data Science Expert",
+        "company": "Wizards of the Coast",
+        "image": "/images/speakers/mahzad_kalantari.jpg",
+        "bio": "Mahzad Kalantari is a machine learning and data science expert with a PhD in computer science and over 20 years of experience. She works in the video game industry at Wizards of the Coast, focusing on integrating reinforcement learning into games."
+      },
+      {
+        "id": "mariam",
+        "name": "Mariam Jabara",
+        "role": "Senior Field Engineer",
+        "company": "Arcee AI",
+        "image": "/images/speakers/mariam.jpg",
+        "bio": "Mariam has been in the AI space for the last 5 years. Currently a Senior Field Engineer for Arcee AI, she has previous experience at Google Research and Deloitte. Her values are rooted in building community and using AI responsibly."
+      },
+      {
+        "id": "mathias-ahrens",
+        "name": "Mathias Ahrens",
+        "role": "Product Manager",
+        "company": "Video Games Industry",
+        "image": "/images/speakers/mathias_ahrens.jpg",
+        "bio": "Mathias Ahrens has over 15 years of experience in the video game industry. He has held roles in community, production, and product management at companies like Unity, Ubisoft, and Atari."
+      },
+      {
+        "id": "michell-payano",
+        "name": "Michell Payano",
+        "role": "Researcher",
+        "company": "Mila",
+        "image": "/images/speakers/michell_payano.jpg",
+        "bio": "Michell Payano started her career as an Economist before transitioning to CS and ML at Université de Montréal with Mila. She is conducting research in multi-agent reinforcement learning for policy making."
+      },
+      {
+        "id": "nadia-seraiocco",
+        "name": "Nadia Seraiocco PhD",
+        "role": "Associate Professor",
+        "company": "UQAM",
+        "image": "/images/speakers/nadia_seraiocco.jpg",
+        "bio": "Nadia Seraiocco, PhD in Communication, has taught digital media at UQAM since 2013. Her research interests include the philosophical and ethical questions surrounding the use of personal data."
+      },
+      {
+        "id": "nathlie-sanon",
+        "name": "Nathalie Sanon",
+        "role": "AI Training Manager",
+        "company": "",
+        "image": "/images/speakers/nathlie_sanon.jpg",
+        "bio": "Nathalie Sanon is a manager specializing in AI training and its social impacts."
+      },
+      {
+        "id": "nogol",
+        "name": "Nogol Madani",
+        "role": "Founder & CEO",
+        "company": "",
+        "image": "/images/speakers/nogol.jpg",
+        "bio": "Nogol Madani is a future-focused workplace expert and CEO of a company dedicated to helping leaders build high-performing, inclusive teams through psychological safety."
+      },
+      {
+        "id": "stacy-veronneau",
+        "name": "Stacy Véronneau",
+        "role": "Senior Customer Engineer",
+        "company": "Badal (by TELUS Digital)",
+        "image": "/images/speakers/stacy_veronneau.jpg",
+        "bio": "I wear many hats, but my primary role is to architect cloud solutions with a focus on security and infrastructure. In this capacity, I've honed my competencies by defining technical pre-sales processes and engaging with customers to tailor cloud offerings that address their unique challenges and drive growth.\n\nMy approach is that of a trusted advisor, leveraging extensive experience in cloud services to build and develop offerings that not only meet client needs but also empower delivery teams to execute successfully. With fluency in English and French, I thrive in collaborative environments, inspiring and sharing insights with both colleagues and clients in the realm of cloud integration and innovation."
+      },
+      {
+        "id": "viv",
+        "name": "Vivienne Suen",
+        "role": "Principal Full Stack Architect",
+        "company": "TD Bank",
+        "image": "/images/speakers/viv.jpg",
+        "bio": "Vivienne Suen is a cybersecurity architect with over 15 years' experience. At TD Bank, she leads the Cyber Security Architecture team. She thrives on demystifying the complexities of cybersecurity."
       }
     ]
   }

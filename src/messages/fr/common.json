@@ -1,5 +1,10 @@
 {
   "announcement": {
     "text": "Rejoignez-nous le 18 avril ! Les billets sont disponibles maintenant."
+  },
+  "NotFound": {
+    "title": "Page introuvable",
+    "description": "Désolé, nous n'avons pas pu trouver la page que vous recherchez. Elle a peut-être été déplacée ou supprimée.",
+    "backHome": "Retour à l'accueil"
   }
 }

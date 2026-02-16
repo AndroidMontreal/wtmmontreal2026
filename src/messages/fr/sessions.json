@@ -1,0 +1,121 @@
+{
+  "list": [
+    {
+      "id": "session-stacy",
+      "title": "SOUS LE CAPOT : La réalité derrière le génie de l'IA",
+      "description": "Tout le monde est obsédé par la « rutilante voiture rouge » — le modèle d'IA. Nous courons après les paramètres et les fenêtres de contexte, luttant pour prendre le volant. Mais personne ne pose la question la plus dangereuse : « La piste est-elle sûre ? » Quand on place une machine de 15 millions de dollars sur une piste endommagée, elle ne se contente pas de s'arrêter — elle s'écrase.\n\nL'IA n'est pas de la magie ; c'est une machine qui demande beaucoup d'entretien. Dans cette session, nous soulevons le capot pour révéler la réalité derrière le génie. Nous délaisserons l'obsession du « conducteur » pour examiner l'infrastructure nécessaire pour réellement terminer la course.\n\nPoints clés :\n\n- **Le fossé des infrastructures :** Pourquoi construire l'IA de 2025 sur une infrastructure de 2015 est un échec garanti.\n- **Le besoin de vitesse :** Pourquoi les CPU ne sont que des « rues de ville », les GPU des « autoroutes », et pourquoi nous avons besoin de l'« hyperloop » sans friction des TPU pour gérer la complexité moderne.\n- **Le nouveau vecteur de menace :** Comment les attaques sont passées du vol de données à l'injection de commandes (« prompt injection »), et pourquoi vous avez besoin de « Model Armor » pour protéger l'esprit raisonneur de votre IA.\n\nArrêtez de simplement conduire. Apprenez à construire la piste.",
+      "duration": "40 min",
+      "type": "talk",
+      "tags": ["IA", "Infrastructure", "Cloud"],
+      "speakerIds": ["stacy-veronneau"]
+    },
+    {
+      "id": "session-angie",
+      "title": "Construisez votre premier agent IA avec Google ADK",
+      "description": "Apprenez à créer des agents IA intelligents à l'aide du kit de développement d'agents (ADK) de Google. Dans cet atelier pratique, vous créerez un agent personnalisé. Nous verrons comment rédiger les instructions, comprendre les appels de fonctions et comment les agents raisonnent.",
+      "duration": "60 min",
+      "type": "workshop",
+      "tags": ["Agents IA", "Google ADK", "Pratique"],
+      "speakerIds": ["angie"]
+    },
+    {
+      "id": "session-nathalie",
+      "title": "Une incursion dans le monde intrigant des infrastructures IA",
+      "description": "Aspects environnementaux et sociaux des infrastructures d'IA. Exploration des impacts souvent ignorés des systèmes physiques qui alimentent l'intelligence moderne.",
+      "duration": "30 min",
+      "type": "talk",
+      "tags": ["Éthique IA", "Durabilité", "Société"],
+      "speakerIds": ["nathlie-sanon"]
+    },
+    {
+      "id": "session-mathias",
+      "title": "Comment commencer à créer un jeu et surmonter les défis quotidiens",
+      "description": "Curieux de créer votre premier jeu ? Cette session vous guide à travers l'utilisation d'un moteur de jeu, l'apprentissage par les tutoriels et les game jams, et l'utilisation de l'IA pour accélérer votre flux de travail.",
+      "duration": "45 min",
+      "type": "talk",
+      "tags": ["JeuVidéo", "GestionProduit", "IA"],
+      "speakerIds": ["mathias-ahrens"]
+    },
+    {
+      "id": "session-nogol",
+      "title": "L'avantage humain : Les 'soft skills' à l'ère de l'IA",
+      "description": "Pourquoi les compétences humaines définiront l'avenir du travail à l'ère de l'IA. Découvrez comment cultiver les capacités que les machines ne peuvent pas remplacer : empathie, jugement nuancé et prise de décision éthique.",
+      "duration": "45 min",
+      "type": "talk",
+      "tags": ["FuturDuTravail", "Leadership", "SoftSkills"],
+      "speakerIds": ["nogol"]
+    },
+    {
+      "id": "session-michell",
+      "title": "Ce que les modèles voient : Au cœur de la vision par ordinateur moderne",
+      "description": "Découvrez comment les modèles de vision modernes peuvent détecter des objets sans avoir été entraînés sur eux. Explorez l'évolution vers les modèles 'zero-shot' comme Grounding DINO.",
+      "duration": "60 min",
+      "type": "workshop",
+      "tags": ["VisionOrdinateur", "Mila", "Recherche"],
+      "speakerIds": ["michell-payano"]
+    },
+    {
+      "id": "session-mahsa",
+      "title": "Le laboratoire des barrières de talents tech",
+      "description": "Une session interactive basée sur des données partageant les barrières documentées à l'emploi dans la tech. Un projet collaboratif pour rendre les systèmes d'embauche plus responsables.",
+      "duration": "60 min",
+      "type": "talk",
+      "tags": ["Carrière", "Diversité", "Inclusion"],
+      "speakerIds": ["mahsa-rezaei"]
+    },
+    {
+      "id": "session-nadia",
+      "title": "Stratégies punks pour trouver sa voie (voix) !",
+      "description": "Utiliser les tactiques de la culture punk pour développer une voix critique et rester pertinent dans la tech. Exploration du hacktivisme et du détournement comme stratégies d'action.",
+      "duration": "30 min",
+      "type": "talk",
+      "tags": ["IdentitéNumérique", "Communication", "Punk"],
+      "speakerIds": ["nadia-seraiocco"]
+    },
+    {
+      "id": "session-claude",
+      "title": "Outils de gestion de projet",
+      "description": "La gestion des requis dans un projet va bien au-delà de la simple définition d’objectifs SMART. Cette conférence vous offrira une démonstration et une contextualisation de plusieurs outils simples (matrice d’Eisenhower, analyse SWOT, méthode MoSCoW).",
+      "duration": "75 min",
+      "type": "talk",
+      "tags": ["GestionProjet", "Outils", "Agile"],
+      "speakerIds": ["claude-cardinal"]
+    },
+    {
+      "id": "session-ludociels",
+      "title": "Activité « Au delà du pixel »",
+      "description": "Créons un dialogue entre les supports de communication numérique et physique. Explorons en groupe les possibilités de design d’outils numériques imaginaires répondant à des besoins sociaux. Imaginons ensemble les applications citoyennes du futur !",
+      "duration": "90 min",
+      "type": "workshop",
+      "tags": ["DesignUX", "ImpactSocial", "Créativité"],
+      "speakerIds": ["ludociels"]
+    },
+    {
+      "id": "session-alexandra",
+      "title": "Ludification au service de la science",
+      "description": "La ludification et les jeux sérieux constituent aujourd’hui des leviers puissants pour rendre la science plus accessible. Cette conférence proposera une mise en perspective critique de la ludification appliquée à des contextes scientifiques et éducatifs.",
+      "duration": "60 min",
+      "type": "talk",
+      "tags": ["Ludification", "Science", "UX"],
+      "speakerIds": ["alexandra-nemery"]
+    },
+    {
+      "id": "session-mahzad",
+      "title": "De la théorie à la pratique : l’apprentissage par renforcement dans les jeux vidéo",
+      "description": "Cette présentation propose une approche pragmatique et orientée production de l’apprentissage par renforcement appliqué aux jeux vidéo, à travers des exemples concrets dans Unreal Engine.",
+      "duration": "45 min",
+      "type": "talk",
+      "tags": ["ApprentissageRenforcement", "JeuVidéo", "UnrealEngine"],
+      "speakerIds": ["mahzad-kalantari"]
+    },
+    {
+      "id": "session-viv",
+      "title": "Break It Before They Do - Threat Modeling at Startup Speed",
+      "description": "The internet is adversarial. This talk presents security trends and real-world breaches, followed by a live threat modeling exercise to turn threats into concrete controls. (Session in English)",
+      "duration": "45 min",
+      "type": "talk",
+      "tags": ["Cybersécurité", "Menaces", "Startup"],
+      "speakerIds": ["viv"]
+    }
+  ]
+}

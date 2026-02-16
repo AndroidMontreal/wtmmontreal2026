@@ -1,26 +1,164 @@
 {
   "Speakers": {
     "header": {
-      "tag": "Nos Conférenciers",
-      "title": "Rencontrez les conférenciers",
-      "subtitle": "Leaders de l'industrie, innovateurs et créateurs partageant leurs connaissances à Women Techmakers Montréal."
+      "tag": "Nos Conférencières",
+      "title": "Voix de l'Innovation",
+      "subtitle": "Parcourez les bâtisseurs de communauté, technologues et conteurs partageant leur expérience sur scène à WTM Montréal 2026."
+    },
+    "filters": {
+      "all": "Tous les types",
+      "talks": "Conférences",
+      "workshops": "Ateliers"
+    },
+    "viewDetails": "Voir les détails",
+    "details": {
+      "spotlight": "En vedette",
+      "addToCalendar": "Ajouter au calendrier",
+      "room": "Salle :",
+      "duration": "Durée :",
+      "tbd": "À déterminer",
+      "breadcrumb": "Conférencières"
+    },
+    "roles": {
+      "keynote": "Keynote",
+      "speaker": "Conférencière"
+    },
+    "sessionTypes": {
+      "talk": "Conférence",
+      "workshop": "Atelier"
+    },
+    "bioHeader": {
+      "about": "À propos",
+      "theSpeaker": "de la conférencière"
     },
     "list": [
       {
-        "name": "Jane Doe",
-        "role": "Chercheuse en IA",
-        "company": "Tech Corp",
-        "image": "/images/speakers/jane-doe.jpg",
-        "social": "https://linkedin.com",
-        "bio": "Experte en IA et Apprentissage Automatique."
+        "id": "alexandra-nemery",
+        "name": "Alexandra Nemery",
+        "role": "Professeure / Chercheure",
+        "company": "ÉTS Montréal",
+        "image": "/images/speakers/alexandra_nemery.jpg",
+        "bio": "Alexandra Nemery est professeure/chercheure en design d’expérience utilisateur (UX) à l’École de technologie supérieure (ÉTS) à Montréal. Docteure en ergonomie, elle est spécialisée en design persuasif, ludification et évaluation de l’expérience utilisateur."
       },
       {
-        "name": "John Smith",
-        "role": "Architecte Cloud",
-        "company": "Cloud Inc",
-        "image": "/images/speakers/john-smith.jpg",
-        "social": "https://twitter.com",
-        "bio": "Construction de solutions cloud évolutives."
+        "id": "angie",
+        "name": "Angie Ariza",
+        "role": "Développeuse principale en IA",
+        "company": "Plus Company",
+        "image": "/images/speakers/angie.jpg",
+        "bio": "Angie Ariza est responsable du développement en IA chez Plus Company, où elle dirige le projet Smart Persona et se spécialise dans le déploiement de systèmes d'IA. Son expertise couvre le RAG, les agents IA et les modèles génératifs."
+      },
+      {
+        "id": "chloe-freslon",
+        "name": "Chloé Freslon",
+        "role": "Fondatrice",
+        "company": "URelles",
+        "image": "/images/speakers/chloe_fresion.jpg",
+        "bio": "Madame Freslon est la fondatrice de URelles, une entreprise qui offre des solutions innovantes pour soutenir les organisations qui aspirent à une culture plus inclusive et équitable."
+      },
+      {
+        "id": "claude-cardinal",
+        "name": "Claude Cardinal",
+        "role": "Professeur invité",
+        "company": "UQAT/Montréal",
+        "image": "/images/speakers/claude_cardinal.jpg",
+        "bio": "Claude Cardinal est Professeur invité Jouabilité UQAT/Montréal. Doctorant en informatique, il possède une formation diversifiée en informatique, en éducation et en administration publique. Il a contribué au développement des compétences métier chez Eidos Montréal."
+      },
+      {
+        "id": "jl-marechaux",
+        "name": "JL Marechaux",
+        "role": "Consultant principal en IA",
+        "company": "ServiceNow",
+        "image": "/images/speakers/jl_marechaux.jpg",
+        "bio": "JL Marechaux est consultant principal en IA chez ServiceNow. Son expertise couvre l'intelligence artificielle appliquée et la transformation numérique. Au cours de sa carrière, JL a occupé un large éventail de rôles chez Google, Ivado Labs, et IBM."
+      },
+      {
+        "id": "ludociels",
+        "name": "Ludociels (Thomas & Stéphanie)",
+        "role": "Organisme d'économie sociale",
+        "company": "Ludociels pour tous",
+        "image": "/images/speakers/ludociels.jpg",
+        "bio": "Thomas Gaudy est un UX Designer, chercheur en informatique et cofondateur de l’organisme Ludociels pour tous. Stéphanie Akré est une entrepreneure sociale et cofondatrice. Ensemble, ils œuvrent pour l’inclusion et l’accessibilité des interfaces numériques."
+      },
+      {
+        "id": "mahsa-rezaei",
+        "name": "Mahsa Rezaei",
+        "role": "Architecte du futur du travail",
+        "company": "MamaNest",
+        "image": "/images/speakers/mahsa_rezaei.jpg",
+        "bio": "Mahsa est une Architecte du Futur du Travail et Entrepreneure Sociale avec plus de 15 ans d'expérience. En tant que fondatrice de « MamaNest », elle a créé un écosystème complet de développement de carrière pour les femmes."
+      },
+      {
+        "id": "mahzad-kalantari",
+        "name": "Mahzad Kalantari",
+        "role": "Experte en apprentissage automatique",
+        "company": "Wizards of the Coast",
+        "image": "/images/speakers/mahzad_kalantari.jpg",
+        "bio": "Mahzad Kalantari est experte en apprentissage automatique et en science des données, docteure en informatique, avec plus de 20 ans d’expérience. Elle travaille dans l’industrie du jeu vidéo sur l’intégration de l’apprentissage par renforcement."
+      },
+      {
+        "id": "mariam",
+        "name": "Mariam Jabara",
+        "role": "Ingénieure de terrain senior",
+        "company": "Arcee AI",
+        "image": "/images/speakers/mariam.jpg",
+        "bio": "Mariam travaille dans l'espace IA depuis 5 ans. Actuellement Ingénieure de terrain senior pour Arcee AI à San Francisco, elle possède une expérience en ingénierie et recherche IA chez Google Research et Deloitte."
+      },
+      {
+        "id": "mathias-ahrens",
+        "name": "Mathias Ahrens",
+        "role": "Gestionnaire de produit",
+        "company": "Industrie du jeu vidéo",
+        "image": "/images/speakers/mathias_ahrens.jpg",
+        "bio": "Mathias Ahrens cumule plus de 15 ans d'expérience dans les secteurs du jeu vidéo et des technologies. Il a occupé différents rôles dans le développement et la publication de jeux vidéo chez Unity, Ubisoft et Atari."
+      },
+      {
+        "id": "michell-payano",
+        "name": "Michell Payano",
+        "role": "Chercheuse",
+        "company": "Mila",
+        "image": "/images/speakers/michell_payano.jpg",
+        "bio": "Michell Payano a débuté sa carrière comme économiste dans le secteur public en République dominicaine. Elle s'est orientée vers les technologies en poursuivant une maîtrise en informatique à l'Université de Montréal, en collaboration avec Mila."
+      },
+      {
+        "id": "nadia-seraiocco",
+        "name": "Nadia Seraiocco PhD",
+        "role": "Professeure associée",
+        "company": "UQAM",
+        "image": "/images/speakers/nadia_seraiocco.jpg",
+        "bio": "Nadia Seraiocco, Ph.D. en communication, enseigne à l'École des médias de l'UQAM depuis 2013. Ses recherches portent sur la recherche-création et les questions éthiques liées à l'usage des données personnelles."
+      },
+      {
+        "id": "nathlie-sanon",
+        "name": "Nathalie Sanon",
+        "role": "Gestionnaire de formation en IA",
+        "company": "",
+        "image": "/images/speakers/nathlie_sanon.jpg",
+        "bio": "Nathalie Sanon est gestionnaire spécialisée dans la formation en IA et ses impacts sociaux."
+      },
+      {
+        "id": "nogol",
+        "name": "Nogol Madani",
+        "role": "Fondatrice & CEO",
+        "company": "",
+        "image": "/images/speakers/nogol.jpg",
+        "bio": "Nogol Madani est une experte du milieu de travail axée sur le futur, conférencière et facilitatrice. Elle est fondatrice et PDG d'une entreprise dédiée à aider les leaders à bâtir des équipes performantes grâce à la sécurité psychologique."
+      },
+      {
+        "id": "stacy-veronneau",
+        "name": "Stacy Véronneau",
+        "role": "Ingénieur client principal",
+        "company": "Badal (by TELUS Digital)",
+        "image": "/images/speakers/stacy_veronneau.jpg",
+        "bio": "« Bien que je sois polyvalent, mon rôle principal consiste à concevoir des solutions cloud axées sur la sécurité et l'infrastructure. À ce titre, j'ai affiné mon expertise en définissant des processus techniques de préventes et en collaborant avec les clients pour personnaliser des offres cloud qui répondent à leurs défis uniques et stimulent leur croissance.\n\nJ'adopte une approche de conseiller de confiance, m'appuyant sur une vaste expérience des services cloud pour bâtir des offres répondant aux besoins des clients, tout en donnant aux équipes de livraison les moyens de réussir. Bilingue anglais-français, je m'épanouis dans les environnements collaboratifs, en inspirant mes collègues et mes clients et en partageant des connaissances dans le domaine de l'intégration et de l'innovation cloud. »"
+      },
+      {
+        "id": "viv",
+        "name": "Vivienne Suen",
+        "role": "Architecte Full Stack Principal",
+        "company": "TD Bank",
+        "image": "/images/speakers/viv.jpg",
+        "bio": "Vivienne Suen is a cybersecurity architect with over 15 years' experience. At TD Bank, she leads the Cyber Security Architecture team. (Bio en anglais)"
       }
     ]
   }
