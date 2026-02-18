@@ -1,13 +1,13 @@
 'use client';
 
-import { useTranslations, useMessages } from 'next-intl';
-import { motion } from 'framer-motion';
-import Image from 'next/image';
-import { ArrowRight } from 'lucide-react';
-import { SponsorsMessages, SponsorTier } from '@/types/sections';
-import SectionTitle from '@/components/ui/SectionTitle';
 import Button from '@/components/ui/Button';
 import InteractiveGridPattern from '@/components/ui/InteractiveGridPattern';
+import SectionTitle from '@/components/ui/SectionTitle';
+import { SponsorsMessages, SponsorTier } from '@/types/sections';
+import { motion } from 'framer-motion';
+import { ArrowRight } from 'lucide-react';
+import { useMessages, useTranslations } from 'next-intl';
+import Image from 'next/image';
 
 export default function Sponsors() {
   const t = useTranslations('Sponsors.header');
@@ -107,21 +107,44 @@ export default function Sponsors() {
                       transition={{ delay: index * 0.1, duration: 0.5, type: "spring", stiffness: 50 }}
                       className="group/logo relative flex items-center justify-center md:justify-start w-full"
                     >
-                      {sponsor.logo ? (
-                        <div className="relative inline-flex transition-all duration-500 ease-out hover:-translate-y-2 hover:scale-105 hover:drop-shadow-2xl hover:brightness-110 hover:saturate-110">
-                          <Image
-                            src={sponsor.logo}
-                            alt={sponsor.name}
-                            width={400}
-                            height={250}
-                            className="object-contain w-auto h-auto max-w-full"
-                            priority={key.toLowerCase() === 'platinum'}
-                          />
-                        </div>
+                      {sponsor.link ? (
+                        <a href={sponsor.link} target="_blank" rel="noopener noreferrer" className="w-full flex justify-center md:justify-start">
+                          {sponsor.logo ? (
+                            <div className="relative inline-flex transition-all duration-500 ease-out hover:-translate-y-2 hover:scale-105 hover:drop-shadow-2xl hover:brightness-110 hover:saturate-110">
+                              <Image
+                                src={sponsor.logo}
+                                alt={sponsor.name}
+                                width={400}
+                                height={250}
+                                className="object-contain w-auto h-auto max-w-full"
+                                priority={key.toLowerCase() === 'platinum'}
+                              />
+                            </div>
+                          ) : (
+                            <span className="text-sm font-bold text-slate-300 uppercase tracking-widest transition-colors duration-300 group-hover/logo:text-secondary">
+                              {sponsor.name}
+                            </span>
+                          )}
+                        </a>
                       ) : (
-                        <span className="text-sm font-bold text-slate-300 uppercase tracking-widest transition-colors duration-300 group-hover/logo:text-secondary">
-                          {sponsor.name}
-                        </span>
+                        <>
+                          {sponsor.logo ? (
+                            <div className="relative inline-flex transition-all duration-500 ease-out hover:-translate-y-2 hover:scale-105 hover:drop-shadow-2xl hover:brightness-110 hover:saturate-110">
+                              <Image
+                                src={sponsor.logo}
+                                alt={sponsor.name}
+                                width={400}
+                                height={250}
+                                className="object-contain w-auto h-auto max-w-full"
+                                priority={key.toLowerCase() === 'platinum'}
+                              />
+                            </div>
+                          ) : (
+                            <span className="text-sm font-bold text-slate-300 uppercase tracking-widest transition-colors duration-300 group-hover/logo:text-secondary">
+                              {sponsor.name}
+                            </span>
+                          )}
+                        </>
                       )}
                     </motion.div>
                   ))}
