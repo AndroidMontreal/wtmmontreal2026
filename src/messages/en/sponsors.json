@@ -12,9 +12,9 @@
       "subtitle": "Leading partners shaping the future of women in tech.",
       "badge": "Elite",
       "items": {
-        "distech": { "name": "Distech Control", "logo": "/images/sponsors/distech_control.svg" },
-        "haven": { "name": "Haven", "logo": "/images/sponsors/haven.svg" },
-        "gorockit": { "name": "GoRockit", "logo": "/images/sponsors/go_rock_it.svg" }
+        "distech": { "name": "Distech Control", "logo": "/images/sponsors/distech_control.svg", "link": "https://www.distech-controls.com/" },
+        "haven": { "name": "Haven", "logo": "/images/sponsors/haven.svg", "link": "https://havenstudios.com/en" },
+        "gorockit": { "name": "GoRockit", "logo": "/images/sponsors/go_rock_it.svg", "link": "https://gorockit.ca/" }
       }
     },
     "bronze": {
@@ -22,7 +22,7 @@
       "subtitle": "Essential organizations fueling our local growth and connection.",
       "badge": "Community",
       "items": {
-        "coveo": { "name": "Coveo", "logo": "/images/sponsors/coveo.svg" }
+        "coveo": { "name": "Coveo", "logo": "/images/sponsors/coveo.svg", "link": "https://www.coveo.com/en" }
       }
     }
   }
