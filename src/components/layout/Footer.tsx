@@ -66,7 +66,7 @@ export default function Footer() {
 
         <motion.div
           variants={containerVariants}
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-9 mb-16 justify-items-center"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-9 mb-16 justify-items-start md:justify-items-center"
         >
 
           {/* Column 1: Brand */}
