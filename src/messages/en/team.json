@@ -85,6 +85,14 @@
         "image": "/images/team/sahil.webp",
         "social": "https://www.linkedin.com/in/sahilmpatel09",
         "year": "2026"
+      },
+      {
+        "name": "Brigitte Couture",
+        "role": "Mobile app development student, Non-profit organizations governance and management consultant",
+        "company": "",
+        "image": "/images/team/brigitte.webp",
+        "social": "https://www.linkedin.com/in/brigittecouture/",
+        "year": "2026"
       }
     ]
   }

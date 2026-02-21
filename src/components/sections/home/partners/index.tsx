@@ -1,11 +1,11 @@
 'use client';
 
 import React from 'react';
-import {useTranslations, useMessages} from 'next-intl';
+import {useMessages, useTranslations} from 'next-intl';
 import {motion} from 'framer-motion';
 import {ArrowRight} from 'lucide-react';
 import Image from 'next/image';
-import {PartnersMessages, Partner} from '@/types/sections';
+import {PartnersMessages} from '@/types/sections';
 import SectionTitle from '@/components/ui/SectionTitle';
 import Button from '@/components/ui/Button';
 import InteractiveGridPattern from '@/components/ui/InteractiveGridPattern';
