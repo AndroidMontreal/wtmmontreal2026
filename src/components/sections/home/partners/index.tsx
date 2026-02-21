@@ -13,7 +13,7 @@ import InteractiveGridPattern from '@/components/ui/InteractiveGridPattern';
 export default function CommunityPartners() {
     const t = useTranslations('Partners.header');
     const messages = useMessages() as unknown as PartnersMessages;
-    const partnersList = messages?.Partners?.list || {};
+    const partnersList = messages?.Partners?.list || [];
 
     return (
         <section className="relative py-24 border-t border-slate-100 overflow-hidden bg-[#FAFAFA]">
@@ -45,7 +45,7 @@ export default function CommunityPartners() {
                 {/* Partners Grid - Fixed 3 columns on desktop, 2 on mobile */}
                 <div
                     className="grid grid-cols-2 lg:grid-cols-3 gap-12 md:gap-16 items-center justify-items-center md:justify-items-start mt-16">
-                    {Object.entries(partnersList).map(([key, partner]: [string, Partner], index) => {
+                    {partnersList.map((partner, index) => {
                         const Content = (
                             <motion.div
                                 initial={{opacity: 0, y: 10}}
@@ -75,7 +75,7 @@ export default function CommunityPartners() {
 
                         return partner.link ? (
                             <a
-                                key={key}
+                                key={partner.name}
                                 href={partner.link}
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -84,7 +84,7 @@ export default function CommunityPartners() {
                                 {Content}
                             </a>
                         ) : (
-                            <div key={key} className="w-full flex justify-center">{Content}</div>
+                            <div key={partner.name} className="w-full flex justify-center">{Content}</div>
                         );
                     })}
                 </div>

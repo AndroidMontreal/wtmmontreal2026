@@ -96,16 +96,16 @@ export default function Sponsors() {
                   <div className={`w-full h-px bg-slate-200 transition-colors duration-500 ${styles.line}`} />
                 </motion.div>
 
-                {/* Logos Grid - Auto-fit to allow natural size (up to ~400px) */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[repeat(auto-fit,minmax(350px,1fr))] gap-12 items-center justify-items-center md:justify-items-start">
-                  {Object.entries(tier.items).map(([itemKey, sponsor], index) => (
+                {/* Logos Container - Flex layout preserves original size and controls spacing better */}
+                <div className="flex flex-wrap gap-x-16 gap-y-12 items-center justify-center md:justify-start">
+                  {tier.items.map((sponsor, index) => (
                     <motion.div
-                      key={itemKey}
+                      key={sponsor.name}
                       initial={{ opacity: 0, y: 20, scale: 0.95 }}
                       whileInView={{ opacity: 1, y: 0, scale: 1 }}
                       viewport={{ once: true, margin: "-50px" }}
                       transition={{ delay: index * 0.1, duration: 0.5, type: "spring", stiffness: 50 }}
-                      className="group/logo relative flex items-center justify-center md:justify-start w-full"
+                      className="group/logo relative flex items-center"
                     >
                       {sponsor.link ? (
                         <a href={sponsor.link} target="_blank" rel="noopener noreferrer" className="w-full flex justify-center md:justify-start">

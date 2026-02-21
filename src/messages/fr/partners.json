@@ -6,20 +6,20 @@
     "cta": "Devenir Partenaire",
     "cta_link": "https://forms.gle/Mzsq8LbveqHgSKPn7"
   },
-  "list": {
-    "technovation": { "name": "Technovation Montreal", "logo": "/images/partners/technovation_montreal.svg", "link": "https://www.technovationmontreal.com/" },
-    "somos_lit": { "name": "Somos LIT", "logo": "/images/partners/somos_lit_montreal.svg", "link": "https://somoslatinxintech.com/" },
-    "women_in_tech": { "name": "Women In Tech", "logo": "/images/partners/women_in_tech.svg", "link": "https://women-in-tech.org/" },
-    "le_wagon": { "name": "Le Wagon", "logo": "/images/partners/le_wagon.svg", "link": "https://www.lewagon.com/montreal" },
-    "elan_tech": { "name": "ÉLAN Tech", "logo": "/images/partners/elan_tech.svg", "link": "http://elantech.co/" },
-    "black_ladies_in_tech": { "name": "Black Ladies In Tech", "logo": "/images/partners/black_ladies_in_tech.svg", "link": "http://www.blackladiesintech.org/" },
-    "ellecodde": { "name": "ElleCodde", "logo": "/images/partners/elle_code.svg", "link": "https://ellecode.org/" },
-    "scientifines": { "name": "Les Scientifines", "logo": "/images/partners/les_scientifines.svg", "link": "https://scientifines.com/" },
-    "ludociels": { "name": "Ludociels", "logo": "/images/partners/ludoliels.svg", "link": "https://www.ludocielspourtous.org/" },
-    "mcgill_csus": { "name": "McGill CSUS", "logo": "/images/partners/csus.svg", "link": "https://www.mcgillcsus.com/" },
-    "se4ai": { "name": "SE4AI", "logo": "/images/partners/create_se4ai.svg", "link": "http://www.se4ai.org/" },
-    "mamanest": { "name": "MamaNest", "logo": "/images/partners/mamanest.svg", "link": "https://mamanest.ca/" },
-    "wia_montreal": { "name": "Women in Animation", "logo": "/images/partners/wia_montreal_collective.svg", "link": "http://wearewia.org/" },
-    "femmes_en_tech": { "name": "Femmes en Tech", "logo": "/images/partners/femmes_en_tech.svg", "link": "#" }
-  }
+  "list": [
+    { "name": "Technovation Montreal", "logo": "/images/partners/technovation_montreal.svg", "link": "https://www.technovationmontreal.com/" },
+    { "name": "Somos LIT", "logo": "/images/partners/somos_lit_montreal.svg", "link": "https://somoslatinxintech.com/" },
+    { "name": "Women In Tech", "logo": "/images/partners/women_in_tech.svg", "link": "https://women-in-tech.org/" },
+    { "name": "Le Wagon", "logo": "/images/partners/le_wagon.svg", "link": "https://www.lewagon.com/montreal" },
+    { "name": "ÉLAN Tech", "logo": "/images/partners/elan_tech.svg", "link": "http://elantech.co/" },
+    { "name": "Black Ladies In Tech", "logo": "/images/partners/black_ladies_in_tech.svg", "link": "http://www.blackladiesintech.org/" },
+    { "name": "ElleCodde", "logo": "/images/partners/elle_code.svg", "link": "https://ellecode.org/" },
+    { "name": "Les Scientifines", "logo": "/images/partners/les_scientifines.svg", "link": "https://scientifines.com/" },
+    { "name": "Ludociels", "logo": "/images/partners/ludoliels.svg", "link": "https://www.ludocielspourtous.org/" },
+    { "name": "McGill CSUS", "logo": "/images/partners/csus.svg", "link": "https://www.mcgillcsus.com/" },
+    { "name": "SE4AI", "logo": "/images/partners/create_se4ai.svg", "link": "http://www.se4ai.org/" },
+    { "name": "MamaNest", "logo": "/images/partners/mamanest.svg", "link": "https://mamanest.ca/" },
+    { "name": "Women in Animation", "logo": "/images/partners/wia_montreal_collective.svg", "link": "http://wearewia.org/" },
+    { "name": "Femmes en Tech", "logo": "/images/partners/femmes_en_tech.svg", "link": "#" }
+  ]
 }

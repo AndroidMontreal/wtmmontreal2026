@@ -11,19 +11,20 @@
       "title": "Platine",
       "subtitle": "Partenaires majeurs façonnant l'avenir des femmes en tech.",
       "badge": "Élite",
-      "items": {
-        "distech": { "name": "Distech Control", "logo": "/images/sponsors/distech_control.svg", "link": "https://www.distech-controls.com/" },
-        "haven": { "name": "Haven", "logo": "/images/sponsors/haven.svg", "link": "https://havenstudios.com/fr" },
-        "gorockit": { "name": "GoRockit", "logo": "/images/sponsors/go_rock_it.svg", "link": "https://gorockit.ca/" }
-      }
+      "items": [
+        { "name": "Distech Control", "logo": "/images/sponsors/distech_control.svg", "link": "https://www.distech-controls.com/" },
+        { "name": "Haven", "logo": "/images/sponsors/haven.svg", "link": "https://havenstudios.com/fr" },
+        { "name": "GoRockit", "logo": "/images/sponsors/go_rock_it.svg", "link": "https://gorockit.ca/" }
+      ]
     },
     "bronze": {
       "title": "Bronze",
       "subtitle": "Des organisations essentielles qui soutiennent notre croissance locale.",
       "badge": "Communauté",
-      "items": {
-        "coveo": { "name": "Coveo", "logo": "/images/sponsors/coveo.svg", "link": "https://www.coveo.com/fr/" }
-      }
+      "items": [
+        { "name": "Coveo", "logo": "/images/sponsors/coveo.svg", "link": "https://www.coveo.com/fr/" },
+        { "name": "Servicenow", "logo": "/images/sponsors/servicenow.svg", "link": "https://www.servicenow.com/" }
+      ]
     }
   }
 }

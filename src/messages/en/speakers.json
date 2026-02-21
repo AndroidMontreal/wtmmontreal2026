@@ -37,7 +37,7 @@
         "name": "Alexandra Nemery",
         "role": "Professor / Researcher",
         "company": "ÉTS Montreal",
-        "image": "/images/speakers/alexandra_nemery.jpg",
+        "image": "/images/speakers/alexandra_nemery.webp",
         "bio": "Alexandra Nemery is a professor/researcher in UX design at ÉTS Montreal. PhD in ergonomics, she specializes in persuasive design, gamification, and user experience evaluation in complex contexts like serious games and VR. She leads research at the interface of science, technology, and design."
       },
       {
@@ -45,7 +45,7 @@
         "name": "Angie Ariza",
         "role": "AI Lead Developer",
         "company": "Plus Company",
-        "image": "/images/speakers/angie.jpg",
+        "image": "/images/speakers/angie.webp",
         "bio": "Angie Ariza is the AI Lead Developer at Plus Company, where she leads the Smart Persona project. Her expertise spans RAG, AI agents, and generative models. She is also a Women Techmakers Ambassador."
       },
       {
@@ -53,7 +53,7 @@
         "name": "Chloé Freslon",
         "role": "Founder",
         "company": "URelles",
-        "image": "/images/speakers/chloe_fresion.jpg",
+        "image": "/images/speakers/chloe_fresion.webp",
         "bio": "Chloé Freslon is the founder of URelles, a company offering innovative solutions to support organizations aspiring to a more inclusive and equitable culture."
       },
       {
@@ -61,7 +61,7 @@
         "name": "Claude Cardinal",
         "role": "Guest Professor",
         "company": "UQAT/Montreal",
-        "image": "/images/speakers/claude_cardinal.jpg",
+        "image": "/images/speakers/claude_cardinal.webp",
         "bio": "Claude Cardinal is a Guest Professor at UQAT/Montreal. A PhD candidate in computer science, he has over 30 years of experience in IT, education, and public administration. He previously directed CeFTI at the University of Sherbrooke."
       },
       {
@@ -69,7 +69,7 @@
         "name": "JL Marechaux",
         "role": "Principal AI Consultant",
         "company": "ServiceNow",
-        "image": "/images/speakers/jl_marechaux.jpg",
+        "image": "/images/speakers/jl_marechaux.webp",
         "bio": "JL Marechaux is a Principal AI Consultant at ServiceNow. He brings extensive experience in applied artificial intelligence and digital transformation. JL actively contributes to the Montreal technology community as a mentor and co-organizer of AI Tinkerers Montréal."
       },
       {
@@ -77,7 +77,7 @@
         "name": "Ludociels (Thomas & Stéphanie)",
         "role": "Social Economy Organization",
         "company": "Ludociels pour tous",
-        "image": "/images/speakers/ludociels.jpg",
+        "image": "/images/speakers/ludociels.webp",
         "bio": "Thomas Gaudy is a UX Designer and researcher. Stéphanie Akré is a social entrepreneur. Together they founded Ludociels pour tous, a social economy organization working for inclusion and accessibility in digital interfaces."
       },
       {
@@ -85,7 +85,7 @@
         "name": "Mahsa Rezaei",
         "role": "Future of Work Architect",
         "company": "MamaNest",
-        "image": "/images/speakers/mahsa_rezaei.jpg",
+        "image": "/images/speakers/mahsa_rezaei.webp",
         "bio": "Mahsa is a Future of Work Architect and Social Entrepreneur with over 15 years of experience. As founder of 'MamaNest', she has pioneered ecosystems for career-growth for women."
       },
       {
@@ -93,7 +93,7 @@
         "name": "Mahzad Kalantari",
         "role": "ML & Data Science Expert",
         "company": "Wizards of the Coast",
-        "image": "/images/speakers/mahzad_kalantari.jpg",
+        "image": "/images/speakers/mahzad_kalantari.webp",
         "bio": "Mahzad Kalantari is a machine learning and data science expert with a PhD in computer science and over 20 years of experience. She works in the video game industry at Wizards of the Coast, focusing on integrating reinforcement learning into games."
       },
       {
@@ -101,7 +101,7 @@
         "name": "Mariam Jabara",
         "role": "Senior Field Engineer",
         "company": "Arcee AI",
-        "image": "/images/speakers/mariam.jpg",
+        "image": "/images/speakers/mariam.webp",
         "bio": "Mariam has been in the AI space for the last 5 years. Currently a Senior Field Engineer for Arcee AI, she has previous experience at Google Research and Deloitte. Her values are rooted in building community and using AI responsibly."
       },
       {
@@ -109,7 +109,7 @@
         "name": "Mathias Ahrens",
         "role": "Product Manager",
         "company": "Video Games Industry",
-        "image": "/images/speakers/mathias_ahrens.jpg",
+        "image": "/images/speakers/mathias_ahrens.webp",
         "bio": "Mathias Ahrens has over 15 years of experience in the video game industry. He has held roles in community, production, and product management at companies like Unity, Ubisoft, and Atari."
       },
       {
@@ -117,7 +117,7 @@
         "name": "Michell Payano",
         "role": "Researcher",
         "company": "Mila",
-        "image": "/images/speakers/michell_payano.jpg",
+        "image": "/images/speakers/michell_payano.webp",
         "bio": "Michell Payano started her career as an Economist before transitioning to CS and ML at Université de Montréal with Mila. She is conducting research in multi-agent reinforcement learning for policy making."
       },
       {
@@ -125,7 +125,7 @@
         "name": "Nadia Seraiocco PhD",
         "role": "Associate Professor",
         "company": "UQAM",
-        "image": "/images/speakers/nadia_seraiocco.jpg",
+        "image": "/images/speakers/nadia_seraiocco.webp",
         "bio": "Nadia Seraiocco, PhD in Communication, has taught digital media at UQAM since 2013. Her research interests include the philosophical and ethical questions surrounding the use of personal data."
       },
       {
@@ -133,7 +133,7 @@
         "name": "Nathalie Sanon",
         "role": "AI Training Manager",
         "company": "",
-        "image": "/images/speakers/nathlie_sanon.jpg",
+        "image": "/images/speakers/nathlie_sanon.webp",
         "bio": "Nathalie Sanon is a manager specializing in AI training and its social impacts."
       },
       {
@@ -141,7 +141,7 @@
         "name": "Nogol Madani",
         "role": "Founder & CEO",
         "company": "",
-        "image": "/images/speakers/nogol.jpg",
+        "image": "/images/speakers/nogol.webp",
         "bio": "Nogol Madani is a future-focused workplace expert and CEO of a company dedicated to helping leaders build high-performing, inclusive teams through psychological safety."
       },
       {
@@ -149,7 +149,7 @@
         "name": "Stacy Véronneau",
         "role": "Senior Customer Engineer",
         "company": "Badal (by TELUS Digital)",
-        "image": "/images/speakers/stacy_veronneau.jpg",
+        "image": "/images/speakers/stacy_veronneau.webp",
         "bio": "I wear many hats, but my primary role is to architect cloud solutions with a focus on security and infrastructure. In this capacity, I've honed my competencies by defining technical pre-sales processes and engaging with customers to tailor cloud offerings that address their unique challenges and drive growth.\n\nMy approach is that of a trusted advisor, leveraging extensive experience in cloud services to build and develop offerings that not only meet client needs but also empower delivery teams to execute successfully. With fluency in English and French, I thrive in collaborative environments, inspiring and sharing insights with both colleagues and clients in the realm of cloud integration and innovation."
       },
       {
@@ -157,7 +157,7 @@
         "name": "Vivienne Suen",
         "role": "Principal Full Stack Architect",
         "company": "TD Bank",
-        "image": "/images/speakers/viv.jpg",
+        "image": "/images/speakers/viv.webp",
         "bio": "Vivienne Suen is a cybersecurity architect with over 15 years' experience. At TD Bank, she leads the Cyber Security Architecture team. She thrives on demystifying the complexities of cybersecurity."
       }
     ]

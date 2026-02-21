@@ -22,7 +22,7 @@ export interface SponsorTier {
   title: string;
   subtitle: string;
   badge: string;
-  items: Record<string, Sponsor>;
+  items: Sponsor[];
 }
 
 export interface SponsorsMessages {
@@ -39,6 +39,6 @@ export interface SponsorsMessages {
 export interface PartnersMessages {
   Partners: {
     header: SectionHeader;
-    list: Record<string, Partner>;
+    list: Partner[];
   };
 }
