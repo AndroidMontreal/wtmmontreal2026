@@ -13,10 +13,11 @@
     "docker:rebuild": "npm run docker:stop >nul 2>&1 & npm run docker:build && npm run docker:run"
   },
   "dependencies": {
+    "@swc/helpers": "^0.5.19",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "date-fns": "^4.1.0",
-    "framer-motion": "^12.26.2",
+    "framer-motion": "^12.34.3",
     "lucide-react": "^0.562.0",
     "next": "^16.1.6",
     "next-intl": "^4.7.0",
