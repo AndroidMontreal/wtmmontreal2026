@@ -2,11 +2,13 @@
 
 import { useTranslations } from 'next-intl';
 import { motion, Variants } from 'framer-motion';
+import * as LucideIcons from 'lucide-react';
 import AnimatedCounter from '@/components/ui/AnimatedCounter';
 import FloatingOrb from "@/components/ui/FloatingOrb";
 
 interface Stat {
-  value: string;
+  value?: string;
+  icon?: string;
   label: string;
   color: string;
 }
@@ -83,25 +85,33 @@ export default function StatsSection() {
             viewport={{ once: true, margin: "-50px" }}
             className="grid grid-cols-2 gap-4 md:gap-5"
           >
-            {stats.map((stat, idx) => (
-              <motion.div
-                key={stat.label}
-                variants={itemVariants}
-                className={`group relative flex flex-col items-center justify-center aspect-square p-6 
-                  bg-white/5 backdrop-blur-md border border-white/5 rounded-3xl
-                  hover:bg-slate-900 hover:border-white/20 hover:shadow-2xl hover:shadow-black/60
-                  transition-all duration-500 ease-out
-                  ${idx % 2 !== 0 ? 'lg:translate-y-10' : ''} 
-                `}
-              >
-                <div className={`text-6xl md:text-7xl font-bold mb-3 tracking-normal group-hover:scale-110 transition-transform duration-500 ${stat.color}`}>
-                  <AnimatedCounter value={stat.value} duration={2.5} delay={0.5} />
-                </div>
-                <div className="text-[10px] md:text-xs font-bold uppercase tracking-[0.2em] text-slate-500 group-hover:text-teal-400 transition-colors duration-300 text-center">
-                  {stat.label}
-                </div>
-              </motion.div>
-            ))}
+            {stats.map((stat, idx) => {
+              const IconComponent = stat.icon ? (LucideIcons as unknown as Record<string, React.ElementType>)[stat.icon] : null;
+
+              return (
+                <motion.div
+                  key={stat.label}
+                  variants={itemVariants}
+                  className={`group relative flex flex-col items-center justify-center aspect-square p-6 
+                    bg-white/5 backdrop-blur-md border border-white/5 rounded-3xl
+                    hover:bg-slate-900 hover:border-white/20 hover:shadow-2xl hover:shadow-black/60
+                    transition-all duration-500 ease-out
+                    ${idx % 2 !== 0 ? 'lg:translate-y-10' : ''} 
+                  `}
+                >
+                  <div className={`text-6xl md:text-7xl font-bold mb-3 tracking-normal flex items-center justify-center group-hover:scale-110 transition-transform duration-500 ${stat.color}`}>
+                    {IconComponent ? (
+                      <IconComponent size={115} strokeWidth={2.5} />
+                    ) : stat.value ? (
+                      <AnimatedCounter value={stat.value} duration={2.5} delay={0.5} />
+                    ) : null}
+                  </div>
+                  <div className="text-[10px] md:text-xs font-bold uppercase tracking-[0.2em] text-slate-500 group-hover:text-teal-400 transition-colors duration-300 text-center">
+                    {stat.label}
+                  </div>
+                </motion.div>
+              );
+            })}
           </motion.div>
 
         </div>

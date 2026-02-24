@@ -24,7 +24,8 @@
       "badge": "Community",
       "items": [
         { "name": "Coveo", "logo": "/images/sponsors/coveo.svg", "link": "https://www.coveo.com/en" },
-        { "name": "Servicenow", "logo": "/images/sponsors/servicenow.svg", "link": "https://www.servicenow.com/" }
+        { "name": "Servicenow", "logo": "/images/sponsors/servicenow.svg", "link": "https://www.servicenow.com/" },
+        { "name": "Transit", "logo": "/images/sponsors/transit.svg", "link": "https://transitapp.com/" }
       ]
     }
   }
