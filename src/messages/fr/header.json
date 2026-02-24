@@ -2,7 +2,7 @@
   "menu": {
     "home": { "label": "Accueil", "href": "/" },
     "team": { "label": "Équipe", "href": "/team" },
-    "speakers": { "label": "Conférencières", "href": "/speakers" },
+    "speakers": { "label": "Conférencier·ère·s", "href": "/speakers" },
     "schedule": { "label": "Programme", "href": "/schedule" }
   },
   "cta": {

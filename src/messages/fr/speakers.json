@@ -1,7 +1,7 @@
 {
   "Speakers": {
     "header": {
-      "tag": "Nos Conférencières",
+      "tag": "Nos Conférencier·ère·s",
       "title": "Voix de l'Innovation",
       "subtitle": "Parcourez les bâtisseurs de communauté, technologues et conteurs partageant leur expérience sur scène à WTM Montréal 2026."
     },
@@ -17,7 +17,7 @@
       "room": "Salle :",
       "duration": "Durée :",
       "tbd": "À déterminer",
-      "breadcrumb": "Conférencières"
+      "breadcrumb": "Conférencier·ère·s"
     },
     "roles": {
       "keynote": "Keynote",
@@ -147,8 +147,8 @@
       {
         "id": "stacy-veronneau",
         "name": "Stacy Véronneau",
-        "role": "Ingénieur client principal",
-        "company": "Badal (by TELUS Digital)",
+        "role": "Senior Customer Engineer",
+        "company": "TELUS Digital",
         "image": "/images/speakers/stacy_veronneau.webp",
         "bio": "« Bien que je sois polyvalent, mon rôle principal consiste à concevoir des solutions cloud axées sur la sécurité et l'infrastructure. À ce titre, j'ai affiné mon expertise en définissant des processus techniques de préventes et en collaborant avec les clients pour personnaliser des offres cloud qui répondent à leurs défis uniques et stimulent leur croissance.\n\nJ'adopte une approche de conseiller de confiance, m'appuyant sur une vaste expérience des services cloud pour bâtir des offres répondant aux besoins des clients, tout en donnant aux équipes de livraison les moyens de réussir. Bilingue anglais-français, je m'épanouis dans les environnements collaboratifs, en inspirant mes collègues et mes clients et en partageant des connaissances dans le domaine de l'intégration et de l'innovation cloud. »"
       },

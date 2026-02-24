@@ -14,7 +14,8 @@
       "items": [
         { "name": "Distech Control", "logo": "/images/sponsors/distech_control.svg", "link": "https://www.distech-controls.com/" },
         { "name": "Haven", "logo": "/images/sponsors/haven.svg", "link": "https://havenstudios.com/en" },
-        { "name": "GoRockit", "logo": "/images/sponsors/go_rock_it.svg", "link": "https://gorockit.ca/" }
+        { "name": "GoRockit", "logo": "/images/sponsors/go_rock_it.svg", "link": "https://gorockit.ca/" },
+        { "name": "TELUS Digital", "logo": "/images/sponsors/telus_digital.svg", "link": "https://www.telusdigital.com/" }
       ]
     },
     "bronze": {

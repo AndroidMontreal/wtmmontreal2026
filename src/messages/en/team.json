@@ -92,7 +92,15 @@
         "company": "",
         "image": "/images/team/brigitte.webp",
         "social": "https://www.linkedin.com/in/brigittecouture/",
-        "year": "2026"
+        "year": "2025"
+      },
+      {
+        "name": "Michael Patane",
+        "role": "General Manager",
+        "company": "Canadian Linen",
+        "image": "/images/team/michael.webp",
+        "social": "https://linkedin.com/in/mpatane",
+        "year": "2024"
       }
     ]
   }
