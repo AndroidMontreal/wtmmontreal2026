@@ -4,6 +4,7 @@
     "past_events": {
       "title": "Événements Passés",
       "items": [
+        { "label": "WTM Montréal 2025", "href": "https://androidmontreal.github.io/wtmmontreal/" },
         { "label": "WTM Montréal 2024", "href": "https://wtm2024.gdgmontreal.com/" },
         { "label": "WTM Montréal 2023", "href": "https://wtm2023.gdgmontreal.com/" },
         { "label": "WTM Montréal 2022", "href": "https://wtmmontreal2022.firebaseapp.com/" },
