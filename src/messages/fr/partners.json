@@ -20,6 +20,7 @@
     { "name": "SE4AI", "logo": "/images/partners/create_se4ai.svg", "link": "http://www.se4ai.org/" },
     { "name": "MamaNest", "logo": "/images/partners/mamanest.svg", "link": "https://mamanest.ca/" },
     { "name": "Women in Animation", "logo": "/images/partners/wia_montreal_collective.svg", "link": "http://wearewia.org/" },
-    { "name": "Femmes en Tech", "logo": "/images/partners/femmes_en_tech.svg", "link": "#" }
+    { "name": "Femmes en Tech", "logo": "/images/partners/femmes_en_tech.svg", "link": "https://femmesentechmtl.ca/" },
+    { "name": "Applied AI Institute", "logo": "/images/partners/applied_ai_institute.svg", "link": "https://www.linkedin.com/showcase/concordia-applied-ai-institute/" }
   ]
 }
