@@ -12,7 +12,7 @@
     {
       "id": "session-angie",
       "title": "Construisez votre premier agent IA avec Google ADK",
-      "description": "Apprenez à créer des agents IA intelligents à l'aide du kit de développement d'agents (ADK) de Google. Dans cet atelier pratique, vous créerez un agent personnalisé. Nous verrons comment rédiger les instructions, comprendre les appels de fonctions et comment les agents raisonnent.",
+      "description": "Apprenez à créer des agents IA intelligents grâce au kit de développement d'agents (ADK) de Google. Cet atelier pratique vous permettra de créer un agent personnalisé à l'aide des ressources gratuites. Nous aborderons la rédaction des instructions de l'agent, la compréhension des appels de fonctions, les tests en local avec l'environnement de test et l'exploration du raisonnement et de la prise de décision des agents. Vous travaillerez avec un dépôt de départ que vous pourrez dupliquer et personnaliser pour vos propres projets. Munissez-vous de votre ordinateur portable avec Python installé et préparez-vous à expérimenter!",
       "duration": "60 min",
       "type": "workshop",
       "tags": ["Agents IA", "Google ADK", "Pratique"],

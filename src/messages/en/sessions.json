@@ -12,7 +12,7 @@
     {
       "id": "session-angie",
       "title": "Build Your First AI Agent with Google ADK",
-      "description": "Learn to build intelligent AI agents using Google's Agent Development Kit (ADK). In this hands-on workshop, you'll create a custom agent using free-tier resources. We'll walk through crafting agent instructions, understanding function-calling capabilities, and exploring how agents reason and make decisions.",
+      "description": "Learn to build intelligent AI agents using Google's Agent Development Kit (ADK). In this hands-on workshop, you'll create a custom agent using free-tier resources. We'll walk through crafting agent instructions, understanding function-calling capabilities, testing locally with the playground, and exploring how agents reason and make decisions. You'll work with a starter repository that you can fork and customize for your own projects. Bring your laptop with Python installed and be ready to experiment!",
       "duration": "60 min",
       "type": "workshop",
       "tags": ["AI Agents", "Google ADK", "Hands-on"],
