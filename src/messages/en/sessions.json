@@ -48,7 +48,7 @@
     {
       "id": "session-michell",
       "title": "What Models Can See: Inside Modern Computer Vision",
-      "description": "Discover how modern vision models can detect objects without ever being trained on them. Explore the evolution from traditional object detection to zero-shot models like Grounding DINO. Hands-on exploration of text-to-object identification.",
+      "description": "Discover how modern vision models can detect objects without ever being trained on them. In this hands-on workshop, we will explore the evolution from traditional object detection to zero-shot models like Grounding DINO, which understand natural language prompts to identify anything you can describe. After a short theory session, we’ll dive into a practical Google Colab session where the attendees will experiment with detecting custom objects using only text descriptions (no training data required). By the end, they will understand both the power and limitations of these models, and leave with practical skills to apply them to their own projects in research, industry, or creative applications.",
       "duration": "60 min",
       "type": "workshop",
       "tags": ["Computer Vision", "Mila", "Research"],

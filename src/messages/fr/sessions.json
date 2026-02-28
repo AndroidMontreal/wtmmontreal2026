@@ -48,7 +48,7 @@
     {
       "id": "session-michell",
       "title": "Ce que les modèles voient : Au cœur de la vision par ordinateur moderne",
-      "description": "Découvrez comment les modèles de vision modernes peuvent détecter des objets sans avoir été entraînés sur eux. Explorez l'évolution vers les modèles 'zero-shot' comme Grounding DINO.",
+      "description": "Découvrez comment les modèles de vision modernes détectent les objets sans aucun entraînement préalable. Cet atelier pratique vous fera découvrir l'évolution de la détection d'objets traditionnelle vers les modèles « zéro-shot » comme Grounding DINO, capables de comprendre des descriptions en langage naturel pour identifier tout objet décrit. Après une brève introduction théorique, nous passerons à la pratique sur Google Colab : les participants expérimenteront la détection d'objets personnalisés à partir de simples descriptions textuelles (aucune donnée d'entraînement requise). À l'issue de l'atelier, ils maîtriseront les atouts et les limites de ces modèles et repartiront avec des compétences pratiques pour les appliquer à leurs projets de recherche, industriels ou créatifs.",
       "duration": "60 min",
       "type": "workshop",
       "tags": ["VisionOrdinateur", "Mila", "Recherche"],
