@@ -30,8 +30,8 @@
     {
       "id": "session-mathias",
       "title": "How to start building a game and overcome daily challenges",
-      "description": "Curious about making your first game? This session walks you through getting started with a game engine, learning through tutorials and game jams, and using AI to speed up your workflow. Discover how to shape your game loop and design for your audience.",
-      "duration": "45 min",
+      "description": "Curious about making your first game? This session walks you through getting started with a game engine, learning through tutorials and game jams, and using AI to speed up your workflow. Discover how to shape your game loop, design for your audience, and fill your world with assets - whether self-made, sourced, or AI-assisted. Finally, learn how to build your visibility through social media, influencers, and the right release platforms to bring your creation to life.",
+      "duration": "60 min",
       "type": "talk",
       "tags": ["GameDev", "Product Management", "AI"],
       "speakerIds": ["mathias-ahrens"]

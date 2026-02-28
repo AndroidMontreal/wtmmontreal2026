@@ -30,7 +30,7 @@
     {
       "id": "session-mathias",
       "title": "Comment commencer à créer un jeu et surmonter les défis quotidiens",
-      "description": "Curieux de créer votre premier jeu ? Cette session vous guide à travers l'utilisation d'un moteur de jeu, l'apprentissage par les tutoriels et les game jams, et l'utilisation de l'IA pour accélérer votre flux de travail.",
+      "description": "Curieux de créer votre premier jeu ? Cette session vous guide à travers l'utilisation d'un moteur de jeu, l'apprentissage par les tutoriels et les game jams, et l'utilisation de l'IA pour accélérer votre flux de travail. Découvrez comment structurer votre gameplay, concevoir pour votre public et enrichir votre univers avec des ressources, qu'elles soient créées par vous-même, achetées ou générées par l'IA. Enfin, apprenez à développer votre visibilité grâce aux réseaux sociaux, aux influenceurs et aux plateformes de diffusion adaptées pour donner vie à votre création.",
       "duration": "45 min",
       "type": "talk",
       "tags": ["JeuVidéo", "GestionProduit", "IA"],
