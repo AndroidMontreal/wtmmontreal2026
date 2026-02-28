@@ -111,7 +111,7 @@
     {
       "id": "session-viv",
       "title": "Break It Before They Do - Threat Modeling at Startup Speed",
-      "description": "The internet is adversarial. This talk presents security trends and real-world breaches, followed by a live threat modeling exercise to turn threats into concrete controls. (Session in English)",
+      "description": "Internet est par nature un environnement hostile, et le paysage des menaces évolue quotidiennement. Dans cette présentation, j'exposerai les tendances actuelles en matière de sécurité et quelques exemples concrets de violations de données illustrant les menaces techniques qu'elles représentent. Nous passerons ensuite à la pratique avec un exercice de modélisation des menaces en direct, qui démontrera comment transformer les menaces de sécurité en mesures de contrôle concrètes. Car les bâtisseurs les plus performants ne sont pas seulement innovants, ils adoptent également une approche proactive face aux menaces. (Session en anglais)",
       "duration": "45 min",
       "type": "talk",
       "tags": ["Cybersécurité", "Menaces", "Startup"],

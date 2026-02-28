@@ -111,7 +111,7 @@
     {
       "id": "session-viv",
       "title": "Break It Before They Do - Threat Modeling at Startup Speed",
-      "description": "The internet is adversarial. This talk presents security trends and real-world breaches, followed by a live threat modeling exercise to turn threats into concrete controls.",
+      "description": "The internet is adversarial by default and the threat landscape is changing day by day.  In this talk, I'll present current security trends and some real-world breach examples of the technical threats they pose.  Then we'll flip the script with a live threat modeling exercise that demonstrates how to turn security threats into concrete controls.  Because the most powerful builders aren't just innovative, they're adversarial thinkers.",
       "duration": "45 min",
       "type": "talk",
       "tags": ["Cybersecurity", "Threat Modeling", "Startup"],
