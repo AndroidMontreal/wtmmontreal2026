@@ -38,7 +38,7 @@
         "role": "Professor / Researcher",
         "company": "ÉTS Montreal",
         "image": "/images/speakers/alexandra_nemery.webp",
-        "bio": "Alexandra Nemery is a professor/researcher in UX design at ÉTS Montreal. PhD in ergonomics, she specializes in persuasive design, gamification, and user experience evaluation in complex contexts like serious games and VR. She leads research at the interface of science, technology, and design."
+        "bio": "Alexandra Nemery is a professor and researcher in user experience (UX) design at the École de technologie supérieure (ÉTS) in Montreal. With a PhD in ergonomics, she specializes in persuasive design, gamification, and user experience evaluation in complex contexts such as serious games, virtual reality, and interactive scientific tools. \n With extensive professional experience in the video game industry (Ubisoft, Square Enix, Haven Studio), she now conducts research projects at the interface of science, technology, and design, particularly focusing on content gamification, explainable AI, and ethical and inclusive design."
       },
       {
         "id": "angie",
@@ -46,7 +46,7 @@
         "role": "AI Lead Developer",
         "company": "Plus Company",
         "image": "/images/speakers/angie.webp",
-        "bio": "Angie Ariza is the AI Lead Developer at Plus Company, where she leads the Smart Persona project. Her expertise spans RAG, AI agents, and generative models. She is also a Women Techmakers Ambassador."
+        "bio": "Angie Ariza is the AI Lead Developer at Plus Company, where she leads the Smart Persona project and specializes in scaling AI systems from proof-of-concept to production. Her expertise spans Retrieval-Augmented Generation (RAG), AI agents, distributed systems, and generative models, with a strong track record of turning cutting-edge research into production-ready solutions. She has led impactful projects across fraud detection, forecasting, and large-scale data platforms. Beyond her technical leadership, Angie is a Women Techmakers Ambassador, committed to advancing the visibility and inclusion of women in technology."
       },
       {
         "id": "chloe-freslon",
@@ -62,7 +62,7 @@
         "role": "Guest Professor",
         "company": "UQAT/Montreal",
         "image": "/images/speakers/claude_cardinal.webp",
-        "bio": "Claude Cardinal is a Guest Professor at UQAT/Montreal. A PhD candidate in computer science, he has over 30 years of experience in IT, education, and public administration. He previously directed CeFTI at the University of Sherbrooke."
+        "bio": "A doctoral candidate in computer science (video game project management) at UQAC, Claude Cardinal has a diverse background in computer science, education, and public administration. He contributed to skills development at Eidos Montreal. \n With over thirty years of experience in education and instructional design, he previously directed the CeFTI at the University of Sherbrooke and worked as a programmer-analyst, application architect, and project manager in various technological environments."
       },
       {
         "id": "jl-marechaux",
@@ -70,7 +70,7 @@
         "role": "Principal AI Consultant",
         "company": "ServiceNow",
         "image": "/images/speakers/jl_marechaux.webp",
-        "bio": "JL Marechaux is a Principal AI Consultant at ServiceNow. He brings extensive experience in applied artificial intelligence and digital transformation. JL actively contributes to the Montreal technology community as a mentor and co-organizer of AI Tinkerers Montréal."
+        "bio": "JL Marechaux is a Principal AI Consultant at ServiceNow. He brings extensive experience in applied artificial intelligence and digital transformation.​  \n During his career, JL has held a diverse range of roles, including AI technical advisor, Cloud specialist, head of technology and principal enterprise architect in tech companies like Google, Ivado Labs, Blue Yonder and IBM. He was also a course lecturer at McGill University.​  \n In his last role prior to joining ServiceNow, JL was part of the 'Solutions & Thought Leadership' team at Google, helping North American companies use artificial intelligence to accelerate their digital transformation. He worked on advanced analytics and applied machine learning (ML) solutions for clients across key sectors such as retail, finance, travel, automotive, and insurance.​  \n JL actively contributes to the Montreal technology community as a mentor, a public speaker, an ambassador for Women in Data Science (WiDS) and co-organizer of the AI Tinkerers Montréal group."
       },
       {
         "id": "ludociels",
@@ -78,7 +78,7 @@
         "role": "Social Economy Organization",
         "company": "Ludociels pour tous",
         "image": "/images/speakers/ludociels.webp",
-        "bio": "Thomas Gaudy is a UX Designer and researcher. Stéphanie Akré is a social entrepreneur. Together they founded Ludociels pour tous, a social economy organization working for inclusion and accessibility in digital interfaces."
+        "bio": "Thomas Gaudy is a UX designer, computer science researcher, and co-founder of the social economy organization Ludociels pour tous (Games for All), which works to promote the inclusion and accessibility of digital interfaces. He holds a PhD in computer science and specializes in the study of digital ergonomics, cognitive and social psychology, and experimental games, leading him to design accessible video games, particularly for audiences with various disabilities. At Ludociels pour tous, Thomas works as a UX design consultant, offering ergonomic design services and guiding socially-oriented digital projects to ensure their inclusivity. His professional commitment thus combines research, teaching, UX consulting, and the creation of inclusive digital entertainment, reflecting his passion for the social impact of digital technologies. \n Stéphanie Akré is a social entrepreneur and co-founder of Ludociels pour tous, a social economy organization that helps design inclusive digital tools. Before co-founding Ludociels pour tous, Stéphanie worked as a massage therapist/physiotherapist. It was this experience in providing care and support that led her to reflect on the challenges of accessibility and inclusion in daily life, particularly through digital technology. Her professional journey has been marked by a significant transition: after experiencing burnout, she chose to redirect her career towards social entrepreneurship and learn on the job the skills related to managing an organization, digital communication, and collective entrepreneurship."
       },
       {
         "id": "mahsa-rezaei",
@@ -86,7 +86,7 @@
         "role": "Future of Work Architect",
         "company": "MamaNest",
         "image": "/images/speakers/mahsa_rezaei.webp",
-        "bio": "Mahsa is a Future of Work Architect and Social Entrepreneur with over 15 years of experience. As founder of 'MamaNest', she has pioneered ecosystems for career-growth for women."
+        "bio": "Mahsa is a Future of Work Architect and Social Entrepreneur with over 15 years of experience, evolving from Tech to leader in building career resilience for women in the AI economy. \n As founder of 'MamaNest', she has pioneered two flagship events 'MamaTech AI Studio', and the 'Women's Career Conference' alongside other activities to build a comprehensive career-growth ecosystem for women. Starting with Moms, Mahsa founded the 'Intelligent Nest' next to deliver AI-enhanced employment services to English-speaking women in Quebec's Professional, Scientific, and Technical Services sector. \n Beyond her own ventures,She is deeply committed to the broader landscape of women's empowerment and Social Impact and has contributed to impactful initiatives including WEDO Canada, the Social Business Creation competition from HEC Montreal, and the N.E.W Venture Program. She combines technical expertise with heart-led strategy to prove that career resilience and caregiving are not mutually exclusive."
       },
       {
         "id": "mahzad-kalantari",
@@ -94,7 +94,7 @@
         "role": "ML & Data Science Expert",
         "company": "Wizards of the Coast",
         "image": "/images/speakers/mahzad_kalantari.webp",
-        "bio": "Mahzad Kalantari is a machine learning and data science expert with a PhD in computer science and over 20 years of experience. She works in the video game industry at Wizards of the Coast, focusing on integrating reinforcement learning into games."
+        "bio": "Mahzad Kalantari is a machine learning and data science expert with a PhD in computer science and computer vision and over 20 years of experience in applied machine learning and data science. She works in the video game industry, where her focus is on integrating reinforcement learning into games to build intelligent systems, support game development, and enhance player experiences. She also applies machine learning techniques to automated game testing, helping teams improve quality, scalability, and production efficiency. She currently works at Wizards of the Coast, where she focuses on integrating reinforcement learning–based automated testing across video game studios."
       },
       {
         "id": "mariam",
@@ -110,7 +110,7 @@
         "role": "Product Manager",
         "company": "Video Games Industry",
         "image": "/images/speakers/mathias_ahrens.webp",
-        "bio": "Mathias Ahrens has over 15 years of experience in the video game industry. He has held roles in community, production, and product management at companies like Unity, Ubisoft, and Atari."
+        "bio": "Mathias Ahrens has over 15 years of experience in the video game and technology industries. After studying business and computer science in Europe, he immigrated to Canada to continue his career in this field. He has had the opportunity to wear many hats at several companies - including Unity, Ubisoft, Behaviour Interactive, Codemasters, and Atari - allowing him to refine his skills while working across a wide range of games, platforms, and audiences. \n Throughout his career, he has held various roles in video game development and publishing, notably in community, production, and product management. \n His interests revolve around the video game industry, including strategy watch, listening to specialized podcasts, participating in game jams, and traveling to international events such as GDC, where he presents best practices for remote collaboration."
       },
       {
         "id": "michell-payano",
@@ -118,7 +118,7 @@
         "role": "Researcher",
         "company": "Mila",
         "image": "/images/speakers/michell_payano.webp",
-        "bio": "Michell Payano started her career as an Economist before transitioning to CS and ML at Université de Montréal with Mila. She is conducting research in multi-agent reinforcement learning for policy making."
+        "bio": "Michell Payano started her career as an Economist in the public sector in Dominican Republic, where she developed a foundation in data driven policymaking. Recognizing the transformative potential of AI to address complex societal challenges, she made a transition to technology by pursuing a Master's degree in Computer Science with a specialization in machine learning at Université de Montréal, in collaboration with Mila. Her professional trajectory reflects an interdisciplinary vision, spanning from economic policy analysis to cutting edge research in computer vision and she is currently conducting research in multi-agent reinforcement learning for policy making. \n Beyond her professional and academic background, Michell is a passionate advocate for democratizing access to technology. She has served as an adjunct professor in her home country, and in Canada, she served as a mentor to young girls through Technovation Montréal, working to close the gender gap in tech by inspiring and equipping the next generation of women in AI."
       },
       {
         "id": "nadia-seraiocco",
@@ -126,7 +126,7 @@
         "role": "Associate Professor",
         "company": "UQAM",
         "image": "/images/speakers/nadia_seraiocco.webp",
-        "bio": "Nadia Seraiocco, PhD in Communication, has taught digital media at UQAM since 2013. Her research interests include the philosophical and ethical questions surrounding the use of personal data."
+        "bio": "Nadia Seraiocco, PhD in Communication, jointly holds degrees from Concordia University, the University of Montreal, and UQAM. After a career in communications from 1999 to 2014, working as a journalist and for organizations such as the National Gallery of Canada, VIA Rail, and the City of Montreal, her curiosity about technology led her to develop expertise in digital communications. Since 2013, she has taught digital media at UQAM's School of Media. Her research interests include creative research and the philosophical and ethical questions surrounding the use of individuals' personal data. For her doctoral thesis, defended in 2023 and entitled 'The Digital Double and Identity: Between Reflection, Amplification, and Diffraction,' she created a chatbot using her personal data that interacted on Twitter. Her master's thesis focused on Fluxus films, and she also pursued graduate studies at HEC Montréal. A blogger since 2002, she has been a columnist at ICI Première and regularly appears in the media."
       },
       {
         "id": "nathlie-sanon",
@@ -142,7 +142,7 @@
         "role": "Founder & CEO",
         "company": "",
         "image": "/images/speakers/nogol.webp",
-        "bio": "Nogol Madani is a future-focused workplace expert and CEO of a company dedicated to helping leaders build high-performing, inclusive teams through psychological safety."
+        "bio": "Nogol Madani is a future-focused workplace expert, speaker, and facilitator. She is the founder and CEO of a company dedicated to helping leaders build high-performing, inclusive, future-ready teams through psychological safety. Nogol started her career as an engineer, and as a first-generation immigrant and female professional, she experienced firsthand in the workplace how many leaders weren’t unlocking potential, they were stifling it. This realization sparked her mission to help develop workplaces where people thrive. Nogol has earned the trust of organizations like Google, SAP, Rio Tinto, BeaverTails, C2 Montreal, and Desjardins, guiding them to collaborate, communicate, and create better together. She is also a faculty member at the McGill Executive Institute, where she shares her expertise on leadership and team dynamics."
       },
       {
         "id": "stacy-veronneau",
@@ -158,7 +158,7 @@
         "role": "Principal Full Stack Architect",
         "company": "TD Bank",
         "image": "/images/speakers/viv.webp",
-        "bio": "Vivienne Suen is a cybersecurity architect with over 15 years' experience. At TD Bank, she leads the Cyber Security Architecture team. She thrives on demystifying the complexities of cybersecurity."
+        "bio": "Vivienne Suen est architecte en cybersécurité et possède un talent certain pour la communication. Forte de plus de 15 ans d'expérience, elle conseille les organisations informatiques en matière de solutions et de stratégie. À la Banque TD, elle dirige l'équipe d'architecture de cybersécurité, où elle conçoit les contrôles de cybersécurité de la banque, oriente la stratégie technologique et définit la vision architecturale pour assurer notre avenir. Conférencière recherchée lors de nombreux congrès et groupes d'utilisateurs, elle excelle dans la vulgarisation des concepts complexes de la cybersécurité et la conception de solutions pratiques répondant aux besoins et aux normes de sécurité. Vivienne vit à NDG avec son mari, son fils et un Vallhund suédois très énergique."
       }
     ]
   }

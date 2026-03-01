@@ -12,7 +12,7 @@
     {
       "id": "session-angie",
       "title": "Build Your First AI Agent with Google ADK",
-      "description": "Learn to build intelligent AI agents using Google's Agent Development Kit (ADK). In this hands-on workshop, you'll create a custom agent using free-tier resources. We'll walk through crafting agent instructions, understanding function-calling capabilities, and exploring how agents reason and make decisions.",
+      "description": "Learn to build intelligent AI agents using Google's Agent Development Kit (ADK). In this hands-on workshop, you'll create a custom agent using free-tier resources. We'll walk through crafting agent instructions, understanding function-calling capabilities, testing locally with the playground, and exploring how agents reason and make decisions. You'll work with a starter repository that you can fork and customize for your own projects. Bring your laptop with Python installed and be ready to experiment!",
       "duration": "60 min",
       "type": "workshop",
       "tags": ["AI Agents", "Google ADK", "Hands-on"],
@@ -30,8 +30,8 @@
     {
       "id": "session-mathias",
       "title": "How to start building a game and overcome daily challenges",
-      "description": "Curious about making your first game? This session walks you through getting started with a game engine, learning through tutorials and game jams, and using AI to speed up your workflow. Discover how to shape your game loop and design for your audience.",
-      "duration": "45 min",
+      "description": "Curious about making your first game? This session walks you through getting started with a game engine, learning through tutorials and game jams, and using AI to speed up your workflow. Discover how to shape your game loop, design for your audience, and fill your world with assets - whether self-made, sourced, or AI-assisted. Finally, learn how to build your visibility through social media, influencers, and the right release platforms to bring your creation to life.",
+      "duration": "60 min",
       "type": "talk",
       "tags": ["GameDev", "Product Management", "AI"],
       "speakerIds": ["mathias-ahrens"]
@@ -39,7 +39,7 @@
     {
       "id": "session-nogol",
       "title": "The Human Edge: Soft Skills in the Age of AI",
-      "description": "Why Soft Skills Will Define the Future of Work in the Age of AI. While AI excels at data processing, it cannot replicate uniquely human abilities like nuanced judgment, empathy, and ethical decision-making. Learn how to cultivate the capabilities machines can't replace.",
+      "description": "As artificial intelligence reshapes industries and automates routine tasks, leaders face a fundamental question: What kind of world of work do we want to create? For centuries, humans were expected to work like machines. Now, in the age of AI, humans can focus on what only they can do while machines handle the rest.While AI excels at data processing and efficiency, it cannot replicate uniquely human abilities like nuanced judgment, empathy, relationship-building, and ethical decision-making. The future belongs to those who bring these distinctly human strengths to the table. \n The Human Edge explores why human skills such as emotional intelligence, critical thinking, influence, and collaboration are essential for future-ready leaders and teams. This session highlights psychological safety as the cultural foundation that enables these skills to thrive, helping teams unlock their full potential and succeed in a rapidly evolving world.",
       "duration": "45 min",
       "type": "talk",
       "tags": ["Future of Work", "Leadership", "Soft Skills"],
@@ -48,7 +48,7 @@
     {
       "id": "session-michell",
       "title": "What Models Can See: Inside Modern Computer Vision",
-      "description": "Discover how modern vision models can detect objects without ever being trained on them. Explore the evolution from traditional object detection to zero-shot models like Grounding DINO. Hands-on exploration of text-to-object identification.",
+      "description": "Discover how modern vision models can detect objects without ever being trained on them. In this hands-on workshop, we will explore the evolution from traditional object detection to zero-shot models like Grounding DINO, which understand natural language prompts to identify anything you can describe. After a short theory session, we’ll dive into a practical Google Colab session where the attendees will experiment with detecting custom objects using only text descriptions (no training data required). By the end, they will understand both the power and limitations of these models, and leave with practical skills to apply them to their own projects in research, industry, or creative applications.",
       "duration": "60 min",
       "type": "workshop",
       "tags": ["Computer Vision", "Mila", "Research"],
@@ -57,7 +57,7 @@
     {
       "id": "session-mahsa",
       "title": "The Tech Talent Barrier Lab",
-      "description": "An interactive data-driven session sharing documented barriers to tech employment. Industry leaders respond with concrete actionable solutions. A collaborative experiment in making hiring systems accountable.",
+      "description": "An interactive data-driven session sharing documented barriers to tech employment. Industry leaders respond with concrete actionable solutions. \n What happens when you combine real pilot data with live problem-solving? \n Join us as participants from our 7-week Career camp share documented barriers to tech employment. Industry leaders respond with concrete actionable solutions. And even everything gets documented real-time. \n This isn't a typical panel. It's a collaborative experiment in making hiring systems accountable. \n Who should attend:\n \t Anyone involved in tech hiring \n\t Women navigating career transitions \n\t People curious about data-driven inclusion",
       "duration": "60 min",
       "type": "talk",
       "tags": ["Career", "Diversity", "Inclusion"],
@@ -66,7 +66,7 @@
     {
       "id": "session-nadia",
       "title": "Punk strategies to find your voice!",
-      "description": "Using punk culture tactics to develop a critical voice and stay relevant in tech. Exploration of detournement, hacktivism, and culture jamming as strategies for action.",
+      "description": "Punk culture, in its political function, stands against the fundamentals of capitalism: anti-consumerism, nonconformity, anti-racism, anti-sexism, and anti-discrimination of all kinds. Appropriation, hacktivism, and culture jamming are among the consistently effective strategies associated with subcultures. We will explore, through examples and case studies, how to remain passionate and relevant by using punk tactics to develop one's voice and maintain a critical perspective.",
       "duration": "30 min",
       "type": "talk",
       "tags": ["Digital Identity", "Communication", "Punk"],
@@ -75,7 +75,7 @@
     {
       "id": "session-claude",
       "title": "Project Management Tools",
-      "description": "Defining requirements goes beyond SMART goals. This talk demonstrates simple tools to define, organize, and prioritize requirements effectively (Eisenhower matrix, SWOT, MoSCoW, INVEST/AQUSA).",
+      "description": "Requirements management in a project goes far beyond simply defining SMART objectives. It requires clear sequencing and structured prioritization, which necessitates a thoughtful analysis of needs and their impact. \n This presentation will offer a demonstration and contextualization of several simple tools for effectively defining, organizing, and managing requirements. The presentation will cover: the Eisenhower Matrix, SWOT/FFMO analysis, the MoSCoW method, and the INVEST/AQUSA criteria. \n This presentation will be given in French.",
       "duration": "75 min",
       "type": "talk",
       "tags": ["Project Management", "Tools", "Agile"],
@@ -93,7 +93,7 @@
     {
       "id": "session-alexandra",
       "title": "Gamification in the service of science",
-      "description": "Gamification and serious games are powerful levers to make science more accessible. This talk offers a critical perspective on gamification in scientific and educational contexts, discussing success conditions and ethical issues.",
+      "description": "Gamification and serious games are now powerful tools for making science more accessible, engaging, and understandable for both expert and non-specialist audiences. Beyond entertainment, these approaches leverage mechanisms from cognitive psychology, UX, and game design to support learning, motivation, and participation. \n This conference will offer a critical perspective on gamification applied to scientific and educational contexts, through concrete examples of research projects, educational platforms, and interactive tools. It will address the conditions for success, pitfalls to avoid, and ethical issues related to the use of games in serious contexts.",
       "duration": "60 min",
       "type": "talk",
       "tags": ["Gamification", "Science", "UX"],
@@ -102,7 +102,7 @@
     {
       "id": "session-mahzad",
       "title": "From Theory to Practice: Reinforcement Learning in Video Games",
-      "description": "A pragmatic, production-oriented approach to applying reinforcement learning (RL) to video games. Covers RL principles, integration into Unreal Engine, and automated testing.",
+      "description": "Reinforcement learning (RL) is a powerful paradigm for training intelligent agents through interaction with their environment, yet its adoption in the video game industry remains limited. This presentation proposes a pragmatic, production-oriented approach to applying reinforcement learning to video games, illustrated through concrete examples in Unreal Engine. \n The session begins with a high-level overview of the core principles of reinforcement learning (agent, environment, state, action, reward, and policy), providing insight into why RL is particularly well suited to interactive and dynamic systems such as games. It then focuses on the integration of reinforcement learning into Unreal Engine, covering architectural choices, data exchange with machine learning frameworks, and key practical challenges. \n Finally, the presentation explores the use of reinforcement learning for automated video game testing, where RL-driven agents can explore environments, test game mechanics, and detect edge cases at scale. The goal is to demonstrate how reinforcement learning can evolve from research into a practical tool for game development and quality assurance.",
       "duration": "45 min",
       "type": "talk",
       "tags": ["Reinforcement Learning", "GameDev", "Unreal Engine"],
@@ -111,7 +111,7 @@
     {
       "id": "session-viv",
       "title": "Break It Before They Do - Threat Modeling at Startup Speed",
-      "description": "The internet is adversarial. This talk presents security trends and real-world breaches, followed by a live threat modeling exercise to turn threats into concrete controls.",
+      "description": "The internet is adversarial by default and the threat landscape is changing day by day.  In this talk, I'll present current security trends and some real-world breach examples of the technical threats they pose.  Then we'll flip the script with a live threat modeling exercise that demonstrates how to turn security threats into concrete controls.  Because the most powerful builders aren't just innovative, they're adversarial thinkers.",
       "duration": "45 min",
       "type": "talk",
       "tags": ["Cybersecurity", "Threat Modeling", "Startup"],
