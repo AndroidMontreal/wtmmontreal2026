@@ -102,7 +102,7 @@
     {
       "id": "session-mahzad",
       "title": "From Theory to Practice: Reinforcement Learning in Video Games",
-      "description": "A pragmatic, production-oriented approach to applying reinforcement learning (RL) to video games. Covers RL principles, integration into Unreal Engine, and automated testing.",
+      "description": "Reinforcement learning (RL) is a powerful paradigm for training intelligent agents through interaction with their environment, yet its adoption in the video game industry remains limited. This presentation proposes a pragmatic, production-oriented approach to applying reinforcement learning to video games, illustrated through concrete examples in Unreal Engine. \n The session begins with a high-level overview of the core principles of reinforcement learning (agent, environment, state, action, reward, and policy), providing insight into why RL is particularly well suited to interactive and dynamic systems such as games. It then focuses on the integration of reinforcement learning into Unreal Engine, covering architectural choices, data exchange with machine learning frameworks, and key practical challenges. \n Finally, the presentation explores the use of reinforcement learning for automated video game testing, where RL-driven agents can explore environments, test game mechanics, and detect edge cases at scale. The goal is to demonstrate how reinforcement learning can evolve from research into a practical tool for game development and quality assurance.",
       "duration": "45 min",
       "type": "talk",
       "tags": ["Reinforcement Learning", "GameDev", "Unreal Engine"],
