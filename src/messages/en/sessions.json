@@ -75,7 +75,7 @@
     {
       "id": "session-claude",
       "title": "Project Management Tools",
-      "description": "Defining requirements goes beyond SMART goals. This talk demonstrates simple tools to define, organize, and prioritize requirements effectively (Eisenhower matrix, SWOT, MoSCoW, INVEST/AQUSA).",
+      "description": "Requirements management in a project goes far beyond simply defining SMART objectives. It requires clear sequencing and structured prioritization, which necessitates a thoughtful analysis of needs and their impact. \n This presentation will offer a demonstration and contextualization of several simple tools for effectively defining, organizing, and managing requirements. The presentation will cover: the Eisenhower Matrix, SWOT/FFMO analysis, the MoSCoW method, and the INVEST/AQUSA criteria. \n This presentation will be given in French.",
       "duration": "75 min",
       "type": "talk",
       "tags": ["Project Management", "Tools", "Agile"],

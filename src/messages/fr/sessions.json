@@ -75,7 +75,7 @@
     {
       "id": "session-claude",
       "title": "Outils de gestion de projet",
-      "description": "La gestion des requis dans un projet va bien au-delà de la simple définition d’objectifs SMART. Cette conférence vous offrira une démonstration et une contextualisation de plusieurs outils simples (matrice d’Eisenhower, analyse SWOT, méthode MoSCoW).",
+      "description": "La gestion des requis dans un projet va bien au-delà de la simple définition d’objectifs SMART. Elle demande un ordonnancement clair et une priorisation structurée, ce qui nécessite une analyse réfléchie des besoins et de leur impact. \n Cette conférence vous offrira une démonstration et une contextualisation de plusieurs outils simples permettant de définir, organiser et gérer efficacement les requis. \n Seront abordés lors de la présentation : la matrice d’Eisenhower, l’analyse SWOT/FFMO, la méthode MoSCoW ainsi que les critères INVEST/AQUSA. \n Cette conférence sera donnée en français.",
       "duration": "75 min",
       "type": "talk",
       "tags": ["GestionProjet", "Outils", "Agile"],
