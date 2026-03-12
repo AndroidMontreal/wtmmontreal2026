@@ -38,7 +38,7 @@
         "role": "Professeure / Chercheure",
         "company": "ÉTS Montréal",
         "image": "/images/speakers/alexandra_nemery.webp",
-        "bio": "Alexandra Nemery est professeure/chercheure en design d’expérience utilisateur (UX) à l’École de technologie supérieure (ÉTS) à Montréal. Docteure en ergonomie, elle est spécialisée en design persuasif, ludification et évaluation de l’expérience utilisateur."
+        "bio": "Alexandra Nemery est professeure/chercheure en design d’expérience utilisateur (UX) à l’École de technologie supérieure (ÉTS) à Montréal. Docteure en ergonomie, elle est spécialisée en design persuasif, ludification et évaluation de l’expérience utilisateur dans des contextes complexes tels que les jeux sérieux, la réalité virtuelle et les outils scientifiques interactifs. \n Forte d’une expérience professionnelle en industrie du jeu vidéo (Ubisoft, Square Enix, Haven Studio), elle mène aujourd’hui des projets de recherche à l’interface entre science, technologie et design, notamment autour de la ludification de contenus, de l’IA explicable et du design éthique et inclusif."
       },
       {
         "id": "angie",
@@ -46,7 +46,7 @@
         "role": "Développeuse principale en IA",
         "company": "Plus Company",
         "image": "/images/speakers/angie.webp",
-        "bio": "Angie Ariza est responsable du développement en IA chez Plus Company, où elle dirige le projet Smart Persona et se spécialise dans le déploiement de systèmes d'IA. Son expertise couvre le RAG, les agents IA et les modèles génératifs."
+        "bio": "Angie Ariza est responsable du développement en IA chez Plus Company, où elle dirige le projet Smart Persona et se spécialise dans le déploiement de 1systèmes d'IA, de la preuve de concept à la production. Son expertise couvre la génération augmentée par la récupération (RAG), les agents IA, les systèmes distribués et les modèles génératifs, avec une solide expérience dans la transformation de la recherche de pointe en solutions opérationnelles. Elle a piloté des projets à fort impact dans les domaines de la détection de la fraude, de la prévision et des plateformes de données à grande échelle. Au-delà de son leadership technique, Angie est ambassadrice de Women Techmakers, s'engageant à promouvoir la visibilité et l'inclusion des femmes dans le secteur technologique."
       },
       {
         "id": "chloe-freslon",
@@ -62,7 +62,7 @@
         "role": "Professeur invité",
         "company": "UQAT/Montréal",
         "image": "/images/speakers/claude_cardinal.webp",
-        "bio": "Claude Cardinal est Professeur invité Jouabilité UQAT/Montréal. Doctorant en informatique, il possède une formation diversifiée en informatique, en éducation et en administration publique. Il a contribué au développement des compétences métier chez Eidos Montréal."
+        "bio": "Doctorant en informatique (gestion de projet jeu vidéo) à l’UQAC, Claude Cardinal possède une formation diversifiée en informatique, en éducation et en administration publique. Il a contribué au développement des compétences métier chez Eidos Montréal. \n Fort de plus de trente ans d’expérience en éducation et en ingénierie pédagogique, il a auparavant dirigé le CeFTI de l’Université de Sherbrooke et travaillé comme programmeur-analyste, architecte applicatif et chef de projet dans divers environnements technologiques."
       },
       {
         "id": "jl-marechaux",
@@ -70,7 +70,7 @@
         "role": "Consultant principal en IA",
         "company": "ServiceNow",
         "image": "/images/speakers/jl_marechaux.webp",
-        "bio": "JL Marechaux est consultant principal en IA chez ServiceNow. Son expertise couvre l'intelligence artificielle appliquée et la transformation numérique. Au cours de sa carrière, JL a occupé un large éventail de rôles chez Google, Ivado Labs, et IBM."
+        "bio": "JL Marechaux est consultant principal en IA chez ServiceNow. Son expertise couvre l'intelligence artificielle appliquée et la transformation numérique. \n Au cours de sa carrière, JL a occupé un large éventail de rôles, notamment en tant que conseiller technique en IA, spécialiste Cloud, responsable de la technologie et architecte d'entreprise principal au sein d'entreprises technologiques telles que Google, Ivado Labs, Blue Yonder et IBM. Il a également été chargé de cours à l'Université McGill.  \n Dans son dernier rôle avant de rejoindre ServiceNow, JL faisait partie de l'équipe « Solutions & Thought Leadership » chez Google, aidant les entreprises nord-américaines à utiliser l'intelligence artificielle pour accélérer leur transformation numérique. Il a travaillé sur des solutions d'analyse avancée et d'apprentissage automatique (ML) appliquées pour des clients dans des secteurs clés tels que la vente au détail, la finance, les voyages, l'automobile et l'assurance. \n JL contribue activement à la communauté technologique montréalaise en tant que mentor, conférencier, ambassadeur de Women in Data Science (WiDS) et co-organisateur du groupe AI Tinkerers Montréal."
       },
       {
         "id": "ludociels",
@@ -78,7 +78,7 @@
         "role": "Organisme d'économie sociale",
         "company": "Ludociels pour tous",
         "image": "/images/speakers/ludociels.webp",
-        "bio": "Thomas Gaudy est un UX Designer, chercheur en informatique et cofondateur de l’organisme Ludociels pour tous. Stéphanie Akré est une entrepreneure sociale et cofondatrice. Ensemble, ils œuvrent pour l’inclusion et l’accessibilité des interfaces numériques."
+        "bio": "Thomas Gaudy est un UX Designer, chercheur en informatique et cofondateur de l’organisme d’économie sociale Ludociels pour tous, qui œuvre pour l’inclusion et l’accessibilité des interfaces numériques. Il détient un doctorat en informatique et s’est spécialisé dans l’étude de l’ergonomie numérique, de la psychologie cognitive et sociale, ainsi que des jeux expérimentaux, ce qui l’a amené à concevoir des jeux vidéo accessibles, notamment pour des publics vivant avec différents handicaps. Chez Ludociels pour tous, Thomas travaille comme conseiller en UX Design, offrant des services de conception ergonomique et guidant des projets numériques à vocation sociale afin qu’ils soient inclusifs. Son engagement professionnel combine ainsi recherche, enseignement, consultation UX et création de divertissements numériques inclusifs, reflétant sa passion pour l’impact social des technologies numériques. \n Stéphanie Akré est une entrepreneure sociale, cofondatrice de l’organisme Ludociels pour tous, une organisation d’économie sociale qui aide à la conception d'outils numériques inclusifs. Avant de co-fonder Ludociels pour tous, Stéphanie travaille comme massothérapeute / physiothérapeute. C’est cette expérience de soins et de relation d’aide qui l’a amenée à réfléchir aux enjeux d’accessibilité et d’inclusion dans la vie quotidienne, notamment à travers le numérique. Son parcours professionnel est marqué par une transition importante : après avoir vécu un burn-out, elle choisit de se réorienter vers l’entrepreneuriat social et d’apprendre « sur le tas » les compétences liées à la gestion d’une organisation, à la communication numérique et à l’entrepreneuriat collectif."
       },
       {
         "id": "mahsa-rezaei",
@@ -86,7 +86,7 @@
         "role": "Architecte du futur du travail",
         "company": "MamaNest",
         "image": "/images/speakers/mahsa_rezaei.webp",
-        "bio": "Mahsa est une Architecte du Futur du Travail et Entrepreneure Sociale avec plus de 15 ans d'expérience. En tant que fondatrice de « MamaNest », elle a créé un écosystème complet de développement de carrière pour les femmes."
+        "bio": "Mahsa est une Architecte du Futur du Travail et Entrepreneure Sociale avec plus de 15 ans d'expérience, évoluant de la technologie vers un leadership axé sur la résilience professionnelle des femmes dans l'économie de l'IA. \n En tant que fondatrice de « MamaNest », elle a créé deux événements phares, « MamaTech AI Studio » et la « Conférence Carrière des Femmes », ainsi que d'autres activités pour bâtir un écosystème complet de développement de carrière pour les femmes. En commençant par les mamans, Mahsa a ensuite fondé « Intelligent Nest » pour offrir des services d'emploi enrichis par l'IA aux femmes anglophones du Québec dans le secteur des services professionnels, scientifiques et techniques. Au-delà de ses propres entreprises, elle est profondément engagée dans le domaine plus large de l'autonomisation des femmes et de l'impact social, et a contribué à des initiatives marquantes incluant WEDO Canada, le concours de Création d'entreprise sociale de HEC Montréal, et le programme N.E.W Venture. \n Elle combine une expertise technique avec une stratégie centrée sur l'humain pour prouver que la résilience professionnelle et les responsabilités familiales ne sont pas mutuellement exclusives."
       },
       {
         "id": "mahzad-kalantari",
@@ -94,7 +94,7 @@
         "role": "Experte en apprentissage automatique",
         "company": "Wizards of the Coast",
         "image": "/images/speakers/mahzad_kalantari.webp",
-        "bio": "Mahzad Kalantari est experte en apprentissage automatique et en science des données, docteure en informatique, avec plus de 20 ans d’expérience. Elle travaille dans l’industrie du jeu vidéo sur l’intégration de l’apprentissage par renforcement."
+        "bio": "Mahzad Kalantari est experte en apprentissage automatique et en science des données, docteure en informatique, avec plus de 20 ans d’expérience. Elle travaille dans l’industrie du jeu vidéo sur l’intégration de l’apprentissage par renforcement et des tests automatisés afin d’améliorer la qualité et l’expérience des joueurs chez Wizards of the Coast."
       },
       {
         "id": "mariam",
@@ -110,7 +110,7 @@
         "role": "Gestionnaire de produit",
         "company": "Industrie du jeu vidéo",
         "image": "/images/speakers/mathias_ahrens.webp",
-        "bio": "Mathias Ahrens cumule plus de 15 ans d'expérience dans les secteurs du jeu vidéo et des technologies. Il a occupé différents rôles dans le développement et la publication de jeux vidéo chez Unity, Ubisoft et Atari."
+        "bio": "Mathias Ahrens cumule plus de 15 ans d'expérience dans les secteurs du jeu vidéo et des technologies. Après des études en business et en informatique en Europe, il a immigré au Canada pour poursuivre sa carrière dans cette industrie. Il a eu l’occasion de porter multiples chapeaux au sein de différentes entreprises - Unity, Ubisoft, Behaviour Interactive, Codemasters, Atari - lui permettant d’affiner ses compétences en travaillant sur une grande diversité de jeux, de plateformes et d'audiences. \n Au fil de sa carrière, il a occupé différents rôles dans le développement et la publication de jeux vidéo, notamment en gestion de communauté, de production et de produit. \n Ses centres d'intérêts gravitent autour de l’industrie du jeu vidéo: veille technologique et stratégique, écoute de podcasts spécialisés, participation à des game jams, ainsi que déplacements vers des événements internationaux tels que la GDC, où il présente des bonnes pratiques de collaboration à distance."
       },
       {
         "id": "michell-payano",
@@ -118,7 +118,7 @@
         "role": "Chercheuse",
         "company": "Mila",
         "image": "/images/speakers/michell_payano.webp",
-        "bio": "Michell Payano a débuté sa carrière comme économiste dans le secteur public en République dominicaine. Elle s'est orientée vers les technologies en poursuivant une maîtrise en informatique à l'Université de Montréal, en collaboration avec Mila."
+        "bio": "Michell Payano a débuté sa carrière comme économiste dans le secteur public en République dominicaine, où elle a acquis une solide expérience en matière d'élaboration de politiques fondées sur les données. Consciente du potentiel transformateur de l'IA pour relever les défis sociétaux complexes, elle s'est orientée vers les technologies en poursuivant une maîtrise en informatique, avec une spécialisation en apprentissage automatique, à l'Université de Montréal, en collaboration avec Mila. Son parcours professionnel témoigne d'une vision interdisciplinaire, allant de l'analyse des politiques économiques à la recherche de pointe en vision par ordinateur. Elle mène actuellement des recherches sur l'apprentissage par renforcement multi-agents appliqué à l'élaboration de politiques. \n Au-delà de son parcours professionnel et universitaire, Michell est une fervente défenseure de la démocratisation de l'accès aux technologies. Elle a été professeure associée dans son pays d'origine et, au Canada, elle a été mentor auprès de jeunes filles par l'intermédiaire de Technovation Montréal, contribuant ainsi à réduire l'écart entre les sexes dans le secteur technologique en inspirant et en formant la prochaine génération de femmes en IA."
       },
       {
         "id": "nadia-seraiocco",
@@ -126,7 +126,7 @@
         "role": "Professeure associée",
         "company": "UQAM",
         "image": "/images/speakers/nadia_seraiocco.webp",
-        "bio": "Nadia Seraiocco, Ph.D. en communication, enseigne à l'École des médias de l'UQAM depuis 2013. Ses recherches portent sur la recherche-création et les questions éthiques liées à l'usage des données personnelles."
+        "bio": "Nadia Seraiocco, Ph.D. en communication, conjoint Concordia, Université de Montréal et UQAM. Après avoir fait carrière en communication de 1999 à 2014, comme journaliste mais aussi dans des organisations comme le Musée des beaux-arts du Canada, VIA Rail ou la Ville de Montréal, sa curiosité pour les technologies, l’a mené à développer une expertise en communications numériques. Depuis 2013, elle enseigne à l’École des médias de l’UQAM en médias numériques. Elle s’intéresse à la recherche-création, aussi aux questions philosophiques et éthiques liées à l’usage des données personnelles des individus. Pour sa thèse soutenue en 2023 et intitulée, « Le double numérique et l'identité : entre réflexion, amplification et diffraction », elle a constitué un robot conversationnel à partir de ses données personnelles qui agissait sur Twitter. Son mémoire de maîtrise portait sur les films de Fluxus et en parallèle elle a aussi fait des études de deuxième cycle à HEC. Blogueuse depuis 2002, elle a été chroniqueuse à ICI Première et intervient régulièrement dans les médias."
       },
       {
         "id": "nathlie-sanon",
@@ -142,7 +142,7 @@
         "role": "Fondatrice & CEO",
         "company": "",
         "image": "/images/speakers/nogol.webp",
-        "bio": "Nogol Madani est une experte du milieu de travail axée sur le futur, conférencière et facilitatrice. Elle est fondatrice et PDG d'une entreprise dédiée à aider les leaders à bâtir des équipes performantes grâce à la sécurité psychologique."
+        "bio": "Nogol Madani est une experte en environnement de travail tourné vers l'avenir, conférencière et animatrice. Elle est la fondatrice et PDG d'une entreprise qui aide les dirigeants à bâtir des équipes performantes, inclusives et préparées à l'avenir grâce à un climat de sécurité psychologique. Nogol a débuté sa carrière comme ingénieure et, en tant qu'immigrante de première génération et femme professionnelle, elle a constaté de visu que de nombreux dirigeants, loin de libérer le potentiel de leurs collaborateurs, l'étouffaient. Ce constat a donné naissance à sa mission : contribuer à créer des environnements de travail où chacun peut s'épanouir. Nogol a gagné la confiance d'organisations telles que Google, SAP, Rio Tinto, BeaverTails, C2 Montréal et Desjardins, qu'elle accompagne pour une collaboration, une communication et une création plus efficaces. Elle est également professeure à l'Institut des cadres de McGill, où elle partage son expertise en leadership et en dynamique d'équipe."
       },
       {
         "id": "stacy-veronneau",
@@ -158,7 +158,7 @@
         "role": "Architecte Full Stack Principal",
         "company": "TD Bank",
         "image": "/images/speakers/viv.webp",
-        "bio": "Vivienne Suen is a cybersecurity architect with over 15 years' experience. At TD Bank, she leads the Cyber Security Architecture team. (Bio en anglais)"
+        "bio": "Vivienne Suen is a cybersecurity architect with a flair for storytelling and over 15 years' experience advising IT organizations on solutions and strategy.  At TD Bank, she leads the Cyber Security Architecture team in designing the bank's cybersecurity controls, guiding technology strategy, and setting architecture vision to secure our future.  A featured speaker at numerous conferences and user groups, she thrives on demystifying the complexities of cybersecurity and designing practical solutions to meet security needs and standards. Vivienne lives in NDG with her husband, son, and a very frisky Swedish Vallhund."
       }
     ]
   }

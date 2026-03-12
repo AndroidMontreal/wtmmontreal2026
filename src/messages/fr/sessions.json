@@ -12,7 +12,7 @@
     {
       "id": "session-angie",
       "title": "Construisez votre premier agent IA avec Google ADK",
-      "description": "Apprenez à créer des agents IA intelligents à l'aide du kit de développement d'agents (ADK) de Google. Dans cet atelier pratique, vous créerez un agent personnalisé. Nous verrons comment rédiger les instructions, comprendre les appels de fonctions et comment les agents raisonnent.",
+      "description": "Apprenez à créer des agents IA intelligents grâce au kit de développement d'agents (ADK) de Google. Cet atelier pratique vous permettra de créer un agent personnalisé à l'aide des ressources gratuites. Nous aborderons la rédaction des instructions de l'agent, la compréhension des appels de fonctions, les tests en local avec l'environnement de test et l'exploration du raisonnement et de la prise de décision des agents. Vous travaillerez avec un dépôt de départ que vous pourrez dupliquer et personnaliser pour vos propres projets. Munissez-vous de votre ordinateur portable avec Python installé et préparez-vous à expérimenter!",
       "duration": "60 min",
       "type": "workshop",
       "tags": ["Agents IA", "Google ADK", "Pratique"],
@@ -30,7 +30,7 @@
     {
       "id": "session-mathias",
       "title": "Comment commencer à créer un jeu et surmonter les défis quotidiens",
-      "description": "Curieux de créer votre premier jeu ? Cette session vous guide à travers l'utilisation d'un moteur de jeu, l'apprentissage par les tutoriels et les game jams, et l'utilisation de l'IA pour accélérer votre flux de travail.",
+      "description": "Curieux de créer votre premier jeu ? Cette session vous guide à travers l'utilisation d'un moteur de jeu, l'apprentissage par les tutoriels et les game jams, et l'utilisation de l'IA pour accélérer votre flux de travail. Découvrez comment structurer votre gameplay, concevoir pour votre public et enrichir votre univers avec des ressources, qu'elles soient créées par vous-même, achetées ou générées par l'IA. Enfin, apprenez à développer votre visibilité grâce aux réseaux sociaux, aux influenceurs et aux plateformes de diffusion adaptées pour donner vie à votre création.",
       "duration": "45 min",
       "type": "talk",
       "tags": ["JeuVidéo", "GestionProduit", "IA"],
@@ -39,7 +39,7 @@
     {
       "id": "session-nogol",
       "title": "L'avantage humain : Les 'soft skills' à l'ère de l'IA",
-      "description": "Pourquoi les compétences humaines définiront l'avenir du travail à l'ère de l'IA. Découvrez comment cultiver les capacités que les machines ne peuvent pas remplacer : empathie, jugement nuancé et prise de décision éthique.",
+      "description": "Alors que l'intelligence artificielle transforme les industries et automatise les tâches routinières, les dirigeants sont confrontés à une question fondamentale : quel monde du travail voulons-nous créer ? Pendant des siècles, on a attendu des humains qu'ils travaillent comme des machines. Désormais, à l'ère de l'IA, les humains peuvent se concentrer sur ce qu'eux seuls peuvent faire, tandis que les machines prennent en charge le reste. \n Si l'IA excelle dans le traitement des données et l'efficacité, elle ne peut reproduire des capacités spécifiquement humaines telles que le jugement nuancé, l'empathie, la capacité à nouer des relations et la prise de décisions éthiques. L'avenir appartient à ceux qui mettent à profit ces atouts propres à l'humain. \n La conférence « L'avantage humain » explore pourquoi des compétences humaines telles que l'intelligence émotionnelle, l'esprit critique, l'influence et la collaboration sont essentielles pour les dirigeants et les équipes préparés à l'avenir. Cette session met en lumière la sécurité psychologique comme fondement culturel permettant à ces compétences de s'épanouir, aidant ainsi les équipes à libérer leur plein potentiel et à réussir dans un monde en constante évolution.",
       "duration": "45 min",
       "type": "talk",
       "tags": ["FuturDuTravail", "Leadership", "SoftSkills"],
@@ -48,7 +48,7 @@
     {
       "id": "session-michell",
       "title": "Ce que les modèles voient : Au cœur de la vision par ordinateur moderne",
-      "description": "Découvrez comment les modèles de vision modernes peuvent détecter des objets sans avoir été entraînés sur eux. Explorez l'évolution vers les modèles 'zero-shot' comme Grounding DINO.",
+      "description": "Découvrez comment les modèles de vision modernes détectent les objets sans aucun entraînement préalable. Cet atelier pratique vous fera découvrir l'évolution de la détection d'objets traditionnelle vers les modèles « zéro-shot » comme Grounding DINO, capables de comprendre des descriptions en langage naturel pour identifier tout objet décrit. Après une brève introduction théorique, nous passerons à la pratique sur Google Colab : les participants expérimenteront la détection d'objets personnalisés à partir de simples descriptions textuelles (aucune donnée d'entraînement requise). À l'issue de l'atelier, ils maîtriseront les atouts et les limites de ces modèles et repartiront avec des compétences pratiques pour les appliquer à leurs projets de recherche, industriels ou créatifs.",
       "duration": "60 min",
       "type": "workshop",
       "tags": ["VisionOrdinateur", "Mila", "Recherche"],
@@ -57,7 +57,7 @@
     {
       "id": "session-mahsa",
       "title": "Le laboratoire des barrières de talents tech",
-      "description": "Une session interactive basée sur des données partageant les barrières documentées à l'emploi dans la tech. Un projet collaboratif pour rendre les systèmes d'embauche plus responsables.",
+      "description": "Une session interactive basée sur les données, partageant les obstacles documentés à l'emploi dans le secteur technologique. Des leaders du secteur proposent des solutions concrètes et applicables. \n Que se passe-t-il lorsque l'on combine des données pilotes réelles avec la résolution de problèmes en direct ? \n Rejoignez-nous : les participants de notre camp de carrière de 7 semaines partageront les obstacles documentés à l'emploi dans le secteur technologique. Des leaders du secteur proposeront des solutions concrètes et applicables. Et tout est documenté en temps réel. \n Il ne s'agit pas d'une table ronde classique. C'est une expérience collaborative visant à responsabiliser les systèmes de recrutement. \n Qui devrait participer : \n \t Toute personne impliquée dans le recrutement dans le secteur technologique \n\t Les femmes en transition de carrière \n\t Les personnes curieuses de découvrir l'inclusion basée sur les données",
       "duration": "60 min",
       "type": "talk",
       "tags": ["Carrière", "Diversité", "Inclusion"],
@@ -66,7 +66,7 @@
     {
       "id": "session-nadia",
       "title": "Stratégies punks pour trouver sa voie (voix) !",
-      "description": "Utiliser les tactiques de la culture punk pour développer une voix critique et rester pertinent dans la tech. Exploration du hacktivisme et du détournement comme stratégies d'action.",
+      "description": "La culture punk, dans sa fonction politique, s'érige contre les fondamentaux du capitalisme : anticonsumériste, anticonformiste, antiracisme, antisexisme et antidiscrimination de toute nature. Le détournement, le hacktivisme et le 'culture jamming' comptent parmi les stratégies d'actions toujours judicieuses associées aux sous-cultures. Nous explorerons par des exemples, des cas, comment rester passionné, demeurer pertinent en utilisant les tactiques punks pour développer sa voix et rester critique.",
       "duration": "30 min",
       "type": "talk",
       "tags": ["IdentitéNumérique", "Communication", "Punk"],
@@ -75,7 +75,7 @@
     {
       "id": "session-claude",
       "title": "Outils de gestion de projet",
-      "description": "La gestion des requis dans un projet va bien au-delà de la simple définition d’objectifs SMART. Cette conférence vous offrira une démonstration et une contextualisation de plusieurs outils simples (matrice d’Eisenhower, analyse SWOT, méthode MoSCoW).",
+      "description": "La gestion des requis dans un projet va bien au-delà de la simple définition d’objectifs SMART. Elle demande un ordonnancement clair et une priorisation structurée, ce qui nécessite une analyse réfléchie des besoins et de leur impact. \n Cette conférence vous offrira une démonstration et une contextualisation de plusieurs outils simples permettant de définir, organiser et gérer efficacement les requis. \n Seront abordés lors de la présentation : la matrice d’Eisenhower, l’analyse SWOT/FFMO, la méthode MoSCoW ainsi que les critères INVEST/AQUSA. \n Cette conférence sera donnée en français.",
       "duration": "75 min",
       "type": "talk",
       "tags": ["GestionProjet", "Outils", "Agile"],
@@ -93,7 +93,7 @@
     {
       "id": "session-alexandra",
       "title": "Ludification au service de la science",
-      "description": "La ludification et les jeux sérieux constituent aujourd’hui des leviers puissants pour rendre la science plus accessible. Cette conférence proposera une mise en perspective critique de la ludification appliquée à des contextes scientifiques et éducatifs.",
+      "description": "La ludification et les jeux sérieux constituent aujourd’hui des leviers puissants pour rendre la science plus accessible, engageante et compréhensible, tant pour les publics experts que non spécialistes. Au-delà du divertissement, ces approches mobilisent des mécanismes issus de la psychologie cognitive, de l’UX et du game design afin de soutenir l’apprentissage, la motivation et la participation. \n Cette conférence proposera une mise en perspective critique de la ludification appliquée à des contextes scientifiques et éducatifs, à travers des exemples concrets de projets de recherche, de plateformes pédagogiques et d’outils interactifs. Elle abordera les conditions de succès, les écueils à éviter et les enjeux éthiques liés à l’usage du jeu dans des contextes sérieux.",
       "duration": "60 min",
       "type": "talk",
       "tags": ["Ludification", "Science", "UX"],
@@ -102,7 +102,7 @@
     {
       "id": "session-mahzad",
       "title": "De la théorie à la pratique : l’apprentissage par renforcement dans les jeux vidéo",
-      "description": "Cette présentation propose une approche pragmatique et orientée production de l’apprentissage par renforcement appliqué aux jeux vidéo, à travers des exemples concrets dans Unreal Engine.",
+      "description": "L’apprentissage par renforcement (reinforcement learning – RL) est un paradigme puissant permettant d’entraîner des agents intelligents par interaction avec leur environnement, mais son adoption dans l’industrie du jeu vidéo demeure encore limitée. Cette présentation propose une approche pragmatique et orientée production de l’apprentissage par renforcement appliqué aux jeux vidéo, à travers des exemples concrets dans Unreal Engine. \n La session débute par un rappel à haut niveau des principes fondamentaux de l’apprentissage par renforcement (agent, environnement, état, action, récompense et politique), afin de comprendre pourquoi cette approche est particulièrement adaptée aux systèmes interactifs et dynamiques tels que les jeux vidéo. Elle aborde ensuite l’intégration de l’apprentissage par renforcement dans Unreal Engine, en présentant les choix d’architecture, les échanges avec les frameworks d’apprentissage automatique et les principaux défis pratiques. \n Enfin, la présentation explore l’utilisation de l’apprentissage par renforcement pour les tests automatisés de jeux vidéo, où des agents peuvent explorer les environnements, tester les mécaniques et détecter des cas limites à grande échelle. L’objectif est de montrer comment l’apprentissage par renforcement peut passer du stade de la recherche à celui d’un outil concret pour le développement et l’assurance qualité des jeux vidéo.",
       "duration": "45 min",
       "type": "talk",
       "tags": ["ApprentissageRenforcement", "JeuVidéo", "UnrealEngine"],
@@ -111,7 +111,7 @@
     {
       "id": "session-viv",
       "title": "Break It Before They Do - Threat Modeling at Startup Speed",
-      "description": "The internet is adversarial. This talk presents security trends and real-world breaches, followed by a live threat modeling exercise to turn threats into concrete controls. (Session in English)",
+      "description": "Internet est par nature un environnement hostile, et le paysage des menaces évolue quotidiennement. Dans cette présentation, j'exposerai les tendances actuelles en matière de sécurité et quelques exemples concrets de violations de données illustrant les menaces techniques qu'elles représentent. Nous passerons ensuite à la pratique avec un exercice de modélisation des menaces en direct, qui démontrera comment transformer les menaces de sécurité en mesures de contrôle concrètes. Car les bâtisseurs les plus performants ne sont pas seulement innovants, ils adoptent également une approche proactive face aux menaces. (Session en anglais)",
       "duration": "45 min",
       "type": "talk",
       "tags": ["Cybersécurité", "Menaces", "Startup"],
