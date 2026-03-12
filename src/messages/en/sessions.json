@@ -28,15 +28,6 @@
       "speakerIds": ["nathlie-sanon"]
     },
     {
-      "id": "session-mathias",
-      "title": "How to start building a game and overcome daily challenges",
-      "description": "Curious about making your first game? This session walks you through getting started with a game engine, learning through tutorials and game jams, and using AI to speed up your workflow. Discover how to shape your game loop, design for your audience, and fill your world with assets - whether self-made, sourced, or AI-assisted. Finally, learn how to build your visibility through social media, influencers, and the right release platforms to bring your creation to life.",
-      "duration": "60 min",
-      "type": "talk",
-      "tags": ["GameDev", "Product Management", "AI"],
-      "speakerIds": ["mathias-ahrens"]
-    },
-    {
       "id": "session-nogol",
       "title": "The Human Edge: Soft Skills in the Age of AI",
       "description": "As artificial intelligence reshapes industries and automates routine tasks, leaders face a fundamental question: What kind of world of work do we want to create? For centuries, humans were expected to work like machines. Now, in the age of AI, humans can focus on what only they can do while machines handle the rest.While AI excels at data processing and efficiency, it cannot replicate uniquely human abilities like nuanced judgment, empathy, relationship-building, and ethical decision-making. The future belongs to those who bring these distinctly human strengths to the table. \n The Human Edge explores why human skills such as emotional intelligence, critical thinking, influence, and collaboration are essential for future-ready leaders and teams. This session highlights psychological safety as the cultural foundation that enables these skills to thrive, helping teams unlock their full potential and succeed in a rapidly evolving world.",
