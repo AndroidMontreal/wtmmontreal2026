@@ -33,7 +33,7 @@
       {
         "name": "Denny Perez",
         "role": "Software QA Analyst",
-        "company": "",
+        "company": "Wepoint",
         "image": "/images/team/denny-perez.webp",
         "social": "https://www.linkedin.com/in/dennyperez18/",
         "year": "2025"
@@ -101,6 +101,46 @@
         "image": "/images/team/michael.webp",
         "social": "https://linkedin.com/in/mpatane",
         "year": "2024"
+      },
+      {
+        "name": "Reem Habib",
+        "role": "Student",
+        "company": "Université de Montréal",
+        "image": "/images/team/reem.webp",
+        "social": "https://www.linkedin.com/in/reem-habib-2b121320a",
+        "year": "2026"
+      },
+      {
+        "name": "Kodeeshwari Solanki",
+        "role": "Safety Administrator",
+        "company": "Wesbell logistics",
+        "image": "/images/team/kodeeshwari.webp",
+        "social": "https://www.linkedin.com/in/kodeeshwari/",
+        "year": "2026"
+      },
+      {
+        "name": "Winnie Vorihilala",
+        "role": "",
+        "company": "",
+        "image": "/images/team/wtm.webp",
+        "social": "",
+        "year": "2026"
+      },
+      {
+        "name": "Liliia Shandak",
+        "role": "",
+        "company": "",
+        "image": "/images/team/wtm.webp",
+        "social": "",
+        "year": "2026"
+      },
+      {
+        "name": "Émilie Arculeo",
+        "role": "CEO",
+        "company": "ctrlweb",
+        "image": "/images/team/wtm.webp",
+        "social": "",
+        "year": "2026"
       }
     ]
   }

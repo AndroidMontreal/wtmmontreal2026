@@ -25,6 +25,7 @@
       "items": [
         { "name": "Coveo", "logo": "/images/sponsors/coveo.svg", "link": "https://www.coveo.com/en" },
         { "name": "Servicenow", "logo": "/images/sponsors/servicenow.svg", "link": "https://www.servicenow.com/" },
+        { "name": "Dialogue", "logo": "/images/sponsors/dialogue.svg", "link": "https://www.dialogue.co/en" },
         { "name": "Transit", "logo": "/images/sponsors/transit.svg", "link": "https://transitapp.com/" }
       ]
     }
