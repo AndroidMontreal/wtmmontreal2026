@@ -1,6 +1,15 @@
 {
   "list": [
     {
+      "id": "session-privacy",
+      "title": "Protection de la vie privée dans les systèmes d'IA",
+      "description": "The presentation will focus on privacy protection, covering existing threats to the privacy of machine learning models, training data and user inputs, as well as an overview of current countermeasures.",
+      "duration": "30 min",
+      "type": "talk",
+      "tags": ["AI", "Privacy", "Cybersecurity"],
+      "speakerIds": ["ulrich-aivodji"]
+    },
+    {
       "id": "session-cost-models",
       "title": "The cost of one-solution-fits-all models",
       "description": "This talk examines how the shift from highly customizable, small-scale machine learning systems to large, reusable models changes the AI landscape. As development moves toward off-the-shelf systems, the wide space of possible models narrows, and AI systems begin to look and behave more alike across contexts. The talk then asks what is gained and lost through this homogenization, and how responsibility should be understood when key design choices are no longer made locally, but embedded in widely deployed models.",

@@ -1,6 +1,15 @@
 {
   "list": [
     {
+      "id": "session-privacy",
+      "title": "Protection de la vie privée dans les systèmes d'IA",
+      "description": "La présentation portera sur la protection de la vie privée, en couvrant les menaces existantes à la confidentialité des modèles d’apprentissage automatique, des données d’entraînement et des entrées des utilisateurs, ainsi qu’un aperçu des contre-mesures actuelles.",
+      "duration": "30 min",
+      "type": "talk",
+      "tags": ["IA", "Confidentialité", "Cybersécurité"],
+      "speakerIds": ["ulrich-aivodji"]
+    },
+    {
       "id": "session-cost-models",
       "title": "Le coût des modèles universels",
       "description": "Cette conférence examine comment le passage de systèmes d'apprentissage automatique à petite échelle et hautement personnalisables à des modèles volumineux et réutilisables modifie le paysage de l'IA. À mesure que le développement s'oriente vers des systèmes standard, le vaste espace des modèles possibles se réduit et les systèmes d'IA commencent à se ressembler et à se comporter de la même manière dans tous les contextes. La conférence s'interroge ensuite sur ce qui est gagné et perdu par cette homogénéisation, et sur la manière dont la responsabilité doit être comprise lorsque les choix de conception clés ne sont plus faits localement, mais intégrés dans des modèles largement déployés.",
