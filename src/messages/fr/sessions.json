@@ -1,10 +1,19 @@
 {
   "list": [
     {
+      "id": "session-opening",
+      "title": "Ouverture - Opening",
+      "description": "Allocutions d'ouverture pour le WTM Montréal 2026.",
+      "duration": "15 min",
+      "type": "talk",
+      "tags": ["Ouverture"],
+      "speakerIds": ["stefania-pecore", "marie-gabrielle-menard", "anne-nguyen"]
+    },
+    {
       "id": "session-privacy",
       "title": "Protection de la vie privée dans les systèmes d'IA",
-      "description": "La présentation portera sur la protection de la vie privée, en couvrant les menaces existantes à la confidentialité des modèles d’apprentissage automatique, des données d’entraînement et des entrées des utilisateurs, ainsi qu’un aperçu des contre-mesures actuelles.",
-      "duration": "30 min",
+      "description": "Exploration des techniques et des défis de protection de la vie privée au sein des systèmes d'intelligence artificielle.",
+      "duration": "45 min",
       "type": "talk",
       "tags": ["IA", "Confidentialité", "Cybersécurité"],
       "speakerIds": ["ulrich-aivodji"]
@@ -19,13 +28,13 @@
       "speakerIds": ["afaf-taik", "khaoula-chehbouni"]
     },
     {
-      "id": "session-cost-models",
-      "title": "Le coût des modèles universels",
-      "description": "Cette conférence examine comment le passage de systèmes d'apprentissage automatique à petite échelle et hautement personnalisables à des modèles volumineux et réutilisables modifie le paysage de l'IA. À mesure que le développement s'oriente vers des systèmes standard, le vaste espace des modèles possibles se réduit et les systèmes d'IA commencent à se ressembler et à se comporter de la même manière dans tous les contextes. La conférence s'interroge ensuite sur ce qui est gagné et perdu par cette homogénéisation, et sur la manière dont la responsabilité doit être comprise lorsque les choix de conception clés ne sont plus faits localement, mais intégrés dans des modèles largement déployés.",
-      "duration": "45 min",
+      "id": "session-opening",
+      "title": "Ouverture - Opening",
+      "description": "Allocutions d'ouverture pour le WTM Montréal 2026.",
+      "duration": "15 min",
       "type": "talk",
-      "tags": ["Éthique IA", "Modèles ML", "IA Responsable"],
-      "speakerIds": ["afaf-taik", "khaoula-chehbouni"]
+      "tags": ["Ouverture"],
+      "speakerIds": ["stefania-pecore", "marie-gabrielle-menard", "anne-nguyen"]
     },
     {
       "id": "session-panel-ia",
@@ -35,15 +44,6 @@
       "type": "talk",
       "tags": ["IA", "Panel", "Éthique"],
       "speakerIds": ["stefania-pecore", "noemi-mercier"]
-    },
-    {
-      "id": "session-opening",
-      "title": "Ouverture - Opening",
-      "description": "Allocutions d'ouverture pour le WTM Montréal 2026.",
-      "duration": "15 min",
-      "type": "talk",
-      "tags": ["Ouverture"],
-      "speakerIds": ["stefania-pecore", "marie-gabrielle-menard", "anne-nguyen"]
     },
     {
       "id": "session-stacy",
@@ -91,124 +91,16 @@
       "speakerIds": ["michell-payano"]
     },
     {
-      "id": "session-barrier",
-      "title": "Panel - LES BARRIÈRES DES TALENTS TECH POUR LES FEMMES ANGLOPHONES",
-      "description": "Une session interactive basée sur les données, partageant les obstacles documentés à l'emploi dans le secteur technologique pour les femmes anglophones au Québec. Des leaders du secteur proposent des solutions concrètes et applicables.",
+      "id": "session-mahsa",
+      "title": "Le laboratoire des barrières de talents tech",
+      "description": "Une session interactive basée sur les données, partageant les obstacles documentés à l'emploi dans le secteur technologique. Des leaders du secteur proposent des solutions concrètes et applicables. \n Que se passe-t-il lorsque l'on combine des données pilotes réelles avec la résolution de problèmes en direct ? \n Rejoignez-nous : les participants de notre camp de carrière de 7 semaines partageront les obstacles documentés à l'emploi dans le secteur technologique. Des leaders du secteur proposeront des solutions concrètes et applicables. Et tout est documenté en temps réel. \n Il ne s'agit pas d'une table ronde classique. C'est une expérience collaborative visant à responsabiliser les systèmes de recrutement. \n Qui devrait participer : \n \t Toute personne impliquée dans le recrutement dans le secteur technologique \n\t Les femmes en transition de carrière \n\t Les personnes curieuses de découvrir l'inclusion basée sur les données",
       "duration": "60 min",
       "type": "talk",
       "tags": ["Carrière", "Diversité", "Inclusion"],
-      "speakerIds": ["annalise-iten", "mahsa-rezaei", "maya-toussaint", "rashida-geddes"]
+      "speakerIds": ["mahsa-rezaei"]
     },
     {
-      "id": "session-privacy-ia",
-      "title": "Protection de la vie privée dans les systèmes d'IA",
-      "description": "La présentation portera sur la protection de la vie privée, en couvrant les menaces existantes à la confidentialité des modèles d’apprentissage automatique, des données d’entraînement et des entrées des utilisateurs, ainsi qu’un aperçu des contre-mesures actuelles.",
-      "duration": "30 min",
-      "type": "talk",
-      "tags": ["IA", "Confidentialité", "Cybersécurité"],
-      "speakerIds": ["ulrich-aivodji"]
-    },
-    {
-      "id": "session-privacy-llms",
-      "title": "Atelier - RISQUES DE CONFIDENTIALITÉ DANS LES LLMS : ATELIER PRATIQUE SUR LA DÉTECTION DES DONNÉES SENSIBLES EN TEMPS RÉEL",
-      "description": "Cet atelier pratique explore les principaux risques de confidentialité liés à l’utilisation des LLMs. Les participantes expérimenteront des exemples concrets afin de comprendre comment des données sensibles peuvent apparaître dans les prompts ou les réponses du modèle, et comment mettre en place des mécanismes simples de détection et de mitigation en temps réel. À travers des démonstrations guidées et des exercices interactifs, les participantes repartiront avec des stratégies concrètes pour une utilisation plus sûre et responsable de l’IA.",
-      "duration": "60 min",
-      "type": "workshop",
-      "tags": ["Sécurité de l'IA", "LLM", "Confidentialité", "Atelier"],
-      "speakerIds": ["sabrine-amri"]
-    },
-    {
-      "id": "session-privacy-llms",
-      "title": "Atelier - RISQUES DE CONFIDENTIALITÉ DANS LES LLMS : ATELIER PRATIQUE SUR LA DÉTECTION DES DONNÉES SENSIBLES EN TEMPS RÉEL",
-      "description": "Cet atelier pratique explore les principaux risques de confidentialité liés à l’utilisation des LLMs. Les participantes expérimenteront des exemples concrets afin de comprendre comment des données sensibles peuvent apparaître dans les prompts ou les réponses du modèle, et comment mettre en place des mécanismes simples de détection et de mitigation en temps réel. À travers des démonstrations guidées et des exercices interactifs, les participantes repartiront avec des stratégies concrètes pour une utilisation plus sûre et responsable de l’IA.",
-      "duration": "60 min",
-      "type": "workshop",
-      "tags": ["Sécurité de l'IA", "LLM", "Confidentialité", "Atelier"],
-      "speakerIds": ["sabrine-amri"]
-    },
-    {
-      "id": "session-blit-panel",
-      "title": "Panel Communautaire - PARCOURS INSPIRANTS ET LEADERSHIP",
-      "description": "Un panel de discussion inspirant animé par Reem Habib, mettant en vedette Ghislaine Boundjia et Nicole Kenmei de Black Ladies in Tech. Elles partageront leurs parcours professionnels, discuteront des opportunités méconnues et offriront des conseils pour vous aider à tracer une trajectoire stratégique et authentique dans le monde de la tech.",
-      "duration": "45 min",
-      "type": "talk",
-      "tags": ["Communauté", "Leadership", "Carrière"],
-      "speakerIds": ["ghislaine-boundjia", "nicole-kenmei"]
-    },
-    {
-      "id": "session-rhum-networking",
-      "title": "Atelier - L’ESPACE DES POSSIBLES: RÉSEAUTEZ AVEC CONFIANCE",
-      "description": "Atelier interactif sur le réseautage avec confiance, axé sur les stratégies centrées sur l'humain et l'authenticité.",
-      "duration": "60 min",
-      "type": "workshop",
-      "tags": ["Réseautage", "Soft Skills", "Atelier"],
-      "speakerIds": ["pierre-luc-labbee"]
-    },
-    {
-      "id": "session-cirque-data",
-      "title": "Atelier - BEYOND THE DASHBOARD: BUILDING AGENTS THAT ACTUALLY USE YOUR DATA",
-      "description": "Atelier sur le passage de la simple visualisation de données à la création d'agents intelligents qui exploitent les données pour des informations exploitables.",
-      "duration": "60 min",
-      "type": "workshop",
-      "tags": ["Ingénierie des données", "Agents IA", "Atelier"],
-      "speakerIds": ["raphaelle-giraud"]
-    },
-    {
-      "id": "session-cirque-data",
-      "title": "Atelier - BEYOND THE DASHBOARD: BUILDING AGENTS THAT ACTUALLY USE YOUR DATA",
-      "description": "Atelier sur le passage de la simple visualisation de données à la création d'agents intelligents qui exploitent les données pour des informations exploitables.",
-      "duration": "60 min",
-      "type": "workshop",
-      "tags": ["Ingénierie des données", "Agents IA", "Atelier"],
-      "speakerIds": ["raphaelle-giraud"]
-    },
-    {
-      "id": "session-tahiri-bias",
-      "title": "Quand l’IA apprend à comparer : Biais, complexité et données structurées",
-      "description": "Exploration des biais et de la complexité lorsque l'IA apprend à comparer des données structurées.",
-      "duration": "45 min",
-      "type": "talk",
-      "tags": ["IA", "Données", "Éthique"],
-      "speakerIds": ["nadia-tahiri"]
-    },
-    {
-      "id": "session-unity",
-      "title": "Atelier - DANS LES COULISSES DU JEU VIDÉO : CRÉEZ VOTRE TOUT PREMIER JEU AVEC UNITY",
-      "description": "Atelier pratique sur la création de votre premier jeu vidéo en utilisant le moteur de jeu Unity.",
-      "duration": "60 min",
-      "type": "workshop",
-      "tags": ["Jeu Vidéo", "Unity", "Atelier"],
-      "speakerIds": ["melisane-lafrenaye"]
-    },
-    {
-      "id": "session-unity",
-      "title": "Atelier - DANS LES COULISSES DU JEU VIDÉO : CRÉEZ VOTRE TOUT PREMIER JEU AVEC UNITY",
-      "description": "Atelier pratique sur la création de votre premier jeu vidéo en utilisant le moteur de jeu Unity.",
-      "duration": "60 min",
-      "type": "workshop",
-      "tags": ["Jeu Vidéo", "Unity", "Atelier"],
-      "speakerIds": ["melisane-lafrenaye"]
-    },
-    {
-      "id": "session-decisions",
-      "title": "Atelier - LES DÉCISIONS QUI CHANGENT TOUT DANS UN PROJET NUMÉRIQUE",
-      "description": "Atelier sur la prise de décision critique dans les projets numériques, axé sur la valeur et l'alignement stratégique.",
-      "duration": "60 min",
-      "type": "workshop",
-      "tags": ["Gestion de Projet", "Stratégie Numérique", "Atelier"],
-      "speakerIds": ["melanie-guerin"]
-    },
-    {
-      "id": "session-barrier",
-      "title": "Panel - LES BARRIÈRES DES TALENTS TECH POUR LES FEMMES ANGLOPHONES",
-      "description": "Une session interactive basée sur les données, partageant les obstacles documentés à l'emploi dans le secteur technologique pour les femmes anglophones au Québec. Des leaders du secteur proposent des solutions concrètes et applicables.",
-      "duration": "60 min",
-      "type": "talk",
-      "tags": ["Carrière", "Diversité", "Inclusion"],
-      "speakerIds": ["annalise-iten", "mahsa-rezaei", "maya-toussaint", "rashida-geddes"]
-    },
-    {
-      "id": "session-privacy",
+      "id": "session-nadia",
       "title": "Stratégies punks pour trouver sa voie (voix) !",
       "description": "La culture punk, dans sa fonction politique, s'érige contre les fondamentaux du capitalisme : anticonsumériste, anticonformiste, antiracisme, antisexisme et antidiscrimination de toute nature. Le détournement, le hacktivisme et le 'culture jamming' comptent parmi les stratégies d'actions toujours judicieuses associées aux sous-cultures. Nous explorerons par des exemples, des cas, comment rester passionné, demeurer pertinent en utilisant les tactiques punks pour développer sa voix et rester critique.",
       "duration": "30 min",
