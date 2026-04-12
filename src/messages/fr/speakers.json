@@ -33,6 +33,14 @@
     },
     "list": [
       {
+        "id": "melisane-lafrenaye",
+        "name": "Mélisane Lafrenaye",
+        "role": "Lead technique",
+        "company": "Triple Boris",
+        "image": "/images/speakers/melisane_lafrenaye.webp",
+        "bio": "Mélisane Lafrenaye est développeresse et lead technique au sein du studio de jeu vidéo Triple Boris. Après avoir débuté sa carrière dans le milieu militaire puis en robotique biomédicale, elle se consacre à l’industrie du jeu vidéo depuis cinq ans. Elle se spécialise principalement en développement frontend avec, entre autres, le moteur de jeu Unity. Investie et passionnée par le partage de connaissances, elle contribue maintenant activement à l’évolution et au maintien des bonnes pratiques au sein du studio."
+      },
+      {
         "id": "melanie-guerin",
         "name": "Melanie Guerin",
         "role": "Associée principale",

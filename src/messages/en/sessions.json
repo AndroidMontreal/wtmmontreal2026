@@ -82,6 +82,15 @@
       "speakerIds": ["michell-payano"]
     },
     {
+      "id": "session-unity",
+      "title": "Atelier - DANS LES COULISSES DU JEU VIDÉO : CRÉEZ VOTRE TOUT PREMIER JEU AVEC UNITY",
+      "description": "Hands-on workshop on creating your first video game using the Unity game engine.",
+      "duration": "60 min",
+      "type": "workshop",
+      "tags": ["Game Development", "Unity", "Workshop"],
+      "speakerIds": ["melisane-lafrenaye"]
+    },
+    {
       "id": "session-decisions",
       "title": "Atelier - LES DÉCISIONS QUI CHANGENT TOUT DANS UN PROJET NUMÉRIQUE",
       "description": "Workshop on critical decision-making in digital projects, focusing on value and strategic alignment.",
