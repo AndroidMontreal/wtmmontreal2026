@@ -127,6 +127,15 @@
       "speakerIds": ["ghislaine-boundjia", "nicole-kenmei"]
     },
     {
+      "id": "session-blit-panel",
+      "title": "Panel Communautaire - PARCOURS INSPIRANTS ET LEADERSHIP",
+      "description": "Un panel de discussion inspirant animé par Reem Habib, mettant en vedette Ghislaine Boundjia et Nicole Kenmei de Black Ladies in Tech. Elles partageront leurs parcours professionnels, discuteront des opportunités méconnues et offriront des conseils pour vous aider à tracer une trajectoire stratégique et authentique dans le monde de la tech.",
+      "duration": "45 min",
+      "type": "talk",
+      "tags": ["Communauté", "Leadership", "Carrière"],
+      "speakerIds": ["ghislaine-boundjia"]
+    },
+    {
       "id": "session-rhum-networking",
       "title": "Atelier - L’ESPACE DES POSSIBLES: RÉSEAUTEZ AVEC CONFIANCE",
       "description": "Atelier interactif sur le réseautage avec confiance, axé sur les stratégies centrées sur l'humain et l'authenticité.",
