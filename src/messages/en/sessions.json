@@ -91,6 +91,15 @@
       "speakerIds": ["michell-payano"]
     },
     {
+      "id": "session-barrier",
+      "title": "Panel - THE TECH TALENT BARRIER FOR ENGLISH-SPEAKING WOMEN",
+      "description": "An interactive data-driven session sharing documented barriers to tech employment for English-speaking women in Quebec. Industry leaders respond with concrete actionable solutions.",
+      "duration": "60 min",
+      "type": "talk",
+      "tags": ["Career", "Diversity", "Inclusion"],
+      "speakerIds": ["annalise-iten", "mahsa-rezaei"]
+    },
+    {
       "id": "session-privacy-ia",
       "title": "Protection de la vie privée dans les systèmes d'IA",
       "description": "The presentation will focus on privacy protection, covering existing threats to the privacy of machine learning models, training data and user inputs, as well as an overview of current countermeasures.",
