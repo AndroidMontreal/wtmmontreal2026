@@ -193,6 +193,14 @@
         "bio": "Khaoula Chehbouni is a third-year PhD student at McGill University and Mila (Quebec AI Institute). She received the prestigious FRQNT doctoral training scholarship to conduct research on fairness and security in large language models. Previously, she worked as a senior data scientist at Statistics Canada. She holds a Master's degree in business intelligence from HEC Montréal, for which she received the Best Thesis Award. Her research interests include responsible AI, fairness and security issues in large language models."
       },
       {
+        "id": "reem-habib",
+        "name": "Reem Habib",
+        "role": "Moderator",
+        "company": "Women Techmakers Montreal",
+        "image": "/images/team/reem.webp",
+        "bio": "Reem Habib is a student at the Université de Montréal and an active member of the Women Techmakers Montreal organizing team. She serves as the moderator for the community panel on Tech Trajectories, bridging the gap between emerging talent and industry veterans."
+      },
+      {
         "id": "stefania-pecore",
         "name": "Stefania Pecore",
         "role": "Executive Director",
