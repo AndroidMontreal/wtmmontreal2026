@@ -10,10 +10,10 @@
       "speakerIds": ["stefania-pecore", "marie-gabrielle-menard", "anne-nguyen"]
     },
     {
-      "id": "session-privacy",
+      "id": "session-privacy-ia",
       "title": "Protection de la vie privée dans les systèmes d'IA",
-      "description": "Exploration des techniques et des défis de protection de la vie privée au sein des systèmes d'intelligence artificielle.",
-      "duration": "45 min",
+      "description": "La présentation portera sur la protection de la vie privée, en couvrant les menaces existantes à la confidentialité des modèles d’apprentissage automatique, des données d’entraînement et des entrées des utilisateurs, ainsi qu’un aperçu des contre-mesures actuelles.",
+      "duration": "30 min",
       "type": "talk",
       "tags": ["IA", "Confidentialité", "Cybersécurité"],
       "speakerIds": ["ulrich-aivodji"]
@@ -28,15 +28,6 @@
       "speakerIds": ["afaf-taik", "khaoula-chehbouni"]
     },
     {
-      "id": "session-opening",
-      "title": "Ouverture - Opening",
-      "description": "Allocutions d'ouverture pour le WTM Montréal 2026.",
-      "duration": "15 min",
-      "type": "talk",
-      "tags": ["Ouverture"],
-      "speakerIds": ["stefania-pecore", "marie-gabrielle-menard", "anne-nguyen"]
-    },
-    {
       "id": "session-panel-ia",
       "title": "Panel - IA : PROMESSES ET ANGLES MORTS",
       "description": "Une discussion approfondie sur les promesses et les angles morts de l'intelligence artificielle avec des expertes du domaine.",
@@ -46,9 +37,18 @@
       "speakerIds": ["stefania-pecore", "noemi-mercier"]
     },
     {
+      "id": "session-ai-tinkerers",
+      "title": "Démo Communautaire — AI Tinkerers Montréal",
+      "description": "Une série de démonstrations en direct de la communauté AI Tinkerers Montréal. Présentant 'Propulser le développement avec Gemini CLI' par Sabine Pierre et d'autres expériences d'IA de pointe.",
+      "duration": "45 min",
+      "type": "talk",
+      "tags": ["IA", "Démo", "Communauté"],
+      "speakerIds": ["sabine-pierre", "jl-marechaux", "ayrat-khayretdinov", "francois-legare", "pierre-alexandre-lacerte"]
+    },
+    {
       "id": "session-stacy",
       "title": "SOUS LE CAPOT : La réalité derrière le génie de l'IA",
-      "description": "Tout le monde est obsédé par la « rutilante voiture rouge » — le modèle d'IA. Nous courons après les paramètres et les fenêtres de contexte, luttant pour prendre le volant. Mais personne ne pose la question la plus dangereuse : « La piste est-elle sûre ? » Quand on place une machine de 15 millions de dollars sur une piste endommagée, elle ne se contente pas de s'arrêter — elle s'écrase.\n\nL'IA n'est pas de la magie ; c'est une machine qui demande beaucoup d'entretien. Dans cette session, nous soulevons le capot pour révéler la réalité derrière le génie. Nous délaisserons l'obsession du « conducteur » pour examiner l'infrastructure nécessaire pour réellement terminer la course.\n\nPoints clés :\n\n- **Le fossé des infrastructures :** Pourquoi construire l'IA de 2025 sur une infrastructure de 2015 est un échec garanti.\n- **Le besoin de vitesse :** Pourquoi les CPU ne sont que des « rues de ville », les GPU des « autoroutes », et pourquoi nous avons besoin de l'« hyperloop » sans friction des TPU pour gérer la complexité moderne.\n- **Le nouveau vecteur de menace :** Comment les attaques sont passées du vol de données à l'injection de commandes (« prompt injection »), et pourquoi vous avez besoin de « Model Armor » pour protéger l'esprit raisonneur de votre IA.\n\nArrêtez de simplement conduire. Apprenez à construire la piste.",
+      "description": "Tout le monde est obsédé par la « rutilante voiture rouge » — le modèle d'IA. Nous courons après les paramètres et les fenêtres de contexte, luttant pour prendre le volant. Mais personne ne pose la question la plus dangereuse : « La piste est-elle sûre ? » Quand on place une machine de 15 millions de dollars sur une piste endommagée, elle ne se contente pas de s'arrêter — elle s'écrase.\n\nL'IA n'est pas de la magie ; c'est une machine qui demande beaucoup d'entretien. Dans cette session, we pop the hood pour révéler la réalité derrière le génie. Nous délaisserons l'obsession du « conducteur » pour examiner l'infrastructure nécessaire pour réellement terminer la course.\n\nPoints clés :\n\n- **Le fossé des infrastructures :** Pourquoi construire l'IA de 2025 au-dessus d'une infrastructure de 2015 est un échec garanti.\n- **Le besoin de vitesse :** Pourquoi les CPU ne sont que des « rues de ville », les GPU des « autoroutes », et pourquoi nous avons besoin de l'« hyperloop » sans friction des TPU pour gérer la complexité moderne.\n- **Le nouveau vecteur de menace :** Comment les attaques sont passées du vol de données à l'injection de commandes (« prompt injection »), et pourquoi vous avez besoin de « Model Armor » pour protéger l'esprit raisonneur de votre IA.\n\nArrêtez de simplement conduire. Apprenez à construire la piste.",
       "duration": "40 min",
       "type": "talk",
       "tags": ["IA", "Infrastructure", "Cloud"],
@@ -91,16 +91,79 @@
       "speakerIds": ["michell-payano"]
     },
     {
-      "id": "session-mahsa",
-      "title": "Le laboratoire des barrières de talents tech",
-      "description": "Une session interactive basée sur les données, partageant les obstacles documentés à l'emploi dans le secteur technologique. Des leaders du secteur proposent des solutions concrètes et applicables. \n Que se passe-t-il lorsque l'on combine des données pilotes réelles avec la résolution de problèmes en direct ? \n Rejoignez-nous : les participants de notre camp de carrière de 7 semaines partageront les obstacles documentés à l'emploi dans le secteur technologique. Des leaders du secteur proposeront des solutions concrètes et applicables. Et tout est documenté en temps réel. \n Il ne s'agit pas d'une table ronde classique. C'est une expérience collaborative visant à responsabiliser les systèmes de recrutement. \n Qui devrait participer : \n \t Toute personne impliquée dans le recrutement dans le secteur technologique \n\t Les femmes en transition de carrière \n\t Les personnes curieuses de découvrir l'inclusion basée sur les données",
+      "id": "session-blit-panel",
+      "title": "Panel Communautaire - PARCOURS INSPIRANTS ET LEADERSHIP",
+      "description": "Un panel de discussion inspirant animé par Reem Habib, mettant en vedette Ghislaine Boundjia et Nicole Kenmei de Black Ladies in Tech. Elles partageront leurs parcours professionnels, discuteront des opportunités méconnues et offriront des conseils pour vous aider à tracer une trajectoire stratégique et authentique dans le monde de la tech.",
+      "duration": "45 min",
+      "type": "talk",
+      "tags": ["Communauté", "Leadership", "Carrière"],
+      "speakerIds": ["ghislaine-boundjia", "nicole-kenmei", "reem-habib"]
+    },
+    {
+      "id": "session-technovation",
+      "title": "Panel Communautaire - FEMMES EN TECH",
+      "description": "Une discussion de panel collaborative mettant en vedette des représentantes de Technovation Montréal, Femmes+ En Tech et Les Scientifines discutant de l'écosystème pour les femmes en technologie.",
+      "duration": "45 min",
+      "type": "talk",
+      "tags": ["Communauté", "Femmes en Tech", "Écosystème"],
+      "speakerIds": ["stephanie-jecrois"]
+    },
+    {
+      "id": "session-rhum-networking",
+      "title": "Atelier - L’ESPACE DES POSSIBLES: RÉSEAUTEZ AVEC CONFIANCE",
+      "description": "Atelier interactif sur le réseautage avec confiance, axé sur les stratégies centrées sur l'humain et l'authenticité.",
+      "duration": "60 min",
+      "type": "workshop",
+      "tags": ["Réseautage", "Soft Skills", "Atelier"],
+      "speakerIds": ["pierre-luc-labbee"]
+    },
+    {
+      "id": "session-cirque-data",
+      "title": "Atelier - BEYOND THE DASHBOARD: BUILDING AGENTS THAT ACTUALLY USE YOUR DATA",
+      "description": "Atelier sur le passage de la simple visualisation de données à la création d'agents intelligents qui exploitent les données pour des informations exploitables.",
+      "duration": "60 min",
+      "type": "workshop",
+      "tags": ["Ingénierie des données", "Agents IA", "Atelier"],
+      "speakerIds": ["raphaelle-giraud"]
+    },
+    {
+      "id": "session-tahiri-bias",
+      "title": "Quand l’IA apprend à comparer : Biais, complexité et données structurées",
+      "description": "Exploration des biais et de la complexité lorsque l'IA apprend à comparer des données structurées.",
+      "duration": "45 min",
+      "type": "talk",
+      "tags": ["IA", "Données", "Éthique"],
+      "speakerIds": ["nadia-tahiri"]
+    },
+    {
+      "id": "session-unity",
+      "title": "Atelier - DANS LES COULISSES DU JEU VIDÉO : CRÉEZ VOTRE TOUT PREMIER JEU AVEC UNITY",
+      "description": "Atelier pratique sur la création de votre premier jeu vidéo en utilisant le moteur de jeu Unity.",
+      "duration": "60 min",
+      "type": "workshop",
+      "tags": ["Jeu Vidéo", "Unity", "Atelier"],
+      "speakerIds": ["melisane-lafrenaye"]
+    },
+    {
+      "id": "session-decisions",
+      "title": "Atelier - LES DÉCISIONS QUI CHANGENT TOUT DANS UN PROJET NUMÉRIQUE",
+      "description": "Atelier sur la prise de décision critique dans les projets numériques, axé sur la valeur et l'alignement stratégique.",
+      "duration": "60 min",
+      "type": "workshop",
+      "tags": ["Gestion de Projet", "Stratégie Numérique", "Atelier"],
+      "speakerIds": ["melanie-guerin"]
+    },
+    {
+      "id": "session-barrier",
+      "title": "Panel - LES BARRIÈRES DES TALENTS TECH POUR LES FEMMES ANGLOPHONES",
+      "description": "Une session interactive basée sur les données, partageant les obstacles documentés à l'emploi dans le secteur technologique pour les femmes anglophones au Québec. Des leaders du secteur proposent des solutions concrètes et applicables.",
       "duration": "60 min",
       "type": "talk",
       "tags": ["Carrière", "Diversité", "Inclusion"],
-      "speakerIds": ["mahsa-rezaei"]
+      "speakerIds": ["annalise-iten", "mahsa-rezaei", "maya-toussaint", "rashida-geddes"]
     },
     {
-      "id": "session-nadia",
+      "id": "session-punk-voice",
       "title": "Stratégies punks pour trouver sa voie (voix) !",
       "description": "La culture punk, dans sa fonction politique, s'érige contre les fondamentaux du capitalisme : anticonsumériste, anticonformiste, antiracisme, antisexisme et antidiscrimination de toute nature. Le détournement, le hacktivisme et le 'culture jamming' comptent parmi les stratégies d'actions toujours judicieuses associées aux sous-cultures. Nous explorerons par des exemples, des cas, comment rester passionné, demeurer pertinent en utilisant les tactiques punks pour développer sa voix et rester critique.",
       "duration": "30 min",
