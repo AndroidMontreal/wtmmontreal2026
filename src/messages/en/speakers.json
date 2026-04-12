@@ -73,6 +73,14 @@
         "bio": "Pierre-Luc Labbée is the founder of rhum. An ICF-certified coach with 20 years in Tech, Gaming, and VFX, Pierre-Luc’s superpower is cutting through the noise with common sense to build human-first strategies. His mission is to help develop workplaces where people thrive."
       },
       {
+        "id": "pierre-luc-labbee",
+        "name": "Pierre-Luc Labbée",
+        "role": "Founder",
+        "company": "rhum",
+        "image": "/images/speakers/rhum_pierre_luclabbe.webp",
+        "bio": "Pierre-Luc Labbée is the founder of rhum. An ICF-certified coach with 20 years in Tech, Gaming, and VFX, Pierre-Luc’s superpower is cutting through the noise with common sense to build human-first strategies. His mission is to help develop workplaces where people thrive."
+      },
+      {
         "id": "raphaelle-giraud",
         "name": "Raphaëlle Giraud",
         "role": "Team Lead, Data Engineering",
