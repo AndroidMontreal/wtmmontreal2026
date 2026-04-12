@@ -145,6 +145,14 @@
         "bio": "Khaoula Chehbouni is a third-year PhD student at McGill University and Mila (Quebec AI Institute). She received the prestigious FRQNT doctoral training scholarship to conduct research on fairness and security in large language models. Previously, she worked as a senior data scientist at Statistics Canada. She holds a Master's degree in business intelligence from HEC Montréal, for which she received the Best Thesis Award. Her research interests include responsible AI, fairness and security issues in large language models."
       },
       {
+        "id": "khaoula-chehbouni",
+        "name": "Khaoula Chehbouni",
+        "role": "PhD Candidate",
+        "company": "McGill University & Mila",
+        "image": "/images/speakers/khaoula_chehbouni.webp",
+        "bio": "Khaoula Chehbouni is a third-year PhD student at McGill University and Mila (Quebec AI Institute). She received the prestigious FRQNT doctoral training scholarship to conduct research on fairness and security in large language models. Previously, she worked as a senior data scientist at Statistics Canada. She holds a Master's degree in business intelligence from HEC Montréal, for which she received the Best Thesis Award. Her research interests include responsible AI, fairness and security issues in large language models."
+      },
+      {
         "id": "afaf-taik",
         "name": "Afaf Taïk",
         "role": "Assistant Professor",
