@@ -193,6 +193,14 @@
         "bio": "Khaoula Chehbouni is a third-year PhD student at McGill University and Mila (Quebec AI Institute). She received the prestigious FRQNT doctoral training scholarship to conduct research on fairness and security in large language models. Previously, she worked as a senior data scientist at Statistics Canada. She holds a Master's degree in business intelligence from HEC Montréal, for which she received the Best Thesis Award. Her research interests include responsible AI, fairness and security issues in large language models."
       },
       {
+        "id": "raphaelle-giraud",
+        "name": "Raphaëlle Giraud",
+        "role": "Team Lead, Data Engineering",
+        "company": "Cirque du Soleil",
+        "image": "/images/speakers/raphaelle_giraud.webp",
+        "bio": "Raphaëlle Giraud is a Team Lead in Data Engineering at Cirque du Soleil Entertainment Group, where she leads data and AI initiatives that inform marketing and revenue decisions. Her experience across data engineering, analytics, and data science gives her a strong understanding of how data translates into business value. She partners closely with technical and business leaders to deliver practical data solutions and is committed to mentoring and sharing insights on career development and leadership in tech."
+      },
+      {
         "id": "nadia-tahiri",
         "name": "Nadia Tahiri",
         "role": "Assistant Professor",
