@@ -130,7 +130,8 @@
       "time": "15:00",
       "type": "session",
       "slots": {
-        "lab2": "session-michell"
+        "lab2": "session-michell",
+        "lab4": "session-gender-inclusive-ai"
       }
     },
     {
@@ -142,9 +143,10 @@
     },
     {
       "time": "16:30",
-      "type": "event",
-      "title": "Mot de clôture",
-      "description": "Remerciements finaux et tirage de prix."
+      "type": "session",
+      "slots": {
+        "main": "session-closing"
+      }
     }
   ]
 }
