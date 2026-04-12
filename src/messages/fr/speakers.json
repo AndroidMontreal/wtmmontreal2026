@@ -33,6 +33,38 @@
     },
     "list": [
       {
+        "id": "annalise-iten",
+        "name": "Annalise Iten",
+        "role": "Spécialiste de l'emploi",
+        "company": "YES Montreal",
+        "image": "/images/speakers/wtm.webp",
+        "bio": "Annalise est spécialiste de l'emploi chez YES Montreal, aidant les individus à naviguer dans leur parcours professionnel et à surmonter les obstacles à l'emploi dans la région de Montréal."
+      },
+      {
+        "id": "maya-toussaint",
+        "name": "Maya Toussaint",
+        "role": "Consultante en EDI",
+        "company": "Clio",
+        "image": "/images/speakers/wtm.webp",
+        "bio": "Maya Toussaint est consultante et conférencière en EDI, spécialisée dans les pratiques de recrutement inclusives et la création de cultures de travail équitables."
+      },
+      {
+        "id": "rashida-geddes",
+        "name": "Rashida Geddes",
+        "role": "Acquisition de talents",
+        "company": "Bell",
+        "image": "/images/speakers/wtm.webp",
+        "bio": "Rashida est une leader en acquisition de talents chez Bell, axée sur l'identification et le développement de talents diversifiés dans les secteurs des télécommunications et de la technologie."
+      },
+      {
+        "id": "applied-ai-institute",
+        "name": "Applied AI Institute",
+        "role": "Institut de recherche",
+        "company": "Université Concordia",
+        "image": "/images/partners/applied_ai_institute.svg",
+        "bio": "L’Applied AI Institute de l’Université Concordia se consacre à l’avancement du domaine de l’intelligence artificielle par la recherche interdisciplinaire, l’éducation et l’engagement communautaire, avec un accent particulier sur le développement d’une IA éthique et inclusive."
+      },
+      {
         "id": "marie-gabrielle-menard",
         "name": "Marie-Gabrielle Ménard",
         "role": "Députée libérale",
@@ -78,7 +110,7 @@
         "role": "Consultant principal en IA",
         "company": "ServiceNow",
         "image": "/images/speakers/jl_marechaux.webp",
-        "bio": "JL Marechaux est consultant principal en IA chez ServiceNow. Son expertise couvre l'intelligence artificielle appliquée et la transformation numérique. \n Au cours de sa carrière, JL a occupé un large éventail de rôles, notamment en tant que conseiller technique en IA, spécialiste Cloud, responsable de la technologie et architecte d'entreprise principal au sein d'entreprises technologiques telles que Google, Ivado Labs, Blue Yonder et IBM. Il a également été chargé de cours à l'Université McGill.  \n Dans son dernier rôle avant de rejoindre ServiceNow, JL faisait partie de l'équipe « Solutions & Thought Leadership » chez Google, aidant les entreprises nord-américaines à utiliser l'intelligence artificielle pour accélérer leur transformation numérique. Il a travaillé sur des solutions d'analyse avancée et d'apprentissage automatique (ML) appliquées pour des clients dans des secteurs clés tels que la vente au détail, la finance, les voyages, l'automobile et l'assurance. \n JL contribue activement à la communauté technologique montréalaise en tant que mentor, conférencier, ambassadeur de Women in Data Science (WiDS) et co-organisateur du groupe AI Tinkerers Montréal."
+        "bio": "JL Marechaux est consultant principal en IA chez ServiceNow. Son expertise couvre l'intelligence artificielle appliquée et la transformation numérique. \n Au cours de sa carrière, JL a occupé un large éventail de rôles, notamment en tant que conseiller technique en IA, spécialiste Cloud, responsable de la technologie et architecte d'entreprise principal au sein d'entreprises technologiques telles que Google, Ivado Labs, Blue Yonder and IBM. Il a également été chargé de cours à l'Université McGill.  \n Dans son dernier rôle avant de rejoindre ServiceNow, JL faisait partie de l'équipe « Solutions & Thought Leadership » chez Google, aidant les entreprises nord-américaines à utiliser l'intelligence artificielle pour accélérer leur transformation numérique. Il a travaillé sur des solutions d'analyse avancée et d'apprentissage automatique (ML) appliquées pour des clients dans des secteurs clés tels que la vente au détail, la finance, les voyages, l'automobile et l'assurance. \n JL contribue activement à la communauté technologique montréalaise en tant que mentor, conférencier, ambassadeur de Women in Data Science (WiDS) et co-organisateur du groupe AI Tinkerers Montréal."
       },
       {
         "id": "mahaua-chowdhury",
@@ -134,7 +166,7 @@
         "role": "Professeure associée",
         "company": "UQAM",
         "image": "/images/speakers/nadia_seraiocco.webp",
-        "bio": "Nadia Seraiocco, Ph.D. en communication, conjoint Concordia, Université de Montréal et UQAM. Après avoir fait carrière en communication de 1999 à 2014, comme journaliste mais aussi dans des organisations comme le Musée des beaux-arts du Canada, VIA Rail ou la Ville de Montréal, sa curiosité pour les technologies, l’a mené à développer une expertise en communications numériques. Depuis 2013, elle enseigne à l’École des médias de l’UQAM en médias numériques. Elle s’intéresse à la recherche-création, aussi aux questions philosophiques et éthiques liées à l’usage des données personnelles des individus. Pour sa thèse soutenue en 2023 et intitulée, « Le double numérique et l'identité : entre réflexion, amplification et diffraction », elle a constitué un robot conversationnel à partir de ses données personnelles qui agissait sur Twitter. Son mémoire de maîtrise portait sur les films de Fluxus et en parallèle elle a aussi fait des études de deuxième cycle à HEC. Blogueuse depuis 2002, elle a été chroniqueuse à ICI Première et intervient régulièrement dans les médias."
+        "bio": "Nadia Seraiocco, Ph.D. en communication, conjoint Concordia, Université de Montréal et UQAM. Après avoir fait carrière en communication de 1999 à 2014, comme journaliste mais aussi dans des organisations comme le Musée des beaux-arts du Canada, VIA Rail ou la Ville de Montréal, sa curiosité pour les technologies, l’a mené à développer une expertise en communications numériques. Depuis 2013, elle enseigne à l’École des médias de l’UQAM en mémédias numériques. Elle s’intéresse à la recherche-création, aussi aux questions philosophiques et éthiques liées à l’usage des données personnelles des individus. Pour sa thèse soutenue en 2023 et intitulée, « Le double numérique et l'identité : entre réflexion, amplification et diffraction », elle a constitué un robot conversationnel à partir de ses données personnelles qui agissait sur Twitter. Son mémoire de maîtrise portait sur les films de Fluxus et en parallèle elle a aussi fait des études de deuxième cycle à HEC. Blogueuse depuis 2002, elle a été chroniqueuse à ICI Première et intervient régulièrement dans les médias."
       },
       {
         "id": "nathlie-sanon",
@@ -150,7 +182,7 @@
         "role": "Fondatrice & CEO",
         "company": "",
         "image": "/images/speakers/nogol.webp",
-        "bio": "Nogol Madani est une experte en environnement de travail tourné vers l'avenir, conférencière et animatrice. Elle est la fondatrice et PDG d'une entreprise qui aide les dirigeants à bâtir des équipes performantes, inclusives et préparées à l'avenir grâce à un climat de sécurité psychologique. Nogol a débuté sa carrière comme ingénieure et, en tant qu'immigrante de première génération et femme professionnelle, elle a constaté de visu que de nombreux dirigeants, loin de libérer le potentiel de leurs collaborateurs, l'étouffaient. Ce constat a donné naissance à sa mission : contribuer à créer des environnements de travail où chacun peut s'épanouir. Nogol a gagné la confiance d'organisations telles que Google, SAP, Rio Tinto, BeaverTails, C2 Montréal et Desjardins, qu'elle accompagne pour une collaboration, une communication et une création plus efficaces. Elle est également professeure à l'Institut des cadres de McGill, où elle partage son expertise en leadership et en dynamique d'équipe."
+        "bio": "Nogol Madani est une experte en environnement de travail tourné vers l'avenir, conférencière et animatrice. Elle est la fondatrice et PDG d'une entreprise qui aide les dirigeants à bâtir des équipes performantes, inclusives et préparées à l'avenir grâce à un climat de sécurité psychologique. Nogol a débuté sa carrière comme ingénieure et, en tant qu'immigrante de première génération et femme professionnelle, elle a constaté de visu que de nombreux dirigeants, loin de libérer le potentiel de leurs collaborateurs, l'étouffaient. Ce constat a donné naissance à sa mission : contribuer à créer des environnements de travail où chacun peut s'épanouir. Nogol ha gagné la confiance d'organisations telles que Google, SAP, Rio Tinto, BeaverTails, C2 Montréal et Desjardins, qu'elle accompagne pour une collaboration, une communication et une création plus efficaces. Elle est également professeure à l'Institut des cadres de McGill, où elle partage son expertise en leadership et en dynamique d'équipe."
       },
       {
         "id": "noemi-mercier",
@@ -190,7 +222,7 @@
         "role": "Directrice principale responsable de l’IA",
         "company": "Conseil de l’innovation du Québec",
         "image": "/images/speakers/anne_nguyen.webp",
-        "bio": "Directrice principale responsable de l’intelligence artificielle au Conseil de l’innovation du Québec, Anne Nguyen œuvre à faire de l’IA un levier d’innovation responsable, aligné sur les valeurs d’inclusion, d’égalité et d’humanité qui guident son parcours. Avant de rejoindre le CIQ, elle a travaillé pendant 18 ans dans le réseau de la santé, où elle a piloté plusieurs projets stratégiques en transformation numérique et en valorisation des données. Anne est titulaire d’un diplôme en Business Analytics de la Harvard Business School, d’une certification Product Management Master du Pragmatic Institute, d’une Lean Six Sigma Black Belt de l’Université McGill et d’un certificat en gestion de l’Université de Montréal."
+        "bio": "Directrice principale responsable de l’intelligence artificielle au Conseil de l’innovation du Québec, Anne Nguyen œuvre à faire de l’IA un levier d’innovation responsable, aligné sur les valeurs d’inclusion, d’égalité et d’humanité qui guident son parcours. Avant de rejoindre le CIQ, she a travaillé pendant 18 ans dans le réseau de la santé, où elle a piloté plusieurs projets stratégiques en transformation numérique et en valorisation des données. Anne est titulaire d’un diplôme en Business Analytics de la Harvard Business School, d’une certification Product Management Master du Pragmatic Institute, d’une Lean Six Sigma Black Belt de l’Université McGill et d’un certificat en gestion de l’Université de Montréal."
       },
       {
         "id": "khaoula-chehbouni",
@@ -319,6 +351,14 @@
         "company": "Triple Boris",
         "image": "/images/speakers/melisane_lafrenaye.webp",
         "bio": "Mélisane Lafrenaye est développeresse et lead technique au sein du studio de jeu vidéo Triple Boris. Après avoir débuté sa carrière dans le milieu militaire puis en robotique biomédicale, elle se consacre à l’industrie du jeu vidéo depuis cinq ans. Elle se spécialise principalement en développement frontend avec, entre autres, le moteur de jeu Unity. Investie et passionnée par le partage de connaissances, elle contribue maintenant activement à l’évolution et au maintien des bonnes pratiques au sein du studio."
+      },
+      {
+        "id": "melanie-guerin",
+        "name": "Melanie Guerin",
+        "role": "Associée principale",
+        "company": "FJNR",
+        "image": "/images/speakers/wtm.webp",
+        "bio": "Mélanie Guérin est associée principale chez FJNR, où elle accompagne organisations et entrepreneurs dans la conception et la réalisation de projets numériques, avec une approche pragmatique centrée sur la valeur et la clarté décisionnelle. Elle a piloté de nombreux projets impliquant des équipes multidisciplinaires, tant en développement qu’en stratégie produit. Elle est également associée chez EmoScienS, une startup en IA spécialisée en reconnaissance émotionnelle. Engagée dans l’écosystème montréalais, elle est présidente de Montréal-Python, contribuant activement au partage des connaissances et au développement de la communauté."
       },
       {
         "id": "viv",

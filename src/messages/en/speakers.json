@@ -33,6 +33,38 @@
     },
     "list": [
       {
+        "id": "annalise-iten",
+        "name": "Annalise Iten",
+        "role": "Employment Specialist",
+        "company": "YES Montreal",
+        "image": "/images/speakers/wtm.webp",
+        "bio": "Annalise is an Employment Specialist at YES Montreal, helping people navigate their career paths and overcome barriers to employment in the Montreal area."
+      },
+      {
+        "id": "maya-toussaint",
+        "name": "Maya Toussaint",
+        "role": "DEI Consultant",
+        "company": "Clio",
+        "image": "/images/speakers/wtm.webp",
+        "bio": "Maya Toussaint is a DEI Consultant and speaker, specializing in inclusive hiring practices and building equitable workplace cultures."
+      },
+      {
+        "id": "rashida-geddes",
+        "name": "Rashida Geddes",
+        "role": "Talent Acquisition",
+        "company": "Bell",
+        "image": "/images/speakers/wtm.webp",
+        "bio": "Rashida is a talent acquisition leader at Bell, focused on identifying and nurturing diverse talent in the telecommunications and tech sectors."
+      },
+      {
+        "id": "applied-ai-institute",
+        "name": "Applied AI Institute",
+        "role": "Research Institute",
+        "company": "Concordia University",
+        "image": "/images/partners/applied_ai_institute.svg",
+        "bio": "The Applied AI Institute at Concordia University is dedicated to advancing the field of Artificial Intelligence through interdisciplinary research, education, and community engagement, with a focus on ethical and inclusive AI development."
+      },
+      {
         "id": "marie-gabrielle-menard",
         "name": "Marie-Gabrielle Ménard",
         "role": "Liberal Member of Parliament",
@@ -326,7 +358,7 @@
         "role": "Principal Full Stack Architect",
         "company": "TD Bank",
         "image": "/images/speakers/viv.webp",
-        "bio": "Vivienne Suen est architecte en cybersécurité et possède un talent certain pour la communication. Forte de plus de 15 ans d'expérience, elle conseille les organisations informatiques en matière de solutions et de stratégie. À la Banque TD, elle dirige l'équipe d'architecture de cybersécurité, où elle conçoit les contrôles de cybersécurité de la banque, oriente la stratégie technologique et définit la vision architecturale pour assurer notre avenir. Conférencière recherchée lors de nombreux congrès et groupes d'utilisateurs, elle excelle dans la vulgarisation des concepts complexes de la cybersécurité et la conception de solutions pratiques répondant aux besoins et aux normes de sécurité. Vivienne vit à NDG avec son mari, son fils et un Vallhund suédois très énergique."
+        "bio": "Vivienne Suen is a cybersecurity architect with a flair for storytelling and over 15 years' experience advising IT organizations on solutions and strategy.  At TD Bank, she leads the Cyber Security Architecture team in designing the bank's cybersecurity controls, guiding technology strategy, and setting architecture vision to secure our future.  A featured speaker at numerous conferences and user groups, she thrives on demystifying the complexities of cybersecurity and designing practical solutions to meet security needs and standards. Vivienne lives in NDG with her husband, son, and a very frisky Swedish Vallhund."
       }
     ]
   }
