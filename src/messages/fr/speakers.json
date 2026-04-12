@@ -33,6 +33,14 @@
     },
     "list": [
       {
+        "id": "rashida-geddes",
+        "name": "Rashida Geddes",
+        "role": "Acquisition de talents",
+        "company": "Bell",
+        "image": "/images/speakers/wtm.webp",
+        "bio": "Rashida est une leader en acquisition de talents chez Bell, axée sur l'identification et le développement de talents diversifiés dans les secteurs des télécommunications et de la technologie."
+      },
+      {
         "id": "maya-toussaint",
         "name": "Maya Toussaint",
         "role": "Consultante en EDI",
