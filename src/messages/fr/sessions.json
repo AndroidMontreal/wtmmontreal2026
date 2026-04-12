@@ -1,6 +1,15 @@
 {
   "list": [
     {
+      "id": "session-opening",
+      "title": "Ouverture - Opening",
+      "description": "Allocutions d'ouverture pour le WTM Montréal 2026.",
+      "duration": "15 min",
+      "type": "talk",
+      "tags": ["Ouverture"],
+      "speakerIds": ["stefania-pecore", "marie-gabrielle-menard", "anne-nguyen"]
+    },
+    {
       "id": "session-stacy",
       "title": "SOUS LE CAPOT : La réalité derrière le génie de l'IA",
       "description": "Tout le monde est obsédé par la « rutilante voiture rouge » — le modèle d'IA. Nous courons après les paramètres et les fenêtres de contexte, luttant pour prendre le volant. Mais personne ne pose la question la plus dangereuse : « La piste est-elle sûre ? » Quand on place une machine de 15 millions de dollars sur une piste endommagée, elle ne se contente pas de s'arrêter — elle s'écrase.\n\nL'IA n'est pas de la magie ; c'est une machine qui demande beaucoup d'entretien. Dans cette session, nous soulevons le capot pour révéler la réalité derrière le génie. Nous délaisserons l'obsession du « conducteur » pour examiner l'infrastructure nécessaire pour réellement terminer la course.\n\nPoints clés :\n\n- **Le fossé des infrastructures :** Pourquoi construire l'IA de 2025 sur une infrastructure de 2015 est un échec garanti.\n- **Le besoin de vitesse :** Pourquoi les CPU ne sont que des « rues de ville », les GPU des « autoroutes », et pourquoi nous avons besoin de l'« hyperloop » sans friction des TPU pour gérer la complexité moderne.\n- **Le nouveau vecteur de menace :** Comment les attaques sont passées du vol de données à l'injection de commandes (« prompt injection »), et pourquoi vous avez besoin de « Model Armor » pour protéger l'esprit raisonneur de votre IA.\n\nArrêtez de simplement conduire. Apprenez à construire la piste.",

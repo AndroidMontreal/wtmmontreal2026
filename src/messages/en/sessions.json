@@ -1,6 +1,15 @@
 {
   "list": [
     {
+      "id": "session-opening",
+      "title": "Opening - Ouverture",
+      "description": "Opening remarks for WTM Montreal 2026.",
+      "duration": "15 min",
+      "type": "talk",
+      "tags": ["Opening"],
+      "speakerIds": ["stefania-pecore", "marie-gabrielle-menard", "anne-nguyen"]
+    },
+    {
       "id": "session-stacy",
       "title": "POPPING THE HOOD: The Grime Behind the Genius",
       "description": "Everyone is obsessed with the \"shiny red car\"—the AI Model. We chase parameters and context windows, fighting to get into the driver's seat. But nobody is asking the most dangerous question: \"Is the track safe?\" When you put a $15 million machine on a broken track, it doesn’t just stop—it crashes.\n\nAI isn't magic; it's a high-maintenance machine. In this session, we pop the hood to reveal the grime behind the genius. We will leave the \"driver obsession\" behind and look at the infrastructure required to actually finish the race.\n\nKey Takeaways:\n\n- **The Infrastructure Gap:** Why building 2025 AI on 2015 infrastructure is a guaranteed failure.\n- **The Need for Speed:** Why CPUs are just \"city streets,\" GPUs are \"highways,\" and why we need the frictionless \"hyperloop\" of TPUs to handle modern complexity.\n- **The New Threat Vector:** How attacks have shifted from data theft to prompt injection, and why you need \"Model Armor\" to protect the reasoning mind of your AI.\n\nStop just driving. Come learn how to build the track.",

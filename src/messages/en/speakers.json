@@ -33,6 +33,14 @@
     },
     "list": [
       {
+        "id": "marie-gabrielle-menard",
+        "name": "Marie-Gabrielle Ménard",
+        "role": "Liberal Member of Parliament",
+        "company": "Hochelaga—Rosemont-East",
+        "image": "/images/speakers/marie_gabrielle_menard.webp",
+        "bio": "Marie-Gabrielle Ménard, Liberal MP for Hochelaga—Rosemont-East, Parliamentary Secretary to the Minister for Women and Gender Equality and Secretary of State (Small Business and Tourism). Before making the leap into politics, Ms. Ménard made a name for herself as an artist, reporter and host, notably on radio and television. An experienced communicator, woman of heart and action, she is committed with conviction to carrying the voice of the population. We will have the privilege of hearing her perspective on the place of women in work environments that are still predominantly male."
+      },
+      {
         "id": "alexandra-nemery",
         "name": "Alexandra Nemery",
         "role": "Professor / Researcher",
