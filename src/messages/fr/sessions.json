@@ -82,6 +82,15 @@
       "speakerIds": ["michell-payano"]
     },
     {
+      "id": "session-decisions",
+      "title": "Atelier - LES DÉCISIONS QUI CHANGENT TOUT DANS UN PROJET NUMÉRIQUE",
+      "description": "Atelier sur la prise de décision critique dans les projets numériques, axé sur la valeur et l'alignement stratégique.",
+      "duration": "60 min",
+      "type": "workshop",
+      "tags": ["Gestion de Projet", "Stratégie Numérique", "Atelier"],
+      "speakerIds": ["melanie-guerin"]
+    },
+    {
       "id": "session-barrier",
       "title": "Panel - LES BARRIÈRES DES TALENTS TECH POUR LES FEMMES ANGLOPHONES",
       "description": "Une session interactive basée sur les données, partageant les obstacles documentés à l'emploi dans le secteur technologique pour les femmes anglophones au Québec. Des leaders du secteur proposent des solutions concrètes et applicables.",

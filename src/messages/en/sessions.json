@@ -82,6 +82,15 @@
       "speakerIds": ["michell-payano"]
     },
     {
+      "id": "session-decisions",
+      "title": "Atelier - LES DÉCISIONS QUI CHANGENT TOUT DANS UN PROJET NUMÉRIQUE",
+      "description": "Workshop on critical decision-making in digital projects, focusing on value and strategic alignment.",
+      "duration": "60 min",
+      "type": "workshop",
+      "tags": ["Project Management", "Digital Strategy", "Workshop"],
+      "speakerIds": ["melanie-guerin"]
+    },
+    {
       "id": "session-barrier",
       "title": "Panel - THE TECH TALENT BARRIER FOR ENGLISH-SPEAKING WOMEN",
       "description": "An interactive data-driven session sharing documented barriers to tech employment for English-speaking women in Quebec. Industry leaders respond with concrete actionable solutions.",
