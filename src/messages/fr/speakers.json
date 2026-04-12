@@ -121,6 +121,14 @@
         "bio": "Maya Toussaint est consultante et conférencière en EDI, spécialisée dans les pratiques de recrutement inclusives et la création de cultures de travail équitables."
       },
       {
+        "id": "maya-toussaint",
+        "name": "Maya Toussaint",
+        "role": "Consultante en EDI",
+        "company": "Clio",
+        "image": "/images/speakers/wtm.webp",
+        "bio": "Maya Toussaint est consultante et conférencière en EDI, spécialisée dans les pratiques de recrutement inclusives et la création de cultures de travail équitables."
+      },
+      {
         "id": "annalise-iten",
         "name": "Annalise Iten",
         "role": "Spécialiste de l'emploi",
