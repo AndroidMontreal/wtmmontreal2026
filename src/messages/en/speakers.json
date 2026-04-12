@@ -193,6 +193,14 @@
         "bio": "Khaoula Chehbouni is a third-year PhD student at McGill University and Mila (Quebec AI Institute). She received the prestigious FRQNT doctoral training scholarship to conduct research on fairness and security in large language models. Previously, she worked as a senior data scientist at Statistics Canada. She holds a Master's degree in business intelligence from HEC Montréal, for which she received the Best Thesis Award. Her research interests include responsible AI, fairness and security issues in large language models."
       },
       {
+        "id": "nadia-tahiri",
+        "name": "Nadia Tahiri",
+        "role": "Assistant Professor",
+        "company": "University of Sherbrooke",
+        "image": "/images/speakers/nadia_tahiri.webp",
+        "bio": "Nadia Tahiri received her M.Sc. and Ph.D. degrees in Computer Science from the University of Quebec at Montreal. She is currently an Assistant Professor in the Department of Computer Science at the University of Sherbrooke. Her research interests include evolution, phylogenetic tree, clustering, classification, computational biology, and biogeography."
+      },
+      {
         "id": "melisane-lafrenaye",
         "name": "Mélisane Lafrenaye",
         "role": "Technical Team Lead",

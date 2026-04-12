@@ -201,6 +201,14 @@
         "bio": "Marie-Gabrielle Ménard, députée libérale d'Hochelaga—Rosemont-Est, secrétaire parlementaire au ministère des Femmes et de l'Égalité des genres et secrétaire d'État (Petites entreprises et Tourisme). Avant de faire le saut en politique, Mme Ménard s'est fait connaître comme artiste, reporter et animatrice, notamment à la radio et à la télévision. Communicatrice chevronnée, femme de cœur et d'action, elle s'engage avec conviction à porter la voix de la population. Nous aurons le privilège d'entendre sa perspective sur la place des femmes dans les milieux de travail encore majoritairement masculins."
       },
       {
+        "id": "nadia-tahiri",
+        "name": "Nadia Tahiri",
+        "role": "Professeure adjointe",
+        "company": "Université de Sherbrooke",
+        "image": "/images/speakers/nadia_tahiri.webp",
+        "bio": "Nadia Tahiri a obtenu sa maîtrise et son doctorat en informatique à l'Université du Québec à Montréal. Elle est actuellement professeure adjointe au département d'informatique de l'Université de Sherbrooke. Ses intérêts de recherche portent sur l'évolution, les arbres phylogénétiques, le partitionnement, la classification, la biologie computationnelle et la biogéographie."
+      },
+      {
         "id": "melisane-lafrenaye",
         "name": "Mélisane Lafrenaye",
         "role": "Lead technique",
