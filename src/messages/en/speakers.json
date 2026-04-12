@@ -33,6 +33,14 @@
     },
     "list": [
       {
+        "id": "nicole-kenmei",
+        "name": "Nicole Kenmei",
+        "role": "Co-founder",
+        "company": "Black Ladies in Tech",
+        "image": "/images/speakers/nicole_kenmei.webp",
+        "bio": "Nicole Kenmei is a cybersecurity consultant and co-founder of Black Ladies in Tech (BLiT). She works to bridge the gap in representation and provide resources for women of color navigating the tech landscape."
+      },
+      {
         "id": "ghislaine-boundjia",
         "name": "Ghislaine Boundjia",
         "role": "Founder",
