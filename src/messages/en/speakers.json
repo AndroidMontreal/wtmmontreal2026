@@ -33,6 +33,14 @@
     },
     "list": [
       {
+        "id": "ulrich-aivodji",
+        "name": "Ulrich Aïvodji",
+        "role": "Assistant Professor",
+        "company": "ÉTS Montréal",
+        "image": "/images/speakers/ulrich_aivodji.webp",
+        "bio": "Ulrich is an assistant professor in computer science at ÉTS in the department of software engineering and information technology. His research areas are Responsible AI, privacy protection and cybersecurity. His current research work focuses on several Responsible AI issues, such as privacy protection, explainability and algorithmic fairness."
+      },
+      {
         "id": "sabrine-amri",
         "name": "Dr. Sabrine Amri",
         "role": "Postdoctoral Researcher",

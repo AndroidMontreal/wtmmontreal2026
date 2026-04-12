@@ -82,6 +82,15 @@
       "speakerIds": ["michell-payano"]
     },
     {
+      "id": "session-privacy-ia",
+      "title": "Protection de la vie privée dans les systèmes d'IA",
+      "description": "The presentation will focus on privacy protection, covering existing threats to the privacy of machine learning models, training data and user inputs, as well as an overview of current countermeasures.",
+      "duration": "30 min",
+      "type": "talk",
+      "tags": ["AI", "Privacy", "Cybersecurity"],
+      "speakerIds": ["ulrich-aivodji"]
+    },
+    {
       "id": "session-privacy-llms",
       "title": "Atelier - PRIVACY RISKS IN LLMS: A HANDS-ON WORKSHOP ON DETECTING SENSITIVE DATA IN REAL TIME",
       "description": "This hands-on workshop explores practical privacy risks that arise when interacting with LLMs. Participants will experiment with real examples to understand how sensitive information can appear in prompts or model outputs, and how to detect and mitigate these risks in real time. Through guided demonstrations and interactive exercises, attendees will learn simple protection mechanisms and leave with concrete strategies to use AI tools more safely and responsibly.",

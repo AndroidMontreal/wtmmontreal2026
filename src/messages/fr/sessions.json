@@ -82,6 +82,15 @@
       "speakerIds": ["michell-payano"]
     },
     {
+      "id": "session-privacy-ia",
+      "title": "Protection de la vie privée dans les systèmes d'IA",
+      "description": "La présentation portera sur la protection de la vie privée, en couvrant les menaces existantes à la confidentialité des modèles d’apprentissage automatique, des données d’entraînement et des entrées des utilisateurs, ainsi qu’un aperçu des contre-mesures actuelles.",
+      "duration": "30 min",
+      "type": "talk",
+      "tags": ["IA", "Confidentialité", "Cybersécurité"],
+      "speakerIds": ["ulrich-aivodji"]
+    },
+    {
       "id": "session-privacy-llms",
       "title": "Atelier - RISQUES DE CONFIDENTIALITÉ DANS LES LLMS : ATELIER PRATIQUE SUR LA DÉTECTION DES DONNÉES SENSIBLES EN TEMPS RÉEL",
       "description": "Cet atelier pratique explore les principaux risques de confidentialité liés à l’utilisation des LLMs. Les participantes expérimenteront des exemples concrets afin de comprendre comment des données sensibles peuvent apparaître dans les prompts ou les réponses du modèle, et comment mettre en place des mécanismes simples de détection et de mitigation en temps réel. À travers des démonstrations guidées et des exercices interactifs, les participantes repartiront avec des stratégies concrètes pour une utilisation plus sûre et responsable de l’IA.",

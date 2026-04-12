@@ -33,6 +33,14 @@
     },
     "list": [
       {
+        "id": "ulrich-aivodji",
+        "name": "Ulrich Aïvodji",
+        "role": "Professeur adjoint",
+        "company": "ÉTS Montréal",
+        "image": "/images/speakers/ulrich_aivodji.webp",
+        "bio": "Ulrich est professeur adjoint en informatique à l'ÉTS dans le département de génie logiciel et des technologies de l'information. Ses domaines de recherche sont l'IA Responsable, la protection de la vie privée et la cybersécurité. Ses travaux de recherche actuels se concentrent sur plusieurs enjeux de l'IA Responsable, telles que la protection de la vie privée, l'explicabilité et l'équité algorithmique."
+      },
+      {
         "id": "sabrine-amri",
         "name": "Dr. Sabrine Amri",
         "role": "Chercheuse postdoctorale",
