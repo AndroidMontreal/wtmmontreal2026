@@ -82,6 +82,15 @@
       "speakerIds": ["michell-payano"]
     },
     {
+      "id": "session-tahiri-bias",
+      "title": "Quand l’IA apprend à comparer : Biais, complexité et données structurées",
+      "description": "Exploration des biais et de la complexité lorsque l'IA apprend à comparer des données structurées.",
+      "duration": "45 min",
+      "type": "talk",
+      "tags": ["IA", "Données", "Éthique"],
+      "speakerIds": ["nadia-tahiri"]
+    },
+    {
       "id": "session-unity",
       "title": "Atelier - DANS LES COULISSES DU JEU VIDÉO : CRÉEZ VOTRE TOUT PREMIER JEU AVEC UNITY",
       "description": "Atelier pratique sur la création de votre premier jeu vidéo en utilisant le moteur de jeu Unity.",
