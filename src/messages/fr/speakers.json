@@ -89,6 +89,14 @@
         "bio": "Nadia Tahiri a obtenu sa maîtrise et son doctorat en informatique à l'Université du Québec à Montréal. Elle est actuellement professeure adjointe au département d'informatique de l'Université de Sherbrooke. Ses intérêts de recherche portent sur l'évolution, les arbres phylogénétiques, le partitionnement, la classification, la biologie computationnelle et la biogéographie."
       },
       {
+        "id": "nadia-tahiri",
+        "name": "Nadia Tahiri",
+        "role": "Professeure adjointe",
+        "company": "Université de Sherbrooke",
+        "image": "/images/speakers/nadia_tahiri.webp",
+        "bio": "Nadia Tahiri a obtenu sa maîtrise et son doctorat en informatique à l'Université du Québec à Montréal. Elle est actuellement professeure adjointe au département d'informatique de l'Université de Sherbrooke. Ses intérêts de recherche portent sur l'évolution, les arbres phylogénétiques, le partitionnement, la classification, la biologie computationnelle et la biogéographie."
+      },
+      {
         "id": "melisane-lafrenaye",
         "name": "Mélisane Lafrenaye",
         "role": "Lead technique",

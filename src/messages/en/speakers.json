@@ -89,6 +89,14 @@
         "bio": "Nadia Tahiri received her M.Sc. and Ph.D. degrees in Computer Science from the University of Quebec at Montreal. She is currently an Assistant Professor in the Department of Computer Science at the University of Sherbrooke. Her research interests include evolution, phylogenetic tree, clustering, classification, computational biology, and biogeography."
       },
       {
+        "id": "nadia-tahiri",
+        "name": "Nadia Tahiri",
+        "role": "Assistant Professor",
+        "company": "University of Sherbrooke",
+        "image": "/images/speakers/nadia_tahiri.webp",
+        "bio": "Nadia Tahiri received her M.Sc. and Ph.D. degrees in Computer Science from the University of Quebec at Montreal. She is currently an Assistant Professor in the Department of Computer Science at the University of Sherbrooke. Her research interests include evolution, phylogenetic tree, clustering, classification, computational biology, and biogeography."
+      },
+      {
         "id": "melisane-lafrenaye",
         "name": "Mélisane Lafrenaye",
         "role": "Technical Team Lead",
