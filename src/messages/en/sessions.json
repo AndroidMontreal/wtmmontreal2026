@@ -43,7 +43,16 @@
       "duration": "45 min",
       "type": "talk",
       "tags": ["AI", "Demo", "Community"],
-      "speakerIds": ["sabine-pierre", "jl-marechaux", "ayrat-khayretdinov", "francois-legare", "pierre-alexandre-lacerte"]
+      "speakerIds": ["sabine-pierre", "jl-marechaux", "ayrat-khayretdinov", "francois-legare", "pierre-alexandre-lacerte", "stefania-pecore"]
+    },
+    {
+      "id": "session-closing",
+      "title": "Closing Remarks",
+      "description": "Final thank you and raffle prizes for WTM Montreal 2026.",
+      "duration": "15 min",
+      "type": "talk",
+      "tags": ["Closing"],
+      "speakerIds": ["stefania-pecore"]
     },
     {
       "id": "session-stacy",

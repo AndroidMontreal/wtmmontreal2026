@@ -43,7 +43,16 @@
       "duration": "45 min",
       "type": "talk",
       "tags": ["IA", "Démo", "Communauté"],
-      "speakerIds": ["sabine-pierre", "jl-marechaux", "ayrat-khayretdinov", "francois-legare", "pierre-alexandre-lacerte"]
+      "speakerIds": ["sabine-pierre", "jl-marechaux", "ayrat-khayretdinov", "francois-legare", "pierre-alexandre-lacerte", "stefania-pecore"]
+    },
+    {
+      "id": "session-closing",
+      "title": "Mot de clôture",
+      "description": "Remerciements finaux et tirage de prix pour le WTM Montréal 2026.",
+      "duration": "15 min",
+      "type": "talk",
+      "tags": ["Clôture"],
+      "speakerIds": ["stefania-pecore"]
     },
     {
       "id": "session-stacy",

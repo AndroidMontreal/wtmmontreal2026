@@ -1,12 +1,150 @@
 {
   "header": {
-    "tag": "Programme de l'événement",
+    "tag": "Horaire de l'événement",
     "title": "Planifiez votre expérience",
-    "subtitle": "Une journée entière d'inspiration, d'apprentissage et de connexion."
+    "subtitle": "Une journée complète d'inspiration, d'apprentissage et de connexion."
   },
-  "comingSoon": {
-    "title": "Programme à venir",
-    "description": "Nous finalisons actuellement la liste des ateliers et des conférences. Revenez bientôt pour voir l'horaire complet !",
-    "cta": "M'avertir"
-  }
+  "tracks": {
+    "main": "Scène Principale",
+    "tech": "Scène Tech",
+    "lab1": "Lab 1: Conscience & Code",
+    "lab2": "Lab 2: Le Bac à Sable",
+    "lab3": "Lab 3: Présence & Pratique",
+    "lab4": "Lab 4: Au-delà des Barrières"
+  },
+  "timeline": [
+    {
+      "time": "08:30",
+      "type": "event",
+      "title": "Inscription et Petit-déjeuner",
+      "description": "Récupérez votre badge et profitez d'un petit-déjeuner avec la communauté."
+    },
+    {
+      "time": "09:00",
+      "type": "session",
+      "slots": {
+        "main": "session-opening"
+      }
+    },
+    {
+      "time": "10:15",
+      "type": "session",
+      "slots": {
+        "main": "session-panel-ia",
+        "tech": "session-privacy-ia",
+        "lab1": "session-decisions",
+        "lab2": "session-unity",
+        "lab3": "session-stacy",
+        "lab4": "session-ludociels"
+      }
+    },
+    {
+      "time": "11:00",
+      "type": "session",
+      "slots": {
+        "main": "session-cost-models"
+      }
+    },
+    {
+      "time": "11:15",
+      "type": "session",
+      "slots": {
+        "tech": "session-barrier"
+      }
+    },
+    {
+      "time": "11:30",
+      "type": "session",
+      "slots": {
+        "lab1": "session-angie",
+        "lab2": "session-mahzad",
+        "lab3": "session-cirque-data"
+      }
+    },
+    {
+      "time": "12:15",
+      "type": "event",
+      "title": "Pause Déjeuner",
+      "description": "Dîner de réseautage offert à tous les participants."
+    },
+    {
+      "time": "12:30",
+      "type": "session",
+      "slots": {
+        "tech": "session-punk-voice"
+      }
+    },
+    {
+      "time": "13:00",
+      "type": "session",
+      "slots": {
+        "lab2": "session-ai-tinkerers"
+      }
+    },
+    {
+      "time": "13:30",
+      "type": "session",
+      "slots": {
+        "main": "session-blit-panel"
+      }
+    },
+    {
+      "time": "13:45",
+      "type": "session",
+      "slots": {
+        "lab1": "session-nathalie",
+        "lab2": "session-tahiri-bias",
+        "lab3": "session-chloe"
+      }
+    },
+    {
+      "time": "14:00",
+      "type": "session",
+      "slots": {
+        "tech": "session-nogol"
+      }
+    },
+    {
+      "time": "14:15",
+      "type": "session",
+      "slots": {
+        "main": "session-technovation"
+      }
+    },
+    {
+      "time": "14:30",
+      "type": "session",
+      "slots": {
+        "lab1": "session-claude",
+        "lab3": "session-rhum-networking"
+      }
+    },
+    {
+      "time": "14:45",
+      "type": "session",
+      "slots": {
+        "tech": "session-viv"
+      }
+    },
+    {
+      "time": "15:00",
+      "type": "session",
+      "slots": {
+        "lab2": "session-michell"
+      }
+    },
+    {
+      "time": "15:30",
+      "type": "session",
+      "slots": {
+        "tech": "session-alexandra"
+      }
+    },
+    {
+      "time": "16:30",
+      "type": "event",
+      "title": "Mot de clôture",
+      "description": "Remerciements finaux et tirage de prix."
+    }
+  ]
 }
