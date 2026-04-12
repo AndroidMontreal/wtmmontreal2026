@@ -33,6 +33,14 @@
     },
     "list": [
       {
+        "id": "afaf-taik",
+        "name": "Afaf Taïk",
+        "role": "Assistant Professor",
+        "company": "Université de Sherbrooke & Mila",
+        "image": "/images/speakers/afaf_taik.webp",
+        "bio": "Dr. Afaf Taïk is an assistant professor at the Université de Sherbrooke and currently a postdoctoral researcher at Mila – Quebec AI Institute and the Université de Montréal, working on the intersection of fairness and privacy in machine learning. She obtained a PhD in electrical engineering in 2022 from the Université de Sherbrooke, where she worked on problems related to distributed machine learning algorithms. Afaf has received numerous awards and recognizations for her work, such as the Claire DesChênes (2023) and FRQNT (2024) postdoctoral scholarships."
+      },
+      {
         "id": "noemi-mercier",
         "name": "Noémi Mercier",
         "role": "Journalist & Host",

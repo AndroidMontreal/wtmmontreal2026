@@ -33,6 +33,14 @@
     },
     "list": [
       {
+        "id": "afaf-taik",
+        "name": "Afaf Taïk",
+        "role": "Professeure adjointe",
+        "company": "Université de Sherbrooke & Mila",
+        "image": "/images/speakers/afaf_taik.webp",
+        "bio": "La Dr Afaf Taïk est professeure adjointe à l'Université de Sherbrooke et actuellement chercheure postdoctorale au Mila-Institut d'IA du Québec et à l'Université de Montréal, travaillant sur l'intersection de l'équité et de la confidentialité dans l'apprentissage automatique. Elle a obtenu un doctorat en génie électrique en 2022 de l'Université de Sherbrooke, où elle a travaillé sur des problèmes liés aux algorithmes d'apprentissage automatique distribués. Afaf a reçu de nombreux prix et reconnaissances pour son travail, tels que les bourses postdoctorales Claire DesChênes (2023) et FRQNT (2024)."
+      },
+      {
         "id": "noemi-mercier",
         "name": "Noémi Mercier",
         "role": "Journaliste et animatrice",

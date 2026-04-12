@@ -1,6 +1,15 @@
 {
   "list": [
     {
+      "id": "session-cost-models",
+      "title": "The cost of one-solution-fits-all models",
+      "description": "This talk examines how the shift from highly customizable, small-scale machine learning systems to large, reusable models changes the AI landscape. As development moves toward off-the-shelf systems, the wide space of possible models narrows, and AI systems begin to look and behave more alike across contexts. The talk then asks what is gained and lost through this homogenization, and how responsibility should be understood when key design choices are no longer made locally, but embedded in widely deployed models.",
+      "duration": "45 min",
+      "type": "talk",
+      "tags": ["AI Ethics", "ML Models", "Responsible AI"],
+      "speakerIds": ["afaf-taik"]
+    },
+    {
       "id": "session-panel-ia",
       "title": "Panel - IA : PROMESSES ET ANGLES MORTS",
       "description": "A deep dive into the promises and blind spots of Artificial Intelligence with industry experts.",
