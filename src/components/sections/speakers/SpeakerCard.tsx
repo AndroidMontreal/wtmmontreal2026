@@ -10,12 +10,13 @@ import { cn } from '@/lib/utils';
 
 interface SpeakerCardProps {
   speaker: Speaker;
-  session?: Session;
+  sessions: Session[];
 }
 
-export default function SpeakerCard({ speaker, session }: SpeakerCardProps) {
+export default function SpeakerCard({ speaker, sessions }: SpeakerCardProps) {
   const [isLoading, setIsLoading] = useState(true);
   const t = useTranslations('Speakers');
+  const session = sessions[0];
 
   return (
     <Link
@@ -74,10 +75,14 @@ export default function SpeakerCard({ speaker, session }: SpeakerCardProps) {
 
         {/* Hover-only Session Title */}
         <div className="overflow-hidden max-h-0 group-hover:max-h-32 transition-all duration-500 ease-in-out">
-          {session && (
-            <p className="text-slate-300 text-xs md:text-sm mt-2 leading-relaxed line-clamp-3 font-medium">
-              {session.title}
-            </p>
+          {sessions.length > 0 && (
+            <div className="flex flex-col gap-1 mt-2">
+              {sessions.map((s) => (
+                <p key={s.id} className="text-slate-300 text-[10px] md:text-xs leading-relaxed line-clamp-2 font-medium border-l-2 border-primary/30 pl-2">
+                  {s.title}
+                </p>
+              ))}
+            </div>
           )}
         </div>
 

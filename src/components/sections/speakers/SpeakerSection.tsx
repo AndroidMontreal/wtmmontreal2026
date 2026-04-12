@@ -22,19 +22,19 @@ export default function SpeakerSection({ speakers, sessions, labels }: SpeakerSe
   // Combine Data: Map Speakers to their Sessions
   // Robust matching: handles potential undefined sessions or whitespace in IDs
   const combinedList = speakers.map((speaker) => {
-    const session = sessions?.find((s) => 
+    const associatedSessions = sessions?.filter((s) => 
       s.speakerIds?.some(id => id.trim() === speaker.id)
-    );
-    return { speaker, session };
+    ) || [];
+    return { speaker, sessions: associatedSessions };
   });
 
   // Filter Logic
   const filteredList = activeFilter === 'all'
     ? combinedList
     : combinedList.filter((item) => {
-        if (!item.session) return false;
-        // Robust Case-insensitive comparison
-        return item.session.type.trim().toLowerCase() === activeFilter.trim().toLowerCase();
+        if (item.sessions.length === 0) return false;
+        // Check if any of the speaker's sessions match the filter
+        return item.sessions.some(s => s.type.trim().toLowerCase() === activeFilter.trim().toLowerCase());
       });
 
   return (

@@ -7,7 +7,7 @@ import SpeakerCard from './SpeakerCard';
 
 interface SpeakerGridItem {
   speaker: Speaker;
-  session?: Session;
+  sessions: Session[];
 }
 
 interface SpeakerGridProps {
@@ -42,7 +42,7 @@ export default function SpeakerGrid({ items }: SpeakerGridProps) {
         <motion.div key={item.speaker.id} variants={itemAnim}>
           <SpeakerCard 
             speaker={item.speaker} 
-            session={item.session} 
+            sessions={item.sessions} 
           />
         </motion.div>
       ))}
