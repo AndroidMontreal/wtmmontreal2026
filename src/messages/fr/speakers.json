@@ -33,6 +33,14 @@
     },
     "list": [
       {
+        "id": "noemi-mercier",
+        "name": "Noémi Mercier",
+        "role": "Journaliste et animatrice",
+        "company": "",
+        "image": "/images/speakers/noemi_mercier.webp",
+        "bio": "Noémi Mercier est journaliste et animatrice. S’intéressant particulièrement aux enjeux sociaux et politiques, elle a piloté plusieurs documentaires et séries à titre d’animatrice, de productrice au contenu ou de réalisatrice, dont « IA : l’angle mort ». Noémi est aussi reconnue pour ses nombreux reportages d’envergure publiés dans L’actualité et Québec Science. Elle a reçu quatre prix Judith-Jasmin et sept médailles d’or aux Prix du magazine canadien, en plus de nominations aux prix Michener, Albert-Londres et Gémeaux. Elle détient un baccalauréat en psychologie de l’Université McGill."
+      },
+      {
         "id": "anne-nguyen",
         "name": "Anne Nguyen",
         "role": "Directrice principale responsable de l’IA",

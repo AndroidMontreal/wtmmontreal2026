@@ -1,6 +1,15 @@
 {
   "list": [
     {
+      "id": "session-panel-ia",
+      "title": "Panel - IA : PROMESSES ET ANGLES MORTS",
+      "description": "Une discussion approfondie sur les promesses et les angles morts de l'intelligence artificielle avec des expertes du domaine.",
+      "duration": "45 min",
+      "type": "talk",
+      "tags": ["IA", "Panel", "Éthique"],
+      "speakerIds": ["stefania-pecore", "noemi-mercier"]
+    },
+    {
       "id": "session-opening",
       "title": "Ouverture - Opening",
       "description": "Allocutions d'ouverture pour le WTM Montréal 2026.",

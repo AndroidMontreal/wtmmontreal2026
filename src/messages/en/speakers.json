@@ -33,6 +33,14 @@
     },
     "list": [
       {
+        "id": "noemi-mercier",
+        "name": "Noémi Mercier",
+        "role": "Journalist & Host",
+        "company": "",
+        "image": "/images/speakers/noemi_mercier.webp",
+        "bio": "Noémi Mercier is a journalist and host. With a particular interest in social and political issues, she has led several documentaries and series as a host, content producer or director, including 'IA: l'angle mort'. Noémi is also recognized for her many significant reports published in L’actualité and Québec Science. She has received four Judith-Jasmin prizes and seven gold medals at the Canadian Magazine Awards, as well as nominations for the Michener, Albert-London and Gémeaux Awards. She holds a BA in psychology from McGill University."
+      },
+      {
         "id": "anne-nguyen",
         "name": "Anne Nguyen",
         "role": "Lead, AI Strategy",

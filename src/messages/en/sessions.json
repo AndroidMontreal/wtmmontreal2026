@@ -1,6 +1,15 @@
 {
   "list": [
     {
+      "id": "session-panel-ia",
+      "title": "Panel - IA : PROMESSES ET ANGLES MORTS",
+      "description": "A deep dive into the promises and blind spots of Artificial Intelligence with industry experts.",
+      "duration": "45 min",
+      "type": "talk",
+      "tags": ["AI", "Panel", "Ethics"],
+      "speakerIds": ["stefania-pecore", "noemi-mercier"]
+    },
+    {
       "id": "session-opening",
       "title": "Opening - Ouverture",
       "description": "Opening remarks for WTM Montreal 2026.",
