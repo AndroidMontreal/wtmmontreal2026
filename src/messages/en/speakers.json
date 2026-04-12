@@ -33,6 +33,14 @@
     },
     "list": [
       {
+        "id": "annalise-iten",
+        "name": "Annalise Iten",
+        "role": "Employment Specialist",
+        "company": "YES Montreal",
+        "image": "/images/speakers/wtm.webp",
+        "bio": "Annalise is an Employment Specialist at YES Montreal, helping people navigate their career paths and overcome barriers to employment in the Montreal area."
+      },
+      {
         "id": "ulrich-aivodji",
         "name": "Ulrich Aïvodji",
         "role": "Assistant Professor",

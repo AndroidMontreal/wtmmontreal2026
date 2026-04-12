@@ -82,16 +82,16 @@
       "speakerIds": ["michell-payano"]
     },
     {
-      "id": "session-mahsa",
-      "title": "The Tech Talent Barrier Lab",
-      "description": "An interactive data-driven session sharing documented barriers to tech employment. Industry leaders respond with concrete actionable solutions. \n What happens when you combine real pilot data with live problem-solving? \n Join us as participants from our 7-week Career camp share documented barriers to tech employment. Industry leaders respond with concrete actionable solutions. And even everything gets documented real-time. \n This isn't a typical panel. It's a collaborative experiment in making hiring systems accountable. \n Who should attend:\n \t Anyone involved in tech hiring \n\t Women navigating career transitions \n\t People curious about data-driven inclusion",
+      "id": "session-barrier",
+      "title": "Panel - THE TECH TALENT BARRIER FOR ENGLISH-SPEAKING WOMEN",
+      "description": "An interactive data-driven session sharing documented barriers to tech employment for English-speaking women in Quebec. Industry leaders respond with concrete actionable solutions.",
       "duration": "60 min",
       "type": "talk",
       "tags": ["Career", "Diversity", "Inclusion"],
-      "speakerIds": ["mahsa-rezaei"]
+      "speakerIds": ["annalise-iten", "mahsa-rezaei"]
     },
     {
-      "id": "session-nadia",
+      "id": "session-privacy",
       "title": "Punk strategies to find your voice!",
       "description": "Punk culture, in its political function, stands against the fundamentals of capitalism: anti-consumerism, nonconformity, anti-racism, anti-sexism, and anti-discrimination of all kinds. Appropriation, hacktivism, and culture jamming are among the consistently effective strategies associated with subcultures. We will explore, through examples and case studies, how to remain passionate and relevant by using punk tactics to develop one's voice and maintain a critical perspective.",
       "duration": "30 min",
