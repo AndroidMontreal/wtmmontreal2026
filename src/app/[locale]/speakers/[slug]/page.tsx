@@ -67,12 +67,12 @@ export default async function SpeakerDetailsPage({ params }: Props) {
 
   // Find associated session(s)
   // Robust matching using trim and lowercase just in case
-  const session = sessionsData.list.find((s: Session) => 
+  const sessions = sessionsData.list.filter((s: Session) => 
     s.speakerIds?.some((id: string) => id.trim().toLowerCase() === speaker.id.trim().toLowerCase())
   );
 
-  // Determine Role Type based on session type (e.g. Keynote)
-  const roleKey = session?.type === 'keynote' ? 'keynote' : 'speaker';
+  // Determine Role Type based on the first session type (e.g. Keynote)
+  const roleKey = sessions[0]?.type === 'keynote' ? 'keynote' : 'speaker';
   const roleLabel = t(`roles.${roleKey}`);
 
   return (
@@ -123,9 +123,9 @@ export default async function SpeakerDetailsPage({ params }: Props) {
           <div className="lg:col-span-7 flex flex-col justify-start">
             <SpeakerBio bio={speaker.bio} />
             
-            {session && (
-              <SessionSpotlight session={session} />
-            )}
+            {sessions.map((session) => (
+              <SessionSpotlight key={session.id} session={session} />
+            ))}
           </div>
         </div>
       </main>
