@@ -201,6 +201,14 @@
         "bio": "Marie-Gabrielle Ménard, députée libérale d'Hochelaga—Rosemont-Est, secrétaire parlementaire au ministère des Femmes et de l'Égalité des genres et secrétaire d'État (Petites entreprises et Tourisme). Avant de faire le saut en politique, Mme Ménard s'est fait connaître comme artiste, reporter et animatrice, notamment à la radio et à la télévision. Communicatrice chevronnée, femme de cœur et d'action, elle s'engage avec conviction à porter la voix de la population. Nous aurons le privilège d'entendre sa perspective sur la place des femmes dans les milieux de travail encore majoritairement masculins."
       },
       {
+        "id": "melisane-lafrenaye",
+        "name": "Mélisane Lafrenaye",
+        "role": "Lead technique",
+        "company": "Triple Boris",
+        "image": "/images/speakers/melisane_lafrenaye.webp",
+        "bio": "Mélisane Lafrenaye est développeresse et lead technique au sein du studio de jeu vidéo Triple Boris. Après avoir débuté sa carrière dans le milieu militaire puis en robotique biomédicale, elle se consacre à l’industrie du jeu vidéo depuis cinq ans. Elle se spécialise principalement en développement frontend avec, entre autres, le moteur de jeu Unity. Investie et passionnée par le partage de connaissances, elle contribue maintenant activement à l’évolution et au maintien des bonnes pratiques au sein du studio."
+      },
+      {
         "id": "viv",
         "name": "Vivienne Suen",
         "role": "Architecte Full Stack Principal",
