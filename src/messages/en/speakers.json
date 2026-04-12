@@ -209,6 +209,14 @@
         "bio": "Stefania Pecore is the Executive Director of Women Techmakers Montreal. With over a decade of experience leading the Montreal community, she is dedicated to building inclusive spaces for women in technology and mentoring the next generation of leaders."
       },
       {
+        "id": "ayrat-khayretdinov",
+        "name": "Ayrat Khayretdinov",
+        "role": "Software Engineer",
+        "company": "Google",
+        "image": "/images/speakers/wtm.webp",
+        "bio": "Ayrat Khayretdinov is a Software Engineer at Google and an active member of the AI Tinkerers Montreal community, where he experiments with the latest developments in large language models and generative AI."
+      },
+      {
         "id": "sabine-pierre",
         "name": "Sabine Pierre",
         "role": "Lead Backend Engineer & AI Developer",
