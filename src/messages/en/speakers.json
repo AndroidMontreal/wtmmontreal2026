@@ -209,6 +209,14 @@
         "bio": "Stefania Pecore is the Executive Director of Women Techmakers Montreal. With over a decade of experience leading the Montreal community, she is dedicated to building inclusive spaces for women in technology and mentoring the next generation of leaders."
       },
       {
+        "id": "francois-legare",
+        "name": "François Legare",
+        "role": "Lead Developer",
+        "company": "Bell",
+        "image": "/images/speakers/wtm.webp",
+        "bio": "François Legare is a Lead Developer at Bell and a contributor to the AI Tinkerers Montreal community. He specializes in building robust infrastructure for AI applications and experimenting with innovative technology solutions."
+      },
+      {
         "id": "ayrat-khayretdinov",
         "name": "Ayrat Khayretdinov",
         "role": "Software Engineer",

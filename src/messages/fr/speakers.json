@@ -217,6 +217,14 @@
         "bio": "Stefania Pecore est la directrice exécutive de Women Techmakers Montréal. Avec plus d'une décennie d'expérience à la tête de la communauté montréalaise, elle se consacre à la création d'espaces inclusifs pour les femmes en technologie et au mentorat de la prochaine génération de leaders."
       },
       {
+        "id": "francois-legare",
+        "name": "François Legare",
+        "role": "Développeur Principal",
+        "company": "Bell",
+        "image": "/images/speakers/wtm.webp",
+        "bio": "François Legare est développeur principal chez Bell et contributeur à la communauté AI Tinkerers Montréal. Il se spécialise dans la création d'infrastructures robustes pour les applications d'IA et l'expérimentation de solutions technologiques innovantes."
+      },
+      {
         "id": "ayrat-khayretdinov",
         "name": "Ayrat Khayretdinov",
         "role": "Ingénieur Logiciel",
