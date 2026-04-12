@@ -33,6 +33,14 @@
     },
     "list": [
       {
+        "id": "sabrine-amri",
+        "name": "Dr. Sabrine Amri",
+        "role": "Postdoctoral Researcher",
+        "company": "Polytechnique Montréal",
+        "image": "/images/speakers/sabrine_amri.webp",
+        "bio": "Dr. Sabrine Amri is a postdoctoral researcher at Polytechnique Montréal, specializing in cybersecurity and AI safety. She obtained her Ph.D. in Computer Science from the Université de Montréal, where her doctoral research focused on the detection of fake news, misinformation, and disinformation in online social networks using advanced AI and multimodal analysis.\n\nHer current work explores privacy risks in Large Language Models, sensitive data exposure detection, and the design of privacy-aware AI systems for safer real-world deployment."
+      },
+      {
         "id": "nicole-kenmei",
         "name": "Nicole Kenmei",
         "role": "Co-founder",

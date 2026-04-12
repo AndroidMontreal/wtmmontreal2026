@@ -82,6 +82,15 @@
       "speakerIds": ["michell-payano"]
     },
     {
+      "id": "session-privacy-llms",
+      "title": "Atelier - RISQUES DE CONFIDENTIALITÉ DANS LES LLMS : ATELIER PRATIQUE SUR LA DÉTECTION DES DONNÉES SENSIBLES EN TEMPS RÉEL",
+      "description": "Cet atelier pratique explore les principaux risques de confidentialité liés à l’utilisation des LLMs. Les participantes expérimenteront des exemples concrets afin de comprendre comment des données sensibles peuvent apparaître dans les prompts ou les réponses du modèle, et comment mettre en place des mécanismes simples de détection et de mitigation en temps réel. À travers des démonstrations guidées et des exercices interactifs, les participantes repartiront avec des stratégies concrètes pour une utilisation plus sûre et responsable de l’IA.",
+      "duration": "60 min",
+      "type": "workshop",
+      "tags": ["Sécurité de l'IA", "LLM", "Confidentialité", "Atelier"],
+      "speakerIds": ["sabrine-amri"]
+    },
+    {
       "id": "session-blit-panel",
       "title": "Panel Communautaire - PARCOURS INSPIRANTS ET LEADERSHIP",
       "description": "Un panel de discussion inspirant animé par Reem Habib, mettant en vedette Ghislaine Boundjia et Nicole Kenmei de Black Ladies in Tech. Elles partageront leurs parcours professionnels, discuteront des opportunités méconnues et offriront des conseils pour vous aider à tracer une trajectoire stratégique et authentique dans le monde de la tech.",
