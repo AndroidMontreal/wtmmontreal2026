@@ -201,6 +201,14 @@
         "bio": "Marie-Gabrielle Ménard, députée libérale d'Hochelaga—Rosemont-Est, secrétaire parlementaire au ministère des Femmes et de l'Égalité des genres et secrétaire d'État (Petites entreprises et Tourisme). Avant de faire le saut en politique, Mme Ménard s'est fait connaître comme artiste, reporter et animatrice, notamment à la radio et à la télévision. Communicatrice chevronnée, femme de cœur et d'action, elle s'engage avec conviction à porter la voix de la population. Nous aurons le privilège d'entendre sa perspective sur la place des femmes dans les milieux de travail encore majoritairement masculins."
       },
       {
+        "id": "sabrine-amri",
+        "name": "Dr. Sabrine Amri",
+        "role": "Chercheuse postdoctorale",
+        "company": "Polytechnique Montréal",
+        "image": "/images/speakers/sabrine_amri.webp",
+        "bio": "La Dr. Sabrine Amri est chercheuse postdoctorale à Polytechnique Montréal, spécialisée en cybersécurité et en sécurité de l'IA. Elle a obtenu son doctorat en informatique à l'Université de Montréal, où ses recherches doctorales ont porté sur la détection des fausses nouvelles et de la désinformation dans les réseaux sociaux en ligne à l'aide de l'IA avancée et de l'analyse multimodale.\n\nSes travaux actuels explorent les risques de confidentialité dans les grands modèles de langage, la détection de l'exposition des données sensibles et la conception de systèmes d'IA respectueux de la vie privée pour un déploiement plus sûr dans le monde réel."
+      },
+      {
         "id": "nicole-kenmei",
         "name": "Nicole Kenmei",
         "role": "Co-fondatrice",

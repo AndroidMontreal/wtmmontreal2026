@@ -193,6 +193,14 @@
         "bio": "Khaoula Chehbouni is a third-year PhD student at McGill University and Mila (Quebec AI Institute). She received the prestigious FRQNT doctoral training scholarship to conduct research on fairness and security in large language models. Previously, she worked as a senior data scientist at Statistics Canada. She holds a Master's degree in business intelligence from HEC Montréal, for which she received the Best Thesis Award. Her research interests include responsible AI, fairness and security issues in large language models."
       },
       {
+        "id": "sabrine-amri",
+        "name": "Dr. Sabrine Amri",
+        "role": "Postdoctoral Researcher",
+        "company": "Polytechnique Montréal",
+        "image": "/images/speakers/sabrine_amri.webp",
+        "bio": "Dr. Sabrine Amri is a postdoctoral researcher at Polytechnique Montréal, specializing in cybersecurity and AI safety. She obtained her Ph.D. in Computer Science from the Université de Montréal, where her doctoral research focused on the detection of fake news, misinformation, and disinformation in online social networks using advanced AI and multimodal analysis.\n\nHer current work explores privacy risks in Large Language Models, sensitive data exposure detection, and the design of privacy-aware AI systems for safer real-world deployment."
+      },
+      {
         "id": "nicole-kenmei",
         "name": "Nicole Kenmei",
         "role": "Co-founder",
