@@ -105,6 +105,14 @@
         "bio": "Mélanie Guérin is a principal partner at FJNR, where she accompanies organizations and entrepreneurs in the design and realization of digital projects, with a pragmatic approach focused on value and decision-making clarity. She has led many projects involving multidisciplinary teams, in development as well as product strategy. She is also a partner at EmoScienS, an AI startup specialized in emotional recognition. Committed to the Montreal ecosystem, she is the president of Montréal-Python, actively contributing to knowledge sharing and community development."
       },
       {
+        "id": "melanie-guerin",
+        "name": "Melanie Guerin",
+        "role": "Principal Partner",
+        "company": "FJNR",
+        "image": "/images/speakers/wtm.webp",
+        "bio": "Mélanie Guérin is a principal partner at FJNR, where she accompanies organizations and entrepreneurs in the design and realization of digital projects, with a pragmatic approach focused on value and decision-making clarity. She has led many projects involving multidisciplinary teams, in development as well as product strategy. She is also a partner at EmoScienS, an AI startup specialized in emotional recognition. Committed to the Montreal ecosystem, she is the president of Montréal-Python, actively contributing to knowledge sharing and community development."
+      },
+      {
         "id": "rashida-geddes",
         "name": "Rashida Geddes",
         "role": "Talent Acquisition",

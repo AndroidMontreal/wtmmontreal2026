@@ -105,6 +105,14 @@
         "bio": "Mélanie Guérin est associée principale chez FJNR, où elle accompagne organisations et entrepreneurs dans la conception et la réalisation de projets numériques, avec une approche pragmatique centrée sur la valeur et la clarté décisionnelle. Elle a piloté de nombreux projets impliquant des équipes multidisciplinaires, tant en développement qu’en stratégie produit. Elle est également associée chez EmoScienS, une startup en IA spécialisée en reconnaissance émotionnelle. Engagée dans l’écosystème montréalais, elle est présidente de Montréal-Python, contribuant activement au partage des connaissances et au développement de la communauté."
       },
       {
+        "id": "melanie-guerin",
+        "name": "Melanie Guerin",
+        "role": "Associée principale",
+        "company": "FJNR",
+        "image": "/images/speakers/wtm.webp",
+        "bio": "Mélanie Guérin est associée principale chez FJNR, où elle accompagne organisations et entrepreneurs dans la conception et la réalisation de projets numériques, avec une approche pragmatique centrée sur la valeur et la clarté décisionnelle. Elle a piloté de nombreux projets impliquant des équipes multidisciplinaires, tant en développement qu’en stratégie produit. Elle est également associée chez EmoScienS, une startup en IA spécialisée en reconnaissance émotionnelle. Engagée dans l’écosystème montréalais, elle est présidente de Montréal-Python, contribuant activement au partage des connaissances et au développement de la communauté."
+      },
+      {
         "id": "rashida-geddes",
         "name": "Rashida Geddes",
         "role": "Acquisition de talents",
