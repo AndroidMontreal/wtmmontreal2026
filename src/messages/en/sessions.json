@@ -1,6 +1,15 @@
 {
   "list": [
     {
+      "id": "session-gender-inclusive-ai",
+      "title": "Community Talk - ADVANCING GENDER-INCLUSIVE AI THROUGH GENDER EQUITY MENTORING IN AI",
+      "description": "Exploration of how mentoring and equity-focused initiatives can drive the development of more gender-inclusive Artificial Intelligence systems.",
+      "duration": "45 min",
+      "type": "talk",
+      "tags": ["AI", "Gender Equity", "Community"],
+      "speakerIds": ["applied-ai-institute"]
+    },
+    {
       "id": "session-opening",
       "title": "Opening - Ouverture",
       "description": "Opening remarks for WTM Montreal 2026.",

@@ -1,6 +1,15 @@
 {
   "list": [
     {
+      "id": "session-gender-inclusive-ai",
+      "title": "Conférence Communautaire - PROMOUVOIR UNE IA INCLUSIVE PAR LE MENTORAT EN ÉQUITÉ DES GENRES DANS L’IA",
+      "description": "Exploration de la manière dont le mentorat et les initiatives axées sur l'équité peuvent favoriser le développement de systèmes d'intelligence artificielle plus inclusifs.",
+      "duration": "45 min",
+      "type": "talk",
+      "tags": ["IA", "Équité des genres", "Communauté"],
+      "speakerIds": ["applied-ai-institute"]
+    },
+    {
       "id": "session-opening",
       "title": "Ouverture - Opening",
       "description": "Allocutions d'ouverture pour le WTM Montréal 2026.",
