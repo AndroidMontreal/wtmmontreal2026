@@ -33,6 +33,14 @@
     },
     "list": [
       {
+        "id": "anne-nguyen",
+        "name": "Anne Nguyen",
+        "role": "Directrice principale responsable de l’IA",
+        "company": "Conseil de l’innovation du Québec",
+        "image": "/images/speakers/anne_nguyen.webp",
+        "bio": "Directrice principale responsable de l’intelligence artificielle au Conseil de l’innovation du Québec, Anne Nguyen œuvre à faire de l’IA un levier d’innovation responsable, aligné sur les valeurs d’inclusion, d’égalité et d’humanité qui guident son parcours. Avant de rejoindre le CIQ, elle a travaillé pendant 18 ans dans le réseau de la santé, où elle a piloté plusieurs projets stratégiques en transformation numérique et en valorisation des données. Anne est titulaire d’un diplôme en Business Analytics de la Harvard Business School, d’une certification Product Management Master du Pragmatic Institute, d’une Lean Six Sigma Black Belt de l’Université McGill et d’un certificat en gestion de l’Université de Montréal."
+      },
+      {
         "id": "marie-gabrielle-menard",
         "name": "Marie-Gabrielle Ménard",
         "role": "Députée libérale",

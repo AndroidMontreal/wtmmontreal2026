@@ -33,6 +33,14 @@
     },
     "list": [
       {
+        "id": "anne-nguyen",
+        "name": "Anne Nguyen",
+        "role": "Lead, AI Strategy",
+        "company": "Conseil de l'innovation du Québec",
+        "image": "/images/speakers/anne_nguyen.webp",
+        "bio": "Principal Director responsible for artificial intelligence at the Quebec Innovation Council, Anne Nguyen works to make AI a lever for responsible innovation, aligned with the values of inclusion, equality and humanity that guide her career. Before joining the CIQ, she worked for 18 years in the health network, where she led several strategic projects in digital transformation and data valuation. Anne holds a degree in Business Analytics from Harvard Business School, a Product Management Master certification from the Pragmatic Institute, a Lean Six Sigma Black Belt from McGill University and a management certificate from the Université de Montréal."
+      },
+      {
         "id": "marie-gabrielle-menard",
         "name": "Marie-Gabrielle Ménard",
         "role": "Liberal Member of Parliament",
