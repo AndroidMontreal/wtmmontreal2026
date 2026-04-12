@@ -82,6 +82,15 @@
       "speakerIds": ["michell-payano"]
     },
     {
+      "id": "session-rhum-networking",
+      "title": "Atelier - L’ESPACE DES POSSIBLES: RÉSEAUTEZ AVEC CONFIANCE",
+      "description": "Interactive workshop on networking with confidence, focusing on human-centric strategies and authenticity.",
+      "duration": "60 min",
+      "type": "workshop",
+      "tags": ["Networking", "Soft Skills", "Workshop"],
+      "speakerIds": ["pierre-luc-labbee"]
+    },
+    {
       "id": "session-cirque-data",
       "title": "Atelier - BEYOND THE DASHBOARD: BUILDING AGENTS THAT ACTUALLY USE YOUR DATA",
       "description": "Workshop on moving beyond simple data visualization to building intelligent agents that leverage data for actionable insights.",

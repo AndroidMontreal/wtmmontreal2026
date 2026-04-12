@@ -33,6 +33,14 @@
     },
     "list": [
       {
+        "id": "pierre-luc-labbee",
+        "name": "Pierre-Luc Labbée",
+        "role": "Fondateur",
+        "company": "rhum",
+        "image": "/images/speakers/rhum_pierre_luclabbe.webp",
+        "bio": "Pierre-Luc Labbée est le fondateur de rhum. Coach certifié ICF fort de 20 ans d'expérience dans les secteurs de la technologie, du jeu vidéo et des effets visuels, le superpouvoir de Pierre-Luc consiste à simplifier la complexité par le bon sens afin de bâtir des stratégies centrées sur l'humain. Sa mission est de contribuer au développement de milieux de travail où les gens s'épanouissent."
+      },
+      {
         "id": "raphaelle-giraud",
         "name": "Raphaëlle Giraud",
         "role": "Lead d'équipe, Ingénierie des données",
