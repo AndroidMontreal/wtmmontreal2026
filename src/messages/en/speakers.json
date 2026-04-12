@@ -33,6 +33,14 @@
     },
     "list": [
       {
+        "id": "ghislaine-boundjia",
+        "name": "Ghislaine Boundjia",
+        "role": "Founder",
+        "company": "Black Ladies in Tech",
+        "image": "/images/speakers/ghislaine_boundjia.webp",
+        "bio": "Ghislaine Boundjia is an IT Project Management Consultant and the founder of Black Ladies in Tech (BLiT). She is dedicated to empowering women of color in the technology sector through community building and professional development."
+      },
+      {
         "id": "pierre-luc-labbee",
         "name": "Pierre-Luc Labbée",
         "role": "Founder",
