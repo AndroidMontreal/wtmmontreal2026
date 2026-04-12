@@ -193,6 +193,14 @@
         "bio": "Khaoula Chehbouni is a third-year PhD student at McGill University and Mila (Quebec AI Institute). She received the prestigious FRQNT doctoral training scholarship to conduct research on fairness and security in large language models. Previously, she worked as a senior data scientist at Statistics Canada. She holds a Master's degree in business intelligence from HEC Montréal, for which she received the Best Thesis Award. Her research interests include responsible AI, fairness and security issues in large language models."
       },
       {
+        "id": "melisane-lafrenaye",
+        "name": "Mélisane Lafrenaye",
+        "role": "Technical Team Lead",
+        "company": "Triple Boris",
+        "image": "/images/speakers/melisane_lafrenaye.webp",
+        "bio": "Mélisane Lafrenaye is a developer and technical team lead at the video game studio Triple Boris. After starting her career in the military sector then in biomedical robotics, she has dedicated herself to the video game industry for five years. She specializes mainly in frontend development with, among others, the Unity game engine. Invested and passionate about knowledge sharing, she now actively contributes to the evolution and maintenance of best practices within the studio."
+      },
+      {
         "id": "melanie-guerin",
         "name": "Melanie Guerin",
         "role": "Principal Partner",
