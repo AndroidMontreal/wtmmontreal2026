@@ -225,6 +225,14 @@
         "bio": "Stéphanie Jecrois est cofondatrice de Technovation Montréal, un organisme à but non lucratif qui vise à développer les compétences en technologie et en entrepreneuriat chez les filles de 8 à 18 ans. La mission est d’équiper les jeunes filles avec les outils et le mentorat nécessaires afin qu’elles deviennent des entrepreneures et leaders dans le domaine de la technologie."
       },
       {
+        "id": "stephanie-jecrois",
+        "name": "Stéphanie Jecrois",
+        "role": "Co-fondatrice",
+        "company": "Technovation Montréal",
+        "image": "/images/partners/technovation_montreal.svg",
+        "bio": "Stéphanie Jecrois est cofondatrice de Technovation Montréal, un organisme à but non lucratif qui vise à développer les compétences en technologie et en entrepreneuriat chez les filles de 8 à 18 ans. La mission est d’équiper les jeunes filles avec les outils et le mentorat nécessaires afin qu’elles deviennent des entrepreneures et leaders dans le domaine de la technologie."
+      },
+      {
         "id": "sabrine-amri",
         "name": "Dr. Sabrine Amri",
         "role": "Chercheuse postdoctorale",
