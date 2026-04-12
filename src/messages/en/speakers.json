@@ -193,6 +193,14 @@
         "bio": "Khaoula Chehbouni is a third-year PhD student at McGill University and Mila (Quebec AI Institute). She received the prestigious FRQNT doctoral training scholarship to conduct research on fairness and security in large language models. Previously, she worked as a senior data scientist at Statistics Canada. She holds a Master's degree in business intelligence from HEC Montréal, for which she received the Best Thesis Award. Her research interests include responsible AI, fairness and security issues in large language models."
       },
       {
+        "id": "pierre-luc-labbee",
+        "name": "Pierre-Luc Labbée",
+        "role": "Founder",
+        "company": "rhum",
+        "image": "/images/speakers/rhum_pierre_luclabbe.webp",
+        "bio": "Pierre-Luc Labbée is the founder of rhum. An ICF-certified coach with 20 years in Tech, Gaming, and VFX, Pierre-Luc’s superpower is cutting through the noise with common sense to build human-first strategies. His mission is to help develop workplaces where people thrive."
+      },
+      {
         "id": "raphaelle-giraud",
         "name": "Raphaëlle Giraud",
         "role": "Team Lead, Data Engineering",
