@@ -33,6 +33,14 @@
     },
     "list": [
       {
+        "id": "marie-gabrielle-menard",
+        "name": "Marie-Gabrielle Ménard",
+        "role": "Députée libérale",
+        "company": "Hochelaga—Rosemont-Est",
+        "image": "/images/speakers/marie_gabrielle_menard.webp",
+        "bio": "Marie-Gabrielle Ménard, députée libérale d'Hochelaga—Rosemont-Est, secrétaire parlementaire au ministère des Femmes et de l'Égalité des genres et secrétaire d'État (Petites entreprises et Tourisme). Avant de faire le saut en politique, Mme Ménard s'est fait connaître comme artiste, reporter et animatrice, notamment à la radio et à la télévision. Communicatrice chevronnée, femme de cœur et d'action, elle s'engage avec conviction à porter la voix de la population. Nous aurons le privilège d'entendre sa perspective sur la place des femmes dans les milieux de travail encore majoritairement masculins."
+      },
+      {
         "id": "alexandra-nemery",
         "name": "Alexandra Nemery",
         "role": "Professeure / Chercheure",
@@ -137,12 +145,172 @@
         "bio": "Nogol Madani est une experte en environnement de travail tourné vers l'avenir, conférencière et animatrice. Elle est la fondatrice et PDG d'une entreprise qui aide les dirigeants à bâtir des équipes performantes, inclusives et préparées à l'avenir grâce à un climat de sécurité psychologique. Nogol a débuté sa carrière comme ingénieure et, en tant qu'immigrante de première génération et femme professionnelle, elle a constaté de visu que de nombreux dirigeants, loin de libérer le potentiel de leurs collaborateurs, l'étouffaient. Ce constat a donné naissance à sa mission : contribuer à créer des environnements de travail où chacun peut s'épanouir. Nogol a gagné la confiance d'organisations telles que Google, SAP, Rio Tinto, BeaverTails, C2 Montréal et Desjardins, qu'elle accompagne pour une collaboration, une communication et une création plus efficaces. Elle est également professeure à l'Institut des cadres de McGill, où elle partage son expertise en leadership et en dynamique d'équipe."
       },
       {
+        "id": "noemi-mercier",
+        "name": "Noémi Mercier",
+        "role": "Journaliste et animatrice",
+        "company": "",
+        "image": "/images/speakers/noemi_mercier.webp",
+        "bio": "Noémi Mercier est journaliste et animatrice. S’intéressant particulièrement aux enjeux sociaux et politiques, elle a piloté plusieurs documentaires et séries à titre d’animatrice, de productrice au contenu ou de réalisatrice, dont « IA : l’angle mort ». Noémi est aussi reconnue pour ses nombreux reportages d’envergure publiés dans L’actualité et Québec Science. Elle a reçu quatre prix Judith-Jasmin et sept médailles d’or aux Prix du magazine canadien, en plus de nominations aux prix Michener, Albert-Londres et Gémeaux. Elle détient un baccalauréat en psychologie de l’Université McGill."
+      },
+      {
         "id": "stacy-veronneau",
         "name": "Stacy Véronneau",
         "role": "Senior Customer Engineer",
         "company": "TELUS Digital",
         "image": "/images/speakers/stacy_veronneau.webp",
         "bio": "« Bien que je sois polyvalent, mon rôle principal consiste à concevoir des solutions cloud axées sur la sécurité et l'infrastructure. À ce titre, j'ai affiné mon expertise en définissant des processus techniques de préventes et en collaborant avec les clients pour personnaliser des offres cloud qui répondent à leurs défis uniques et stimulent leur croissance.\n\nJ'adopte une approche de conseiller de confiance, m'appuyant sur une vaste expérience des services cloud pour bâtir des offres répondant aux besoins des clients, tout en donnant aux équipes de livraison les moyens de réussir. Bilingue anglais-français, je m'épanouis dans les environnements collaboratifs, en inspirant mes collègues et mes clients et en partageant des connaissances dans le domaine de l'intégration et de l'innovation cloud. »"
+      },
+      {
+        "id": "ulrich-aivodji",
+        "name": "Ulrich Aïvodji",
+        "role": "Professeur adjoint",
+        "company": "ÉTS Montréal",
+        "image": "/images/speakers/ulrich_aivodji.webp",
+        "bio": "Ulrich est professeur adjoint en informatique à l'ÉTS au département de génie logiciel et des technologies de l'information. Ses domaines de recherche sont l'IA responsable, la protection de la vie privée et la cybersécurité. Ses travaux de recherche actuels portent sur plusieurs problématiques de l'IA responsable, telles que la protection de la vie privée, l'explicabilité et l'équité algorithmique."
+      },
+      {
+        "id": "afaf-taik",
+        "name": "Afaf Taïk",
+        "role": "Professeure adjointe",
+        "company": "Université de Sherbrooke & Mila",
+        "image": "/images/speakers/afaf_taik.webp",
+        "bio": "La Dr Afaf Taïk est professeure adjointe à l'Université de Sherbrooke et actuellement chercheure postdoctorale au Mila-Institut d'IA du Québec et à l'Université de Montréal, travaillant sur l'intersection de l'équité et de la confidentialité dans l'apprentissage automatique. Elle a obtenu un doctorat en génie électrique en 2022 de l'Université de Sherbrooke, où elle a travaillé sur des problèmes liés aux algorithmes d'apprentissage automatique distribués. Afaf a reçu de nombreux prix et reconnaissances pour son travail, tels que les bourses postdoctorales Claire DesChênes (2023) et FRQNT (2024)."
+      },
+      {
+        "id": "anne-nguyen",
+        "name": "Anne Nguyen",
+        "role": "Directrice principale responsable de l’IA",
+        "company": "Conseil de l’innovation du Québec",
+        "image": "/images/speakers/anne_nguyen.webp",
+        "bio": "Directrice principale responsable de l’intelligence artificielle au Conseil de l’innovation du Québec, Anne Nguyen œuvre à faire de l’IA un levier d’innovation responsable, aligné sur les valeurs d’inclusion, d’égalité et d’humanité qui guident son parcours. Avant de rejoindre le CIQ, elle a travaillé pendant 18 ans dans le réseau de la santé, où elle a piloté plusieurs projets stratégiques en transformation numérique et en valorisation des données. Anne est titulaire d’un diplôme en Business Analytics de la Harvard Business School, d’une certification Product Management Master du Pragmatic Institute, d’une Lean Six Sigma Black Belt de l’Université McGill et d’un certificat en gestion de l’Université de Montréal."
+      },
+      {
+        "id": "khaoula-chehbouni",
+        "name": "Khaoula Chehbouni",
+        "role": "Étudiante au doctorat",
+        "company": "Université McGill & Mila",
+        "image": "/images/speakers/khaoula_chehbouni.webp",
+        "bio": "Khaoula Chehbouni est étudiante de deuxième année au doctorat en informatique à l'Université McGill et à Mila (Institut d'IA du Québec). Elle a reçu la prestigieuse bourse de formation doctorale du FRQNT pour effectuer des recherches sur l'équité et la sécurité dans les grands modèles de langage. Auparavant, elle a travaillé comme scientifique principale des données à Statistique Canada. Elle est titulaire d'une maîtrise en intelligence d'affaires de HEC Montréal, pour laquelle elle a reçu le prix de la meilleure thèse. Ses intérêts de recherche comprennent l'IA responsable, les questions d'équité et de sécurité dans les grands modèles de langage."
+      },
+      {
+        "id": "marie-gabrielle-menard",
+        "name": "Marie-Gabrielle Ménard",
+        "role": "Députée libérale",
+        "company": "Hochelaga—Rosemont-Est",
+        "image": "/images/speakers/marie_gabrielle_menard.webp",
+        "bio": "Marie-Gabrielle Ménard, députée libérale d'Hochelaga—Rosemont-Est, secrétaire parlementaire au ministère des Femmes et de l'Égalité des genres et secrétaire d'État (Petites entreprises et Tourisme). Avant de faire le saut en politique, Mme Ménard s'est fait connaître comme artiste, reporter et animatrice, notamment à la radio et à la télévision. Communicatrice chevronnée, femme de cœur et d'action, elle s'engage avec conviction à porter la voix de la population. Nous aurons le privilège d'entendre sa perspective sur la place des femmes dans les milieux de travail encore majoritairement masculins."
+      },
+      {
+        "id": "reem-habib",
+        "name": "Reem Habib",
+        "role": "Modératrice",
+        "company": "Women Techmakers Montréal",
+        "image": "/images/speakers/reem.webp",
+        "bio": "Reem Habib est étudiante à l'Université de Montréal et membre active de l'équipe d'organisation de Women Techmakers Montréal. Elle agit en tant que modératrice pour le panel communautaire sur les trajectoires technologiques, faisant le pont entre les talents émergents et les vétérans de l'industrie."
+      },
+      {
+        "id": "stefania-pecore",
+        "name": "Stefania Pecore",
+        "role": "Directrice exécutive",
+        "company": "Women Techmakers Montréal",
+        "image": "/images/speakers/stefania_pecore.webp",
+        "bio": "Stefania Pecore est la directrice exécutive de Women Techmakers Montréal. Avec plus d'une décennie d'expérience à la tête de la communauté montréalaise, elle se consacre à la création d'espaces inclusifs pour les femmes en technologie et au mentorat de la prochaine génération de leaders."
+      },
+      {
+        "id": "pierre-alexandre-lacerte",
+        "name": "Pierre-Alexandre Lacerte",
+        "role": "Ingénieur Logiciel",
+        "company": "Upgrade",
+        "image": "/images/speakers/wtm.webp",
+        "bio": "Pierre-Alexandre Lacerte est ingénieur logiciel chez Upgrade et contributeur actif de la communauté AI Tinkerers Montréal. Il se passionne pour la mise en œuvre pratique de l'IA et le partage de ses découvertes avec la communauté à travers des démonstrations en direct et des ateliers techniques."
+      },
+      {
+        "id": "francois-legare",
+        "name": "François Legare",
+        "role": "Développeur Principal",
+        "company": "Bell",
+        "image": "/images/speakers/wtm.webp",
+        "bio": "François Legare est développeur principal chez Bell et contributeur à la communauté AI Tinkerers Montréal. Il se spécialise dans la création d'infrastructures robustes pour les applications d'IA et l'expérimentation de solutions technologiques innovantes."
+      },
+      {
+        "id": "ayrat-khayretdinov",
+        "name": "Ayrat Khayretdinov",
+        "role": "Ingénieur Logiciel",
+        "company": "Google",
+        "image": "/images/speakers/wtm.webp",
+        "bio": "Ayrat Khayretdinov est ingénieur logiciel chez Google et membre actif de la communauté AI Tinkerers Montréal, où il expérimente les derniers développements en matière de modèles de langage de grande taille et d'IA générative."
+      },
+      {
+        "id": "sabine-pierre",
+        "name": "Sabine Pierre",
+        "role": "Ingénieure Backend principale et Développeuse IA",
+        "company": "Bell",
+        "image": "/images/speakers/wtm.webp",
+        "bio": "Sabine Pierre est ingénieure backend principale et développeuse IA chez Bell. Elle est experte dans la création de systèmes backend évolutifs et explore comment les outils propulsés par l'IA comme Gemini CLI peuvent optimiser les flux de travail de développement."
+      },
+      {
+        "id": "stephanie-jecrois",
+        "name": "Stéphanie Jecrois",
+        "role": "Co-fondatrice",
+        "company": "Technovation Montréal",
+        "image": "/images/partners/technovation_montreal.svg",
+        "bio": "Stéphanie Jecrois est cofondatrice de Technovation Montréal, un organisme à but non lucratif qui vise à développer les compétences en technologie et en entrepreneuriat chez les filles de 8 à 18 ans. La mission est d’équiper les jeunes filles avec les outils et le mentorat nécessaires afin qu’elles deviennent des entrepreneures et leaders dans le domaine de la technologie."
+      },
+      {
+        "id": "sabrine-amri",
+        "name": "Dr. Sabrine Amri",
+        "role": "Chercheuse postdoctorale",
+        "company": "Polytechnique Montréal",
+        "image": "/images/speakers/sabrine_amri.webp",
+        "bio": "La Dr. Sabrine Amri est chercheuse postdoctorale à Polytechnique Montréal, spécialisée en cybersécurité et en sécurité de l'IA. Elle a obtenu son doctorat en informatique à l'Université de Montréal, où ses recherches doctorales ont porté sur la détection des fausses nouvelles et de la désinformation dans les réseaux sociaux en ligne à l'aide de l'IA avancée et de l'analyse multimodale.\n\nSes travaux actuels explorent les risques de confidentialité dans les grands modèles de langage, la détection de l'exposition des données sensibles et la conception de systèmes d'IA respectueux de la vie privée pour un déploiement plus sûr dans le monde réel."
+      },
+      {
+        "id": "nicole-kenmei",
+        "name": "Nicole Kenmei",
+        "role": "Co-fondatrice",
+        "company": "Black Ladies in Tech",
+        "image": "/images/speakers/nicole_kenmei.webp",
+        "bio": "Nicole Kenmei est consultante en cybersécurité et co-fondatrice de Black Ladies in Tech (BLiT). Elle travaille à combler le fossé de la représentation et à fournir des ressources aux femmes de couleur naviguant dans le paysage technologique."
+      },
+      {
+        "id": "ghislaine-boundjia",
+        "name": "Ghislaine Boundjia",
+        "role": "Fondatrice",
+        "company": "Black Ladies in Tech",
+        "image": "/images/speakers/ghislaine_boundjia.webp",
+        "bio": "Ghislaine Boundjia est consultante en gestion de projet informatique et fondatrice de Black Ladies in Tech (BLiT). Elle se consacre à l'autonomisation des femmes de couleur dans le secteur technologique à travers le renforcement de la communauté et le développement professionnel."
+      },
+      {
+        "id": "pierre-luc-labbee",
+        "name": "Pierre-Luc Labbée",
+        "role": "Fondateur",
+        "company": "rhum",
+        "image": "/images/speakers/rhum_pierre_luclabbe.webp",
+        "bio": "Pierre-Luc Labbée est le fondateur de rhum. Coach certifié ICF fort de 20 ans d'expérience dans les secteurs de la technologie, du jeu vidéo et des effets visuels, le superpouvoir de Pierre-Luc consiste à simplifier la complexité par le bon sens afin de bâtir des stratégies centrées sur l'humain. Sa mission est de contribuer au développement de milieux de travail où les gens s'épanouissent."
+      },
+      {
+        "id": "raphaelle-giraud",
+        "name": "Raphaëlle Giraud",
+        "role": "Lead d'équipe, Ingénierie des données",
+        "company": "Cirque du Soleil",
+        "image": "/images/speakers/raphaelle_giraud.webp",
+        "bio": "Raphaëlle Giraud est lead d'équipe en ingénierie des données au Groupe de divertissement Cirque du Soleil, où elle dirige des initiatives de données et d'IA qui informent les décisions de marketing et de revenus. Son expérience dans l'ingénierie des données, l'analytique et la science des données lui confère une solide compréhension de la manière dont les données se traduisent en valeur commerciale. Elle collabore étroitement avec les leaders techniques et commerciaux pour fournir des solutions de données pratiques et s'engage à mentorat et à partager des connaissances sur le développement de carrière et le leadership en technologie."
+      },
+      {
+        "id": "nadia-tahiri",
+        "name": "Nadia Tahiri",
+        "role": "Professeure adjointe",
+        "company": "Université de Sherbrooke",
+        "image": "/images/speakers/nadia_tahiri.webp",
+        "bio": "Nadia Tahiri a obtenu sa maîtrise et son doctorat en informatique à l'Université du Québec à Montréal. Elle est actuellement professeure adjointe au département d'informatique de l'Université de Sherbrooke. Ses intérêts de recherche portent sur l'évolution, les arbres phylogénétiques, le partitionnement, la classification, la biologie computationnelle et la biogéographie."
+      },
+      {
+        "id": "melisane-lafrenaye",
+        "name": "Mélisane Lafrenaye",
+        "role": "Lead technique",
+        "company": "Triple Boris",
+        "image": "/images/speakers/melisane_lafrenaye.webp",
+        "bio": "Mélisane Lafrenaye est développeresse et lead technique au sein du studio de jeu vidéo Triple Boris. Après avoir débuté sa carrière dans le milieu militaire puis en robotique biomédicale, elle se consacre à l’industrie du jeu vidéo depuis cinq ans. Elle se spécialise principalement en développement frontend avec, entre autres, le moteur de jeu Unity. Investie et passionnée par le partage de connaissances, elle contribue maintenant activement à l’évolution et au maintien des bonnes pratiques au sein du studio."
       },
       {
         "id": "viv",

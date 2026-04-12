@@ -1,6 +1,51 @@
 {
   "list": [
     {
+      "id": "session-opening",
+      "title": "Opening - Ouverture",
+      "description": "Opening remarks for WTM Montreal 2026.",
+      "duration": "15 min",
+      "type": "talk",
+      "tags": ["Opening"],
+      "speakerIds": ["stefania-pecore", "marie-gabrielle-menard", "anne-nguyen"]
+    },
+    {
+      "id": "session-privacy-ia",
+      "title": "Protection de la vie privée dans les systèmes d'IA",
+      "description": "The presentation will focus on privacy protection, covering existing threats to the privacy of machine learning models, training data and user inputs, as well as an overview of current countermeasures.",
+      "duration": "30 min",
+      "type": "talk",
+      "tags": ["AI", "Privacy", "Cybersecurity"],
+      "speakerIds": ["ulrich-aivodji"]
+    },
+    {
+      "id": "session-cost-models",
+      "title": "The cost of one-solution-fits-all models",
+      "description": "This talk examines how the shift from highly customizable, small-scale machine learning systems to large, reusable models changes the AI landscape. As development moves toward off-the-shelf systems, the wide space of possible models narrows, and AI systems begin to look and behave more alike across contexts. The talk then asks what is gained and lost through this homogenization, and how responsibility should be understood when key design choices are no longer made locally, but embedded in widely deployed models.",
+      "duration": "45 min",
+      "type": "talk",
+      "tags": ["AI Ethics", "ML Models", "Responsible AI"],
+      "speakerIds": ["afaf-taik", "khaoula-chehbouni"]
+    },
+    {
+      "id": "session-panel-ia",
+      "title": "Panel - IA : PROMESSES ET ANGLES MORTS",
+      "description": "A deep dive into the promises and blind spots of Artificial Intelligence with industry experts.",
+      "duration": "45 min",
+      "type": "talk",
+      "tags": ["AI", "Panel", "Ethics"],
+      "speakerIds": ["stefania-pecore", "noemi-mercier"]
+    },
+    {
+      "id": "session-ai-tinkerers",
+      "title": "Community Demo — AI Tinkerers Montreal",
+      "description": "A rapid-fire series of live demos from the AI Tinkerers Montreal community. Featuring 'Supercharging Development with Gemini CLI' by Sabine Pierre and other cutting-edge AI experiments.",
+      "duration": "45 min",
+      "type": "talk",
+      "tags": ["AI", "Demo", "Community"],
+      "speakerIds": ["sabine-pierre", "jl-marechaux", "ayrat-khayretdinov", "francois-legare", "pierre-alexandre-lacerte"]
+    },
+    {
       "id": "session-stacy",
       "title": "POPPING THE HOOD: The Grime Behind the Genius",
       "description": "Everyone is obsessed with the \"shiny red car\"—the AI Model. We chase parameters and context windows, fighting to get into the driver's seat. But nobody is asking the most dangerous question: \"Is the track safe?\" When you put a $15 million machine on a broken track, it doesn’t just stop—it crashes.\n\nAI isn't magic; it's a high-maintenance machine. In this session, we pop the hood to reveal the grime behind the genius. We will leave the \"driver obsession\" behind and look at the infrastructure required to actually finish the race.\n\nKey Takeaways:\n\n- **The Infrastructure Gap:** Why building 2025 AI on 2015 infrastructure is a guaranteed failure.\n- **The Need for Speed:** Why CPUs are just \"city streets,\" GPUs are \"highways,\" and why we need the frictionless \"hyperloop\" of TPUs to handle modern complexity.\n- **The New Threat Vector:** How attacks have shifted from data theft to prompt injection, and why you need \"Model Armor\" to protect the reasoning mind of your AI.\n\nStop just driving. Come learn how to build the track.",
@@ -46,16 +91,79 @@
       "speakerIds": ["michell-payano"]
     },
     {
-      "id": "session-mahsa",
-      "title": "The Tech Talent Barrier Lab",
-      "description": "An interactive data-driven session sharing documented barriers to tech employment. Industry leaders respond with concrete actionable solutions. \n What happens when you combine real pilot data with live problem-solving? \n Join us as participants from our 7-week Career camp share documented barriers to tech employment. Industry leaders respond with concrete actionable solutions. And even everything gets documented real-time. \n This isn't a typical panel. It's a collaborative experiment in making hiring systems accountable. \n Who should attend:\n \t Anyone involved in tech hiring \n\t Women navigating career transitions \n\t People curious about data-driven inclusion",
+      "id": "session-blit-panel",
+      "title": "Community Panel - PARCOURS INSPIRANTS ET LEADERSHIP",
+      "description": "An inspiring panel discussion moderated by Reem Habib, featuring Ghislaine Boundjia and Nicole Kenmei from Black Ladies in Tech. They will share their professional journeys, discuss untapped opportunities, and provide insights to help you navigate the tech landscape and build a strategic, authentic career path.",
+      "duration": "45 min",
+      "type": "talk",
+      "tags": ["Community", "Leadership", "Career"],
+      "speakerIds": ["ghislaine-boundjia", "nicole-kenmei", "reem-habib"]
+    },
+    {
+      "id": "session-technovation",
+      "title": "Community Panel - FEMMES EN TECH",
+      "description": "A collaborative panel discussion featuring representatives from Technovation Montréal, Femmes+ En Tech, and Les Scientifines discussing the ecosystem for women in technology.",
+      "duration": "45 min",
+      "type": "talk",
+      "tags": ["Community", "Women in Tech", "Ecosystem"],
+      "speakerIds": ["stephanie-jecrois"]
+    },
+    {
+      "id": "session-rhum-networking",
+      "title": "Atelier - L’ESPACE DES POSSIBLES: RÉSEAUTEZ AVEC CONFIANCE",
+      "description": "Interactive workshop on networking with confidence, focusing on human-centric strategies and authenticity.",
+      "duration": "60 min",
+      "type": "workshop",
+      "tags": ["Networking", "Soft Skills", "Workshop"],
+      "speakerIds": ["pierre-luc-labbee"]
+    },
+    {
+      "id": "session-cirque-data",
+      "title": "Atelier - BEYOND THE DASHBOARD: BUILDING AGENTS THAT ACTUALLY USE YOUR DATA",
+      "description": "Workshop on moving beyond simple data visualization to building intelligent agents that leverage data for actionable insights.",
+      "duration": "60 min",
+      "type": "workshop",
+      "tags": ["Data Engineering", "AI Agents", "Workshop"],
+      "speakerIds": ["raphaelle-giraud"]
+    },
+    {
+      "id": "session-tahiri-bias",
+      "title": "Quand l’IA apprend à comparer : Biais, complexité et données structurées",
+      "description": "Exploration of bias and complexity when AI learns to compare structured data.",
+      "duration": "45 min",
+      "type": "talk",
+      "tags": ["AI", "Data", "Ethics"],
+      "speakerIds": ["nadia-tahiri"]
+    },
+    {
+      "id": "session-unity",
+      "title": "Atelier - DANS LES COULISSES DU JEU VIDÉO : CRÉEZ VOTRE TOUT PREMIER JEU AVEC UNITY",
+      "description": "Hands-on workshop on creating your first video game using the Unity game engine.",
+      "duration": "60 min",
+      "type": "workshop",
+      "tags": ["Game Development", "Unity", "Workshop"],
+      "speakerIds": ["melisane-lafrenaye"]
+    },
+    {
+      "id": "session-decisions",
+      "title": "Atelier - LES DÉCISIONS QUI CHANGENT TOUT DANS UN PROJET NUMÉRIQUE",
+      "description": "Workshop on critical decision-making in digital projects, focusing on value and strategic alignment.",
+      "duration": "60 min",
+      "type": "workshop",
+      "tags": ["Project Management", "Digital Strategy", "Workshop"],
+      "speakerIds": ["melanie-guerin"]
+    },
+    {
+      "id": "session-barrier",
+      "title": "Panel - THE TECH TALENT BARRIER FOR ENGLISH-SPEAKING WOMEN",
+      "description": "An interactive data-driven session sharing documented barriers to tech employment for English-speaking women in Quebec. Industry leaders respond with concrete actionable solutions.",
       "duration": "60 min",
       "type": "talk",
       "tags": ["Career", "Diversity", "Inclusion"],
-      "speakerIds": ["mahsa-rezaei"]
+      "speakerIds": ["annalise-iten", "mahsa-rezaei", "maya-toussaint", "rashida-geddes"]
     },
     {
-      "id": "session-nadia",
+      "id": "session-punk-voice",
       "title": "Punk strategies to find your voice!",
       "description": "Punk culture, in its political function, stands against the fundamentals of capitalism: anti-consumerism, nonconformity, anti-racism, anti-sexism, and anti-discrimination of all kinds. Appropriation, hacktivism, and culture jamming are among the consistently effective strategies associated with subcultures. We will explore, through examples and case studies, how to remain passionate and relevant by using punk tactics to develop one's voice and maintain a critical perspective.",
       "duration": "30 min",

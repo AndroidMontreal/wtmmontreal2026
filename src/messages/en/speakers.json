@@ -33,6 +33,14 @@
     },
     "list": [
       {
+        "id": "marie-gabrielle-menard",
+        "name": "Marie-Gabrielle Ménard",
+        "role": "Liberal Member of Parliament",
+        "company": "Hochelaga—Rosemont-East",
+        "image": "/images/speakers/marie_gabrielle_menard.webp",
+        "bio": "Marie-Gabrielle Ménard, Liberal MP for Hochelaga—Rosemont-East, Parliamentary Secretary to the Minister for Women and Gender Equality and Secretary of State (Small Business and Tourism). Before making the leap into politics, Ms. Ménard made a name for herself as an artist, reporter and host, notably on radio and television. An experienced communicator, woman of heart and action, she is committed with conviction to carrying the voice of the population. We will have the privilege of hearing her perspective on the place of women in work environments that are still predominantly male."
+      },
+      {
         "id": "alexandra-nemery",
         "name": "Alexandra Nemery",
         "role": "Professor / Researcher",
@@ -137,12 +145,172 @@
         "bio": "Nogol Madani is a future-focused workplace expert, speaker, and facilitator. She is the founder and CEO of a company dedicated to helping leaders build high-performing, inclusive, future-ready teams through psychological safety. Nogol started her career as an engineer, and as a first-generation immigrant and female professional, she experienced firsthand in the workplace how many leaders weren’t unlocking potential, they were stifling it. This realization sparked her mission to help develop workplaces where people thrive. Nogol has earned the trust of organizations like Google, SAP, Rio Tinto, BeaverTails, C2 Montreal, and Desjardins, guiding them to collaborate, communicate, and create better together. She is also a faculty member at the McGill Executive Institute, where she shares her expertise on leadership and team dynamics."
       },
       {
+        "id": "noemi-mercier",
+        "name": "Noémi Mercier",
+        "role": "Journalist & Host",
+        "company": "",
+        "image": "/images/speakers/noemi_mercier.webp",
+        "bio": "Noémi Mercier is a journalist and host. With a particular interest in social and political issues, she has led several documentaries and series as a host, content producer or director, including 'IA: l'angle mort'. Noémi is also recognized for her many significant reports published in L’actualité and Québec Science. She has received four Judith-Jasmin prizes and seven gold medals at the Canadian Magazine Awards, as well as nominations for the Michener, Albert-London and Gémeaux Awards. She holds a BA in psychology from McGill University."
+      },
+      {
         "id": "stacy-veronneau",
         "name": "Stacy Véronneau",
         "role": "Senior Customer Engineer",
         "company": "TELUS Digital",
         "image": "/images/speakers/stacy_veronneau.webp",
         "bio": "I wear many hats, but my primary role is to architect cloud solutions with a focus on security and infrastructure. In this capacity, I've honed my competencies by defining technical pre-sales processes and engaging with customers to tailor cloud offerings that address their unique challenges and drive growth.\n\nMy approach is that of a trusted advisor, leveraging extensive experience in cloud services to build and develop offerings that not only meet client needs but also empower delivery teams to execute successfully. With fluency in English and French, I thrive in collaborative environments, inspiring and sharing insights with both colleagues and clients in the realm of cloud integration and innovation."
+      },
+      {
+        "id": "ulrich-aivodji",
+        "name": "Ulrich Aïvodji",
+        "role": "Assistant Professor",
+        "company": "ÉTS Montréal",
+        "image": "/images/speakers/ulrich_aivodji.webp",
+        "bio": "Ulrich is an assistant professor in computer science at ÉTS in the department of software engineering and information technology. His research areas are Responsible AI, privacy protection and cybersecurity. His current research work focuses on several Responsible AI issues, such as privacy protection, explainability and algorithmic fairness."
+      },
+      {
+        "id": "afaf-taik",
+        "name": "Afaf Taïk",
+        "role": "Assistant Professor",
+        "company": "Université de Sherbrooke & Mila",
+        "image": "/images/speakers/afaf_taik.webp",
+        "bio": "Dr. Afaf Taïk is an assistant professor at the Université de Sherbrooke and currently a postdoctoral researcher at Mila – Quebec AI Institute and the Université de Montréal, working on the intersection of fairness and privacy in machine learning. She obtained a PhD in electrical engineering in 2022 from the Université de Sherbrooke, where she worked on problems related to distributed machine learning algorithms. Afaf has received numerous awards and recognizations for her work, such as the Claire DesChênes (2023) and FRQNT (2024) postdoctoral scholarships."
+      },
+      {
+        "id": "anne-nguyen",
+        "name": "Anne Nguyen",
+        "role": "Lead, AI Strategy",
+        "company": "Conseil de l'innovation du Québec",
+        "image": "/images/speakers/anne_nguyen.webp",
+        "bio": "Principal Director responsible for artificial intelligence at the Quebec Innovation Council, Anne Nguyen works to make AI a lever for responsible innovation, aligned with the values of inclusion, equality and humanity that guide her career. Before joining the CIQ, she worked for 18 years in the health network, where she led several strategic projects in digital transformation and data valuation. Anne holds a degree in Business Analytics from Harvard Business School, a Product Management Master certification from the Pragmatic Institute, a Lean Six Sigma Black Belt from McGill University and a management certificate from the Université de Montréal."
+      },
+      {
+        "id": "khaoula-chehbouni",
+        "name": "Khaoula Chehbouni",
+        "role": "PhD Candidate",
+        "company": "McGill University & Mila",
+        "image": "/images/speakers/khaoula_chehbouni.webp",
+        "bio": "Khaoula Chehbouni is a third-year PhD student at McGill University and Mila (Quebec AI Institute). She received the prestigious FRQNT doctoral training scholarship to conduct research on fairness and security in large language models. Previously, she worked as a senior data scientist at Statistics Canada. She holds a Master's degree in business intelligence from HEC Montréal, for which she received the Best Thesis Award. Her research interests include responsible AI, fairness and security issues in large language models."
+      },
+      {
+        "id": "reem-habib",
+        "name": "Reem Habib",
+        "role": "Moderator",
+        "company": "Women Techmakers Montreal",
+        "image": "/images/speakers/reem.webp",
+        "bio": "Reem Habib is a student at the Université de Montréal and an active member of the Women Techmakers Montreal organizing team. She serves as the moderator for the community panel on Tech Trajectories, bridging the gap between emerging talent and industry veterans."
+      },
+      {
+        "id": "stefania-pecore",
+        "name": "Stefania Pecore",
+        "role": "Executive Director",
+        "company": "Women Techmakers Montreal",
+        "image": "/images/speakers/stefania_pecore.webp",
+        "bio": "Stefania Pecore is the Executive Director of Women Techmakers Montreal. With over a decade of experience leading the Montreal community, she is dedicated to building inclusive spaces for women in technology and mentoring the next generation of leaders."
+      },
+      {
+        "id": "pierre-alexandre-lacerte",
+        "name": "Pierre-Alexandre Lacerte",
+        "role": "Software Engineer",
+        "company": "Upgrade",
+        "image": "/images/speakers/wtm.webp",
+        "bio": "Pierre-Alexandre Lacerte is a Software Engineer at Upgrade and an active contributor to the AI Tinkerers Montreal community. He is passionate about practical AI implementation and sharing his findings with the community through live demos and technical workshops."
+      },
+      {
+        "id": "francois-legare",
+        "name": "François Legare",
+        "role": "Lead Developer",
+        "company": "Bell",
+        "image": "/images/speakers/wtm.webp",
+        "bio": "François Legare is a Lead Developer at Bell and a contributor to the AI Tinkerers Montreal community. He specializes in building robust infrastructure for AI applications and experimenting with innovative technology solutions."
+      },
+      {
+        "id": "ayrat-khayretdinov",
+        "name": "Ayrat Khayretdinov",
+        "role": "Software Engineer",
+        "company": "Google",
+        "image": "/images/speakers/wtm.webp",
+        "bio": "Ayrat Khayretdinov is a Software Engineer at Google and an active member of the AI Tinkerers Montreal community, where he experiments with the latest developments in large language models and generative AI."
+      },
+      {
+        "id": "sabine-pierre",
+        "name": "Sabine Pierre",
+        "role": "Lead Backend Engineer & AI Developer",
+        "company": "Bell",
+        "image": "/images/speakers/wtm.webp",
+        "bio": "Sabine Pierre is a Lead Backend Engineer and AI Developer at Bell. She is an expert in building scalable backend systems and exploring how AI-powered tools like Gemini CLI can optimize development workflows."
+      },
+      {
+        "id": "stephanie-jecrois",
+        "name": "Stéphanie Jecrois",
+        "role": "Co-founder",
+        "company": "Technovation Montréal",
+        "image": "/images/partners/technovation_montreal.svg",
+        "bio": "Stéphanie Jecrois is the co-founder of Technovation Montréal, a non-profit organization that aims to develop technology and entrepreneurship skills in girls aged 8 to 18. Their mission is to equip young girls with the necessary tools and mentorship so that they become entrepreneurs and leaders in the field of technology."
+      },
+      {
+        "id": "sabrine-amri",
+        "name": "Dr. Sabrine Amri",
+        "role": "Postdoctoral Researcher",
+        "company": "Polytechnique Montréal",
+        "image": "/images/speakers/sabrine_amri.webp",
+        "bio": "Dr. Sabrine Amri is a postdoctoral researcher at Polytechnique Montréal, specializing in cybersecurity and AI safety. She obtained her Ph.D. in Computer Science from the Université de Montréal, where her doctoral research focused on the detection of fake news, misinformation, and disinformation in online social networks using advanced AI and multimodal analysis.\n\nHer current work explores privacy risks in Large Language Models, sensitive data exposure detection, and the design of privacy-aware AI systems for safer real-world deployment."
+      },
+      {
+        "id": "nicole-kenmei",
+        "name": "Nicole Kenmei",
+        "role": "Co-founder",
+        "company": "Black Ladies in Tech",
+        "image": "/images/speakers/nicole_kenmei.webp",
+        "bio": "Nicole Kenmei is a cybersecurity consultant and co-founder of Black Ladies in Tech (BLiT). She works to bridge the gap in representation and provide resources for women of color navigating the tech landscape."
+      },
+      {
+        "id": "ghislaine-boundjia",
+        "name": "Ghislaine Boundjia",
+        "role": "Founder",
+        "company": "Black Ladies in Tech",
+        "image": "/images/speakers/ghislaine_boundjia.webp",
+        "bio": "Ghislaine Boundjia is an IT Project Management Consultant and the founder of Black Ladies in Tech (BLiT). She is dedicated to empowering women of color in the technology sector through community building and professional development."
+      },
+      {
+        "id": "pierre-luc-labbee",
+        "name": "Pierre-Luc Labbée",
+        "role": "Founder",
+        "company": "rhum",
+        "image": "/images/speakers/rhum_pierre_luclabbe.webp",
+        "bio": "Pierre-Luc Labbée is the founder of rhum. An ICF-certified coach with 20 years in Tech, Gaming, and VFX, Pierre-Luc’s superpower is cutting through the noise with common sense to build human-first strategies. His mission is to help develop workplaces where people thrive."
+      },
+      {
+        "id": "raphaelle-giraud",
+        "name": "Raphaëlle Giraud",
+        "role": "Team Lead, Data Engineering",
+        "company": "Cirque du Soleil",
+        "image": "/images/speakers/raphaelle_giraud.webp",
+        "bio": "Raphaëlle Giraud is a Team Lead in Data Engineering at Cirque du Soleil Entertainment Group, where she leads data and AI initiatives that inform marketing and revenue decisions. Her experience across data engineering, analytics, and data science gives her a strong understanding of how data translates into business value. She partners closely with technical and business leaders to deliver practical data solutions and is committed to mentoring and sharing insights on career development and leadership in tech."
+      },
+      {
+        "id": "nadia-tahiri",
+        "name": "Nadia Tahiri",
+        "role": "Assistant Professor",
+        "company": "University of Sherbrooke",
+        "image": "/images/speakers/nadia_tahiri.webp",
+        "bio": "Nadia Tahiri received her M.Sc. and Ph.D. degrees in Computer Science from the University of Quebec at Montreal. She is currently an Assistant Professor in the Department of Computer Science at the University of Sherbrooke. Her research interests include evolution, phylogenetic tree, clustering, classification, computational biology, and biogeography."
+      },
+      {
+        "id": "melisane-lafrenaye",
+        "name": "Mélisane Lafrenaye",
+        "role": "Technical Team Lead",
+        "company": "Triple Boris",
+        "image": "/images/speakers/melisane_lafrenaye.webp",
+        "bio": "Mélisane Lafrenaye is a developer and technical team lead at the video game studio Triple Boris. After starting her career in the military sector then in biomedical robotics, she has dedicated herself to the video game industry for five years. She specializes mainly in frontend development with, among others, the Unity game engine. Invested and passionate about knowledge sharing, she now actively contributes to the evolution and maintenance of best practices within the studio."
+      },
+      {
+        "id": "melanie-guerin",
+        "name": "Melanie Guerin",
+        "role": "Principal Partner",
+        "company": "FJNR",
+        "image": "/images/speakers/wtm.webp",
+        "bio": "Mélanie Guérin is a principal partner at FJNR, where she accompanies organizations and entrepreneurs in the design and realization of digital projects, with a pragmatic approach focused on value and decision-making clarity. She has led many projects involving multidisciplinary teams, in development as well as product strategy. She is also a partner at EmoScienS, an AI startup specialized in emotional recognition. Committed to the Montreal ecosystem, she is the president of Montréal-Python, actively contributing to knowledge sharing and community development."
       },
       {
         "id": "viv",
