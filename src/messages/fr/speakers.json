@@ -217,6 +217,14 @@
         "bio": "Stefania Pecore est la directrice exécutive de Women Techmakers Montréal. Avec plus d'une décennie d'expérience à la tête de la communauté montréalaise, elle se consacre à la création d'espaces inclusifs pour les femmes en technologie et au mentorat de la prochaine génération de leaders."
       },
       {
+        "id": "pierre-alexandre-lacerte",
+        "name": "Pierre-Alexandre Lacerte",
+        "role": "Ingénieur Logiciel",
+        "company": "Upgrade",
+        "image": "/images/speakers/wtm.webp",
+        "bio": "Pierre-Alexandre Lacerte est ingénieur logiciel chez Upgrade et contributeur actif de la communauté AI Tinkerers Montréal. Il se passionne pour la mise en œuvre pratique de l'IA et le partage de ses découvertes avec la communauté à travers des démonstrations en direct et des ateliers techniques."
+      },
+      {
         "id": "francois-legare",
         "name": "François Legare",
         "role": "Développeur Principal",

@@ -209,6 +209,14 @@
         "bio": "Stefania Pecore is the Executive Director of Women Techmakers Montreal. With over a decade of experience leading the Montreal community, she is dedicated to building inclusive spaces for women in technology and mentoring the next generation of leaders."
       },
       {
+        "id": "pierre-alexandre-lacerte",
+        "name": "Pierre-Alexandre Lacerte",
+        "role": "Software Engineer",
+        "company": "Upgrade",
+        "image": "/images/speakers/wtm.webp",
+        "bio": "Pierre-Alexandre Lacerte is a Software Engineer at Upgrade and an active contributor to the AI Tinkerers Montreal community. He is passionate about practical AI implementation and sharing his findings with the community through live demos and technical workshops."
+      },
+      {
         "id": "francois-legare",
         "name": "François Legare",
         "role": "Lead Developer",
