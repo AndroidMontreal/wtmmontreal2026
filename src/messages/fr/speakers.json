@@ -201,6 +201,14 @@
         "bio": "Khaoula Chehbouni est étudiante de deuxième année au doctorat en informatique à l'Université McGill et à Mila (Institut d'IA du Québec). Elle a reçu la prestigieuse bourse de formation doctorale du FRQNT pour effectuer des recherches sur l'équité et la sécurité dans les grands modèles de langage. Auparavant, elle a travaillé comme scientifique principale des données à Statistique Canada. Elle est titulaire d'une maîtrise en intelligence d'affaires de HEC Montréal, pour laquelle elle a reçu le prix de la meilleure thèse. Ses intérêts de recherche comprennent l'IA responsable, les questions d'équité et de sécurité dans les grands modèles de langage."
       },
       {
+        "id": "khaoula-chehbouni",
+        "name": "Khaoula Chehbouni",
+        "role": "Étudiante au doctorat",
+        "company": "Université McGill & Mila",
+        "image": "/images/speakers/khaoula_chehbouni.webp",
+        "bio": "Khaoula Chehbouni est étudiante de deuxième année au doctorat en informatique à l'Université McGill et à Mila (Institut d'IA du Québec). Elle a reçu la prestigieuse bourse de formation doctorale du FRQNT pour effectuer des recherches sur l'équité et la sécurité dans les grands modèles de langage. Auparavant, elle a travaillé comme scientifique principale des données à Statistique Canada. Elle est titulaire d'une maîtrise en intelligence d'affaires de HEC Montréal, pour laquelle elle a reçu le prix de la meilleure thèse. Ses intérêts de recherche comprennent l'IA responsable, les questions d'équité et de sécurité dans les grands modèles de langage."
+      },
+      {
         "id": "afaf-taik",
         "name": "Afaf Taïk",
         "role": "Professeure adjointe",
