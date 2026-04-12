@@ -217,12 +217,12 @@
         "bio": "Stefania Pecore est la directrice exécutive de Women Techmakers Montréal. Avec plus d'une décennie d'expérience à la tête de la communauté montréalaise, elle se consacre à la création d'espaces inclusifs pour les femmes en technologie et au mentorat de la prochaine génération de leaders."
       },
       {
-        "id": "stephanie-jecrois",
-        "name": "Stéphanie Jecrois",
-        "role": "Co-fondatrice",
-        "company": "Technovation Montréal",
-        "image": "/images/partners/technovation_montreal.svg",
-        "bio": "Stéphanie Jecrois est cofondatrice de Technovation Montréal, un organisme à but non lucratif qui vise à développer les compétences en technologie et en entrepreneuriat chez les filles de 8 à 18 ans. La mission est d’équiper les jeunes filles avec les outils et le mentorat nécessaires afin qu’elles deviennent des entrepreneures et leaders dans le domaine de la technologie."
+        "id": "sabine-pierre",
+        "name": "Sabine Pierre",
+        "role": "Ingénieure Backend principale et Développeuse IA",
+        "company": "Bell",
+        "image": "/images/speakers/wtm.webp",
+        "bio": "Sabine Pierre est ingénieure backend principale et développeuse IA chez Bell. Elle est experte dans la création de systèmes backend évolutifs et explore comment les outils propulsés par l'IA comme Gemini CLI peuvent optimiser les flux de travail de développement."
       },
       {
         "id": "stephanie-jecrois",
