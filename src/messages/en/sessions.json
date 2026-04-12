@@ -82,6 +82,15 @@
       "speakerIds": ["michell-payano"]
     },
     {
+      "id": "session-cirque-data",
+      "title": "Atelier - BEYOND THE DASHBOARD: BUILDING AGENTS THAT ACTUALLY USE YOUR DATA",
+      "description": "Workshop on moving beyond simple data visualization to building intelligent agents that leverage data for actionable insights.",
+      "duration": "60 min",
+      "type": "workshop",
+      "tags": ["Data Engineering", "AI Agents", "Workshop"],
+      "speakerIds": ["raphaelle-giraud"]
+    },
+    {
       "id": "session-tahiri-bias",
       "title": "Quand l’IA apprend à comparer : Biais, complexité et données structurées",
       "description": "Exploration of bias and complexity when AI learns to compare structured data.",

@@ -33,6 +33,14 @@
     },
     "list": [
       {
+        "id": "raphaelle-giraud",
+        "name": "Raphaëlle Giraud",
+        "role": "Lead d'équipe, Ingénierie des données",
+        "company": "Cirque du Soleil",
+        "image": "/images/speakers/raphaelle_giraud.webp",
+        "bio": "Raphaëlle Giraud est lead d'équipe en ingénierie des données au Groupe de divertissement Cirque du Soleil, où elle dirige des initiatives de données et d'IA qui informent les décisions de marketing et de revenus. Son expérience dans l'ingénierie des données, l'analytique et la science des données lui confère une solide compréhension de la manière dont les données se traduisent en valeur commerciale. Elle collabore étroitement avec les leaders techniques et commerciaux pour fournir des solutions de données pratiques et s'engage à mentorat et à partager des connaissances sur le développement de carrière et le leadership en technologie."
+      },
+      {
         "id": "nadia-tahiri",
         "name": "Nadia Tahiri",
         "role": "Professeure adjointe",
