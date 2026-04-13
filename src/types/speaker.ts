@@ -5,6 +5,8 @@ export interface Speaker {
   company?: string;
   image: string;
   bio: string;
+  category: 'talk' | 'lab';
+  isSpeaker: boolean;
   socials?: {
     linkedin?: string;
     twitter?: string;
@@ -21,7 +23,7 @@ export interface SpeakerMessages {
   filters: {
     all: string;
     talks: string;
-    workshops: string;
+    labs: string;
   };
   list: Speaker[];
 }

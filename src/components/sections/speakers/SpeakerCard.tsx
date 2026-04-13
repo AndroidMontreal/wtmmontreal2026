@@ -47,21 +47,19 @@ export default function SpeakerCard({ speaker, sessions }: SpeakerCardProps) {
       <div
         className="absolute inset-0 transition-all duration-500 ease-out opacity-80 group-hover:opacity-95"
         style={{
-          background: 'linear-gradient(to top, rgba(2, 6, 23, 1) 0%, rgba(2, 6, 23, 0.6) 30%, transparent 100%)'
+          background: 'linear-gradient(to top, rgb(2, 6, 23) 20%, rgb(2 6 23 / 0%) 35%, #00000000 100%)'
         }}
       />
 
       {/* Track Tag (Top Left) */}
-      {session && (
-        <div className="absolute top-6 left-6 z-10">
-          <span className={cn(
-            "px-3 py-1 text-white text-[10px] font-bold uppercase tracking-widest rounded-full shadow-lg backdrop-blur-sm bg-opacity-90",
-            session.type === 'workshop' ? "bg-blue-600" : "bg-teal-600"
-          )}>
-            {session.type === 'workshop' ? t('sessionTypes.workshop') : t('sessionTypes.talk')}
-          </span>
-        </div>
-      )}
+      <div className="absolute top-6 left-6 z-10">
+        <span className={cn(
+          "px-3 py-1 text-white text-[10px] font-bold uppercase tracking-widest rounded-full shadow-lg backdrop-blur-sm bg-opacity-90",
+          speaker.category === 'lab' ? "bg-blue-600" : "bg-teal-600"
+        )}>
+          {speaker.category === 'lab' ? t('filters.labs') : t('filters.talks')}
+        </span>
+      </div>
 
       {/* Content Overlay */}
       <div className="absolute inset-x-0 bottom-0 p-5 flex flex-col justify-end transform transition-transform duration-500 z-10">

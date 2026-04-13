@@ -7,7 +7,7 @@ interface SpeakerFilterProps {
   labels: {
     all: string;
     talks: string;
-    workshops: string;
+    labs: string;
   };
   activeFilter: string;
   onFilterChange: (filter: string) => void;
@@ -17,7 +17,7 @@ export default function SpeakerFilter({ labels, activeFilter, onFilterChange }: 
   const buttons = [
     { key: 'all', label: labels.all },
     { key: 'talk', label: labels.talks },
-    { key: 'workshop', label: labels.workshops },
+    { key: 'lab', label: labels.labs },
   ];
 
   return (
