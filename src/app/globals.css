@@ -64,6 +64,24 @@
   .shadow-3xl {
     box-shadow: 0 35px 60px -15px rgba(0, 0, 0, 0.5);
   }
+
+  .accent-glow {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at top right, rgba(0, 168, 150, 0.05), transparent 40%);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    pointer-events: none;
+  }
+
+  .session-card:hover .accent-glow {
+    opacity: 1;
+  }
+
+  .abstract-bg {
+    background-image: radial-gradient(#00A89608 1px, transparent 1px);
+    background-size: 24px 24px;
+  }
 }
 
 @layer base {

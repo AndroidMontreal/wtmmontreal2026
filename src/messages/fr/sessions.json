@@ -2,17 +2,26 @@
   "list": [
     {
       "id": "session-opening",
-      "title": "Ouverture - Opening",
+      "title": "Ouverture",
       "description": "Allocutions d'ouverture pour le WTM Montréal 2026.",
-      "duration": "15 min",
-      "type": "talk",
+      "duration": "60 min",
+      "type": "keynote",
       "tags": ["Ouverture"],
       "speakerIds": ["stefania-pecore", "marie-gabrielle-menard", "anne-nguyen"]
     },
     {
+      "id": "session-panel-ia",
+      "title": "Panel - IA : PROMESSES ET ANGLES MORTS",
+      "description": "Une discussion approfondie sur les promesses et les angles morts de l'intelligence artificielle avec des expertes du domaine.",
+      "duration": "45 min",
+      "type": "panel",
+      "tags": ["IA", "Panel"],
+      "speakerIds": ["stefania-pecore", "noemi-mercier"]
+    },
+    {
       "id": "session-privacy-ia",
       "title": "Protection de la vie privée dans les systèmes d'IA",
-      "description": "La présentation portera sur la protection de la vie privée, en couvrant les menaces existantes à la confidentialité des modèles d’apprentissage automatique, des données d’entraînement et des entrées des utilisateurs, ainsi qu’un aperçu des contre-mesures actuelles.",
+      "description": "La présentation portera sur la protection de la vie privée, en couvrant les menaces existantes à la confidentialité des modèles d'apprentissage automatique, des données d'entraînement et des entrées des utilisateurs, ainsi qu'un aperçu des contre-mesures actuelles.",
       "duration": "30 min",
       "type": "talk",
       "tags": ["IA", "Confidentialité", "Cybersécurité"],
@@ -21,218 +30,227 @@
     {
       "id": "session-cost-models",
       "title": "Le coût des modèles universels",
-      "description": "Cette conférence examine comment le passage de systèmes d'apprentissage automatique à petite échelle et hautement personnalisables à des modèles volumineux et réutilisables modifie le paysage de l'IA. À mesure que le développement s'oriente vers des systèmes standard, le vaste espace des modèles possibles se réduit et les systèmes d'IA commencent à se ressembler et à se comporter de la même manière dans tous les contextes.",
+      "description": "Cette conférence examine comment le passage de systèmes d'apprentissage automatique à petite échelle et hautement personnalisables à des modèles volumineux et réutilisables modifie le paysage de l'IA.",
       "duration": "45 min",
       "type": "talk",
       "tags": ["Éthique IA", "Modèles ML", "IA Responsable"],
       "speakerIds": ["afaf-taik", "khaoula-chehbouni"]
     },
     {
-      "id": "session-panel-ia",
-      "title": "Panel - IA : PROMESSES ET ANGLES MORTS",
-      "description": "Une discussion approfondie sur les promesses et les angles morts de l'intelligence artificielle avec des expertes du domaine.",
-      "duration": "45 min",
-      "type": "talk",
-      "tags": ["IA", "Panel", "Éthique"],
-      "speakerIds": ["stefania-pecore", "noemi-mercier"]
-    },
-    {
-      "id": "session-ai-tinkerers",
-      "title": "Démo Communautaire — AI Tinkerers Montréal",
-      "description": "Une série de démonstrations en direct de la communauté AI Tinkerers Montréal. Présentant 'Propulser le développement avec Gemini CLI' par Sabine Pierre et d'autres expériences d'IA de pointe.",
-      "duration": "45 min",
-      "type": "talk",
-      "tags": ["IA", "Démo", "Communauté"],
-      "speakerIds": ["sabine-pierre", "jl-marechaux", "ayrat-khayretdinov", "francois-legare", "pierre-alexandre-lacerte", "stefania-pecore"]
-    },
-    {
-      "id": "session-closing",
-      "title": "Mot de clôture",
-      "description": "Remerciements finaux et tirage de prix pour le WTM Montréal 2026.",
-      "duration": "15 min",
-      "type": "talk",
-      "tags": ["Clôture"],
-      "speakerIds": ["stefania-pecore"]
-    },
-    {
-      "id": "session-stacy",
-      "title": "SOUS LE CAPOT : La réalité derrière le génie de l'IA",
-      "description": "Tout le monde est obsédé par la « rutilante voiture rouge » — le modèle d'IA. Nous courons après les paramètres et les fenêtres de contexte, luttant pour prendre le volant. Mais personne ne pose la question la plus dangereuse : « La piste est-elle sûre ? » Quand on place une machine de 15 millions de dollars sur une piste endommagée, elle ne se contente pas de s'arrêter — elle s'écrase.",
-      "duration": "40 min",
-      "type": "talk",
-      "tags": ["IA", "Infrastructure", "Cloud"],
-      "speakerIds": ["stacy-veronneau"]
+      "id": "session-decisions",
+      "title": "Atelier - LES DÉCISIONS QUI CHANGENT TOUT",
+      "description": "Atelier sur la prise de décision critique dans les projets numériques, en se concentrant sur la valeur et l'alignement stratégique.",
+      "duration": "60 min",
+      "type": "atelier",
+      "tags": ["GestionProjet", "StratégieNumérique", "Atelier"],
+      "speakerIds": ["melanie-guerin"]
     },
     {
       "id": "session-angie",
       "title": "Construisez votre premier agent IA avec Google ADK",
       "description": "Apprenez à créer des agents IA intelligents grâce au kit de développement d'agents (ADK) de Google. Cet atelier pratique vous permettra de créer un agent personnalisé à l'aide des ressources gratuites.",
       "duration": "60 min",
-      "type": "workshop",
+      "type": "atelier",
       "tags": ["Agents IA", "Google ADK", "Pratique"],
-      "speakerIds": ["angie"]
+      "speakerIds": ["angie-ariza"]
     },
     {
-      "id": "session-nathalie",
-      "title": "Une incursion dans le monde intrigant des infrastructures IA",
-      "description": "Cette présentation explore comment une stratégie durable basée sur le triple bilan — eau, déchets et énergie — peut guider le développement des centres de données d’IA. Elle met en lumière la croissance rapide de l’IA dans un contexte de ressources limitées, dévoile l’empreinte hydrique et énergétique de son cycle de vie, et présente les principaux défis et risques climatiques identifiés par l’industrie pour le secteur des centres de données du Canada.",
-      "duration": "30 min",
+      "id": "session-stacy",
+      "title": "SOUS LE CAPOT : La réalité derrière le génie de l'IA",
+      "description": "Tout le monde est obsédé par la « rutilante voiture rouge » — le modèle d'IA. Nous courons après les paramètres et les fenêtres de contexte, luttant pour prendre le volant.",
+      "duration": "40 min",
       "type": "talk",
-      "tags": ["Éthique IA", "Durabilité", "Société"],
-      "speakerIds": ["nathalie-sanon"]
-    },
-    {
-      "id": "session-nogol",
-      "title": "L'avantage humain : Les 'soft skills' à l'ère de l'IA",
-      "description": "Alors que l'intelligence artificielle transforme les industries et automates les tâches routinières, les dirigeants sont confrontés à une question fondamentale : quel monde du travail voulons-nous créer ? Pendant des siècles, on a attendu des humains qu'ils travaillent comme des machines. Désormais, à l'ère de l'IA, les humains peuvent se concentrer sur ce qu'eux seuls peuvent faire, tandis que les machines prennent en charge le reste.",
-      "duration": "45 min",
-      "type": "talk",
-      "tags": ["FuturDuTravail", "Leadership", "SoftSkills"],
-      "speakerIds": ["nogol"]
-    },
-    {
-      "id": "session-michell",
-      "title": "Ce que les modèles voient : Au cœur de la vision par ordinateur moderne",
-      "description": "Découvrez comment les modèles de vision modernes détectent les objets sans aucun entraînement préalable. Cet atelier pratique vous fera découvrir l'évolution de la détection d'objets traditionnelle vers les modèles « zéro-shot » comme Grounding DINO.",
-      "duration": "60 min",
-      "type": "workshop",
-      "tags": ["VisionOrdinateur", "Mila", "Recherche"],
-      "speakerIds": ["michell-payano"]
-    },
-    {
-      "id": "session-blit-panel",
-      "title": "Panel Communautaire - PARCOURS INSPIRANTS ET LEADERSHIP",
-      "description": "Un panel de discussion inspirant animé par Reem Habib, mettant en vedette Ghislaine Boundjia et Nicole Kenmei de Black Ladies in Tech, ainsi que Mahaua Chowdhury de Deloitte. Elles partageront leurs parcours professionnels, discuteront des opportunités méconnues et offriront des conseils pour vous aider à tracer une trajectoire stratégique et authentique dans le monde de la tech.",
-      "duration": "45 min",
-      "type": "talk",
-      "tags": ["Communauté", "Leadership", "Carrière"],
-      "speakerIds": ["ghislaine-boundjia", "nicole-kenmei", "reem-habib", "mahaua-chowdhury"]
-    },
-    {
-      "id": "session-technovation",
-      "title": "Panel Communautaire - FEMMES EN TECH",
-      "description": "Une discussion de panel collaborative mettant en vedette des représentantes de Technovation Montréal, Femmes+ En Tech et Les Scientifines discutant de l'écosystème pour les femmes en technologie.",
-      "duration": "45 min",
-      "type": "talk",
-      "tags": ["Communauté", "Femmes en Tech", "Écosystème"],
-      "speakerIds": ["stephanie-jecrois"]
-    },
-    {
-      "id": "session-rhum-networking",
-      "title": "Atelier - L’ESPACE DES POSSIBLES: RÉSEAUTEZ AVEC CONFIANCE",
-      "description": "Atelier interactif sur le réseautage avec confiance, axé sur les stratégies centrées sur l'humain et l'authenticité.",
-      "duration": "60 min",
-      "type": "workshop",
-      "tags": ["Réseautage", "Soft Skills", "Atelier"],
-      "speakerIds": ["pierre-luc-labbee"]
-    },
-    {
-      "id": "session-cirque-data",
-      "title": "Atelier - BEYOND THE DASHBOARD: BUILDING AGENTS THAT ACTUALLY USE YOUR DATA",
-      "description": "Atelier sur le passage de la simple visualisation de données à la création d'agents intelligents qui exploitent les données pour des informations exploitables.",
-      "duration": "60 min",
-      "type": "workshop",
-      "tags": ["Ingénierie des données", "Agents IA", "Atelier"],
-      "speakerIds": ["raphaelle-giraud"]
-    },
-    {
-      "id": "session-tahiri-bias",
-      "title": "Quand l’IA apprend à comparer : Biais, complexité et données structurées",
-      "description": "Exploration des biais et de la complexité lorsque l'IA apprend à comparer des données structurées.",
-      "duration": "45 min",
-      "type": "talk",
-      "tags": ["IA", "Données", "Éthique"],
-      "speakerIds": ["nadia-tahiri"]
-    },
-    {
-      "id": "session-unity",
-      "title": "Atelier - DANS LES COULISSES DU JEU VIDÉO : CRÉEZ VOTRE TOUT PREMIER JEU AVEC UNITY",
-      "description": "Atelier pratique sur la création de votre premier jeu vidéo en utilisant le moteur de jeu Unity.",
-      "duration": "60 min",
-      "type": "workshop",
-      "tags": ["Jeu Vidéo", "Unity", "Atelier"],
-      "speakerIds": ["melisane-lafrenaye"]
-    },
-    {
-      "id": "session-decisions",
-      "title": "Atelier - LES DÉCISIONS QUI CHANGENT TOUT DANS UN PROJET NUMÉRIQUE",
-      "description": "Atelier sur la prise de décision critique dans les projets numériques, axé sur la valeur et l'alignement stratégique.",
-      "duration": "60 min",
-      "type": "workshop",
-      "tags": ["Gestion de Projet", "Stratégie Numérique", "Atelier"],
-      "speakerIds": ["melanie-guerin"]
+      "tags": ["IA", "Infrastructure", "Cloud"],
+      "speakerIds": ["stacy-veronneau"]
     },
     {
       "id": "session-barrier",
-      "title": "Panel - LES BARRIÈRES DES TALENTS TECH POUR LES FEMMES ANGLOPHONES",
-      "description": "Une session interactive basée sur les données, partageant les obstacles documentés à l'emploi dans le secteur technologique pour les femmes anglophones au Québec. Des leaders du secteur proposent des solutions concrètes et applicables.",
+      "title": "Panel - LA BARRIÈRE TECHNIQUE POUR LES FEMMES ANGLOPHONES",
+      "description": "Une session interactive basée sur les données partageant les obstacles documentés à l'emploi technologique des femmes anglophones au Québec.",
       "duration": "60 min",
-      "type": "talk",
+      "type": "panel",
       "tags": ["Carrière", "Diversité", "Inclusion"],
       "speakerIds": ["annalise-iten", "mahsa-rezaei", "maya-toussaint", "rashida-geddes", "sta-kuzviwanza"]
     },
     {
+      "id": "session-unity",
+      "title": "Atelier - DANS LES COULISSES DU JEU VIDÉO (UNITY)",
+      "description": "Atelier pratique sur la création de votre premier jeu vidéo à l'aide du moteur Unity.",
+      "duration": "60 min",
+      "type": "atelier",
+      "tags": ["DéveloppementJeux", "Unity", "Atelier"],
+      "speakerIds": ["melisane-lafrenaye"]
+    },
+    {
       "id": "session-punk-voice",
       "title": "Stratégies punks pour trouver sa voie (voix) !",
-      "description": "La culture punk, dans sa fonction politique, s'érige contre les fondamentaux du capitalisme. Appropriation, hacktivism, et culture jamming sont parmi les stratégies d'actions les plus efficaces.",
+      "description": "La culture punk, dans sa fonction politique, s'oppose aux fondamentaux du capitalisme. L'appropriation, le hacktivisme et le culture jamming sont parmi les stratégies les plus efficaces associées aux sous-cultures.",
       "duration": "30 min",
       "type": "talk",
       "tags": ["IdentitéNumérique", "Communication", "Punk"],
       "speakerIds": ["nadia-seraiocco"]
     },
     {
-      "id": "session-claude",
-      "title": "Outils de gestion de projet",
-      "description": "La gestion des requis dans un projet va bien au-delà de la simple définition d’objectifs SMART. Cette conférence vous offrira une démonstration et une contextualisation de plusieurs outils simples permettant de définir, organiser et gérer efficacement les requis.",
-      "duration": "75 min",
+      "id": "session-mahzad",
+      "title": "De la théorie à la pratique : apprentissage par renforcement dans les jeux vidéo",
+      "description": "L'apprentissage par renforcement (RL) est un paradigme puissant pour entraîner des agents intelligents par interaction avec leur environnement.",
+      "duration": "45 min",
       "type": "talk",
+      "tags": ["ApprentissageParRenforcement", "GameDev", "UnrealEngine"],
+      "speakerIds": ["mahzad-kalantari"]
+    },
+    {
+      "id": "session-raphaelle",
+      "title": "Au-delà du tableau de bord : Construire des agents qui utilisent réellement vos données",
+      "description": "Apprenez à construire des agents intelligents qui exploitent efficacement vos données pour résoudre de vrais problèmes et créer de la valeur.",
+      "duration": "60 min",
+      "type": "atelier",
+      "tags": ["Agents IA", "Données", "Pratique"],
+      "speakerIds": ["raphaelle-giraud"]
+    },
+    {
+      "id": "session-ai-tinkerers",
+      "title": "Démo Communautaire — AI TINKERERS MONTRÉAL",
+      "description": "Une série de démonstrations en direct de la communauté AI Tinkerers Montréal. Présentant 'Propulser le développement avec Gemini CLI' par Sabine Pierre et d'autres expériences d'IA de pointe.",
+      "duration": "45 min",
+      "type": "community-demo",
+      "tags": ["Démo IA", "Communauté", "Pratique"],
+      "speakerIds": ["sabine-pierre", "jl-marechaux", "ayrat-khayretdinov", "francois-legare", "pierre-alexandre-lacerte", "stefania-pecore"]
+    },
+    {
+      "id": "session-nathalie",
+      "title": "Une incursion dans le monde intrigant des infrastructures IA",
+      "description": "Cette présentation explore comment une stratégie durable basée sur le triple bilan — eau, déchets et énergie — peut guider le développement des centres de données d'IA.",
+      "duration": "30 min",
+      "type": "talk",
+      "tags": ["Éthique IA", "Durabilité", "Société"],
+      "speakerIds": ["nathalie-sanon"]
+    },
+    {
+      "id": "session-blit-panel",
+      "title": "Panel Communautaire - PARCOURS INSPIRANTS ET LEADERSHIP",
+      "description": "Un panel de discussion inspirant mettant en vedette Ghislaine Boundjia et Nicole Kenmei de Black Ladies in Tech.",
+      "duration": "45 min",
+      "type": "community-panel",
+      "tags": ["Communauté", "Leadership", "Carrière"],
+      "speakerIds": ["ghislaine-boundjia", "nicole-kenmei"]
+    },
+    {
+      "id": "session-nadia-tahiri",
+      "title": "Quand l'IA apprend à comparer : Biais, complexité et données structurées",
+      "description": "Exploration du biais et de la complexité quand l'IA apprend à comparer des données structurées.",
+      "duration": "45 min",
+      "type": "talk",
+      "tags": ["IA", "Données", "Éthique"],
+      "speakerIds": ["nadia-tahiri"]
+    },
+    {
+      "id": "session-nogol",
+      "title": "L'avantage humain : Les 'soft skills' à l'ère de l'IA",
+      "description": "Alors que l'intelligence artificielle transforme les industries, les dirigeants sont confrontés à une question fondamentale : quel monde du travail voulons-nous créer ?",
+      "duration": "45 min",
+      "type": "talk",
+      "tags": ["FuturDuTravail", "Leadership", "SoftSkills"],
+      "speakerIds": ["nogol-madani"]
+    },
+    {
+      "id": "session-vivienne",
+      "title": "Cassez-le avant qu'ils le fassent - Threat modeling à la vitesse startup",
+      "description": "Internet est adversaire par défaut et le paysage des menaces change jour après jour. Nous présenterons les tendances actuelles en matière de sécurité et des exemples réels de violations.",
+      "duration": "45 min",
+      "type": "talk",
+      "tags": ["Cybersécurité", "ThreatModeling", "Startup"],
+      "speakerIds": ["vivienne-suen"]
+    },
+    {
+      "id": "session-technovation",
+      "title": "Panel Communautaire - FEMMES EN TECH",
+      "description": "Une discussion collaborative mettant en vedette des représentants de Technovation Montréal, Femmes+ En Tech et Les Scientifines discutant de l'écosystème des femmes dans la technologie.",
+      "duration": "45 min",
+      "type": "community-panel",
+      "tags": ["Communauté", "FemmesEnTech", "Écosystème"],
+      "speakerIds": ["stephanie-jecrois", "femmes-en-tech", "les-scientifines"]
+    },
+    {
+      "id": "session-chloe",
+      "title": "Prendre sa place dans un environnement traditionnellement masculin",
+      "description": "Quelques outils pratiques et stratégies concrètes pour gagner en confiance, en influence et en légitimité dans les environnements dominés par les hommes.",
+      "duration": "25 min",
+      "type": "atelier",
+      "tags": ["Leadership", "Inclusion", "Carrière"],
+      "speakerIds": ["chloe-freslon"]
+    },
+    {
+      "id": "session-claude",
+      "title": "Décider pour réussir : SWOT, MoSCoW et les clés d'un projet bien défini",
+      "description": "La gestion des exigences dans un projet va bien au-delà de la simple définition d'objectifs SMART. Cette présentation offrira une démonstration et une contextualisation de plusieurs outils simples pour définir, organiser et gérer efficacement les exigences.",
+      "duration": "75 min",
+      "type": "atelier",
       "tags": ["GestionProjet", "Outils", "Agile"],
       "speakerIds": ["claude-cardinal"]
     },
     {
-      "id": "session-ludociels",
-      "title": "Activité « Au delà du pixel »",
-      "description": "Créons un dialogue entre les supports de communication numérique et physique. Explorons en groupe les possibilités de design d’outils numériques imaginaires répondant à des besoins sociaux.",
-      "duration": "90 min",
-      "type": "workshop",
-      "tags": ["DesignUX", "ImpactSocial", "Créativité"],
-      "speakerIds": ["thomas-gaudy", "stephanie-akre"]
+      "id": "session-pierre-luc",
+      "title": "L'espace des possibles : Réseautez avec confiance",
+      "description": "Un atelier axé sur le réseautage avec confiance et la création de connexions professionnelles significatives.",
+      "duration": "45 min",
+      "type": "atelier",
+      "tags": ["Réseautage", "DéveloppementProfessionnel"],
+      "speakerIds": ["pierre-luc-labbee"]
+    },
+    {
+      "id": "session-michell",
+      "title": "Ce que les modèles voient : Vision par ordinateur moderne",
+      "description": "Découvrez comment les modèles de vision modernes détectent les objets sans entraînement préalable. Atelier explorant l'évolution vers les modèles « zéro-shot ».",
+      "duration": "60 min",
+      "type": "atelier",
+      "tags": ["VisionOrdinateur", "Mila", "Recherche"],
+      "speakerIds": ["michell-payano"]
+    },
+    {
+      "id": "session-accessibility",
+      "title": "Au-delà du pixel : L'accessibilité dans le monde numérique",
+      "description": "Une session d'accessibilité continue explorant comment construire des expériences numériques inclusives qui fonctionnent pour tous.",
+      "duration": "285 min",
+      "type": "atelier",
+      "tags": ["Accessibilité", "DesignUX", "Inclusion"],
+      "speakerIds": ["stephanie-akre", "thomas-gaudy"]
+    },
+    {
+      "id": "session-advancing-gender",
+      "title": "Promouvoir l'IA inclusive en matière de genre",
+      "description": "Rejoignez-nous pour une discussion communautaire sur la promotion d'une IA inclusive en matière de genre à travers le mentorat et les programmes d'équité.",
+      "duration": "45 min",
+      "type": "talk",
+      "tags": ["Éthique IA", "ÉquitéGenre", "Communauté"],
+      "speakerIds": ["lindsay-rogers", "lori-akiyama"]
     },
     {
       "id": "session-alexandra",
       "title": "Ludification au service de la science",
-      "description": "La ludification et les jeux sérieux constituent aujourd’hui des leviers puissants pour rendre la science plus accessible, engageante et compréhensible, tant pour les publics experts que non spécialistes.",
+      "description": "La ludification et les jeux sérieux sont maintenant des outils puissants pour rendre la science plus accessible, engageante et compréhensible.",
       "duration": "60 min",
       "type": "talk",
       "tags": ["Ludification", "Science", "UX"],
       "speakerIds": ["alexandra-nemery"]
     },
     {
-      "id": "session-mahzad",
-      "title": "De la théorie à la pratique : l’apprentissage par renforcement dans les jeux vidéo",
-      "description": "L’apprentissage par renforcement (reinforcement learning – RL) est un paradigme puissant permettant d’entraîner des agents intelligents par interaction avec leur environnement, mais son adoption dans l’industrie du jeu vidéo demeure encore limitée.",
-      "duration": "45 min",
-      "type": "talk",
-      "tags": ["ApprentissageRenforcement", "JeuVidéo", "UnrealEngine"],
-      "speakerIds": ["mahzad-kalantari"]
+      "id": "session-closing",
+      "title": "Mot de clôture",
+      "description": "Remerciements finaux et tirage de prix pour le WTM Montréal 2026.",
+      "duration": "30 min",
+      "type": "keynote",
+      "tags": ["Clôture"],
+      "speakerIds": ["stefania-pecore"]
     },
     {
-      "id": "session-viv",
-      "title": "Break It Before They Do - Threat Modeling at Startup Speed",
-      "description": "Internet est par nature un environnement hostile, et le paysage des menaces évolue quotidiennement. Dans cette présentation, j'exposerai les tendances actuelles en matière de sécurité et quelques exemples concrets de violations de données illustrant les menaces techniques qu'elles représentent.",
-      "duration": "45 min",
-      "type": "talk",
-      "tags": ["Cybersécurité", "Menaces", "Startup"],
-      "speakerIds": ["viv"]
-    },
-    {
-      "id": "session-chloe",
-      "title": "Prendre sa place dans un milieu traditionnellement masculin",
-      "description": "Quelques outils pratiques et stratégies concrètes à utiliser afin de gagner en confiance, influence et légitimité. Vous serez plus en mesure de vous affirmer et de prendre votre place dans des environnements à dominance masculine et d’y évoluer avec plus d’assurance.",
-      "duration": "25 min",
-      "type": "talk",
-      "tags": ["Leadership", "Inclusion", "Carrière"],
-      "speakerIds": ["chloe-freslon"]
+      "id": "session-lunch",
+      "title": "Lunch et réseautage",
+      "description": "Profitez du déjeuner tout en vous connectant avec d'autres participants, conférenciers et organisateurs.",
+      "duration": "90 min",
+      "type": "break",
+      "tags": ["Réseautage", "Pause"],
+      "speakerIds": []
     }
   ]
 }

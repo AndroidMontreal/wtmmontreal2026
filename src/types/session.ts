@@ -3,7 +3,7 @@ export interface Session {
   title: string;
   description: string;
   duration: string; // e.g. "45 min"
-  type: 'talk' | 'workshop' | 'panel' | 'keynote';
+  type: 'talk' | 'workshop' | 'panel' | 'keynote' | 'atelier' | 'community-panel' | 'community-demo';
   tags: string[]; // Hashtags like ["AI", "Web"]
   speakerIds: string[]; // Links to Speaker.id
 }
