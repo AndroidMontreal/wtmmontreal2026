@@ -119,6 +119,30 @@
         "year": "2026"
       },
       {
+        "name": "Leticia Pires",
+        "role": "Data Scientist et Fondatrice",
+        "company": "Pomodoki",
+        "image": "/images/team/leticia_pires.webp",
+        "social": "https://www.linkedin.com/in/leticia-pires/",
+        "year": "2026"
+      },
+      {
+        "name": "Cecy Ramallo",
+        "role": "Directrice des opérations",
+        "company": "Le Wagon",
+        "image": "/images/team/cecy_ramallo.webp",
+        "social": "https://www.linkedin.com/in/cecilia-ramallo/",
+        "year": "2026"
+      },
+      {
+        "name": "Angel Pineda Perez",
+        "role": "Étudiante",
+        "company": "Université Concordia",
+        "image": "/images/team/angel_pineda.webp",
+        "social": "https://www.linkedin.com/in/angel-pineda",
+        "year": "2026"
+      },
+      {
         "name": "Winnie Vorihilala",
         "role": "",
         "company": "",
@@ -130,7 +154,7 @@
         "name": "Liliia Shandak",
         "role": "",
         "company": "",
-        "image": "/images/team/wtm.webp",
+        "image": "/images/team/liliia_shandak.webp",
         "social": "",
         "year": "2026"
       },
