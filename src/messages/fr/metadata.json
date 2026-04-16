@@ -35,6 +35,10 @@
     "team": {
         "title": "Équipe",
         "description": "Rencontrez les organisateurs et bénévoles derrière WTM Montréal 2026."
+    },
+    "partners": {
+        "title": "Partenaires et commanditaires",
+        "description": "Rencontrez nos commanditaires et partenaires communautaires qui rendent possible WTM Montréal."
     }
   }
 }
