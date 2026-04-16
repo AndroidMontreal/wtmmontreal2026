@@ -29,7 +29,7 @@ export default function TrackFilter({ tracks, activeTrackId, onTrackChange }: Tr
 
   return (
     <section className="bg-white/40 backdrop-blur-lg py-4 md:py-6 rounded-2xl md:rounded-3xl border border-white/40 shadow-sm -mx-6 md:mx-0">
-      <div className="flex items-center flex-wrap gap-2 md:gap-4 px-3 md:px-6">
+      <div className="flex items-center flex-wrap gap-3 md:gap-4 px-6 md:px-6">
         {tracks.map((track) => {
           const Icon = getTrackIcon(track.icon);
           const isActive = activeTrackId === track.id;
