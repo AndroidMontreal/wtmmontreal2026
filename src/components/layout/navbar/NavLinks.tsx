@@ -5,7 +5,7 @@ import { cn } from '@/lib/utils';
 import { MenuItem } from '@/types/navigation';
 import { motion } from 'framer-motion';
 import { useState } from 'react';
-import { Home, Users, Mic, Calendar } from 'lucide-react';
+import { Home, Users, Mic, Calendar, Handshake } from 'lucide-react';
 
 interface NavLinksProps {
   items: Record<string, MenuItem>;
@@ -14,6 +14,7 @@ interface NavLinksProps {
 // Icon Mapping
 const iconMap: Record<string, React.ElementType> = {
   home: Home,
+  partners: Handshake,
   team: Users,
   speakers: Mic,
   schedule: Calendar,

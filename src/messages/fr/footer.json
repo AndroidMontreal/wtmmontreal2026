@@ -18,6 +18,7 @@
     "quick_links": {
       "title": "Liens Rapides",
       "items": [
+        { "label": "Partenaires", "href": "/partners" },
         { "label": "Devenir Sponsor", "href": "https://forms.gle/xDCZe4ZuP98YoCAJ9" },
         { "label": "Devenir Partenaire", "href": "https://forms.gle/Mzsq8LbveqHgSKPn7" },
         { "label": "Code de Conduite", "href": "/code-of-conduct" }

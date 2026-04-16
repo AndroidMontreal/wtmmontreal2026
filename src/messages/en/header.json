@@ -1,6 +1,7 @@
 {
   "menu": {
     "home": { "label": "Home", "href": "/" },
+    "partners": { "label": "Partners", "href": "/partners" },
     "team": { "label": "Team", "href": "/team" },
     "speakers": { "label": "Speakers", "href": "/speakers" },
     "schedule": { "label": "Schedule", "href": "/schedule" }

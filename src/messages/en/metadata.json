@@ -35,6 +35,10 @@
     "team": {
         "title": "Team",
         "description": "Meet the organizers and volunteers behind WTM Montreal 2026."
+    },
+    "partners": {
+        "title": "Partners & Sponsors",
+        "description": "Meet our sponsors and community partners who make WTM Montreal possible."
     }
   }
 }

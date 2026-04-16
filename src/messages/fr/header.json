@@ -1,6 +1,7 @@
 {
   "menu": {
     "home": { "label": "Accueil", "href": "/" },
+    "partners": { "label": "Partenaires", "href": "/partners" },
     "team": { "label": "Équipe", "href": "/team" },
     "speakers": { "label": "Conférencier·ère·s", "href": "/speakers" },
     "schedule": { "label": "Programme", "href": "/schedule" }
