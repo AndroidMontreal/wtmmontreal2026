@@ -143,11 +143,11 @@ export default function SessionCard({
             title="Add to Calendar"
             className="md:hidden absolute top-4 right-4 flex items-center justify-center text-primary hover:scale-105 hover:-rotate-12 hover:shadow-lg hover:shadow-primary/20 transition-all duration-300 cursor-pointer active:scale-95 z-10"
           >
-            <CalendarPlus className="w-6 h-6" />
+            <CalendarPlus className="w-5 h-5" />
           </button>
 
           {/* Type Badge & Add to Calendar */}
-          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 md:gap-4 mb-4 md:mb-6">
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 md:gap-4 mb-6 md:mb-8">
             <div className="flex items-center gap-2 md:gap-4 flex-wrap">
               <span className={cn(
                 'flex items-center gap-1 px-2 md:px-3 py-0.5 md:py-1 text-[8px] md:text-[10px] font-black uppercase tracking-widest rounded-full border',
@@ -168,13 +168,13 @@ export default function SessionCard({
               title="Add to Calendar"
               className="hidden md:flex items-center justify-center text-primary hover:scale-105 hover:-rotate-12 hover:shadow-lg hover:shadow-primary/20 transition-all duration-300 cursor-pointer active:scale-95"
             >
-              <CalendarPlus className="w-6 h-6" />
+              <CalendarPlus className="w-5 h-5" />
             </button>
           </div>
 
           {/* Title & Description */}
           <div className="max-w-3xl mb-4 md:mb-8">
-            <h3 className="text-lg md:text-3xl font-headline font-bold text-slate-900 mb-2 md:mb-3 tracking-tight leading-tight group-hover/card:text-primary transition-colors">
+            <h3 className="text-xl md:text-4xl font-headline font-bold text-slate-900 mb-3 md:mb-4 tracking-tight leading-tight group-hover/card:text-primary transition-colors">
               {session.title}
             </h3>
             

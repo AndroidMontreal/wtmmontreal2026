@@ -155,7 +155,7 @@ export default function SessionSpotlight({ session, scheduleSession, schedule }:
                 {typeStyles.label}
               </div>
               {timeSlotInfo && (
-                <span className="text-slate-500 text-[8px] md:text-[10px] font-black uppercase tracking-widest flex items-center gap-1.5">
+                <span className="text-slate-600 text-[10px] md:text-[12px] font-black uppercase tracking-widest flex items-center gap-1.5">
                   <span className="w-1 h-1 md:w-1.5 md:h-1.5 rounded-full bg-primary/40"></span>
                   {timeSlotInfo.duration}
                 </span>

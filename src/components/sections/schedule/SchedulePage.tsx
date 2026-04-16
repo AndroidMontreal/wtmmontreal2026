@@ -153,17 +153,17 @@ export default function SchedulePage({ data, schedule, sessions, speakers, stats
       </div>
 
       {/* Sync the Vibe - Dynamic Data from cta prop */}
-      <section className="py-32 px-8 overflow-hidden relative rounded-[3rem] mb-24">
+      <section className="py-16 md:py-32 px-4 md:px-8 overflow-hidden relative rounded-2xl md:rounded-[3rem] mb-16 md:mb-24">
         <div className="max-w-[1400px] mx-auto relative z-10">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-24 items-center">
-            <div className="space-y-16">
-              <div className="grid grid-cols-2 gap-x-16 gap-y-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-24 items-center">
+            <div className="space-y-8 md:space-y-16">
+              <div className="grid grid-cols-2 gap-x-6 md:gap-x-16 gap-y-6 md:gap-y-12">
                 {stats?.items?.map((item: { value?: string; label: string; icon?: string }, index: number) => (
                   <div key={index}>
-                    <span className="text-7xl font-black text-primary block mb-2 tracking-tighter font-headline">
+                    <span className="text-4xl md:text-7xl font-black text-primary block mb-1 md:mb-2 tracking-tighter font-headline">
                       {item.value || (item.icon === 'Infinity' ? '∞' : '')}
                     </span>
-                    <span className="text-slate-400 text-xs font-black uppercase tracking-[0.3em]">
+                    <span className="text-slate-400 text-[10px] md:text-xs font-black uppercase tracking-[0.2em] md:tracking-[0.3em] line-clamp-2">
                       {item.label}
                     </span>
                   </div>
@@ -171,26 +171,26 @@ export default function SchedulePage({ data, schedule, sessions, speakers, stats
                 {!stats && (
                   <>
                     <div>
-                      <span className="text-7xl font-black text-primary block mb-2 tracking-tighter font-headline">40+</span>
-                      <span className="text-slate-400 text-xs font-black uppercase tracking-[0.3em]">Speakers</span>
+                      <span className="text-4xl md:text-7xl font-black text-primary block mb-1 md:mb-2 tracking-tighter font-headline">40+</span>
+                      <span className="text-slate-400 text-[10px] md:text-xs font-black uppercase tracking-[0.2em] md:tracking-[0.3em]">Speakers</span>
                     </div>
                     <div>
-                      <span className="text-7xl font-black text-slate-900 block mb-2 tracking-tighter font-headline">1.2K</span>
-                      <span className="text-slate-400 text-xs font-black uppercase tracking-[0.3em]">Attendees</span>
+                      <span className="text-4xl md:text-7xl font-black text-slate-900 block mb-1 md:mb-2 tracking-tighter font-headline">1.2K</span>
+                      <span className="text-slate-400 text-[10px] md:text-xs font-black uppercase tracking-[0.2em] md:tracking-[0.3em]">Attendees</span>
                     </div>
                   </>
                 )}
               </div>
-              <h2 className="text-6xl md:text-8xl font-black text-slate-900 tracking-tighter leading-[0.9] uppercase font-headline">
+              <h2 className="text-3xl md:text-6xl lg:text-8xl font-black text-slate-900 tracking-tighter leading-[1] md:leading-[0.95] lg:leading-[0.9] uppercase font-headline">
                 {data.cta?.title} <span className="text-primary">{data.cta?.highlight}</span>
               </h2>
             </div>
-            <div className="flex flex-col justify-center items-start md:items-end gap-6">
+            <div className="flex flex-col justify-center items-start md:items-end gap-3 md:gap-6">
               <a 
                 href={data.cta?.agendaButton?.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-full md:w-auto px-12 py-6 bg-primary text-white font-black text-sm rounded-2xl hover:bg-primary/90 transition-all tracking-[0.2em] uppercase shadow-lg shadow-primary/30 active:scale-95 cursor-pointer inline-flex items-center justify-center"
+                className="w-full md:w-auto px-6 md:px-12 py-3 md:py-6 bg-primary text-white font-black text-xs md:text-sm rounded-lg md:rounded-2xl hover:bg-primary/90 transition-all tracking-[0.15em] md:tracking-[0.2em] uppercase shadow-lg shadow-primary/30 active:scale-95 cursor-pointer inline-flex items-center justify-center"
               >
                 {data.cta?.agendaButton?.label}
               </a>
@@ -198,7 +198,7 @@ export default function SchedulePage({ data, schedule, sessions, speakers, stats
                 href={data.cta?.discordButton?.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-full md:w-auto px-12 py-6 border-2 border-primary text-slate-900 font-black text-sm rounded-2xl hover:bg-primary/10 transition-all tracking-[0.2em] uppercase active:scale-95 cursor-pointer inline-flex items-center justify-center"
+                className="w-full md:w-auto px-6 md:px-12 py-3 md:py-6 border-2 border-primary text-slate-900 font-black text-xs md:text-sm rounded-lg md:rounded-2xl hover:bg-primary/10 transition-all tracking-[0.15em] md:tracking-[0.2em] uppercase active:scale-95 cursor-pointer inline-flex items-center justify-center"
               >
                 {data.cta?.discordButton?.label}
               </a>
