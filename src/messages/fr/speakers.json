@@ -451,6 +451,46 @@
         "bio": "Vivienne Suen est une architecte en cybersécurité dotée d'un talent pour la narration et possédant plus de 15 ans d'expérience dans le conseil aux organisations informatiques sur les solutions et la stratégie. Chez TD Bank, elle dirige l'équipe d'architecture de cybersécurité pour concevoir les contrôles de cybersécurité de la banque, guider la stratégie technologique et définir la vision architecturale pour assurer notre avenir. Conférencière vedette lors de nombreuses conférences et groupes d'utilisateurs, elle s'efforce de démystifier les complexités de la cybersécurité et de concevoir des solutions pratiques pour répondre aux besoins et aux normes de sécurité. Vivienne vit à NDG avec son mari, son fils et un vallhund suédois très vif.",
         "category": "talk",
         "isSpeaker": true
+      },
+      {
+        "id": "lindsay-rogers",
+        "name": "Dr. Lindsay Rogers",
+        "role": "Conseillère en mobilisation des connaissances",
+        "company": "Institut d'IA appliquée Concordia",
+        "image": "/images/speakers/wtm.webp",
+        "bio": "Dr Lindsay Rogers est conseillère en mobilisation des connaissances à l'Institut d'IA appliquée Concordia. Elle est cofondatrice du programme GEMinAI (Gender Equity Mentoring in AI), qui se concentre sur la réduction des écarts entre les genres dans le domaine de l'IA.",
+        "category": "lab",
+        "isSpeaker": true
+      },
+      {
+        "id": "lori-akiyama",
+        "name": "Lori Akiyama",
+        "role": "Coordonnatrice de programme",
+        "company": "Université Concordia",
+        "image": "/images/speakers/wtm.webp",
+        "bio": "Lori Akiyama est coordonnatrice de programme pour CREATE SE4AI à l'Université Concordia et cofondatrice du programme GEMinAI. Elle se consacre à promouvoir la diversité des genres et l'inclusion dans le secteur de la technologie et de l'intelligence artificielle.",
+        "category": "lab",
+        "isSpeaker": true
+      },
+      {
+        "id": "femmes-en-tech",
+        "name": "Femmes+ En Tech",
+        "role": "Partenaire Communautaire",
+        "company": "Université Concordia",
+        "image": "/images/partners/femmes_en_tech.svg",
+        "bio": "Femmes+ en Tech est une initiative du Concordia Applied AI Institute qui vise à rassembler, inspirer et soutenir les femmes de l'écosystème technologique de Montréal.",
+        "category": "talk",
+        "isSpeaker": false
+      },
+      {
+        "id": "les-scientifines",
+        "name": "Les Scientifines",
+        "role": "Partenaire Communautaire",
+        "company": "",
+        "image": "/images/partners/les_scientifines.svg",
+        "bio": "Les Scientifines est une organisation dont la mission est de promouvoir les sciences et les technologies auprès des jeunes filles issues de milieux défavorisés pour prévenir l'abandon scolaire.",
+        "category": "talk",
+        "isSpeaker": false
       }
     ]
   }

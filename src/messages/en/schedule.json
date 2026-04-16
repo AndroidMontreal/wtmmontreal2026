@@ -4,9 +4,397 @@
     "title": "Plan Your Experience",
     "subtitle": "A full day of inspiration, learning, and connection."
   },
-  "comingSoon": {
-    "title": "Agenda Coming Soon",
-    "description": "We are currently finalizing the lineup of workshops and talks. Check back shortly for the full schedule!",
-    "cta": "Notify Me"
+  "eventInfo": {
+    "date": "April 18, 2026",
+    "location": "Collège de Maisonneuve",
+    "timezone": "EST"
+  },
+  "filters": {
+    "allTracks": "All tracks"
+  },
+  "session": {
+    "addToCalendar": "Add to Calendar",
+    "duration": "Duration",
+    "room": "Room",
+    "speakers": "Speakers",
+    "tags": "Topics"
+  },
+  "breaks": {
+    "lunch": "Lunch & Networking",
+    "coffee": "Coffee Break",
+    "registration": "Registration"
+  },
+  "reminders": {
+    "title": "Important Reminders",
+    "items": [
+      {
+        "title": "Complete Your Info",
+        "description": "Update your Eventbrite ticket details by Wednesday, April 15th",
+        "icon": "AlertCircle"
+      },
+      {
+        "title": "Unique Names",
+        "description": "Each ticket must have a different attendee name to avoid check-in issues",
+        "icon": "Users"
+      },
+      {
+        "title": "Bring Your Laptop",
+        "description": "Bring your device for labs & workshops. Charging stations available!",
+        "icon": "Laptop"
+      }
+    ]
+  },
+  "schedule": {
+    "id": "wtm-montreal-2026",
+    "eventDate": "2026-04-18",
+    "eventLocation": "Collège de Maisonneuve",
+    "timezone": "America/Toronto",
+    "tracks": [
+      {
+        "id": "main-stage",
+        "name": "Main Stage",
+        "icon": "theater_comedy",
+        "color": "primary",
+        "description": "Keynotes & Panels"
+      },
+      {
+        "id": "tech-stage",
+        "name": "Tech Stage",
+        "icon": "mic",
+        "color": "secondary",
+        "description": "Tech Talks & Workshops"
+      },
+      {
+        "id": "lab-1",
+        "name": "Lab 1: Conscience & Code",
+        "icon": "brain",
+        "color": "primary",
+        "description": "Mind & Machine"
+      },
+      {
+        "id": "lab-2",
+        "name": "Lab 2: Le Bac à Sable",
+        "icon": "code",
+        "color": "secondary",
+        "description": "The Sandbox"
+      },
+      {
+        "id": "lab-3",
+        "name": "Lab 3: Présence et Pratique",
+        "icon": "hand",
+        "color": "tertiary",
+        "description": "Presence & Practice"
+      },
+      {
+        "id": "lab-4",
+        "name": "Lab 4: Au-delà des Barrières",
+        "icon": "link",
+        "color": "primary",
+        "description": "Beyond Barriers"
+      }
+    ],
+    "timeSlots": [
+      {
+        "id": "timeslot-09-00",
+        "startTime": "09:00",
+        "endTime": "10:00",
+        "sessions": [
+          {
+            "id": "schedule-session-opening-main-stage",
+            "sessionId": "session-opening",
+            "trackId": "main-stage",
+            "speakerIds": ["stefania-pecore", "marie-gabrielle-menard", "anne-nguyen"]
+          }
+        ]
+      },
+      {
+        "id": "timeslot-10-15",
+        "startTime": "10:15",
+        "endTime": "11:00",
+        "sessions": [
+          {
+            "id": "schedule-session-panel-ia-main-stage",
+            "sessionId": "session-panel-ia",
+            "trackId": "main-stage",
+            "speakerIds": ["stefania-pecore", "noemi-mercier"]
+          },
+          {
+            "id": "schedule-session-privacy-tech-stage",
+            "sessionId": "session-privacy-ia",
+            "trackId": "tech-stage",
+            "speakerIds": ["ulrich-aivodji"]
+          },
+          {
+            "id": "schedule-session-decisions-lab-1",
+            "sessionId": "session-decisions",
+            "trackId": "lab-1",
+            "speakerIds": ["melanie-guerin"]
+          },
+          {
+            "id": "schedule-session-unity-lab-2",
+            "sessionId": "session-unity",
+            "trackId": "lab-2",
+            "speakerIds": ["melisane-lafrenaye"]
+          },
+          {
+            "id": "schedule-session-stacy-lab-3",
+            "sessionId": "session-stacy",
+            "trackId": "lab-3",
+            "speakerIds": ["stacy-veronneau"]
+          },
+          {
+            "id": "schedule-session-accessibility-lab-4",
+            "sessionId": "session-accessibility",
+            "trackId": "lab-4",
+            "speakerIds": ["stephanie-akre", "thomas-gaudy"]
+          }
+        ]
+      },
+      {
+        "id": "timeslot-11-00",
+        "startTime": "11:00",
+        "endTime": "12:00",
+        "sessions": [
+          {
+            "id": "schedule-session-cost-models-main-stage",
+            "sessionId": "session-cost-models",
+            "trackId": "main-stage",
+            "speakerIds": ["afaf-taik", "khaoula-chehbouni"]
+          }
+        ]
+      },
+      {
+        "id": "timeslot-11-15",
+        "startTime": "11:15",
+        "endTime": "12:15",
+        "sessions": [
+          {
+            "id": "schedule-session-barrier-tech-stage",
+            "sessionId": "session-barrier",
+            "trackId": "tech-stage",
+            "speakerIds": ["annalise-iten", "mahsa-rezaei", "maya-toussaint", "rashida-geddes", "sta-kuzviwanza"]
+          }
+        ]
+      },
+      {
+        "id": "timeslot-11-30",
+        "startTime": "11:30",
+        "endTime": "12:30",
+        "sessions": [
+          {
+            "id": "schedule-session-angie-lab-1",
+            "sessionId": "session-angie",
+            "trackId": "lab-1",
+            "speakerIds": ["angie"]
+          },
+          {
+            "id": "schedule-session-mahzad-lab-2",
+            "sessionId": "session-mahzad",
+            "trackId": "lab-2",
+            "speakerIds": ["mahzad-kalantari"]
+          },
+          {
+            "id": "schedule-session-raphaelle-lab-3",
+            "sessionId": "session-raphaelle",
+            "trackId": "lab-3",
+            "speakerIds": ["raphaelle-giraud"]
+          }
+        ]
+      },
+      {
+        "id": "timeslot-12-00",
+        "startTime": "12:00",
+        "endTime": "13:30",
+        "sessions": [
+          {
+            "id": "schedule-session-lunch",
+            "sessionId": "session-lunch",
+            "trackId": "main-stage",
+            "speakerIds": [],
+            "isBreak": true,
+            "location": "Main Lounge & Rooftop Garden"
+          }
+        ]
+      },
+      {
+        "id": "timeslot-12-30",
+        "startTime": "12:30",
+        "endTime": "13:00",
+        "sessions": [
+          {
+            "id": "schedule-session-punk-tech-stage",
+            "sessionId": "session-punk-voice",
+            "trackId": "tech-stage",
+            "speakerIds": ["nadia-seraiocco"]
+          }
+        ]
+      },
+      {
+        "id": "timeslot-13-00",
+        "startTime": "13:00",
+        "endTime": "13:45",
+        "sessions": [
+          {
+            "id": "schedule-session-ai-tinkerers-lab-2",
+            "sessionId": "session-ai-tinkerers",
+            "trackId": "lab-2",
+            "speakerIds": ["sabine-pierre", "jl-marechaux", "ayrat-khayretdinov", "francois-legare", "pierre-alexandre-lacerte", "stefania-pecore"]
+          }
+        ]
+      },
+      {
+        "id": "timeslot-13-30",
+        "startTime": "13:30",
+        "endTime": "14:15",
+        "sessions": [
+          {
+            "id": "schedule-session-blit-main-stage",
+            "sessionId": "session-blit-panel",
+            "trackId": "main-stage",
+            "speakerIds": ["ghislaine-boundjia", "nicole-kenmei"]
+          }
+        ]
+      },
+      {
+        "id": "timeslot-13-45",
+        "startTime": "13:45",
+        "endTime": "14:30",
+        "sessions": [
+          {
+            "id": "schedule-session-nathalie-lab-1",
+            "sessionId": "session-nathalie",
+            "trackId": "lab-1",
+            "speakerIds": ["nathalie-sanon"]
+          },
+          {
+            "id": "schedule-session-nadia-lab-2",
+            "sessionId": "session-nadia-tahiri",
+            "trackId": "lab-2",
+            "speakerIds": ["nadia-tahiri"]
+          },
+          {
+            "id": "schedule-session-chloe-lab-3",
+            "sessionId": "session-chloe",
+            "trackId": "lab-3",
+            "speakerIds": ["chloe-freslon"]
+          }
+        ]
+      },
+      {
+        "id": "timeslot-14-00",
+        "startTime": "14:00",
+        "endTime": "14:45",
+        "sessions": [
+          {
+            "id": "schedule-session-nogol-tech-stage",
+            "sessionId": "session-nogol",
+            "trackId": "tech-stage",
+            "speakerIds": ["nogol"]
+          }
+        ]
+      },
+      {
+        "id": "timeslot-14-15",
+        "startTime": "14:15",
+        "endTime": "15:00",
+        "sessions": [
+          {
+            "id": "schedule-session-technovation-main-stage",
+            "sessionId": "session-technovation",
+            "trackId": "main-stage",
+            "speakerIds": ["stephanie-jecrois", "femmes-en-tech", "les-scientifines"]
+          }
+        ]
+      },
+      {
+        "id": "timeslot-14-30",
+        "startTime": "14:30",
+        "endTime": "15:30",
+        "sessions": [
+          {
+            "id": "schedule-session-claude-lab-1",
+            "sessionId": "session-claude",
+            "trackId": "lab-1",
+            "speakerIds": ["claude-cardinal"]
+          },
+          {
+            "id": "schedule-session-pierre-luc-lab-3",
+            "sessionId": "session-pierre-luc",
+            "trackId": "lab-3",
+            "speakerIds": ["pierre-luc-labbee"]
+          }
+        ]
+      },
+      {
+        "id": "timeslot-14-45",
+        "startTime": "14:45",
+        "endTime": "15:30",
+        "sessions": [
+          {
+            "id": "schedule-session-vivienne-tech-stage",
+            "sessionId": "session-vivienne",
+            "trackId": "tech-stage",
+            "speakerIds": ["viv"]
+          }
+        ]
+      },
+      {
+        "id": "timeslot-15-00",
+        "startTime": "15:00",
+        "endTime": "16:00",
+        "sessions": [
+          {
+            "id": "schedule-session-michell-lab-2",
+            "sessionId": "session-michell",
+            "trackId": "lab-2",
+            "speakerIds": ["michell-payano"]
+          },
+          {
+            "id": "schedule-session-advancing-gender-lab-4",
+            "sessionId": "session-advancing-gender",
+            "trackId": "lab-4",
+            "speakerIds": ["lindsay-rogers", "lori-akiyama"]
+          }
+        ]
+      },
+      {
+        "id": "timeslot-15-30",
+        "startTime": "15:30",
+        "endTime": "16:15",
+        "sessions": [
+          {
+            "id": "schedule-session-alexandra-tech-stage",
+            "sessionId": "session-alexandra",
+            "trackId": "tech-stage",
+            "speakerIds": ["alexandra-nemery"]
+          }
+        ]
+      },
+      {
+        "id": "timeslot-16-30",
+        "startTime": "16:30",
+        "endTime": "17:00",
+        "sessions": [
+          {
+            "id": "schedule-session-closing-main-stage",
+            "sessionId": "session-closing",
+            "trackId": "main-stage",
+            "speakerIds": ["stefania-pecore"]
+          }
+        ]
+      }
+    ]
+  },
+  "cta": {
+    "title": "SYNC THE",
+    "highlight": "VIBE.",
+    "agendaButton": {
+      "label": "DOWNLOAD AGENDA",
+      "href": "https://www.canva.com/design/DAHF4p63fJQ/l0-z9yMu0ohZMKNI6jg5gQ/view?utm_content=DAHF4p63fJQ&utm_campaign=designshare&utm_medium=link&utm_source=viewer"
+    },
+    "discordButton": {
+      "label": "JOIN DISCORD",
+      "href": "https://discord.com/invite/rKMxWWDSTT"
+    }
   }
 }

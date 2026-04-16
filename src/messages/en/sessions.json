@@ -2,16 +2,25 @@
   "list": [
     {
       "id": "session-opening",
-      "title": "Opening - Ouverture",
+      "title": "Opening",
       "description": "Opening remarks for WTM Montreal 2026.",
-      "duration": "15 min",
-      "type": "talk",
+      "duration": "60 min",
+      "type": "keynote",
       "tags": ["Opening"],
       "speakerIds": ["stefania-pecore", "marie-gabrielle-menard", "anne-nguyen"]
     },
     {
+      "id": "session-panel-ia",
+      "title": "Panel - AI: PROMISES AND BLIND SPOTS",
+      "description": "A deep dive into the promises and blind spots of Artificial Intelligence with industry experts.",
+      "duration": "45 min",
+      "type": "panel",
+      "tags": ["AI", "Panel"],
+      "speakerIds": ["stefania-pecore", "noemi-mercier"]
+    },
+    {
       "id": "session-privacy-ia",
-      "title": "Protection de la vie privée dans les systèmes d'IA",
+      "title": "Privacy protection in AI systems",
       "description": "The presentation will focus on privacy protection, covering existing threats to the privacy of machine learning models, training data and user inputs, as well as an overview of current countermeasures.",
       "duration": "30 min",
       "type": "talk",
@@ -28,148 +37,49 @@
       "speakerIds": ["afaf-taik", "khaoula-chehbouni"]
     },
     {
-      "id": "session-panel-ia",
-      "title": "Panel - IA : PROMESSES ET ANGLES MORTS",
-      "description": "A deep dive into the promises and blind spots of Artificial Intelligence with industry experts.",
-      "duration": "45 min",
-      "type": "talk",
-      "tags": ["AI", "Panel", "Ethics"],
-      "speakerIds": ["stefania-pecore", "noemi-mercier"]
-    },
-    {
-      "id": "session-ai-tinkerers",
-      "title": "Community Demo — AI Tinkerers Montreal",
-      "description": "A rapid-fire series of live demos from the AI Tinkerers Montreal community. Featuring 'Supercharging Development with Gemini CLI' by Sabine Pierre and other cutting-edge AI experiments.",
-      "duration": "45 min",
-      "type": "talk",
-      "tags": ["AI", "Demo", "Community"],
-      "speakerIds": ["sabine-pierre", "jl-marechaux", "ayrat-khayretdinov", "francois-legare", "pierre-alexandre-lacerte", "stefania-pecore"]
-    },
-    {
-      "id": "session-closing",
-      "title": "Closing Remarks",
-      "description": "Final thank you and raffle prizes for WTM Montreal 2026.",
-      "duration": "15 min",
-      "type": "talk",
-      "tags": ["Closing"],
-      "speakerIds": ["stefania-pecore"]
-    },
-    {
-      "id": "session-stacy",
-      "title": "POPPING THE HOOD: The Grime Behind the Genius",
-      "description": "Everyone is obsessed with the \"shiny red car\"—the AI Model. We chase parameters and context windows, fighting to get into the driver's seat. But nobody is asking the most dangerous question: \"Is the track safe?\" When you put a $15 million machine on a broken track, it doesn’t just stop—it crashes.\n\nAI isn't magic; it's a high-maintenance machine. In this session, we pop the hood to reveal the grime behind the genius. We will leave the \"driver obsession\" behind and look at the infrastructure required to actually finish the race.",
-      "duration": "40 min",
-      "type": "talk",
-      "tags": ["AI", "Infrastructure", "Cloud"],
-      "speakerIds": ["stacy-veronneau"]
+      "id": "session-decisions",
+      "title": "Workshop - LES DÉCISIONS QUI CHANGENT TOUT",
+      "description": "Workshop on critical decision-making in digital projects, focusing on value and strategic alignment.",
+      "duration": "60 min",
+      "type": "atelier",
+      "tags": ["Project Management", "Digital Strategy", "Workshop"],
+      "speakerIds": ["melanie-guerin"]
     },
     {
       "id": "session-angie",
       "title": "Build Your First AI Agent with Google ADK",
       "description": "Learn to build intelligent AI agents using Google's Agent Development Kit (ADK). In this hands-on workshop, you'll create a custom agent using free-tier resources. We'll walk through crafting agent instructions, understanding function-calling capabilities, testing locally with the playground, and exploring how agents reason and make decisions.",
       "duration": "60 min",
-      "type": "workshop",
+      "type": "atelier",
       "tags": ["AI Agents", "Google ADK", "Hands-on"],
-      "speakerIds": ["angie"]
+      "speakerIds": ["angie-ariza"]
     },
     {
-      "id": "session-nathalie",
-      "title": "An incursion into the intriguing world of AI infrastructure",
-      "description": "This presentation explores how a sustainable strategy based on the triple bottom line—water, waste, and energy—can guide the development of AI data centers. It highlights the rapid growth of AI in a context of limited resources, reveals the water and energy footprint of its lifecycle, and presents the main climate challenges and risks identified by the industry for Canada's data center sector.",
-      "duration": "30 min",
+      "id": "session-stacy",
+      "title": "POPPING THE HOOD: The Grime Behind the Genius",
+      "description": "Everyone is obsessed with the \"shiny red car\"—the AI Model. We chase parameters and context windows, fighting to get into the driver's seat. But nobody is asking the most dangerous question: \"Is the track safe?\" When you put a $15 million machine on a broken track, it doesn't just stop—it crashes.\n\nAI isn't magic; it's a high-maintenance machine. In this session, we pop the hood to reveal the grime behind the genius. We will leave the \"driver obsession\" behind and look at the infrastructure required to actually finish the race.",
+      "duration": "40 min",
       "type": "talk",
-      "tags": ["AI Ethics", "Sustainability", "Society"],
-      "speakerIds": ["nathalie-sanon"]
-    },
-    {
-      "id": "session-nogol",
-      "title": "The Human Edge: Soft Skills in the Age of AI",
-      "description": "As artificial intelligence reshapes industries and automates routine tasks, leaders face a fundamental question: What kind of world of work do we want to create? For centuries, humans were expected to work like machines. Now, in the age of AI, humans can focus on what only they can do while machines handle the rest.",
-      "duration": "45 min",
-      "type": "talk",
-      "tags": ["Future of Work", "Leadership", "Soft Skills"],
-      "speakerIds": ["nogol"]
-    },
-    {
-      "id": "session-michell",
-      "title": "What Models Can See: Inside Modern Computer Vision",
-      "description": "Discover how modern vision models can detect objects without ever being trained on them. In this hands-on workshop, we will explore the evolution from traditional object detection to zero-shot models like Grounding DINO.",
-      "duration": "60 min",
-      "type": "workshop",
-      "tags": ["Computer Vision", "Mila", "Research"],
-      "speakerIds": ["michell-payano"]
-    },
-    {
-      "id": "session-blit-panel",
-      "title": "Community Panel - PARCOURS INSPIRANTS ET LEADERSHIP",
-      "description": "An inspiring panel discussion moderated by Reem Habib, featuring Ghislaine Boundjia and Nicole Kenmei from Black Ladies in Tech, and Mahaua Chowdhury from Deloitte. They will share their professional journeys, discuss untapped opportunities, and provide insights to help you navigate the tech landscape and build a strategic, authentic career path.",
-      "duration": "45 min",
-      "type": "talk",
-      "tags": ["Community", "Leadership", "Career"],
-      "speakerIds": ["ghislaine-boundjia", "nicole-kenmei", "reem-habib", "mahaua-chowdhury"]
-    },
-    {
-      "id": "session-technovation",
-      "title": "Community Panel - FEMMES EN TECH",
-      "description": "A collaborative panel discussion featuring representatives from Technovation Montréal, Femmes+ En Tech, and Les Scientifines discussing the ecosystem for women in technology.",
-      "duration": "45 min",
-      "type": "talk",
-      "tags": ["Community", "Women in Tech", "Ecosystem"],
-      "speakerIds": ["stephanie-jecrois"]
-    },
-    {
-      "id": "session-rhum-networking",
-      "title": "Atelier - L’ESPACE DES POSSIBLES: RÉSEAUTEZ AVEC CONFIANCE",
-      "description": "Interactive workshop on networking with confidence, focusing on human-centric strategies and authenticity.",
-      "duration": "60 min",
-      "type": "workshop",
-      "tags": ["Networking", "Soft Skills", "Workshop"],
-      "speakerIds": ["pierre-luc-labbee"]
-    },
-    {
-      "id": "session-cirque-data",
-      "title": "Atelier - BEYOND THE DASHBOARD: BUILDING AGENTS THAT ACTUALLY USE YOUR DATA",
-      "description": "Workshop on moving beyond simple data visualization to building intelligent agents that leverage data for actionable insights.",
-      "duration": "60 min",
-      "type": "workshop",
-      "tags": ["Data Engineering", "AI Agents", "Workshop"],
-      "speakerIds": ["raphaelle-giraud"]
-    },
-    {
-      "id": "session-tahiri-bias",
-      "title": "Quand l’IA apprend à comparer : Biais, complexité et données structurées",
-      "description": "Exploration of bias and complexity when AI learns to compare structured data.",
-      "duration": "45 min",
-      "type": "talk",
-      "tags": ["AI", "Data", "Ethics"],
-      "speakerIds": ["nadia-tahiri"]
-    },
-    {
-      "id": "session-unity",
-      "title": "Atelier - DANS LES COULISSES DU JEU VIDÉO : CRÉEZ VOTRE TOUT PREMIER JEU AVEC UNITY",
-      "description": "Hands-on workshop on creating your first video game using the Unity game engine.",
-      "duration": "60 min",
-      "type": "workshop",
-      "tags": ["Game Development", "Unity", "Workshop"],
-      "speakerIds": ["melisane-lafrenaye"]
-    },
-    {
-      "id": "session-decisions",
-      "title": "Atelier - LES DÉCISIONS QUI CHANGENT TOUT DANS UN PROJET NUMÉRIQUE",
-      "description": "Workshop on critical decision-making in digital projects, focusing on value and strategic alignment.",
-      "duration": "60 min",
-      "type": "workshop",
-      "tags": ["Project Management", "Digital Strategy", "Workshop"],
-      "speakerIds": ["melanie-guerin"]
+      "tags": ["AI", "Infrastructure", "Cloud"],
+      "speakerIds": ["stacy-veronneau"]
     },
     {
       "id": "session-barrier",
       "title": "Panel - THE TECH TALENT BARRIER FOR ENGLISH-SPEAKING WOMEN",
       "description": "An interactive data-driven session sharing documented barriers to tech employment for English-speaking women in Quebec. Industry leaders respond with concrete actionable solutions.",
       "duration": "60 min",
-      "type": "talk",
+      "type": "panel",
       "tags": ["Career", "Diversity", "Inclusion"],
       "speakerIds": ["annalise-iten", "mahsa-rezaei", "maya-toussaint", "rashida-geddes", "sta-kuzviwanza"]
+    },
+    {
+      "id": "session-unity",
+      "title": "Workshop - DANS LES COULISSES DU JEU VIDÉO (UNITY)",
+      "description": "Hands-on workshop on creating your first video game using the Unity game engine.",
+      "duration": "60 min",
+      "type": "atelier",
+      "tags": ["Game Development", "Unity", "Workshop"],
+      "speakerIds": ["melisane-lafrenaye"]
     },
     {
       "id": "session-punk-voice",
@@ -181,22 +91,139 @@
       "speakerIds": ["nadia-seraiocco"]
     },
     {
+      "id": "session-mahzad",
+      "title": "From Theory to Practice: Reinforcement Learning in Video Games",
+      "description": "Reinforcement learning (RL) is a powerful paradigm for training intelligent agents through interaction with their environment, yet its adoption in the video game industry remains limited.",
+      "duration": "45 min",
+      "type": "talk",
+      "tags": ["Reinforcement Learning", "GameDev", "Unreal Engine"],
+      "speakerIds": ["mahzad-kalantari"]
+    },
+    {
+      "id": "session-raphaelle",
+      "title": "Beyond the Dashboard: Building Agents That Actually Use Your Data",
+      "description": "Learn how to build intelligent agents that effectively leverage your data to solve real problems and create value.",
+      "duration": "60 min",
+      "type": "atelier",
+      "tags": ["AI Agents", "Data", "Practical"],
+      "speakerIds": ["raphaelle-giraud"]
+    },
+    {
+      "id": "session-ai-tinkerers",
+      "title": "Community Demo — AI TINKERERS MONTREAL",
+      "description": "A rapid-fire series of live demos from the AI Tinkerers Montreal community. Featuring 'Supercharging Development with Gemini CLI' by Sabine Pierre and other cutting-edge AI experiments.",
+      "duration": "45 min",
+      "type": "community-demo",
+      "tags": ["AI Demo", "Community", "Practical"],
+      "speakerIds": ["sabine-pierre", "jl-marechaux", "ayrat-khayretdinov", "francois-legare", "pierre-alexandre-lacerte", "stefania-pecore"]
+    },
+    {
+      "id": "session-nathalie",
+      "title": "An incursion into the intriguing world of AI infrastructure: Environmental and Social Aspects",
+      "description": "This presentation explores how a sustainable strategy based on the triple bottom line—water, waste, and energy—can guide the development of AI data centers. It highlights the rapid growth of AI in a context of limited resources, reveals the water and energy footprint of its lifecycle, and presents the main climate challenges and risks identified by the industry for Canada's data center sector.",
+      "duration": "30 min",
+      "type": "talk",
+      "tags": ["AI Ethics", "Sustainability", "Society"],
+      "speakerIds": ["nathalie-sanon"]
+    },
+    {
+      "id": "session-blit-panel",
+      "title": "Community Panel - INSPIRING PATHS AND LEADERSHIP",
+      "description": "An inspiring panel discussion moderated by Reem Habib, featuring Ghislaine Boundjia and Nicole Kenmei from Black Ladies in Tech, and Mahaua Chowdhury from Deloitte. They will share their professional journeys, discuss untapped opportunities, and provide insights to help you navigate the tech landscape and build a strategic, authentic career path.",
+      "duration": "45 min",
+      "type": "community-panel",
+      "tags": ["Community", "Leadership", "Career"],
+      "speakerIds": ["ghislaine-boundjia", "nicole-kenmei"]
+    },
+    {
+      "id": "session-nadia-tahiri",
+      "title": "When AI Learns to Compare: Bias, Complexity, and Structured Data",
+      "description": "Exploration of bias and complexity when AI learns to compare structured data.",
+      "duration": "45 min",
+      "type": "talk",
+      "tags": ["AI", "Data", "Ethics"],
+      "speakerIds": ["nadia-tahiri"]
+    },
+    {
+      "id": "session-nogol",
+      "title": "The Human Edge: Why Soft Skills Will Define the Future of Work in the Age of AI",
+      "description": "As artificial intelligence reshapes industries and automates routine tasks, leaders face a fundamental question: What kind of work do we want to create? For centuries, humans were expected to work like machines. Now, in the age of AI, humans can focus on what only they can do while machines handle the rest.",
+      "duration": "45 min",
+      "type": "talk",
+      "tags": ["Future of Work", "Leadership", "Soft Skills"],
+      "speakerIds": ["nogol-madani"]
+    },
+    {
+      "id": "session-vivienne",
+      "title": "Break It Before They Do - Threat Modeling at Startup Speed",
+      "description": "The internet is adversarial by default and the threat landscape is changing day by day. In this talk, I'll present current security trends and some real-world breach examples of the technical threats they pose.",
+      "duration": "45 min",
+      "type": "talk",
+      "tags": ["Cybersecurity", "Threat Modeling", "Startup"],
+      "speakerIds": ["vivienne-suen"]
+    },
+    {
+      "id": "session-technovation",
+      "title": "Community Panel - WOMEN IN TECH",
+      "description": "A collaborative panel discussion featuring representatives from Technovation Montréal, Femmes+ En Tech, and Les Scientifines discussing the ecosystem for women in technology.",
+      "duration": "45 min",
+      "type": "community-panel",
+      "tags": ["Community", "Women in Tech", "Ecosystem"],
+      "speakerIds": ["stephanie-jecrois", "femmes-en-tech", "les-scientifines"]
+    },
+    {
+      "id": "session-chloe",
+      "title": "Taking your place in a traditionally male environment",
+      "description": "A few practical tools and concrete strategies to use in order to gain confidence, influence and legitimacy. You will be better able to assert yourself and take your place in male-dominated environments and evolve there with more confidence.",
+      "duration": "25 min",
+      "type": "atelier",
+      "tags": ["Leadership", "Inclusion", "Career"],
+      "speakerIds": ["chloe-freslon"]
+    },
+    {
       "id": "session-claude",
-      "title": "Project Management Tools",
+      "title": "Decide to Succeed: SWOT, MoSCoW and the Keys to Well-Defined Projects",
       "description": "Requirements management in a project goes far beyond simply defining SMART objectives. This presentation will offer a demonstration and contextualization of several simple tools for effectively defining, organizing, and managing requirements.",
       "duration": "75 min",
-      "type": "talk",
+      "type": "atelier",
       "tags": ["Project Management", "Tools", "Agile"],
       "speakerIds": ["claude-cardinal"]
     },
     {
-      "id": "session-ludociels",
-      "title": "Beyond the Pixel",
-      "description": "Let's create a dialogue between digital and physical communication media. Group exploration of imaginary digital tool designs meeting social needs.",
-      "duration": "90 min",
+      "id": "session-pierre-luc",
+      "title": "The space of possibilities: Network with confidence",
+      "description": "A workshop focused on networking with confidence and building meaningful professional connections.",
+      "duration": "45 min",
+      "type": "atelier",
+      "tags": ["Networking", "Professional Development"],
+      "speakerIds": ["pierre-luc-labbee"]
+    },
+    {
+      "id": "session-michell",
+      "title": "What Models Can See: Inside Modern Computer Vision",
+      "description": "Discover how modern vision models can detect objects without ever being trained on them. In this hands-on workshop, we will explore the evolution from traditional object detection to zero-shot models like Grounding DINO.",
+      "duration": "60 min",
+      "type": "atelier",
+      "tags": ["Computer Vision", "Mila", "Research"],
+      "speakerIds": ["michell-payano"]
+    },
+    {
+      "id": "session-accessibility",
+      "title": "Beyond the pixel: Accessibility in the Digital World",
+      "description": "A continuous accessibility session exploring how to build inclusive digital experiences that work for everyone.",
+      "duration": "285 min",
       "type": "workshop",
-      "tags": ["UX Design", "Social Impact", "Design Thinking"],
-      "speakerIds": ["thomas-gaudy", "stephanie-akre"]
+      "tags": ["Accessibility", "UX Design", "Inclusion"],
+      "speakerIds": ["stephanie-akre", "thomas-gaudy"]
+    },
+    {
+      "id": "session-advancing-gender",
+      "title": "Advancing Gender-Inclusive AI Through Gender Equity Mentoring",
+      "description": "Join us for a community talk on advancing gender-inclusive AI through the lens of mentoring and equity programs. Featuring speakers from the Applied AI Institute and the GEMinAI program.",
+      "duration": "45 min",
+      "type": "talk",
+      "tags": ["AI Ethics", "Gender Equity", "Community"],
+      "speakerIds": ["lindsay-rogers", "lori-akiyama"]
     },
     {
       "id": "session-alexandra",
@@ -208,31 +235,22 @@
       "speakerIds": ["alexandra-nemery"]
     },
     {
-      "id": "session-mahzad",
-      "title": "From Theory to Practice: Reinforcement Learning in Video Games",
-      "description": "Reinforcement learning (RL) is a powerful paradigm for training intelligent agents through interaction with their environment, yet its adoption in the video game industry remains limited.",
-      "duration": "45 min",
-      "type": "talk",
-      "tags": ["Reinforcement Learning", "GameDev", "Unreal Engine"],
-      "speakerIds": ["mahzad-kalantari"]
+      "id": "session-closing",
+      "title": "Closing Remarks",
+      "description": "Final thank you and raffle prizes for WTM Montreal 2026.",
+      "duration": "30 min",
+      "type": "keynote",
+      "tags": ["Closing"],
+      "speakerIds": ["stefania-pecore"]
     },
     {
-      "id": "session-viv",
-      "title": "Break It Before They Do - Threat Modeling at Startup Speed",
-      "description": "The internet is adversarial by default and the threat landscape is changing day by day. In this talk, I'll present current security trends and some real-world breach examples of the technical threats they pose.",
-      "duration": "45 min",
-      "type": "talk",
-      "tags": ["Cybersecurity", "Threat Modeling", "Startup"],
-      "speakerIds": ["viv"]
-    },
-    {
-      "id": "session-chloe",
-      "title": "Prendre sa place dans un milieu traditionnellement masculin",
-      "description": "Quelques outils pratiques et stratégies concrètes à utiliser afin de gagner en confiance, influence et légitimité. Vous serez plus en mesure de vous affirmer et de prendre votre place dans des environnements à dominance masculine et d’y évoluer avec plus d’assurance.",
-      "duration": "25 min",
-      "type": "talk",
-      "tags": ["Leadership", "Inclusion", "Career"],
-      "speakerIds": ["chloe-freslon"]
+      "id": "session-lunch",
+      "title": "Lunch & Networking",
+      "description": "Enjoy lunch while connecting with fellow attendees, speakers, and organizers in our main lounge and rooftop garden.",
+      "duration": "90 min",
+      "type": "break",
+      "tags": ["Networking", "Break"],
+      "speakerIds": []
     }
   ]
 }
