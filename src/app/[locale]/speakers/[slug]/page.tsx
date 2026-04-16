@@ -5,6 +5,7 @@ import SpeakerBio from '@/components/sections/speakers/SpeakerBio';
 import SessionSpotlight from '@/components/sections/speakers/SessionSpotlight';
 import { Speaker, SpeakerMessages } from '@/types/speaker';
 import { Session, SessionMessages } from '@/types/session';
+import { ScheduleMessages } from '@/types/schedule';
 import FloatingOrb from '@/components/ui/FloatingOrb';
 import InteractiveGridPattern from '@/components/ui/InteractiveGridPattern';
 
@@ -58,6 +59,7 @@ export default async function SpeakerDetailsPage({ params }: Props) {
   const messages = await getMessages({ locale });
   const speakersData = messages.Speakers as unknown as SpeakerMessages;
   const sessionsData = messages.Sessions as unknown as SessionMessages;
+  const scheduleMessages = messages.Schedule as unknown as ScheduleMessages;
   
   const speaker = speakersData.list.find((s: Speaker) => s.id === slug);
   
@@ -123,9 +125,34 @@ export default async function SpeakerDetailsPage({ params }: Props) {
           <div className="lg:col-span-7 flex flex-col justify-start">
             <SpeakerBio bio={speaker.bio} />
             
-            {sessions.map((session) => (
-              <SessionSpotlight key={session.id} session={session} />
-            ))}
+            {sessions.map((session) => {
+              // Find schedule session for this session
+              let scheduleSession: any = undefined;
+              let schedule: any = undefined;
+              
+              if (scheduleMessages?.schedule) {
+                const scheduleObj = scheduleMessages.schedule;
+                if (scheduleObj?.timeSlots) {
+                  for (const timeSlot of scheduleObj.timeSlots) {
+                    const found = timeSlot.sessions.find((ss: any) => ss.sessionId === session.id);
+                    if (found) {
+                      scheduleSession = found;
+                      schedule = scheduleObj;
+                      break;
+                    }
+                  }
+                }
+              }
+              
+              return (
+                <SessionSpotlight 
+                  key={session.id} 
+                  session={session}
+                  scheduleSession={scheduleSession}
+                  schedule={schedule}
+                />
+              );
+            })}
           </div>
         </div>
       </main>

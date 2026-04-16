@@ -28,8 +28,8 @@ export default function TrackFilter({ tracks, activeTrackId, onTrackChange }: Tr
   };
 
   return (
-    <section className="bg-white/40 backdrop-blur-lg py-6 rounded-3xl border border-white/40 shadow-sm">
-      <div className="flex items-center gap-4 overflow-x-auto no-scrollbar scroll-smooth px-6">
+    <section className="bg-white/40 backdrop-blur-lg py-4 md:py-6 rounded-2xl md:rounded-3xl border border-white/40 shadow-sm">
+      <div className="flex items-center flex-wrap gap-2 md:gap-4 px-3 md:px-6">
         {tracks.map((track) => {
           const Icon = getTrackIcon(track.icon);
           const isActive = activeTrackId === track.id;
@@ -39,14 +39,14 @@ export default function TrackFilter({ tracks, activeTrackId, onTrackChange }: Tr
                 key={track.id}
                 onClick={() => onTrackChange(track.id)}
                 className={cn(
-                  'flex items-center gap-2 px-8 py-4 rounded-full text-xs font-black transition-all shrink-0 uppercase tracking-widest cursor-pointer',
+                  'flex items-center gap-1 md:gap-2 px-4 md:px-8 py-2.5 md:py-4 rounded-full text-[10px] md:text-xs font-black transition-all uppercase tracking-widest cursor-pointer',
                   isActive
                     ? 'bg-primary text-white shadow-xl shadow-primary/20 scale-105'
                     : 'text-slate-500 bg-white border border-primary/20 hover:border-primary hover:text-primary hover:shadow-md hover:bg-primary/5 active:scale-95',
                 )}
                 aria-pressed={isActive}
               >
-                <Icon className={cn("w-5 h-5 transition-colors", isActive ? "animate-pulse text-white" : "")} />
+                <Icon className={cn("w-4 h-4 md:w-5 md:h-5 transition-colors", isActive ? "animate-pulse text-white" : "")} />
                 <span>{track.name.split(':')[0]}</span>
               </button>
             );

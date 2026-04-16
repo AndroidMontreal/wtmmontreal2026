@@ -1,6 +1,8 @@
 {
   "announcement": {
-    "text": "Join us on April 18th! Tickets are available now."
+    "text": "Tickets are getting sold out! Schedule is now live.",
+    "link": "/en/schedule",
+    "button": "View Schedule"
   },
   "NotFound": {
     "title": "Page Not Found",

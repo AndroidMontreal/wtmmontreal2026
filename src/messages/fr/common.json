@@ -1,6 +1,8 @@
 {
   "announcement": {
-    "text": "Rejoignez-nous le 18 avril ! Les billets sont disponibles maintenant."
+    "text": "Les billets se vendent rapidement ! L'horaire est maintenant disponible.",
+    "link": "/fr/schedule",
+    "button": "Voir l'horaire"
   },
   "NotFound": {
     "title": "Page introuvable",

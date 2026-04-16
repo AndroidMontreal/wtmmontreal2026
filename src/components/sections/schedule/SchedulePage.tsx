@@ -48,7 +48,15 @@ export default function SchedulePage({ data, schedule, sessions, speakers, stats
         
         {/* 3a. Agenda List Block */}
         <div className="flex-grow w-full">
-          <div className="bg-white/60 backdrop-blur-md border border-slate-200/60 rounded-[2.5rem] p-8 shadow-sm overflow-hidden">
+          <div className="hidden md:block bg-white/60 backdrop-blur-md border border-slate-200/60 rounded-[2.5rem] p-8 shadow-sm overflow-hidden">
+            <ScheduleTimeline
+              schedule={schedule}
+              sessions={sessions}
+              speakers={speakers}
+              activeTrackId={activeTrackId}
+            />
+          </div>
+          <div className="md:hidden">
             <ScheduleTimeline
               schedule={schedule}
               sessions={sessions}
