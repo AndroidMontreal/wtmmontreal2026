@@ -273,11 +273,11 @@
         "isSpeaker": true
       },
       {
-        "id": "nathlie-sanon",
+        "id": "nathalie-sanon",
         "name": "Nathalie Sanon",
         "role": "Gestionnaire de formation en IA",
         "company": "",
-        "image": "/images/speakers/nathlie_sanon.webp",
+        "image": "/images/speakers/nathalie_sanon.webp",
         "bio": "Nathalie Sanon est gestionnaire spécialisée dans la formation en IA et ses impacts sociaux.",
         "category": "lab",
         "isSpeaker": true
@@ -448,7 +448,7 @@
         "role": "Architecte Full Stack Principal",
         "company": "TD Bank",
         "image": "/images/speakers/viv.webp",
-        "bio": "Vivienne Suen is a cybersecurity architect with a flair for storytelling and over 15 years' experience advising IT organizations on solutions and strategy.",
+        "bio": "Vivienne Suen est une architecte en cybersécurité dotée d'un talent pour la narration et possédant plus de 15 ans d'expérience dans le conseil aux organisations informatiques sur les solutions et la stratégie. Chez TD Bank, elle dirige l'équipe d'architecture de cybersécurité pour concevoir les contrôles de cybersécurité de la banque, guider la stratégie technologique et définir la vision architecturale pour assurer notre avenir. Conférencière vedette lors de nombreuses conférences et groupes d'utilisateurs, elle s'efforce de démystifier les complexités de la cybersécurité et de concevoir des solutions pratiques pour répondre aux besoins et aux normes de sécurité. Vivienne vit à NDG avec son mari, son fils et un vallhund suédois très vif.",
         "category": "talk",
         "isSpeaker": true
       }

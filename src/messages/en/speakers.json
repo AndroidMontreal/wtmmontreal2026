@@ -273,11 +273,11 @@
         "isSpeaker": true
       },
       {
-        "id": "nathlie-sanon",
+        "id": "nathalie-sanon",
         "name": "Nathalie Sanon",
         "role": "AI Training Manager",
         "company": "",
-        "image": "/images/speakers/nathlie_sanon.webp",
+        "image": "/images/speakers/nathalie_sanon.webp",
         "bio": "Nathalie Sanon is a manager specializing in AI training and its social impacts.",
         "category": "lab",
         "isSpeaker": true
@@ -451,6 +451,46 @@
         "bio": "Vivienne Suen is a cybersecurity architect with a flair for storytelling and over 15 years' experience advising IT organizations on solutions and strategy.",
         "category": "talk",
         "isSpeaker": true
+      },
+      {
+        "id": "lindsay-rogers",
+        "name": "Dr. Lindsay Rogers",
+        "role": "Knowledge Mobilization Advisor",
+        "company": "Concordia Applied AI Institute",
+        "image": "/images/speakers/wtm.webp",
+        "bio": "Dr. Lindsay Rogers is a Knowledge Mobilization Advisor at the Concordia Applied AI Institute. She is a co-founder of the GEMinAI (Gender Equity Mentoring in AI) program, which focuses on addressing the gender gap in the AI field.",
+        "category": "lab",
+        "isSpeaker": true
+      },
+      {
+        "id": "lori-akiyama",
+        "name": "Lori Akiyama",
+        "role": "Program Coordinator",
+        "company": "Concordia University",
+        "image": "/images/speakers/wtm.webp",
+        "bio": "Lori Akiyama is the Program Coordinator for CREATE SE4AI at Concordia University and a co-founder of the GEMinAI program. She is dedicated to fostering gender diversity and inclusion in technology and artificial intelligence.",
+        "category": "lab",
+        "isSpeaker": true
+      },
+      {
+        "id": "femmes-en-tech",
+        "name": "Femmes+ En Tech",
+        "role": "Community Partner",
+        "company": "Concordia University",
+        "image": "/images/partners/femmes_en_tech.svg",
+        "bio": "Femmes+ en Tech is a Concordia Applied AI Institute initiative that aims to bring together, inspire, and support women in Montreal's tech ecosystem.",
+        "category": "talk",
+        "isSpeaker": false
+      },
+      {
+        "id": "les-scientifines",
+        "name": "Les Scientifines",
+        "role": "Community Partner",
+        "company": "",
+        "image": "/images/partners/les_scientifines.svg",
+        "bio": "Les Scientifines is an organization whose mission is to promote science and technology among young girls from underprivileged backgrounds to prevent them from dropping out of school.",
+        "category": "talk",
+        "isSpeaker": false
       }
     ]
   }
