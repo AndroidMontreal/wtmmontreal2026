@@ -5,7 +5,7 @@ import SpeakerBio from '@/components/sections/speakers/SpeakerBio';
 import SessionSpotlight from '@/components/sections/speakers/SessionSpotlight';
 import { Speaker, SpeakerMessages } from '@/types/speaker';
 import { Session, SessionMessages } from '@/types/session';
-import { ScheduleMessages } from '@/types/schedule';
+import { ScheduleMessages, Schedule, ScheduleSession } from '@/types/schedule';
 import FloatingOrb from '@/components/ui/FloatingOrb';
 import InteractiveGridPattern from '@/components/ui/InteractiveGridPattern';
 
@@ -127,14 +127,14 @@ export default async function SpeakerDetailsPage({ params }: Props) {
             
             {sessions.map((session) => {
               // Find schedule session for this session
-              let scheduleSession: any = undefined;
-              let schedule: any = undefined;
+              let scheduleSession: ScheduleSession | undefined = undefined;
+              let schedule: Schedule | undefined = undefined;
               
               if (scheduleMessages?.schedule) {
                 const scheduleObj = scheduleMessages.schedule;
                 if (scheduleObj?.timeSlots) {
                   for (const timeSlot of scheduleObj.timeSlots) {
-                    const found = timeSlot.sessions.find((ss: any) => ss.sessionId === session.id);
+                    const found = timeSlot.sessions.find((ss: ScheduleSession) => ss.sessionId === session.id);
                     if (found) {
                       scheduleSession = found;
                       schedule = scheduleObj;

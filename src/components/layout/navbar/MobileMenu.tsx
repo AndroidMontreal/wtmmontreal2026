@@ -5,11 +5,12 @@ import { Link, usePathname } from '@/i18n/routing';
 import { cn } from '@/lib/utils';
 import { MenuItem } from '@/types/navigation';
 import LanguageSwitcher from './LanguageSwitcher';
-import { Home, Users, Mic, Calendar, Ticket } from 'lucide-react';
+import { Home, Users, Mic, Calendar, Handshake, Ticket } from 'lucide-react';
 
 // Icon Mapping
 const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   home: Home,
+  partners: Handshake,
   team: Users,
   speakers: Mic,
   schedule: Calendar,

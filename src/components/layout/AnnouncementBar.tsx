@@ -31,16 +31,21 @@ export default function AnnouncementBar() {
           </Link>
         </motion.div>
 
-        {/* Mobile: Ultra compact */}
-        <div className="md:hidden flex items-center gap-1 whitespace-nowrap overflow-hidden">
-          <span className="font-semibold text-[10px] truncate">{text}</span>
-          <Link 
-            href={link}
-            className="px-1.5 py-0.5 bg-white text-primary rounded font-bold hover:bg-slate-100 transition-colors text-[9px] shrink-0"
-          >
-            {button}
-          </Link>
-        </div>
+        {/* Mobile: Ultra compact with scrolling */}
+        <motion.div 
+          className="md:hidden flex items-center gap-1 whitespace-nowrap overflow-hidden flex-1"
+          animate={{ x: ["100%", "-100%"] }}
+          transition={{ duration: 15, repeat: Infinity, ease: "linear" }}
+        >
+          <span className="font-semibold text-[10px]">{text}</span>
+          <span className="font-semibold text-[10px] ml-6">{text}</span>
+        </motion.div>
+        <Link 
+          href={link}
+          className="hidden md:inline-block px-1.5 py-0.5 bg-white text-primary rounded font-bold hover:bg-slate-100 transition-colors text-[9px] shrink-0"
+        >
+          {button}
+        </Link>
 
       </div>
     </div>

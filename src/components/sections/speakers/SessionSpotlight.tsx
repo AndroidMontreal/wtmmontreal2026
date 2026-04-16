@@ -14,7 +14,6 @@ interface SessionSpotlightProps {
 
 export default function SessionSpotlight({ session, scheduleSession, schedule }: SessionSpotlightProps) {
   const t = useTranslations('Speakers.details');
-  const tTypes = useTranslations('Speakers.sessionTypes');
 
   // Find time slot and calculate actual duration
   let timeSlotInfo = null;
