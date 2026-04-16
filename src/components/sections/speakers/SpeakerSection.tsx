@@ -12,30 +12,30 @@ interface SpeakerSectionProps {
   labels: {
     all: string;
     talks: string;
-    workshops: string;
+    labs: string;
   };
 }
 
 export default function SpeakerSection({ speakers, sessions, labels }: SpeakerSectionProps) {
   const [activeFilter, setActiveFilter] = useState('all');
 
-  // Combine Data: Map Speakers to their Sessions
-  // Robust matching: handles potential undefined sessions or whitespace in IDs
-  const combinedList = speakers.map((speaker) => {
-    const session = sessions?.find((s) => 
+  // 1. Filter out hidden/associated profiles (isSpeaker: false)
+  const visibleSpeakers = speakers.filter(s => s.isSpeaker);
+
+  // 2. Combine Data: Map Speakers to their Sessions
+  const combinedList = visibleSpeakers.map((speaker) => {
+    const associatedSessions = sessions?.filter((s) => 
       s.speakerIds?.some(id => id.trim() === speaker.id)
-    );
-    return { speaker, session };
+    ) || [];
+    return { speaker, sessions: associatedSessions };
   });
 
-  // Filter Logic
+  // 3. Filter Logic based on speaker.category
   const filteredList = activeFilter === 'all'
     ? combinedList
-    : combinedList.filter((item) => {
-        if (!item.session) return false;
-        // Robust Case-insensitive comparison
-        return item.session.type.trim().toLowerCase() === activeFilter.trim().toLowerCase();
-      });
+    : combinedList.filter((item) => 
+        item.speaker.category.trim().toLowerCase() === activeFilter.trim().toLowerCase()
+      );
 
   return (
     <>
@@ -50,7 +50,7 @@ export default function SpeakerSection({ speakers, sessions, labels }: SpeakerSe
       ) : (
         <div className="text-center py-20">
           <p className="text-slate-500 text-lg">
-            No speakers found for {activeFilter === 'talk' ? 'talks' : activeFilter === 'workshop' ? 'workshops' : 'this category'}.
+            No speakers found for {activeFilter === 'talk' ? 'talks' : activeFilter === 'lab' ? 'labs' : 'this category'}.
           </p>
         </div>
       )}

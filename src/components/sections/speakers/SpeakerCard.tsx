@@ -1,19 +1,19 @@
 'use client';
 
-import { useState } from 'react';
+import {useState} from 'react';
 import Image from 'next/image';
-import { useTranslations } from 'next-intl';
-import { Link } from '@/i18n/routing';
-import { Speaker } from '@/types/speaker';
-import { Session } from '@/types/session';
-import { cn } from '@/lib/utils';
+import {useTranslations} from 'next-intl';
+import {Link} from '@/i18n/routing';
+import {Speaker} from '@/types/speaker';
+import {Session} from '@/types/session';
+import {cn} from '@/lib/utils';
 
 interface SpeakerCardProps {
   speaker: Speaker;
-  session?: Session;
+  sessions: Session[];
 }
 
-export default function SpeakerCard({ speaker, session }: SpeakerCardProps) {
+export default function SpeakerCard({ speaker, sessions }: SpeakerCardProps) {
   const [isLoading, setIsLoading] = useState(true);
   const t = useTranslations('Speakers');
 
@@ -42,51 +42,66 @@ export default function SpeakerCard({ speaker, session }: SpeakerCardProps) {
         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
       />
 
-      {/* Cinematic Gradient Overlay (Deep Slate/Black) */}
+      {/* Cinematic High-Fidelity Scrim (Dynamic State - Lightened) */}
       <div
-        className="absolute inset-0 transition-all duration-500 ease-out opacity-80 group-hover:opacity-95"
+        className="absolute inset-0 transition-all duration-700 ease-in-out opacity-40 group-hover:opacity-85"
         style={{
-          background: 'linear-gradient(to top, rgba(2, 6, 23, 1) 0%, rgba(2, 6, 23, 0.6) 30%, transparent 100%)'
+          background: 'linear-gradient(to top, rgba(2, 6, 23, 0.9) 0%, rgba(2, 6, 23, 0.7) 20%, rgba(2, 6, 23, 0.2) 45%, transparent 70%)'
         }}
       />
 
+      {/* Bioluminescent Hover Glow (Teal Pulse) */}
+      <div className="absolute -bottom-16 -left-16 size-48 bg-teal-500/15 blur-[60px] rounded-full transition-all duration-1000 ease-in-out opacity-0 group-hover:opacity-100 group-hover:scale-150 z-[2]" />
+
       {/* Track Tag (Top Left) */}
-      {session && (
-        <div className="absolute top-6 left-6 z-10">
-          <span className={cn(
-            "px-3 py-1 text-white text-[10px] font-bold uppercase tracking-widest rounded-full shadow-lg backdrop-blur-sm bg-opacity-90",
-            session.type === 'workshop' ? "bg-blue-600" : "bg-teal-600"
-          )}>
-            {session.type === 'workshop' ? t('sessionTypes.workshop') : t('sessionTypes.talk')}
-          </span>
-        </div>
-      )}
+      <div className="absolute top-6 left-6 z-10">
+        <span className={cn(
+          "px-3 py-1 text-white text-[10px] font-bold uppercase tracking-widest rounded-full shadow-lg backdrop-blur-sm bg-opacity-90 transition-all duration-500 group-hover:scale-110",
+          speaker.category === 'lab' ? "bg-blue-600" : "bg-teal-600"
+        )}>
+          {speaker.category === 'lab' ? t('filters.labs') : t('filters.talks')}
+        </span>
+      </div>
 
       {/* Content Overlay */}
-      <div className="absolute inset-x-0 bottom-0 p-5 flex flex-col justify-end transform transition-transform duration-500 z-10">
-        <h3 className="font-headline text-xl md:text-2xl text-white font-bold leading-tight drop-shadow-md">
-          {speaker.name}
-        </h3>
-        {/* Role in Teal-400 as per reference */}
-        <p className="text-teal-400 font-medium text-xs md:text-sm mt-0.5 drop-shadow-sm">
-          {speaker.role} {speaker.company && <span>@ {speaker.company}</span>}
-        </p>
+      <div className="absolute inset-x-0 bottom-0 p-6 flex flex-col justify-end z-10">
+        {/* Name and Role - Always at bottom, move up on hover */}
+        <div className="transform transition-all duration-700 ease-in-out group-hover:-translate-y-2">
+          <h3 className="font-headline text-xl md:text-2xl text-white font-bold leading-[1.1] tracking-tight mb-1.5 drop-shadow-lg transition-all duration-700">
+            {speaker.name}
+          </h3>
 
-        {/* Hover-only Session Title */}
-        <div className="overflow-hidden max-h-0 group-hover:max-h-32 transition-all duration-500 ease-in-out">
-          {session && (
-            <p className="text-slate-300 text-xs md:text-sm mt-2 leading-relaxed line-clamp-3 font-medium">
-              {session.title}
-            </p>
-          )}
+          {/* Role & Company - Single Line Professional Flow */}
+          <p className="text-teal-400 font-medium text-xs md:text-sm drop-shadow-sm flex flex-wrap items-center gap-x-1 transition-all duration-700">
+            <span className="font-semibold uppercase tracking-wider">{speaker.role}</span>
+            {speaker.company && (
+              <span className="flex items-center gap-x-1">
+                <span className="text-teal-400/80">@</span>
+                <span className="text-white/90 font-medium">{speaker.company}</span>
+              </span>
+            )}
+          </p>
         </div>
 
-        {/* View Details Link with Underline Animation */}
-        <div className="mt-3 mb-1 flex justify-between items-center opacity-100">
-          <span className="text-white text-[10px] md:text-xs font-medium uppercase tracking-widest relative inline-block group-hover:text-teal-50 transition-colors">
-            {t('viewDetails')}
-            <span className="absolute bottom-[-3px] left-0 w-0 h-[1px] bg-teal-400 transition-all duration-500 ease-out group-hover:w-full shadow-[0_0_8px_rgba(45,212,191,0.6)]"></span>
-          </span>
+        {/* Hidden Content - Expands upward on hover */}
+        <div className="overflow-hidden max-h-0 opacity-0 group-hover:max-h-48 group-hover:opacity-100 transition-all duration-700 ease-in-out">
+          {sessions.length > 0 && (
+            <div className="flex flex-col gap-1.5 mt-4">
+              {sessions.map((s) => (
+                <p key={s.id} className="text-slate-300 text-[10px] md:text-xs leading-relaxed line-clamp-2 font-medium border-l-2 border-teal-500/30 pl-3 transition-all duration-700">
+                  {s.title}
+                </p>
+              ))}
+            </div>
+          )}
+
+          {/* View Details Link */}
+          <div className="mt-5 mb-1 transition-all duration-700">
+            <span className="text-white text-[10px] md:text-xs font-medium uppercase tracking-widest relative inline-block group-hover:text-teal-50 transition-colors">
+              {t('viewDetails')}
+              <span className="absolute bottom-[-3px] left-0 w-full h-[1px] bg-teal-400 shadow-[0_0_8px_rgba(45,212,191,0.6)]"></span>
+            </span>
+          </div>
         </div>
       </div>
     </Link>

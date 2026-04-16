@@ -3,6 +3,7 @@
 @theme {
   /* Fonts */
   --font-sans: var(--font-plus-jakarta), ui-sans-serif, system-ui, sans-serif;
+  --font-headline: var(--font-plus-jakarta), ui-sans-serif, system-ui, sans-serif;
   
   /* Brand Colors - Explicitly mapping these to Tailwind classes */
   --color-primary: #00A896;
