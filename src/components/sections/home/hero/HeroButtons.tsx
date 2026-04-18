@@ -15,7 +15,7 @@ export default function HeroButtons() {
       transition={{ duration: 0.7, delay: 0.8 }}
       className="flex flex-col sm:flex-row justify-center items-center gap-4 px-4 mt-8 w-full sm:w-auto"
     >
-      {/* Be a speaker - Semi-Solid -> Solid White (Restored) */}
+      {/* View Schedule - Semi-Solid -> Solid White */}
       <motion.div 
         whileHover={{ y: -4, scale: 1.02 }} 
         whileTap={{ scale: 0.95 }}
@@ -23,7 +23,7 @@ export default function HeroButtons() {
         className="sm:w-auto"
       >
         <Link
-          href="/speakers"
+          href="/schedule"
           className="group relative flex items-center justify-center gap-2.5 rounded-full border border-white/20 bg-white/10 px-6 py-3 text-sm font-medium text-white transition-all duration-300 hover:bg-white hover:text-slate-900 hover:border-white backdrop-blur-md sm:w-auto"
         >
           <Mic className="h-4 w-4 transition-colors group-hover:text-slate-900" />

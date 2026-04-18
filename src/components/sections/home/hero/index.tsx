@@ -8,7 +8,7 @@ import { useReduceMotion } from '@/hooks/useReduceMotion';
 // Imported Sub-components
 import FloatingOrb from '@/components/ui/FloatingOrb';
 import HeroButtons from './HeroButtons';
-import Countdown from './Countdown';
+// import Countdown from './Countdown'; // Hidden
 import ScrollIndicator from '@/components/ui/ScrollIndicator';
 
 export default function Hero() {
@@ -88,14 +88,14 @@ export default function Hero() {
             </p>
           </motion.div>
 
-          {/* Countdown Timer */}
-          <motion.div
+          {/* Countdown Timer - HIDDEN */}
+          {/* <motion.div
             initial={reduceMotion ? false : { opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={reduceMotion ? { duration: 0 } : { duration: 0.5, delay: 0.4 }}
           >
             <Countdown />
-          </motion.div>
+          </motion.div> */}
 
           {/* Buttons Component */}
           <HeroButtons />
