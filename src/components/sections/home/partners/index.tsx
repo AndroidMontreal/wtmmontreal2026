@@ -16,7 +16,7 @@ export default function CommunityPartners() {
     const partnersList = messages?.Partners?.list || [];
 
     return (
-        <section className="relative py-24 border-t border-slate-100 overflow-hidden bg-[#FAFAFA]">
+        <section className="relative py-24 border-t border-slate-100 overflow-hidden bg-[#FAFAFA]" style={{ contentVisibility: 'auto' }}>
             {/* 1. Base Gradient Layer */}
             <div className="absolute inset-0 bg-linear-to-b from-white via-slate-50/30 to-white pointer-events-none"/>
 

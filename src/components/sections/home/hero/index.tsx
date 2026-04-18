@@ -3,6 +3,7 @@
 import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
+import { useReduceMotion } from '@/hooks/useReduceMotion';
 
 // Imported Sub-components
 import FloatingOrb from '@/components/ui/FloatingOrb';
@@ -12,6 +13,7 @@ import ScrollIndicator from '@/components/ui/ScrollIndicator';
 
 export default function Hero() {
   const t = useTranslations('Hero');
+  const reduceMotion = useReduceMotion();
 
   return (
     <section className="relative flex min-h-[calc(100vh-120px)] w-full items-center justify-center overflow-hidden py-16 px-4 bg-slate-950">
@@ -42,9 +44,9 @@ export default function Hero() {
 
           {/* Date & Location Badge */}
           <motion.div
-            initial={{ opacity: 0, y: -10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
+            initial={reduceMotion ? false : { opacity: 0, y: -10 }}
+            animate={reduceMotion ? { opacity: 1, y: 0 } : { opacity: 1, y: 0 }}
+            transition={reduceMotion ? { duration: 0 } : { duration: 0.5 }}
             className="inline-flex items-center gap-3 px-5 py-2.5 mb-8 rounded-full bg-white/8 backdrop-blur-md text-white text-xs font-semibold border border-white/20 uppercase tracking-widest shadow-lg"
           >
             <div className="relative flex items-center justify-center h-2 w-2">
@@ -56,9 +58,9 @@ export default function Hero() {
 
           {/* Title */}
           <motion.h1
-            initial={{ opacity: 0, y: 20 }}
+            initial={reduceMotion ? false : { opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.1 }}
+            transition={reduceMotion ? { duration: 0 } : { duration: 0.6, delay: 0.1 }}
             className="text-5xl md:text-6xl lg:text-8xl font-bold tracking-tight text-white mb-6 md:mb-10"
           >
             {t.rich('title', {
@@ -74,9 +76,9 @@ export default function Hero() {
 
           {/* Subtitle */}
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={reduceMotion ? false : { opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
+            transition={reduceMotion ? { duration: 0 } : { duration: 0.6, delay: 0.2 }}
             className="mb-10 max-w-3xl mx-auto"
           >
             <p className="text-base md:text-lg lg:text-xl leading-relaxed font-normal text-white px-4">
@@ -88,9 +90,9 @@ export default function Hero() {
 
           {/* Countdown Timer */}
           <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
+            initial={reduceMotion ? false : { opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.5, delay: 0.4 }}
+            transition={reduceMotion ? { duration: 0 } : { duration: 0.5, delay: 0.4 }}
           >
             <Countdown />
           </motion.div>

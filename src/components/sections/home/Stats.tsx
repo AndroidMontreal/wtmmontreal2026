@@ -41,7 +41,7 @@ export default function StatsSection() {
   };
 
   return (
-    <section className="relative w-full py-24 bg-gray-950 overflow-hidden">
+    <section className="relative w-full py-24 bg-gray-950 overflow-hidden" style={{ contentVisibility: 'auto' }}>
       {/* Animated Background Effects */}
       <div className="absolute inset-0 z-1 pointer-events-none overflow-hidden">
         <FloatingOrb color="rgba(0,217,192,0.35)" size="250px" />

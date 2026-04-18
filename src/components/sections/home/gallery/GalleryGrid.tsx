@@ -14,7 +14,20 @@ interface GalleryGridProps {
 }
 
 export default function GalleryGrid({ items }: GalleryGridProps) {
-  // Masonry Layout: No fixed aspect ratios, just natural height stacking
+  // Get aspect ratio based on image type for CLS prevention
+  const getAspectClass = (type: string) => {
+    switch (type) {
+      case 'tall':
+        return 'aspect-[2/3]'; // Portrait
+      case 'square':
+        return 'aspect-square';
+      case 'wide':
+      default:
+        return 'aspect-[4/3]'; // Landscape
+    }
+  };
+
+  // Masonry Layout with aspect ratios to prevent CLS
   return (
     <div className="columns-1 gap-4 sm:columns-2 md:gap-6 lg:columns-3 space-y-4 md:space-y-6">
       {items.map((item, idx) => (
@@ -24,14 +37,13 @@ export default function GalleryGrid({ items }: GalleryGridProps) {
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, scale: 0.9 }}
           transition={{ duration: 0.4, delay: idx * 0.05 }}
-          className="relative break-inside-avoid overflow-hidden rounded-2xl bg-slate-800 group"
+          className={`relative break-inside-avoid overflow-hidden rounded-2xl bg-slate-800 group ${getAspectClass(item.type)}`}
         >
           <Image
             src={item.src}
             alt={item.alt}
-            width={800}
-            height={600}
-            className="h-auto w-full object-cover transition-transform duration-700 group-hover:scale-110"
+            fill
+            className="object-cover transition-transform duration-700 group-hover:scale-110"
             loading="lazy"
           />
           {/* Hover Overlay */}
