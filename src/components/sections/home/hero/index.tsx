@@ -19,7 +19,7 @@ export default function Hero() {
       {/* Background Layer */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/hero-bg-second.jpg"
+          src="/images/hero-bg-second.webp"
           alt="WTM Montreal Event"
           fill
           className="object-cover grayscale"
