@@ -8,18 +8,16 @@ export function useReduceMotion(): boolean {
   const [reduceMotion, setReduceMotion] = useState(true); // Default true for SSR perf
 
   useEffect(() => {
-    // Enable animations after hydration on client-side
-    setReduceMotion(false);
-
-    // Check for user preference
+    // Check for user preference after hydration
     const mediaQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
-    setReduceMotion(mediaQuery.matches);
-
-    // Listen for changes
     const handleChange = (e: MediaQueryListEvent) => {
       setReduceMotion(e.matches);
     };
 
+    // Set initial value
+    handleChange({ matches: mediaQuery.matches } as MediaQueryListEvent);
+
+    // Listen for changes
     mediaQuery.addEventListener('change', handleChange);
     return () => mediaQuery.removeEventListener('change', handleChange);
   }, []);

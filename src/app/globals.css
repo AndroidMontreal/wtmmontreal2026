@@ -60,6 +60,15 @@
     100% { transform: translateX(100%); }
   }
 
+  @keyframes marquee {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+
+  .marquee {
+    animation: marquee 15s linear infinite;
+  }
+
   /* Glass Effect Shadow */
   .shadow-3xl {
     box-shadow: 0 35px 60px -15px rgba(0, 0, 0, 0.5);
