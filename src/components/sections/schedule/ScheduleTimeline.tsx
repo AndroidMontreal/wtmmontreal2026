@@ -1,6 +1,6 @@
 'use client';
 
-import { Schedule } from '@/types/schedule';
+import { Schedule, ScheduleMessages } from '@/types/schedule';
 import { Session } from '@/types/session';
 import { Speaker } from '@/types/speaker';
 import SessionCard from './SessionCard';
@@ -10,6 +10,7 @@ interface ScheduleTimelineProps {
   sessions: Session[];
   speakers: Speaker[];
   activeTrackId: string | null;
+  scheduleData: ScheduleMessages;
 }
 
 /**
@@ -21,6 +22,7 @@ export default function ScheduleTimeline({
   sessions,
   speakers,
   activeTrackId,
+  scheduleData,
 }: ScheduleTimelineProps) {
   // Create a map for quick session lookup
   const sessionMap = new Map(sessions.map((s) => [s.id, s]));
@@ -44,7 +46,7 @@ export default function ScheduleTimeline({
   if (visibleTimeSlots.length === 0) {
     return (
       <div className="rounded-3xl border-2 border-dashed border-slate-200 p-12 text-center">
-        <p className="text-lg font-semibold text-slate-600">No sessions found for this track.</p>
+        <p className="text-lg font-semibold text-slate-600">{scheduleData.filters.noSessions}</p>
       </div>
     );
   }
@@ -65,6 +67,7 @@ export default function ScheduleTimeline({
                 speakers={speakers}
                 startTime={timeSlot.startTime}
                 endTime={timeSlot.endTime}
+                scheduleData={scheduleData}
               />
             );
           })}

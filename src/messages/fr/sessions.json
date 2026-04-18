@@ -202,7 +202,7 @@
       "id": "session-michell",
       "title": "Ce que les modèles voient : Vision par ordinateur moderne",
       "description": "Découvrez comment les modèles de vision modernes détectent les objets sans entraînement préalable. Atelier explorant l'évolution vers les modèles « zéro-shot ».",
-      "duration": "60 min",
+      "duration": "30 min*",
       "type": "atelier",
       "tags": ["VisionOrdinateur", "Mila", "Recherche"],
       "speakerIds": ["michell-payano"]
@@ -220,7 +220,7 @@
       "id": "session-advancing-gender",
       "title": "Promouvoir l'IA inclusive en matière de genre",
       "description": "Rejoignez-nous pour une discussion communautaire sur la promotion d'une IA inclusive en matière de genre à travers le mentorat et les programmes d'équité.",
-      "duration": "45 min",
+      "duration": "30 min*",
       "type": "talk",
       "tags": ["Éthique IA", "ÉquitéGenre", "Communauté"],
       "speakerIds": ["lindsay-rogers", "lori-akiyama"]

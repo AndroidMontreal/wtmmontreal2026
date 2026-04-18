@@ -10,9 +10,10 @@ interface SessionSpotlightProps {
   session: Session;
   scheduleSession?: ScheduleSession;
   schedule?: Schedule;
+  speaker?: { name: string };
 }
 
-export default function SessionSpotlight({ session, scheduleSession, schedule }: SessionSpotlightProps) {
+export default function SessionSpotlight({ session, scheduleSession, schedule, speaker }: SessionSpotlightProps) {
   const t = useTranslations('Speakers.details');
 
   // Find time slot and calculate actual duration
@@ -56,9 +57,10 @@ export default function SessionSpotlight({ session, scheduleSession, schedule }:
       description: session.description,
       startTime: timeSlotInfo.startTime,
       endTime: timeSlotInfo.endTime,
-      speakerNames: [],
+      speakerNames: speaker ? [speaker.name] : [],
       duration: timeSlotInfo.duration,
-      tags: session.tags || []
+      tags: session.tags || [],
+      location: '2701 Rue Nicolet, Montréal, QC H1X 1Z8, Canada'
     });
   };
 

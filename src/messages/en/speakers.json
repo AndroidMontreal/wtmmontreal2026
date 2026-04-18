@@ -457,8 +457,8 @@
         "name": "Dr. Lindsay Rogers",
         "role": "Knowledge Mobilization Advisor",
         "company": "Concordia Applied AI Institute",
-        "image": "/images/speakers/wtm.webp",
-        "bio": "Dr. Lindsay Rogers is a Knowledge Mobilization Advisor at the Concordia Applied AI Institute. She is a co-founder of the GEMinAI (Gender Equity Mentoring in AI) program, which focuses on addressing the gender gap in the AI field.",
+        "image": "/images/speakers/lindsay_roger.webp",
+        "bio": "Lindsay Rogers is the Advisor, Knowledge Mobilization at Concordia University's Applied AI Institute where she facilitates interdisciplinary research and brings an intersectional feminist analysis to bear on AI systems—their development and deployment. She works to increase gender diversity through focused research and programming, including the working group Affecting Machines. Prior to this role, she completed a PhD at Queen's University, performing an interdisciplinary analysis of the discursive structures and affective politics of stand-up comedy and shared laughter. She is a member of the Hysterics Collective, has experience in qualitative and participatory action-based research methods, and is always thinking of the interpretive frameworks we use to make sense of our experiences.",
         "category": "lab",
         "isSpeaker": true
       },
@@ -467,8 +467,8 @@
         "name": "Lori Akiyama",
         "role": "Program Coordinator",
         "company": "Concordia University",
-        "image": "/images/speakers/wtm.webp",
-        "bio": "Lori Akiyama is the Program Coordinator for CREATE SE4AI at Concordia University and a co-founder of the GEMinAI program. She is dedicated to fostering gender diversity and inclusion in technology and artificial intelligence.",
+        "image": "/images/speakers/lori_akiyama.webp",
+        "bio": "Lori Akiyama is Program Coordinator, NSERC CREATE SE4AI at Concordia University, a program training graduate students in the technical, social and ethical aspects of AI-based software systems. She also co-founded the Gender Equity Mentoring in AI (GEMinAI) Program which supports women and gender-diverse individuals on their journey from academia to professional career. Lori has a degree in Communications Studies from University of Calgary and has supported hundreds of internationally trained professionals transition to successful careers in Canada.",
         "category": "lab",
         "isSpeaker": true
       },

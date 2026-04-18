@@ -37,6 +37,11 @@ export default function SpeakerSection({ speakers, sessions, labels }: SpeakerSe
         item.speaker.category.trim().toLowerCase() === activeFilter.trim().toLowerCase()
       );
 
+  // 4. Sort alphabetically by speaker name
+  const sortedList = [...filteredList].sort((a, b) => 
+    a.speaker.name.localeCompare(b.speaker.name, undefined, { numeric: true, sensitivity: 'base' })
+  );
+
   return (
     <>
       <SpeakerFilter 
@@ -45,8 +50,8 @@ export default function SpeakerSection({ speakers, sessions, labels }: SpeakerSe
         onFilterChange={setActiveFilter} 
       />
 
-      {filteredList.length > 0 ? (
-        <SpeakerGrid key={activeFilter} items={filteredList} />
+      {sortedList.length > 0 ? (
+        <SpeakerGrid key={activeFilter} items={sortedList} />
       ) : (
         <div className="text-center py-20">
           <p className="text-slate-500 text-lg">

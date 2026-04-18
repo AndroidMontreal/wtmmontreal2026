@@ -457,8 +457,8 @@
         "name": "Dr. Lindsay Rogers",
         "role": "Conseillère en mobilisation des connaissances",
         "company": "Institut d'IA appliquée Concordia",
-        "image": "/images/speakers/wtm.webp",
-        "bio": "Dr Lindsay Rogers est conseillère en mobilisation des connaissances à l'Institut d'IA appliquée Concordia. Elle est cofondatrice du programme GEMinAI (Gender Equity Mentoring in AI), qui se concentre sur la réduction des écarts entre les genres dans le domaine de l'IA.",
+        "image": "/images/speakers/lindsay_roger.webp",
+        "bio": "Lindsay Rogers est conseillère en mobilisation des connaissances à l'Institut d'IA appliquée de l'Université Concordia, où elle facilite la recherche interdisciplinaire et apporte une analyse féministe intersectionnelle aux systèmes d'IA—leur développement et leur déploiement. Elle travaille à accroître la diversité des genres par le biais de recherches et de programmes ciblés, notamment le groupe de travail Affecting Machines. Avant ce rôle, elle a complété un doctorat à l'Université Queen's, effectuant une analyse interdisciplinaire des structures discursives et de la politique affective du stand-up comique et du rire partagé. Elle est membre du Hysterics Collective, possède une expérience dans les méthodes de recherche participatives et basées sur l'action qualitatives, et réfléchit toujours aux cadres interprétatifs que nous utilisons pour donner un sens à nos expériences.",
         "category": "lab",
         "isSpeaker": true
       },
@@ -467,8 +467,8 @@
         "name": "Lori Akiyama",
         "role": "Coordonnatrice de programme",
         "company": "Université Concordia",
-        "image": "/images/speakers/wtm.webp",
-        "bio": "Lori Akiyama est coordonnatrice de programme pour CREATE SE4AI à l'Université Concordia et cofondatrice du programme GEMinAI. Elle se consacre à promouvoir la diversité des genres et l'inclusion dans le secteur de la technologie et de l'intelligence artificielle.",
+        "image": "/images/speakers/lori_akiyama.webp",
+        "bio": "Lori Akiyama est coordonnatrice de programme, CREATE SE4AI à l'Université Concordia, un programme de formation des étudiants des cycles supérieurs aux aspects techniques, sociaux et éthiques des systèmes d'IA. Elle a également cofondé le programme Gender Equity Mentoring in AI (GEMinAI) qui soutient les femmes et les personnes de genres divers dans leur transition du milieu universitaire vers les carrières professionnelles. Lori possède un diplôme en études de la communication de l'Université de Calgary et a soutenu des centaines de professionnels formés à l'étranger pour réussir leur transition vers des carrières au Canada.",
         "category": "lab",
         "isSpeaker": true
       },

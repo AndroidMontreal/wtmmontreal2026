@@ -202,7 +202,7 @@
       "id": "session-michell",
       "title": "What Models Can See: Inside Modern Computer Vision",
       "description": "Discover how modern vision models can detect objects without ever being trained on them. In this hands-on workshop, we will explore the evolution from traditional object detection to zero-shot models like Grounding DINO.",
-      "duration": "60 min",
+      "duration": "30 min*",
       "type": "atelier",
       "tags": ["Computer Vision", "Mila", "Research"],
       "speakerIds": ["michell-payano"]
@@ -220,7 +220,7 @@
       "id": "session-advancing-gender",
       "title": "Advancing Gender-Inclusive AI Through Gender Equity Mentoring",
       "description": "Join us for a community talk on advancing gender-inclusive AI through the lens of mentoring and equity programs. Featuring speakers from the Applied AI Institute and the GEMinAI program.",
-      "duration": "45 min",
+      "duration": "30 min*",
       "type": "talk",
       "tags": ["AI Ethics", "Gender Equity", "Community"],
       "speakerIds": ["lindsay-rogers", "lori-akiyama"]

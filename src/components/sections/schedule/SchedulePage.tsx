@@ -50,6 +50,7 @@ export default function SchedulePage({ data, schedule, sessions, speakers, stats
                 sessions={sessions}
                 speakers={speakers}
                 activeTrackId={activeTrackId}
+                scheduleData={data}
               />
             </div>
             <div className="md:hidden">
@@ -58,6 +59,7 @@ export default function SchedulePage({ data, schedule, sessions, speakers, stats
                 sessions={sessions}
                 speakers={speakers}
                 activeTrackId={activeTrackId}
+                scheduleData={data}
               />
             </div>
           </div>
@@ -74,10 +76,10 @@ export default function SchedulePage({ data, schedule, sessions, speakers, stats
                 <div className="flex justify-between items-center mb-6 lg:mb-8 px-2">
                   <div>
                     <p className="text-[9px] font-black tracking-[0.4em] text-primary uppercase mb-1">
-                      Verified Link
+                      {data.qrCard?.label || 'Verified Link'}
                     </p>
                     <h4 className="text-xl lg:text-2xl font-black tracking-tighter text-slate-900 uppercase">
-                      Schedule File
+                      {data.qrCard?.title || 'Schedule File'}
                     </h4>
                   </div>
                   <div className="w-3 h-3 rounded-full bg-primary animate-pulse"></div>
@@ -101,7 +103,7 @@ export default function SchedulePage({ data, schedule, sessions, speakers, stats
                   rel="noopener noreferrer"
                   className="w-full py-4 bg-slate-950 text-white font-black text-xs rounded-xl tracking-[0.2em] hover:bg-primary transition-all active:scale-95 shadow-lg flex items-center justify-center gap-2 uppercase cursor-pointer"
                 >
-                  OPEN ON CANVA
+                  {data.qrCard?.button || 'OPEN ON CANVA'}
                 </a>
               </div>
             </div>
@@ -168,11 +170,11 @@ export default function SchedulePage({ data, schedule, sessions, speakers, stats
                   <>
                     <div>
                       <span className="text-4xl md:text-7xl font-black text-primary block mb-1 md:mb-2 tracking-tighter font-headline">40+</span>
-                      <span className="text-slate-400 text-[10px] md:text-xs font-black uppercase tracking-[0.2em] md:tracking-[0.3em]">Speakers</span>
+                      <span className="text-slate-400 text-[10px] md:text-xs font-black uppercase tracking-[0.2em] md:tracking-[0.3em]">{data.stats?.speakers || 'Speakers'}</span>
                     </div>
                     <div>
                       <span className="text-4xl md:text-7xl font-black text-slate-900 block mb-1 md:mb-2 tracking-tighter font-headline">1.2K</span>
-                      <span className="text-slate-400 text-[10px] md:text-xs font-black uppercase tracking-[0.2em] md:tracking-[0.3em]">Attendees</span>
+                      <span className="text-slate-400 text-[10px] md:text-xs font-black uppercase tracking-[0.2em] md:tracking-[0.3em]">{data.stats?.attendees || 'Attendees'}</span>
                     </div>
                   </>
                 )}

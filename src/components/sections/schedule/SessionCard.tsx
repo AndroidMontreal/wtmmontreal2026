@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { Link } from '@/i18n/routing';
 import { Session } from '@/types/session';
 import { Speaker } from '@/types/speaker';
-import { ScheduleSession } from '@/types/schedule';
+import { ScheduleSession, ScheduleMessages } from '@/types/schedule';
 import { cn } from '@/lib/utils';
 import { openCalendarEvent } from '@/lib/calendar';
 import { MapPin, Clock, Sparkles, CalendarPlus, Utensils } from 'lucide-react';
@@ -15,6 +15,7 @@ interface SessionCardProps {
   speakers: Speaker[];
   startTime: string;
   endTime: string;
+  scheduleData: ScheduleMessages;
 }
 
 /**
@@ -27,6 +28,7 @@ export default function SessionCard({
   speakers,
   startTime,
   endTime,
+  scheduleData,
 }: SessionCardProps) {
   const isBreak = scheduleSession.isBreak ?? false;
   
@@ -56,23 +58,35 @@ export default function SessionCard({
     });
   };
   
-  // Get session type styling
+  // Get session type styling and label from translations
   const getTypeStyles = () => {
+    const typeLabels = scheduleData.sessionTypes || {
+      'workshop': 'Workshop',
+      'atelier': 'Atelier',
+      'panel': 'Panel',
+      'community-panel': 'Community Panel',
+      'community-demo': 'Community Demo',
+      'keynote': 'Keynote',
+      'break': 'Break'
+    };
+    
+    const label = typeLabels[session.type as keyof typeof typeLabels] || session.type.toUpperCase();
+    
     switch (session.type) {
       case 'workshop':
-        return { bg: 'bg-secondary/10', text: 'text-secondary', icon: Sparkles, label: 'WORKSHOP' };
+        return { bg: 'bg-secondary/10', text: 'text-secondary', icon: Sparkles, label };
       case 'atelier':
-        return { bg: 'bg-secondary/10', text: 'text-secondary', icon: Sparkles, label: 'ATELIER' };
+        return { bg: 'bg-secondary/10', text: 'text-secondary', icon: Sparkles, label };
       case 'panel':
-        return { bg: 'bg-purple-500/10', text: 'text-purple-600', icon: Sparkles, label: 'PANEL' };
+        return { bg: 'bg-purple-500/10', text: 'text-purple-600', icon: Sparkles, label };
       case 'community-panel':
-        return { bg: 'bg-purple-500/10', text: 'text-purple-600', icon: Sparkles, label: 'COMMUNITY PANEL' };
+        return { bg: 'bg-purple-500/10', text: 'text-purple-600', icon: Sparkles, label };
       case 'community-demo':
-        return { bg: 'bg-purple-500/10', text: 'text-purple-600', icon: Sparkles, label: 'COMMUNITY DEMO' };
+        return { bg: 'bg-purple-500/10', text: 'text-purple-600', icon: Sparkles, label };
       case 'keynote':
-        return { bg: 'bg-primary/10', text: 'text-primary', icon: Sparkles, label: 'KEYNOTE' };
+        return { bg: 'bg-primary/10', text: 'text-primary', icon: Sparkles, label };
       default:
-        return { bg: 'bg-primary/10', text: 'text-primary', icon: Sparkles, label: session.type.toUpperCase() };
+        return { bg: 'bg-primary/10', text: 'text-primary', icon: Sparkles, label };
     }
   };
 
@@ -95,7 +109,7 @@ export default function SessionCard({
           <div className="relative z-10">
             <div className="flex items-center gap-2 md:gap-3 mb-4 md:mb-8">
               <span className="px-3 md:px-4 py-1 md:py-1.5 bg-slate-900 text-white text-[8px] md:text-[10px] font-black uppercase tracking-widest rounded-full">
-                Break
+                {scheduleData.sessionTypes?.break || 'Break'}
               </span>
               <span className="text-slate-600 text-[9px] md:text-[11px] font-bold uppercase tracking-wider flex items-center gap-2">
                 <span className="w-1.5 h-1.5 rounded-full bg-primary/50"></span> {session.duration}
@@ -129,7 +143,7 @@ export default function SessionCard({
               {startInfo.period} / EST
             </span>
             <span className="text-[10px] md:text-xs font-black text-primary mt-1 md:mt-2 flex items-center gap-1">
-              <Clock className="w-3 h-3" /> {session.duration.replace(' min', 'M').toUpperCase()}
+              <Clock className="w-3 h-3" /> {session.duration.replace(' min', ' MIN').toUpperCase()}
             </span>
           </div>
         </div>
@@ -229,7 +243,7 @@ export default function SessionCard({
                     <div>
                       <p className="text-sm font-black text-slate-900 group-hover:text-primary transition-colors">{speaker.name}</p>
                       <p className="text-[10px] text-slate-500 font-bold uppercase tracking-tight">
-                        {speaker.role || 'Speaker'}
+                        {speaker.role || (scheduleData.session?.speakerRole || 'Speaker')}
                       </p>
                     </div>
                   </Link>

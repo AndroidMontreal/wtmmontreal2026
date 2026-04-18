@@ -2,7 +2,9 @@
   "header": {
     "tag": "Event Schedule",
     "title": "Plan Your Experience",
-    "subtitle": "A full day of inspiration, learning, and connection."
+    "subtitle": "A full day of inspiration, learning, and connection.",
+    "conferenceDate": "Conference Date",
+    "venueName": "Collège de Maisonneuve"
   },
   "eventInfo": {
     "date": "April 18, 2026",
@@ -10,14 +12,25 @@
     "timezone": "EST"
   },
   "filters": {
-    "allTracks": "All tracks"
+    "allTracks": "All tracks",
+    "noSessions": "No sessions found for this track."
   },
   "session": {
     "addToCalendar": "Add to Calendar",
     "duration": "Duration",
     "room": "Room",
     "speakers": "Speakers",
-    "tags": "Topics"
+    "tags": "Topics",
+    "speakerRole": "Speaker"
+  },
+  "sessionTypes": {
+    "workshop": "Workshop",
+    "atelier": "Atelier",
+    "panel": "Panel",
+    "community-panel": "Community Panel",
+    "community-demo": "Community Demo",
+    "keynote": "Keynote",
+    "break": "Break"
   },
   "breaks": {
     "lunch": "Lunch & Networking",
@@ -341,7 +354,7 @@
       {
         "id": "timeslot-15-00",
         "startTime": "15:00",
-        "endTime": "16:00",
+        "endTime": "15:30",
         "sessions": [
           {
             "id": "schedule-session-michell-lab-2",
@@ -396,5 +409,14 @@
       "label": "JOIN DISCORD",
       "href": "https://discord.com/invite/rKMxWWDSTT"
     }
+  },
+  "qrCard": {
+    "label": "Verified Link",
+    "title": "Schedule File",
+    "button": "OPEN ON CANVA"
+  },
+  "stats": {
+    "speakers": "Speakers",
+    "attendees": "Attendees"
   }
 }

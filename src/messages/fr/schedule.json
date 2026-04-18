@@ -2,7 +2,9 @@
   "header": {
     "tag": "Horaire de l'événement",
     "title": "Planifiez votre expérience",
-    "subtitle": "Une journée complète d'inspiration, d'apprentissage et de connexion."
+    "subtitle": "Une journée complète d'inspiration, d'apprentissage et de connexion.",
+    "conferenceDate": "Date de la conférence",
+    "venueName": "Collège de Maisonneuve"
   },
   "eventInfo": {
     "date": "18 avril 2026",
@@ -10,14 +12,25 @@
     "timezone": "EST"
   },
   "filters": {
-    "allTracks": "Toutes les étapes"
+    "allTracks": "Toutes les étapes",
+    "noSessions": "Aucune session trouvée pour cette étape."
   },
   "session": {
     "addToCalendar": "Ajouter au calendrier",
     "duration": "Durée",
     "room": "Salle",
     "speakers": "Conférenciers",
-    "tags": "Sujets"
+    "tags": "Sujets",
+    "speakerRole": "Conférencier"
+  },
+  "sessionTypes": {
+    "workshop": "Atelier",
+    "atelier": "Atelier",
+    "panel": "Panel",
+    "community-panel": "Panel Communautaire",
+    "community-demo": "Démo Communautaire",
+    "keynote": "Discours Principal",
+    "break": "Pause"
   },
   "breaks": {
     "lunch": "Dîner et réseautage",
@@ -341,7 +354,7 @@
       {
         "id": "timeslot-15-00",
         "startTime": "15:00",
-        "endTime": "16:00",
+        "endTime": "15:30",
         "sessions": [
           {
             "id": "schedule-session-michell-lab-2",
@@ -396,5 +409,14 @@
       "label": "REJOINDRE DISCORD",
       "href": "https://discord.com/invite/rKMxWWDSTT"
     }
+  },
+  "qrCard": {
+    "label": "Lien vérifié",
+    "title": "Fichier d'horaire",
+    "button": "OUVRIR SUR CANVA"
+  },
+  "stats": {
+    "speakers": "Conférenciers",
+    "attendees": "Participants"
   }
 }

@@ -21,7 +21,7 @@ export default function ScheduleHeader({ data }: ScheduleHeaderProps) {
         <div className="max-w-3xl">
           <SectionTitle
             tag={data.header.tag}
-            title="THE EVENT SCHEDULE"
+            title={data.header.title}
             subtitle={data.header.subtitle}
             highlightColor="text-primary"
             as="h1"
@@ -34,7 +34,7 @@ export default function ScheduleHeader({ data }: ScheduleHeaderProps) {
           />
         </div>
         <div className="flex flex-col gap-2 items-start md:items-end shrink-0">
-          <span className="text-primary font-bold tracking-[0.3em] text-xs uppercase">Conference Date</span>
+          <span className="text-primary font-bold tracking-[0.3em] text-xs uppercase">{data.header.conferenceDate}</span>
           <span className="text-slate-900 text-4xl font-black tracking-tighter uppercase">
             {data.eventInfo.date}
           </span>
@@ -45,7 +45,7 @@ export default function ScheduleHeader({ data }: ScheduleHeaderProps) {
             className="flex items-start gap-2 text-slate-600 hover:text-primary transition-colors font-bold text-base mt-1 group"
           >
             <MapPin className="w-5 h-5 text-primary flex-shrink-0 group-hover:scale-110 transition-transform" strokeWidth={2.5} />
-            <span className="group-hover:underline">Collège de Maisonneuve</span>
+            <span className="group-hover:underline">{data.header.venueName}</span>
           </a>
         </div>
       </div>

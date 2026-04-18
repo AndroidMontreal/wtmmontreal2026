@@ -150,6 +150,7 @@ export default async function SpeakerDetailsPage({ params }: Props) {
                   session={session}
                   scheduleSession={scheduleSession}
                   schedule={schedule}
+                  speaker={speaker}
                 />
               );
             })}

@@ -111,6 +111,8 @@ export interface ScheduleMessages {
     tag: string; // e.g., "Event Schedule"
     title: string; // e.g., "Plan Your Experience"
     subtitle: string; // e.g., "A full day of inspiration, learning, and connection."
+    conferenceDate: string; // e.g., "Conference Date"
+    venueName: string; // e.g., "Collège de Maisonneuve"
   };
   eventInfo: {
     date: string; // e.g., "October 24, 2026"
@@ -119,6 +121,7 @@ export interface ScheduleMessages {
   };
   filters: {
     allTracks: string; // e.g., "All tracks"
+    noSessions: string; // e.g., "No sessions found for this track."
   };
   session: {
     addToCalendar: string; // e.g., "Add to Calendar"
@@ -126,6 +129,16 @@ export interface ScheduleMessages {
     room: string; // e.g., "Room"
     speakers: string; // e.g., "Speakers"
     tags: string; // e.g., "Topics"
+    speakerRole: string; // e.g., "Speaker"
+  };
+  sessionTypes: {
+    workshop: string;
+    atelier: string;
+    panel: string;
+    'community-panel': string;
+    'community-demo': string;
+    keynote: string;
+    break: string;
   };
   breaks: {
     lunch: string; // e.g., "Lunch & Networking"
@@ -134,6 +147,15 @@ export interface ScheduleMessages {
   };
   reminders?: Reminders; // Optional reminders section
   cta?: CTA; // Optional CTA section
+  qrCard?: {
+    label: string;
+    title: string;
+    button: string;
+  };
+  stats?: {
+    speakers: string;
+    attendees: string;
+  };
   schedule: Schedule;
 }
 
